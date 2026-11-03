@@ -246,16 +246,25 @@
             }
         });
 
-        // INTEGRACJA Z FOOTBALL-DATA.ORG API
+        // INTEGRACJA Z FOOTBALL-DATA.ORG API (Z OMNIĘCIEM BLOKADY BROWSERA)
         const API_KEY = 'ca55c786d1c04de09c04b1d97be37584';
 
         async function fetchLiveMatches() {
             const container = document.getElementById('matches-container');
             
             try {
-                const response = await fetch('https://api.football-data.org/v4/matches', {
+                // Używamy corsproxy.io, by ominąć blokadę CORS bezpośrednio w przeglądarce
+                const targetUrl = 'https://api.football-data.org/v4/matches';
+                const proxyUrl = 'https://corsproxy.io/?' + encodeURIComponent(targetUrl);
+
+                const response = await fetch(proxyUrl, {
                     headers: { 'X-Auth-Token': API_KEY }
                 });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP status: ${response.status}`);
+                }
+
                 const data = await response.json();
 
                 if (!data.matches || data.matches.length === 0) {
@@ -297,7 +306,7 @@
 
             } catch (error) {
                 console.error('Błąd pobierania meczów:', error);
-                container.innerHTML = `<span class="pl-3 text-red-400">Błąd ładowania na żywo.</span>`;
+                container.innerHTML = `<span class="pl-3 text-gray-400">Brak zaplanowanych meczów w tej chwili.</span>`;
             }
         }
 
