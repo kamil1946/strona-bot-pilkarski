@@ -23,38 +23,16 @@
 </head>
 <body class="bg-gray-100 text-gray-900 dark:bg-pitch dark:text-gray-100 transition-colors duration-300 font-sans min-h-screen flex flex-col">
 
-    <!-- PASEK MECZÓW NA ŻYWO Z DYNAMICZNĄ DATĄ -->
+    <!-- PASEK MECZÓW NA ŻYWO Z DYNAMICZNĄ DATĄ I PRAWDZIWYMI DANYMI Z API -->
     <div class="bg-gray-200 dark:bg-black border-b border-gray-300 dark:border-border text-xs py-2 px-4 overflow-x-auto no-scrollbar">
         <div class="max-w-7xl mx-auto flex items-center gap-4 whitespace-nowrap">
             <span class="font-black text-purple-600 dark:text-purple-400 uppercase tracking-wider flex items-center gap-2 text-[11px]">
                 <i class="fa-regular fa-calendar-days"></i> Dziś grają <span id="current-date" class="text-gray-400 font-normal"></span>:
             </span>
 
-            <div class="flex items-center gap-3 divide-x divide-gray-300 dark:divide-border text-[11px]">
-                <!-- Mecz 1 -->
-                <div class="pl-3 flex items-center gap-2">
-                    <span class="text-gray-400 font-semibold">18:45</span>
-                    <span class="font-bold">Arsenal</span>
-                    <span class="text-gray-500">vs</span>
-                    <span class="font-bold">Barcelona</span>
-                    <span class="px-1.5 py-0.5 rounded bg-purple-950 text-purple-300 text-[9px] font-black">UCL</span>
-                </div>
-                <!-- Mecz 2 -->
-                <div class="pl-3 flex items-center gap-2">
-                    <span class="text-gray-400 font-semibold">21:00</span>
-                    <span class="font-bold">Real Madryt</span>
-                    <span class="text-gray-500">vs</span>
-                    <span class="font-bold">Atletico</span>
-                    <span class="px-1.5 py-0.5 rounded bg-red-950 text-red-300 text-[9px] font-black">LA LIGA</span>
-                </div>
-                <!-- Mecz 3 -->
-                <div class="pl-3 flex items-center gap-2">
-                    <span class="text-gray-400 font-semibold">21:00</span>
-                    <span class="font-bold">Man City</span>
-                    <span class="text-gray-500">vs</span>
-                    <span class="font-bold">Liverpool</span>
-                    <span class="px-1.5 py-0.5 rounded bg-indigo-950 text-indigo-300 text-[9px] font-black">EPL</span>
-                </div>
+            <!-- Kontener na dynamicznie ładowane mecze -->
+            <div id="matches-container" class="flex items-center gap-3 divide-x divide-gray-300 dark:divide-border text-[11px]">
+                <span class="pl-3 text-gray-400">Pobieranie aktualnych meczów...</span>
             </div>
         </div>
     </div>
@@ -64,7 +42,7 @@
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex justify-between items-center py-4 border-b border-gray-100 dark:border-border/60">
                 
-                <!-- TUTAJ WSTAWIONE BRANDING Z LOGO -->
+                <!-- BRANDING Z LOGO -->
                 <a href="#" class="flex items-center gap-3 group">
                     <img src="logo-bramkarz.png" alt="PITCH ZONE Logo" class="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105 dark:invert">
                     <span class="text-2xl font-black tracking-wider uppercase text-slate-900 dark:text-white">
@@ -105,7 +83,7 @@
         <!-- KOLUMNA GŁÓWNA: NEWSY (8 / 12) -->
         <section class="lg:col-span-8 space-y-6">
             
-            <!-- WIELKI HERO NEWS (KLIKALNY) -->
+            <!-- WIELKI HERO NEWS -->
             <a href="#" class="block group">
                 <div class="relative rounded-2xl overflow-hidden shadow-2xl bg-black min-h-[380px] flex items-end p-6 border border-gray-200 dark:border-border transition transform group-hover:border-purple-500/50">
                     <div class="absolute inset-0 bg-cover bg-center opacity-50 group-hover:scale-105 transition duration-500" style="background-image: url('https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80');"></div>
@@ -134,7 +112,7 @@
                 <span class="w-2 h-6 bg-purple-600 rounded-full"></span> Najnowsze Wiadomości
             </h2>
 
-            <!-- SIATKA ARTYKUŁÓW Z DEDYKOWANYMI ZDJĘCIAMI (KLIKALNE) -->
+            <!-- SIATKA ARTYKUŁÓW -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 
                 <!-- Karta 1: La Liga -->
@@ -191,7 +169,7 @@
 
             </div>
 
-            <!-- MIEJSCE NA REKLAMĘ (BANER ŚRODKOWY) -->
+            <!-- MIEJSCE NA REKLAMĘ -->
             <div class="p-4 rounded-2xl border border-dashed border-gray-300 dark:border-border bg-gray-50 dark:bg-black/50 text-center">
                 <span class="text-[10px] font-bold text-gray-400 uppercase tracking-widest block mb-1">MIEJSCE NA REKLAMĘ / SPONSOR</span>
                 <div class="h-20 flex items-center justify-center text-xs text-gray-500">
@@ -201,10 +179,10 @@
 
         </section>
 
-        <!-- BOCZNY PASEK: ALERT NA ŻYWO + REKLAMA (4 / 12) -->
+        <!-- BOCZNY PASEK -->
         <aside class="lg:col-span-4 space-y-6">
             
-            <!-- ALERT NA ŻYWO (KLIKALNE LINIE) -->
+            <!-- ALERT NA ŻYWO -->
             <div class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl p-5 shadow-sm">
                 <h3 class="font-black text-sm uppercase tracking-wider mb-4 pb-3 border-b border-gray-100 dark:border-border flex items-center gap-2">
                     <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse"></span> Alerty Na Żywo
@@ -221,7 +199,7 @@
                 </div>
             </div>
 
-            <!-- MIEJSCE NA REKLAMĘ BOCZNĄ -->
+            <!-- REKLAMA BOCZNA -->
             <div class="p-4 rounded-2xl border border-dashed border-gray-300 dark:border-border bg-gray-50 dark:bg-black/50 text-center">
                 <span class="text-[10px] font-bold text-gray-400 uppercase tracking-widest block mb-1">REKLAMA</span>
                 <div class="h-60 flex items-center justify-center text-xs text-gray-500">
@@ -233,7 +211,7 @@
 
     </main>
 
-    <!-- SKRYPTY: MOTYW + DYNAMICZNA DATA -->
+    <!-- SKRYPTY: MOTYW + LIVE MATCHES API -->
     <script>
         // Dzisiejsza data
         const dateOptions = { weekday: 'long', day: 'numeric', month: 'long' };
@@ -267,6 +245,65 @@
                 localStorage.setItem('color-theme', 'dark');
             }
         });
+
+        // INTEGRACJA Z FOOTBALL-DATA.ORG API
+        const API_KEY = 'ca55c786d1c04de09c04b1d97be37584';
+
+        async function fetchLiveMatches() {
+            const container = document.getElementById('matches-container');
+            
+            try {
+                const response = await fetch('https://api.football-data.org/v4/matches', {
+                    headers: { 'X-Auth-Token': API_KEY }
+                });
+                const data = await response.json();
+
+                if (!data.matches || data.matches.length === 0) {
+                    container.innerHTML = `<span class="pl-3 text-gray-400">Brak zaplanowanych meczów na dziś.</span>`;
+                    return;
+                }
+
+                // Wyświetlanie do 6 pierwszych meczów z dzisiejszego dnia
+                container.innerHTML = data.matches.slice(0, 6).map(match => {
+                    const home = match.homeTeam.shortName || match.homeTeam.name;
+                    const away = match.awayTeam.shortName || match.awayTeam.name;
+                    const status = match.status;
+                    
+                    let statusTag = '';
+                    let scoreText = '';
+
+                    if (status === 'IN_PLAY' || status === 'PAUSED') {
+                        const min = match.minute ? `${match.minute}'` : 'LIVE';
+                        statusTag = `<span class="px-1.5 py-0.5 rounded bg-red-600 text-white text-[9px] font-black animate-pulse">${min}</span>`;
+                        scoreText = `<span class="text-purple-500 font-black px-1">${match.score.fullTime.home ?? 0} : ${match.score.fullTime.away ?? 0}</span>`;
+                    } else if (status === 'FINISHED') {
+                        statusTag = `<span class="px-1.5 py-0.5 rounded bg-gray-700 text-gray-300 text-[9px] font-black">KONIEC</span>`;
+                        scoreText = `<span class="font-black px-1">${match.score.fullTime.home} : ${match.score.fullTime.away}</span>`;
+                    } else {
+                        const matchTime = new Date(match.utcDate).toLocaleTimeString('pl-PL', { hour: '2-digit', minute: '2-digit' });
+                        statusTag = `<span class="text-gray-400 font-semibold">${matchTime}</span>`;
+                        scoreText = `<span class="text-gray-500">vs</span>`;
+                    }
+
+                    return `
+                        <div class="pl-3 flex items-center gap-2">
+                            ${statusTag}
+                            <span class="font-bold">${home}</span>
+                            ${scoreText}
+                            <span class="font-bold">${away}</span>
+                        </div>
+                    `;
+                }).join('');
+
+            } catch (error) {
+                console.error('Błąd pobierania meczów:', error);
+                container.innerHTML = `<span class="pl-3 text-red-400">Błąd ładowania na żywo.</span>`;
+            }
+        }
+
+        // Pobranie danych przy załadowaniu oraz automatyczne odświeżanie co 60 sekund
+        fetchLiveMatches();
+        setInterval(fetchLiveMatches, 60000);
     </script>
 </body>
 </html>
