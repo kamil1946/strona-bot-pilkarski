@@ -249,12 +249,12 @@
         // INTEGRACJA Z FOOTBALL-DATA.ORG API (Z OMNIĘCIEM BLOKADY BROWSERA)
         const API_KEY = 'ca55c786d1c04de09c04b1d97be37584';
 
-        async function fetchLiveMatches() {
+       async function fetchLiveMatches() {
             const container = document.getElementById('matches-container');
             
             try {
-                // Używamy corsproxy.io, by ominąć blokadę CORS bezpośrednio w przeglądarce
-                const targetUrl = 'https://api.football-data.org/v4/matches';
+                // Zapytanie o konkretne ligi: Champions League (CL), Premier League (PL), La Liga (PD)
+                const targetUrl = 'https://api.football-data.org/v4/matches?competitions=CL,PL,PD';
                 const proxyUrl = 'https://corsproxy.io/?' + encodeURIComponent(targetUrl);
 
                 const response = await fetch(proxyUrl, {
@@ -268,15 +268,16 @@
                 const data = await response.json();
 
                 if (!data.matches || data.matches.length === 0) {
-                    container.innerHTML = `<span class="pl-3 text-gray-400">Brak zaplanowanych meczów na dziś.</span>`;
+                    container.innerHTML = `<span class="pl-3 text-gray-400">Brak zaplanowanych meczów w UCL/EPL/LaLiga na dziś.</span>`;
                     return;
                 }
 
-                // Wyświetlanie do 6 pierwszych meczów z dzisiejszego dnia
+                // Wyświetlanie do 6 pierwszych meczów z wybranych lig
                 container.innerHTML = data.matches.slice(0, 6).map(match => {
                     const home = match.homeTeam.shortName || match.homeTeam.name;
                     const away = match.awayTeam.shortName || match.awayTeam.name;
                     const status = match.status;
+                    const league = match.competition.code; // Kod ligi (np. CL, PL, PD)
                     
                     let statusTag = '';
                     let scoreText = '';
@@ -296,6 +297,7 @@
 
                     return `
                         <div class="pl-3 flex items-center gap-2">
+                            <span class="px-1 py-0.5 rounded bg-purple-950/80 text-purple-300 text-[8px] font-black uppercase">${league}</span>
                             ${statusTag}
                             <span class="font-bold">${home}</span>
                             ${scoreText}
