@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl" class="dark">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -211,47 +211,51 @@
 
     </main>
 
-   <!-- SKRYPTY: MOTYW + LIVE MATCHES API -->
+    <!-- SKRYPTY: MOTYW + LIVE MATCHES API -->
     <script>
         // Dzisiejsza data
         const dateOptions = { weekday: 'long', day: 'numeric', month: 'long' };
         const today = new Date().toLocaleDateString('pl-PL', dateOptions);
         document.getElementById('current-date').innerText = `(${today})`;
 
-        // Przełącznik motywu
+        // POPRAWIONY PRZEŁĄCZNIK MOTYWU (DARK / LIGHT MODE)
         const themeToggleBtn = document.getElementById('theme-toggle');
         const darkIcon = document.getElementById('theme-toggle-dark-icon');
         const lightIcon = document.getElementById('theme-toggle-light-icon');
 
-        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.classList.add('dark');
-            lightIcon.classList.add('hidden');
-            darkIcon.classList.remove('hidden');
+        function applyTheme(isDark) {
+            if (isDark) {
+                document.documentElement.classList.add('dark');
+                darkIcon.classList.remove('hidden');
+                lightIcon.classList.add('hidden');
+            } else {
+                document.documentElement.classList.remove('dark');
+                darkIcon.classList.add('hidden');
+                lightIcon.classList.remove('hidden');
+            }
+        }
+
+        const savedTheme = localStorage.getItem('color-theme');
+
+        if (savedTheme === 'light') {
+            applyTheme(false);
         } else {
-            document.documentElement.classList.remove('dark');
-            darkIcon.classList.add('hidden');
-            lightIcon.classList.remove('hidden');
+            applyTheme(true);
         }
 
         themeToggleBtn.addEventListener('click', function() {
-            darkIcon.classList.toggle('hidden');
-            lightIcon.classList.toggle('hidden');
-
-            if (document.documentElement.classList.contains('dark')) {
-                document.documentElement.classList.remove('dark');
-                localStorage.setItem('color-theme', 'light');
-            } else {
-                document.documentElement.classList.add('dark');
-                localStorage.setItem('color-theme', 'dark');
-            }
+            const isCurrentlyDark = document.documentElement.classList.contains('dark');
+            const newThemeIsDark = !isCurrentlyDark;
+            
+            applyTheme(newThemeIsDark);
+            localStorage.setItem('color-theme', newThemeIsDark ? 'dark' : 'light');
         });
 
-        // LIVE SCOREBAT API
-      async function fetchLiveMatches() {
+        // POŁĄCZENIE Z ZEWNĘTRZNYM API
+        async function fetchLiveMatches() {
             const container = document.getElementById('matches-container');
             
             try {
-                // Zapytanie o nadchodzące i trwające mecze w TheSportsDB
                 const response = await fetch('https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=' + new Date().toISOString().split('T')[0] + '&s=Soccer');
                 
                 if (!response.ok) throw new Error('Błąd połączenia z API');
@@ -263,7 +267,6 @@
                     return;
                 }
 
-                // Wyciągamy pierwsze 6 meczów
                 const matches = data.events.slice(0, 6);
 
                 container.innerHTML = matches.map(event => {
@@ -272,13 +275,12 @@
                     const league = event.strLeague || 'PIŁKA NOŻNA';
                     const homeScore = event.intHomeScore;
                     const awayScore = event.intAwayScore;
-                    const status = event.strStatus; // Status meczu (np. "1H", "2H", "FT", lub "NS")
+                    const status = event.strStatus;
 
                     let statusBadge = '';
                     let scoreDisplay = '';
 
                     if (homeScore !== null && awayScore !== null) {
-                        // Mecz trwa lub się skończył - pokazuje prawdziwe bramki
                         const isLive = status !== 'FT' && status !== 'Finished';
                         statusBadge = isLive 
                             ? `<span class="px-1.5 py-0.5 rounded bg-red-600 text-white text-[9px] font-black animate-pulse">LIVE</span>`
@@ -286,7 +288,6 @@
                         
                         scoreDisplay = `<span class="text-purple-500 font-black px-1">${homeScore} : ${awayScore}</span>`;
                     } else {
-                        // Mecz przed rozpoczęciem - pokazuje godzinę
                         const matchTime = event.strTime ? event.strTime.substring(0, 5) : 'Dziś';
                         statusBadge = `<span class="text-gray-400 font-semibold">${matchTime}</span>`;
                         scoreDisplay = `<span class="text-gray-500">vs</span>`;
@@ -308,3 +309,9 @@
                 container.innerHTML = `<span class="pl-3 text-red-400">Problem z pobieraniem wyników na żywo.</span>`;
             }
         }
+
+        // Wywołanie pobierania meczów po załadowaniu strony
+        fetchLiveMatches();
+    </script>
+</body>
+</html>
