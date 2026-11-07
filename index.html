@@ -201,38 +201,13 @@
         <!-- BOCZNY PASEK -->
         <aside class="lg:col-span-4 space-y-6">
             
-            <!-- WIDGET: TABELE LIGOWE Z PRZEŁĄCZANIEM -->
+            <!-- WIDGET: AUTOMATYCZNA TABELA LIGOWA -->
             <div class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl p-5 shadow-sm">
-                <div class="flex flex-col gap-3 mb-4 pb-3 border-b border-gray-100 dark:border-border">
-                    <h3 class="font-black text-sm uppercase tracking-wider flex items-center justify-between">
-                        <span class="flex items-center gap-2">
-                            <i class="fa-solid fa-list-ol text-purple-500"></i> Tabela Ligowa
-                        </span>
-                        <span id="league-title" class="text-[10px] font-black uppercase text-purple-500">Premier League</span>
-                    </h3>
-                    <div class="flex gap-1 text-[9px] font-black overflow-x-auto pb-1 no-scrollbar">
-                        <button id="tab-pl" onclick="switchLeagueTable('pl', 'Premier League')" class="px-2 py-1 rounded bg-purple-600 text-white transition">PL</button>
-                        <button id="tab-ll" onclick="switchLeagueTable('ll', 'La Liga')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LL</button>
-                        <button id="tab-lm" onclick="switchLeagueTable('lm', 'Liga Mistrzów')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LM</button>
-                        <button id="tab-le" onclick="switchLeagueTable('le', 'Liga Europy')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LE</button>
-                    </div>
-                </div>
-
-                <!-- Kontener na tabelę -->
-                <div class="overflow-x-auto text-xs">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
-                                <th class="pb-2">#</th>
-                                <th class="pb-2">Klub</th>
-                                <th class="pb-2 text-center">M</th>
-                                <th class="pb-2 text-right">PKT</th>
-                            </tr>
-                        </thead>
-                        <tbody id="league-table-body" class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
-                            <!-- Wstawiane dynamicznie przez JS -->
-                        </tbody>
-                    </table>
+                <h3 class="font-black text-sm uppercase tracking-wider mb-4 pb-3 border-b border-gray-100 dark:border-border flex items-center gap-2">
+                    <i class="fa-solid fa-list-ol text-purple-500"></i> Aktualna Tabela Na Żywo
+                </h3>
+                <div class="w-full rounded-xl overflow-hidden">
+                    <iframe src="https://www.scorebat.com/embed/g/1/" font-family="Montserrat" width="100%" height="420" frameborder="0" class="w-full rounded-xl"></iframe>
                 </div>
             </div>
 
@@ -265,7 +240,7 @@
 
     </main>
 
-    <!-- SKRYPTY: MOTYW + TABELE + LIVE MATCHES API -->
+    <!-- SKRYPTY: MOTYW + LIVE MATCHES API -->
     <script>
         // Dzisiejsza data
         const dateOptions = { weekday: 'long', day: 'numeric', month: 'long' };
@@ -302,75 +277,6 @@
             applyTheme(newThemeIsDark);
             localStorage.setItem('color-theme', newThemeIsDark ? 'dark' : 'light');
         });
-
-     // AKTUALNE DANE TABEL (SEZON 2026/2027)
-        const leagueData = {
-            'pl': [
-                { rank: 1, name: 'Arsenal', played: 11, points: 26 },
-                { rank: 2, name: 'Manchester City', played: 11, points: 24 },
-                { rank: 3, name: 'Liverpool', played: 11, points: 22 },
-                { rank: 4, name: 'Chelsea', played: 11, points: 20 },
-                { rank: 5, name: 'Aston Villa', played: 11, points: 19 }
-            ],
-            'll': [
-                { rank: 1, name: 'Real Madryt', played: 12, points: 30 },
-                { rank: 2, name: 'Barcelona', played: 12, points: 28 },
-                { rank: 3, name: 'Atletico Madryt', played: 12, points: 25 },
-                { rank: 4, name: 'Villarreal', played: 12, points: 22 },
-                { rank: 5, name: 'Athletic Club', played: 12, points: 20 }
-            ],
-            'lm': [
-                { rank: 1, name: 'Real Madryt', played: 4, points: 12 },
-                { rank: 2, name: 'Arsenal', played: 4, points: 10 },
-                { rank: 3, name: 'Bayern Monachium', played: 4, points: 10 },
-                { rank: 4, name: 'Inter Mediolan', played: 4, points: 10 },
-                { rank: 5, name: 'Paris Saint-Germain', played: 4, points: 9 }
-            ],
-            'le': [
-                { rank: 1, name: 'Tottenham', played: 4, points: 12 },
-                { rank: 2, name: 'AS Roma', played: 4, points: 10 },
-                { rank: 3, name: 'Athletic Bilbao', played: 4, points: 10 },
-                { rank: 4, name: 'Porto', played: 4, points: 9 },
-                { rank: 5, name: 'Eintracht Frankfurt', played: 4, points: 9 }
-            ]
-        };
-        function switchLeagueTable(key, leagueName) {
-            const tbody = document.getElementById('league-table-body');
-            const titleElem = document.getElementById('league-title');
-            titleElem.innerText = leagueName;
-
-            const tabs = ['pl', 'll', 'lm', 'le'];
-            const activeColors = {
-                'pl': 'bg-purple-600 text-white',
-                'll': 'bg-red-600 text-white',
-                'lm': 'bg-amber-500 text-white',
-                'le': 'bg-orange-500 text-white'
-            };
-
-            tabs.forEach(t => {
-                const btn = document.getElementById(`tab-${t}`);
-                if (btn) {
-                    if (t === key) {
-                        btn.className = `px-2 py-1 rounded ${activeColors[t]} transition`;
-                    } else {
-                        btn.className = "px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition";
-                    }
-                }
-            });
-
-            const data = leagueData[key] || [];
-            tbody.innerHTML = data.map(team => `
-                <tr>
-                    <td class="py-2 text-purple-500 font-bold">${team.rank}</td>
-                    <td class="py-2 font-bold">${team.name}</td>
-                    <td class="py-2 text-center text-gray-400">${team.played}</td>
-                    <td class="py-2 text-right font-black text-purple-600 dark:text-purple-400">${team.points}</td>
-                </tr>
-            `).join('');
-        }
-
-        // Domyślne wczytanie tabeli Premier League
-        switchLeagueTable('pl', 'Premier League');
 
         // POŁĄCZENIE Z ZEWNĘTRZNYM API MECZÓW
         async function fetchLiveMatches() {
