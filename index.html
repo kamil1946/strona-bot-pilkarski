@@ -303,38 +303,37 @@
             localStorage.setItem('color-theme', newThemeIsDark ? 'dark' : 'light');
         });
 
-        // AKTUALNE DANE TABEL
+     // AKTUALNE DANE TABEL (SEZON 2026/2027)
         const leagueData = {
             'pl': [
-                { rank: 1, name: 'Liverpool', played: 11, points: 28 },
-                { rank: 2, name: 'Manchester City', played: 11, points: 23 },
-                { rank: 3, name: 'Chelsea', played: 11, points: 19 },
-                { rank: 4, name: 'Arsenal', played: 11, points: 19 },
-                { rank: 5, name: 'Nottingham Forest', played: 11, points: 19 }
+                { rank: 1, name: 'Arsenal', played: 11, points: 26 },
+                { rank: 2, name: 'Manchester City', played: 11, points: 24 },
+                { rank: 3, name: 'Liverpool', played: 11, points: 22 },
+                { rank: 4, name: 'Chelsea', played: 11, points: 20 },
+                { rank: 5, name: 'Aston Villa', played: 11, points: 19 }
             ],
             'll': [
-                { rank: 1, name: 'Barcelona', played: 13, points: 33 },
-                { rank: 2, name: 'Real Madryt', played: 12, points: 27 },
-                { rank: 3, name: 'Atletico Madryt', played: 13, points: 26 },
-                { rank: 4, name: 'Villarreal', played: 12, points: 24 },
-                { rank: 5, name: 'Osasuna', played: 13, points: 21 }
+                { rank: 1, name: 'Real Madryt', played: 12, points: 30 },
+                { rank: 2, name: 'Barcelona', played: 12, points: 28 },
+                { rank: 3, name: 'Atletico Madryt', played: 12, points: 25 },
+                { rank: 4, name: 'Villarreal', played: 12, points: 22 },
+                { rank: 5, name: 'Athletic Club', played: 12, points: 20 }
             ],
             'lm': [
-                { rank: 1, name: 'Liverpool', played: 4, points: 12 },
-                { rank: 2, name: 'Sporting CP', played: 4, points: 10 },
-                { rank: 3, name: 'AS Monaco', played: 4, points: 10 },
-                { rank: 4, name: 'Brest', played: 4, points: 10 },
-                { rank: 5, name: 'Inter Mediolan', played: 4, points: 10 }
+                { rank: 1, name: 'Real Madryt', played: 4, points: 12 },
+                { rank: 2, name: 'Arsenal', played: 4, points: 10 },
+                { rank: 3, name: 'Bayern Monachium', played: 4, points: 10 },
+                { rank: 4, name: 'Inter Mediolan', played: 4, points: 10 },
+                { rank: 5, name: 'Paris Saint-Germain', played: 4, points: 9 }
             ],
             'le': [
-                { rank: 1, name: 'Lazio', played: 4, points: 12 },
-                { rank: 2, name: 'Ajax', played: 4, points: 10 },
-                { rank: 3, name: 'Galatasaray', played: 4, points: 10 },
-                { rank: 4, name: 'Eintracht Frankfurt', played: 4, points: 10 },
-                { rank: 5, name: 'Anderlecht', played: 4, points: 10 }
+                { rank: 1, name: 'Tottenham', played: 4, points: 12 },
+                { rank: 2, name: 'AS Roma', played: 4, points: 10 },
+                { rank: 3, name: 'Athletic Bilbao', played: 4, points: 10 },
+                { rank: 4, name: 'Porto', played: 4, points: 9 },
+                { rank: 5, name: 'Eintracht Frankfurt', played: 4, points: 9 }
             ]
         };
-
         function switchLeagueTable(key, leagueName) {
             const tbody = document.getElementById('league-table-body');
             const titleElem = document.getElementById('league-title');
