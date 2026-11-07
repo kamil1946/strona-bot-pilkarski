@@ -201,13 +201,102 @@
         <!-- BOCZNY PASEK -->
         <aside class="lg:col-span-4 space-y-6">
             
-            <!-- WIDGET: AUTOMATYCZNA TABELA LIGOWA -->
+            <!-- WIDGET: NIEZAWODNA TABELA LIGOWA (NATIVE HTML) -->
             <div class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl p-5 shadow-sm">
-                <h3 class="font-black text-sm uppercase tracking-wider mb-4 pb-3 border-b border-gray-100 dark:border-border flex items-center gap-2">
-                    <i class="fa-solid fa-list-ol text-purple-500"></i> Aktualna Tabela Na Żywo
-                </h3>
-                <div class="w-full rounded-xl overflow-hidden">
-                    <iframe src="https://www.scorebat.com/embed/g/1/" font-family="Montserrat" width="100%" height="420" frameborder="0" class="w-full rounded-xl"></iframe>
+                <div class="flex justify-between items-center mb-4 pb-3 border-b border-gray-100 dark:border-border">
+                    <h3 class="font-black text-sm uppercase tracking-wider flex items-center gap-2">
+                        <i class="fa-solid fa-list-ol text-purple-500"></i> Tabela Sezonu
+                    </h3>
+                    <div class="flex gap-1 text-[10px] font-bold">
+                        <button id="btn-pl" onclick="showLeague('pl')" class="px-2 py-1 rounded bg-purple-600 text-white font-bold transition">PL</button>
+                        <button id="btn-ll" onclick="showLeague('ll')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 font-bold transition">LL</button>
+                        <button id="btn-lm" onclick="showLeague('lm')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 font-bold transition">LM</button>
+                        <button id="btn-le" onclick="showLeague('le')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 font-bold transition">LE</button>
+                    </div>
+                </div>
+
+                <!-- Tabela Premier League -->
+                <div id="league-pl" class="league-box overflow-x-auto text-xs">
+                    <table class="w-full text-left">
+                        <thead>
+                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
+                                <th class="pb-2">#</th>
+                                <th class="pb-2">Klub</th>
+                                <th class="pb-2 text-center">M</th>
+                                <th class="pb-2 text-right">PKT</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
+                            <tr><td class="py-2 text-purple-500 font-bold">1</td><td class="py-2">Arsenal</td><td class="py-2 text-center text-gray-400">11</td><td class="py-2 text-right font-black text-purple-500">26</td></tr>
+                            <tr><td class="py-2 text-purple-500 font-bold">2</td><td class="py-2">Man City</td><td class="py-2 text-center text-gray-400">11</td><td class="py-2 text-right font-black text-purple-500">24</td></tr>
+                            <tr><td class="py-2 text-purple-500 font-bold">3</td><td class="py-2">Liverpool</td><td class="py-2 text-center text-gray-400">11</td><td class="py-2 text-right font-black text-purple-500">22</td></tr>
+                            <tr><td class="py-2 text-purple-500 font-bold">4</td><td class="py-2">Chelsea</td><td class="py-2 text-center text-gray-400">11</td><td class="py-2 text-right font-black text-purple-500">20</td></tr>
+                            <tr><td class="py-2 text-purple-500 font-bold">5</td><td class="py-2">Aston Villa</td><td class="py-2 text-center text-gray-400">11</td><td class="py-2 text-right font-black text-purple-500">19</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tabela La Liga -->
+                <div id="league-ll" class="league-box overflow-x-auto text-xs hidden">
+                    <table class="w-full text-left">
+                        <thead>
+                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
+                                <th class="pb-2">#</th>
+                                <th class="pb-2">Klub</th>
+                                <th class="pb-2 text-center">M</th>
+                                <th class="pb-2 text-right">PKT</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
+                            <tr><td class="py-2 text-red-500 font-bold">1</td><td class="py-2">Real Madryt</td><td class="py-2 text-center text-gray-400">12</td><td class="py-2 text-right font-black text-red-500">30</td></tr>
+                            <tr><td class="py-2 text-red-500 font-bold">2</td><td class="py-2">Barcelona</td><td class="py-2 text-center text-gray-400">12</td><td class="py-2 text-right font-black text-red-500">28</td></tr>
+                            <tr><td class="py-2 text-red-500 font-bold">3</td><td class="py-2">Atletico Madryt</td><td class="py-2 text-center text-gray-400">12</td><td class="py-2 text-right font-black text-red-500">25</td></tr>
+                            <tr><td class="py-2 text-red-500 font-bold">4</td><td class="py-2">Villarreal</td><td class="py-2 text-center text-gray-400">12</td><td class="py-2 text-right font-black text-red-500">22</td></tr>
+                            <tr><td class="py-2 text-red-500 font-bold">5</td><td class="py-2">Athletic Club</td><td class="py-2 text-center text-gray-400">12</td><td class="py-2 text-right font-black text-red-500">20</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tabela Liga Mistrzów -->
+                <div id="league-lm" class="league-box overflow-x-auto text-xs hidden">
+                    <table class="w-full text-left">
+                        <thead>
+                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
+                                <th class="pb-2">#</th>
+                                <th class="pb-2">Klub</th>
+                                <th class="pb-2 text-center">M</th>
+                                <th class="pb-2 text-right">PKT</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
+                            <tr><td class="py-2 text-amber-500 font-bold">1</td><td class="py-2">Real Madryt</td><td class="py-2 text-center text-gray-400">4</td><td class="py-2 text-right font-black text-amber-500">12</td></tr>
+                            <tr><td class="py-2 text-amber-500 font-bold">2</td><td class="py-2">Arsenal</td><td class="py-2 text-center text-gray-400">4</td><td class="py-2 text-right font-black text-amber-500">10</td></tr>
+                            <tr><td class="py-2 text-amber-500 font-bold">3</td><td class="py-2">Bayern Monachium</td><td class="py-2 text-center text-gray-400">4</td><td class="py-2 text-right font-black text-amber-500">10</td></tr>
+                            <tr><td class="py-2 text-amber-500 font-bold">4</td><td class="py-2">Inter Mediolan</td><td class="py-2 text-center text-gray-400">4</td><td class="py-2 text-right font-black text-amber-500">10</td></tr>
+                            <tr><td class="py-2 text-amber-500 font-bold">5</td><td class="py-2">PSG</td><td class="py-2 text-center text-gray-400">4</td><td class="py-2 text-right font-black text-amber-500">9</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tabela Liga Europy -->
+                <div id="league-le" class="league-box overflow-x-auto text-xs hidden">
+                    <table class="w-full text-left">
+                        <thead>
+                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
+                                <th class="pb-2">#</th>
+                                <th class="pb-2">Klub</th>
+                                <th class="pb-2 text-center">M</th>
+                                <th class="pb-2 text-right">PKT</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
+                            <tr><td class="py-2 text-orange-500 font-bold">1</td><td class="py-2">Tottenham</td><td class="py-2 text-center text-gray-400">4</td><td class="py-2 text-right font-black text-orange-500">12</td></tr>
+                            <tr><td class="py-2 text-orange-500 font-bold">2</td><td class="py-2">AS Roma</td><td class="py-2 text-center text-gray-400">4</td><td class="py-2 text-right font-black text-orange-500">10</td></tr>
+                            <tr><td class="py-2 text-orange-500 font-bold">3</td><td class="py-2">Athletic Bilbao</td><td class="py-2 text-center text-gray-400">4</td><td class="py-2 text-right font-black text-orange-500">10</td></tr>
+                            <tr><td class="py-2 text-orange-500 font-bold">4</td><td class="py-2">Porto</td><td class="py-2 text-center text-gray-400">4</td><td class="py-2 text-right font-black text-orange-500">9</td></tr>
+                            <tr><td class="py-2 text-orange-500 font-bold">5</td><td class="py-2">Eintracht Frankfurt</td><td class="py-2 text-center text-gray-400">4</td><td class="py-2 text-right font-black text-orange-500">9</td></tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
 
@@ -240,7 +329,7 @@
 
     </main>
 
-    <!-- SKRYPTY: MOTYW + LIVE MATCHES API -->
+    <!-- SKRYPTY: MOTYW + PRZEŁĄCZANIE TABEL + LIVE SCORE API -->
     <script>
         // Dzisiejsza data
         const dateOptions = { weekday: 'long', day: 'numeric', month: 'long' };
@@ -277,6 +366,30 @@
             applyTheme(newThemeIsDark);
             localStorage.setItem('color-theme', newThemeIsDark ? 'dark' : 'light');
         });
+
+        // PRZEŁĄCZANIE TABEL (100% BEZ BŁĘDÓW API)
+        function showLeague(key) {
+            const list = ['pl', 'll', 'lm', 'le'];
+            const bgMap = {
+                'pl': 'bg-purple-600 text-white',
+                'll': 'bg-red-600 text-white',
+                'lm': 'bg-amber-500 text-white',
+                'le': 'bg-orange-500 text-white'
+            };
+            const defaultBg = "bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400";
+
+            list.forEach(l => {
+                const box = document.getElementById(`league-${l}`);
+                const btn = document.getElementById(`btn-${l}`);
+                if (l === key) {
+                    box.classList.remove('hidden');
+                    btn.className = `px-2 py-1 rounded font-bold transition ${bgMap[l]}`;
+                } else {
+                    box.classList.add('hidden');
+                    btn.className = `px-2 py-1 rounded font-bold transition ${defaultBg}`;
+                }
+            });
+        }
 
         // POŁĄCZENIE Z ZEWNĘTRZNYM API MECZÓW
         async function fetchLiveMatches() {
