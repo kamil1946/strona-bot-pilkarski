@@ -201,23 +201,25 @@
         <!-- BOCZNY PASEK -->
         <aside class="lg:col-span-4 space-y-6">
             
-            <!-- WIDGET: TABELA LIGOWA I PUCHAROWA -->
+            <!-- WIDGET: AUTOMATYCZNA TABELA LIGOWA Z API -->
             <div class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl p-5 shadow-sm">
                 <div class="flex flex-col gap-3 mb-4 pb-3 border-b border-gray-100 dark:border-border">
-                    <h3 class="font-black text-sm uppercase tracking-wider flex items-center gap-2">
-                        <i class="fa-solid fa-list-ol text-purple-500"></i> Tabele Rozgrywek
+                    <h3 class="font-black text-sm uppercase tracking-wider flex items-center justify-between">
+                        <span class="flex items-center gap-2">
+                            <i class="fa-solid fa-list-ol text-purple-500"></i> Tabela Na Żywo
+                        </span>
+                        <span id="league-title" class="text-[10px] font-black uppercase text-purple-500">Premier League</span>
                     </h3>
                     <div class="flex gap-1 text-[9px] font-black overflow-x-auto pb-1 no-scrollbar">
-                        <button id="tab-pl" onclick="switchTable('pl')" class="px-2 py-1 rounded bg-purple-600 text-white transition">PL</button>
-                        <button id="tab-ll" onclick="switchTable('ll')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LL</button>
-                        <button id="tab-lm" onclick="switchTable('lm')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LM</button>
-                        <button id="tab-le" onclick="switchTable('le')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LE</button>
-                        <button id="tab-lk" onclick="switchTable('lk')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LK</button>
+                        <button id="tab-pl" onclick="loadLeagueTable('4328', 'pl', 'Premier League')" class="px-2 py-1 rounded bg-purple-600 text-white transition">PL</button>
+                        <button id="tab-ll" onclick="loadLeagueTable('4335', 'll', 'La Liga')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LL</button>
+                        <button id="tab-lm" onclick="loadLeagueTable('4480', 'lm', 'Liga Mistrzów')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LM</button>
+                        <button id="tab-le" onclick="loadLeagueTable('4481', 'le', 'Liga Europy')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LE</button>
                     </div>
                 </div>
 
-                <!-- Tabela Premier League -->
-                <div id="table-pl" class="league-table overflow-x-auto text-xs">
+                <!-- Kontener na dynamiczną tabelę -->
+                <div class="overflow-x-auto text-xs">
                     <table class="w-full text-left">
                         <thead>
                             <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
@@ -227,91 +229,10 @@
                                 <th class="pb-2 text-right">PKT</th>
                             </tr>
                         </thead>
-                        <tbody class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
-                            <tr><td class="py-2 text-purple-500 font-bold">1</td><td class="py-2">Arsenal</td><td class="py-2 text-center text-gray-400">20</td><td class="py-2 text-right font-black">48</td></tr>
-                            <tr><td class="py-2 text-purple-500 font-bold">2</td><td class="py-2">Man City</td><td class="py-2 text-center text-gray-400">20</td><td class="py-2 text-right font-black">45</td></tr>
-                            <tr><td class="py-2 text-purple-500 font-bold">3</td><td class="py-2">Liverpool</td><td class="py-2 text-center text-gray-400">20</td><td class="py-2 text-right font-black">42</td></tr>
-                            <tr><td class="py-2 text-purple-500 font-bold">4</td><td class="py-2">Aston Villa</td><td class="py-2 text-center text-gray-400">20</td><td class="py-2 text-right font-black">40</td></tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <!-- Tabela La Liga -->
-                <div id="table-ll" class="league-table overflow-x-auto text-xs hidden">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
-                                <th class="pb-2">#</th>
-                                <th class="pb-2">Klub</th>
-                                <th class="pb-2 text-center">M</th>
-                                <th class="pb-2 text-right">PKT</th>
+                        <tbody id="league-table-body" class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
+                            <tr>
+                                <td colspan="4" class="py-4 text-center text-gray-400">Ładowanie tabeli...</td>
                             </tr>
-                        </thead>
-                        <tbody class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
-                            <tr><td class="py-2 text-red-500 font-bold">1</td><td class="py-2">Real Madryt</td><td class="py-2 text-center text-gray-400">20</td><td class="py-2 text-right font-black">50</td></tr>
-                            <tr><td class="py-2 text-red-500 font-bold">2</td><td class="py-2">Girona</td><td class="py-2 text-center text-gray-400">20</td><td class="py-2 text-right font-black">48</td></tr>
-                            <tr><td class="py-2 text-red-500 font-bold">3</td><td class="py-2">Barcelona</td><td class="py-2 text-center text-gray-400">20</td><td class="py-2 text-right font-black">44</td></tr>
-                            <tr><td class="py-2 text-red-500 font-bold">4</td><td class="py-2">Athletic Club</td><td class="py-2 text-center text-gray-400">20</td><td class="py-2 text-right font-black">41</td></tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <!-- Tabela Liga Mistrzów (Faza Ligowa) -->
-                <div id="table-lm" class="league-table overflow-x-auto text-xs hidden">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
-                                <th class="pb-2">#</th>
-                                <th class="pb-2">Klub</th>
-                                <th class="pb-2 text-center">M</th>
-                                <th class="pb-2 text-right">PKT</th>
-                            </tr>
-                        </thead>
-                        <tbody class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
-                            <tr><td class="py-2 text-amber-500 font-bold">1</td><td class="py-2">Real Madryt</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">16</td></tr>
-                            <tr><td class="py-2 text-amber-500 font-bold">2</td><td class="py-2">Bayern Monachium</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">15</td></tr>
-                            <tr><td class="py-2 text-amber-500 font-bold">3</td><td class="py-2">Manchester City</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">14</td></tr>
-                            <tr><td class="py-2 text-amber-500 font-bold">4</td><td class="py-2">Arsenal</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">13</td></tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <!-- Tabela Liga Europy -->
-                <div id="table-le" class="league-table overflow-x-auto text-xs hidden">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
-                                <th class="pb-2">#</th>
-                                <th class="pb-2">Klub</th>
-                                <th class="pb-2 text-center">M</th>
-                                <th class="pb-2 text-right">PKT</th>
-                            </tr>
-                        </thead>
-                        <tbody class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
-                            <tr><td class="py-2 text-orange-500 font-bold">1</td><td class="py-2">Tottenham</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">15</td></tr>
-                            <tr><td class="py-2 text-orange-500 font-bold">2</td><td class="py-2">Lazio</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">13</td></tr>
-                            <tr><td class="py-2 text-orange-500 font-bold">3</td><td class="py-2">Athletic Bilbao</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">13</td></tr>
-                            <tr><td class="py-2 text-orange-500 font-bold">4</td><td class="py-2">Eintracht Frankfurt</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">12</td></tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <!-- Tabela Liga Konferencji -->
-                <div id="table-lk" class="league-table overflow-x-auto text-xs hidden">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
-                                <th class="pb-2">#</th>
-                                <th class="pb-2">Klub</th>
-                                <th class="pb-2 text-center">M</th>
-                                <th class="pb-2 text-right">PKT</th>
-                            </tr>
-                        </thead>
-                        <tbody class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
-                            <tr><td class="py-2 text-emerald-500 font-bold">1</td><td class="py-2">Chelsea</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">18</td></tr>
-                            <tr><td class="py-2 text-emerald-500 font-bold">2</td><td class="py-2">Legia Warszawa</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">12</td></tr>
-                            <tr><td class="py-2 text-emerald-500 font-bold">3</td><td class="py-2">Jagiellonia</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">10</td></tr>
-                            <tr><td class="py-2 text-emerald-500 font-bold">4</td><td class="py-2">Fiorentina</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">10</td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -346,7 +267,7 @@
 
     </main>
 
-    <!-- SKRYPTY: MOTYW + DYNAMICZNE TABELE + LIVE MATCHES API -->
+    <!-- SKRYPTY: MOTYW + DYNAMICZNE TABELE Z API + LIVE MATCHES API -->
     <script>
         // Dzisiejsza data
         const dateOptions = { weekday: 'long', day: 'numeric', month: 'long' };
@@ -384,36 +305,75 @@
             localStorage.setItem('color-theme', newThemeIsDark ? 'dark' : 'light');
         });
 
-        // SYSTEM OBSŁUGI TABEL (PL, LL, LM, LE, LK)
-        function switchTable(targetLeague) {
-            const leagues = ['pl', 'll', 'lm', 'le', 'lk'];
-            
-            // Kolory aktywnego przycisku dla każdej ligi
-            const activeClasses = {
-                'pl': 'px-2 py-1 rounded bg-purple-600 text-white transition',
-                'll': 'px-2 py-1 rounded bg-red-600 text-white transition',
-                'lm': 'px-2 py-1 rounded bg-amber-500 text-white transition',
-                'le': 'px-2 py-1 rounded bg-orange-500 text-white transition',
-                'lk': 'px-2 py-1 rounded bg-emerald-600 text-white transition'
+        // AUTOMATYCZNE POBIERANIE AKTUALNEJ TABELI Z API
+        async function loadLeagueTable(leagueId, tabKey, leagueName) {
+            const tbody = document.getElementById('league-table-body');
+            const titleElem = document.getElementById('league-title');
+            titleElem.innerText = leagueName;
+
+            // Zmiana stylów przycisków
+            const tabs = ['pl', 'll', 'lm', 'le'];
+            const activeColors = {
+                'pl': 'bg-purple-600 text-white',
+                'll': 'bg-red-600 text-white',
+                'lm': 'bg-amber-500 text-white',
+                'le': 'bg-orange-500 text-white'
             };
 
-            const defaultClass = "px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition";
-
-            leagues.forEach(league => {
-                const tableElem = document.getElementById(`table-${league}`);
-                const btnElem = document.getElementById(`tab-${league}`);
-
-                if (league === targetLeague) {
-                    tableElem.classList.remove('hidden');
-                    btnElem.className = activeClasses[league];
-                } else {
-                    tableElem.classList.add('hidden');
-                    btnElem.className = defaultClass;
+            tabs.forEach(key => {
+                const btn = document.getElementById(`tab-${key}`);
+                if (btn) {
+                    if (key === tabKey) {
+                        btn.className = `px-2 py-1 rounded ${activeColors[key]} transition`;
+                    } else {
+                        btn.className = "px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition";
+                    }
                 }
             });
+
+            tbody.innerHTML = `<tr><td colspan="4" class="py-4 text-center text-gray-400">Pobieranie tabeli...</td></tr>`;
+
+            try {
+                // Zapytanie do API o aktualną tabelę
+                const response = await fetch(`https://www.thesportsdb.com/api/v1/json/3/lookuptable.php?l=${leagueId}&s=2024-2025`);
+                if (!response.ok) throw new Error('Błąd serwera');
+
+                const data = await response.json();
+
+                if (!data.table || data.table.length === 0) {
+                    tbody.innerHTML = `<tr><td colspan="4" class="py-4 text-center text-gray-400">Brak danych dla wybranej ligi.</td></tr>`;
+                    return;
+                }
+
+                // Wyświetlamy TOP 5 zespołów
+                const topTeams = data.table.slice(0, 5);
+
+                tbody.innerHTML = topTeams.map((team, index) => {
+                    const rank = index + 1;
+                    const name = team.strTeam;
+                    const played = team.intPlayed;
+                    const points = team.intPoints;
+
+                    return `
+                        <tr>
+                            <td class="py-2 text-purple-500 font-bold">${rank}</td>
+                            <td class="py-2 font-bold">${name}</td>
+                            <td class="py-2 text-center text-gray-400">${played}</td>
+                            <td class="py-2 text-right font-black text-purple-600 dark:text-purple-400">${points}</td>
+                        </tr>
+                    `;
+                }).join('');
+
+            } catch (error) {
+                console.error('Błąd tabeli:', error);
+                tbody.innerHTML = `<tr><td colspan="4" class="py-4 text-center text-red-400">Nie udało się pobrać tabeli.</td></tr>`;
+            }
         }
 
-        // POŁĄCZENIE Z ZEWNĘTRZNYM API
+        // Domyślne załadowanie tabeli Premier League po wejściu na stronę
+        loadLeagueTable('4328', 'pl', 'Premier League');
+
+        // POŁĄCZENIE Z ZEWNĘTRZNYM API MECZÓW
         async function fetchLiveMatches() {
             const container = document.getElementById('matches-container');
             
