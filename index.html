@@ -169,7 +169,7 @@
 
             </div>
 
-            <!-- MODUŁ SKRÓTÓW WIDEO (YOUTUBE) -->
+            <!-- MODUŁ SKRÓTÓW WIDEO -->
             <div class="pt-4 space-y-4">
                 <h2 class="text-xl font-black uppercase tracking-wider flex items-center gap-2">
                     <span class="w-2 h-6 bg-red-600 rounded-full"></span> Skróty Wideo i Bramki
@@ -201,20 +201,23 @@
         <!-- BOCZNY PASEK -->
         <aside class="lg:col-span-4 space-y-6">
             
-            <!-- WIDGET: TABELA LIGOWA -->
+            <!-- WIDGET: TABELA LIGOWA I PUCHAROWA -->
             <div class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl p-5 shadow-sm">
-                <div class="flex justify-between items-center mb-4 pb-3 border-b border-gray-100 dark:border-border">
+                <div class="flex flex-col gap-3 mb-4 pb-3 border-b border-gray-100 dark:border-border">
                     <h3 class="font-black text-sm uppercase tracking-wider flex items-center gap-2">
-                        <i class="fa-solid fa-list-ol text-purple-500"></i> Tabela Ligowa
+                        <i class="fa-solid fa-list-ol text-purple-500"></i> Tabele Rozgrywek
                     </h3>
-                    <div class="flex gap-1 text-[10px] font-bold">
-                        <button id="tab-pl" onclick="switchTable('pl')" class="px-2 py-1 rounded bg-purple-600 text-white">PL</button>
-                        <button id="tab-ll" onclick="switchTable('ll')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white">LL</button>
+                    <div class="flex gap-1 text-[9px] font-black overflow-x-auto pb-1 no-scrollbar">
+                        <button id="tab-pl" onclick="switchTable('pl')" class="px-2 py-1 rounded bg-purple-600 text-white transition">PL</button>
+                        <button id="tab-ll" onclick="switchTable('ll')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LL</button>
+                        <button id="tab-lm" onclick="switchTable('lm')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LM</button>
+                        <button id="tab-le" onclick="switchTable('le')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LE</button>
+                        <button id="tab-lk" onclick="switchTable('lk')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LK</button>
                     </div>
                 </div>
 
                 <!-- Tabela Premier League -->
-                <div id="table-pl" class="overflow-x-auto text-xs">
+                <div id="table-pl" class="league-table overflow-x-auto text-xs">
                     <table class="w-full text-left">
                         <thead>
                             <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
@@ -233,8 +236,8 @@
                     </table>
                 </div>
 
-                <!-- Tabela La Liga (ukryta domyślnie) -->
-                <div id="table-ll" class="overflow-x-auto text-xs hidden">
+                <!-- Tabela La Liga -->
+                <div id="table-ll" class="league-table overflow-x-auto text-xs hidden">
                     <table class="w-full text-left">
                         <thead>
                             <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
@@ -249,6 +252,66 @@
                             <tr><td class="py-2 text-red-500 font-bold">2</td><td class="py-2">Girona</td><td class="py-2 text-center text-gray-400">20</td><td class="py-2 text-right font-black">48</td></tr>
                             <tr><td class="py-2 text-red-500 font-bold">3</td><td class="py-2">Barcelona</td><td class="py-2 text-center text-gray-400">20</td><td class="py-2 text-right font-black">44</td></tr>
                             <tr><td class="py-2 text-red-500 font-bold">4</td><td class="py-2">Athletic Club</td><td class="py-2 text-center text-gray-400">20</td><td class="py-2 text-right font-black">41</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tabela Liga Mistrzów (Faza Ligowa) -->
+                <div id="table-lm" class="league-table overflow-x-auto text-xs hidden">
+                    <table class="w-full text-left">
+                        <thead>
+                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
+                                <th class="pb-2">#</th>
+                                <th class="pb-2">Klub</th>
+                                <th class="pb-2 text-center">M</th>
+                                <th class="pb-2 text-right">PKT</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
+                            <tr><td class="py-2 text-amber-500 font-bold">1</td><td class="py-2">Real Madryt</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">16</td></tr>
+                            <tr><td class="py-2 text-amber-500 font-bold">2</td><td class="py-2">Bayern Monachium</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">15</td></tr>
+                            <tr><td class="py-2 text-amber-500 font-bold">3</td><td class="py-2">Manchester City</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">14</td></tr>
+                            <tr><td class="py-2 text-amber-500 font-bold">4</td><td class="py-2">Arsenal</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">13</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tabela Liga Europy -->
+                <div id="table-le" class="league-table overflow-x-auto text-xs hidden">
+                    <table class="w-full text-left">
+                        <thead>
+                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
+                                <th class="pb-2">#</th>
+                                <th class="pb-2">Klub</th>
+                                <th class="pb-2 text-center">M</th>
+                                <th class="pb-2 text-right">PKT</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
+                            <tr><td class="py-2 text-orange-500 font-bold">1</td><td class="py-2">Tottenham</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">15</td></tr>
+                            <tr><td class="py-2 text-orange-500 font-bold">2</td><td class="py-2">Lazio</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">13</td></tr>
+                            <tr><td class="py-2 text-orange-500 font-bold">3</td><td class="py-2">Athletic Bilbao</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">13</td></tr>
+                            <tr><td class="py-2 text-orange-500 font-bold">4</td><td class="py-2">Eintracht Frankfurt</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">12</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tabela Liga Konferencji -->
+                <div id="table-lk" class="league-table overflow-x-auto text-xs hidden">
+                    <table class="w-full text-left">
+                        <thead>
+                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
+                                <th class="pb-2">#</th>
+                                <th class="pb-2">Klub</th>
+                                <th class="pb-2 text-center">M</th>
+                                <th class="pb-2 text-right">PKT</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
+                            <tr><td class="py-2 text-emerald-500 font-bold">1</td><td class="py-2">Chelsea</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">18</td></tr>
+                            <tr><td class="py-2 text-emerald-500 font-bold">2</td><td class="py-2">Legia Warszawa</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">12</td></tr>
+                            <tr><td class="py-2 text-emerald-500 font-bold">3</td><td class="py-2">Jagiellonia</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">10</td></tr>
+                            <tr><td class="py-2 text-emerald-500 font-bold">4</td><td class="py-2">Fiorentina</td><td class="py-2 text-center text-gray-400">6</td><td class="py-2 text-right font-black">10</td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -283,7 +346,7 @@
 
     </main>
 
-    <!-- SKRYPTY: MOTYW + TABELA + LIVE MATCHES API -->
+    <!-- SKRYPTY: MOTYW + DYNAMICZNE TABELE + LIVE MATCHES API -->
     <script>
         // Dzisiejsza data
         const dateOptions = { weekday: 'long', day: 'numeric', month: 'long' };
@@ -321,24 +384,33 @@
             localStorage.setItem('color-theme', newThemeIsDark ? 'dark' : 'light');
         });
 
-        // PRZEŁĄCZNIK TABELI LIGOWEJ
-        function switchTable(league) {
-            const tablePL = document.getElementById('table-pl');
-            const tableLL = document.getElementById('table-ll');
-            const btnPL = document.getElementById('tab-pl');
-            const btnLL = document.getElementById('tab-ll');
+        // SYSTEM OBSŁUGI TABEL (PL, LL, LM, LE, LK)
+        function switchTable(targetLeague) {
+            const leagues = ['pl', 'll', 'lm', 'le', 'lk'];
+            
+            // Kolory aktywnego przycisku dla każdej ligi
+            const activeClasses = {
+                'pl': 'px-2 py-1 rounded bg-purple-600 text-white transition',
+                'll': 'px-2 py-1 rounded bg-red-600 text-white transition',
+                'lm': 'px-2 py-1 rounded bg-amber-500 text-white transition',
+                'le': 'px-2 py-1 rounded bg-orange-500 text-white transition',
+                'lk': 'px-2 py-1 rounded bg-emerald-600 text-white transition'
+            };
 
-            if (league === 'pl') {
-                tablePL.classList.remove('hidden');
-                tableLL.classList.add('hidden');
-                btnPL.className = "px-2 py-1 rounded bg-purple-600 text-white";
-                btnLL.className = "px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white";
-            } else {
-                tableLL.classList.remove('hidden');
-                tablePL.classList.add('hidden');
-                btnLL.className = "px-2 py-1 rounded bg-red-600 text-white";
-                btnPL.className = "px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white";
-            }
+            const defaultClass = "px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition";
+
+            leagues.forEach(league => {
+                const tableElem = document.getElementById(`table-${league}`);
+                const btnElem = document.getElementById(`tab-${league}`);
+
+                if (league === targetLeague) {
+                    tableElem.classList.remove('hidden');
+                    btnElem.className = activeClasses[league];
+                } else {
+                    tableElem.classList.add('hidden');
+                    btnElem.className = defaultClass;
+                }
+            });
         }
 
         // POŁĄCZENIE Z ZEWNĘTRZNYM API
