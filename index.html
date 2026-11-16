@@ -59,13 +59,11 @@
 
                 <!-- PRAWA STRONA: WYSZUKIWARKA + MOTYW -->
                 <div class="flex items-center gap-3">
-                    <!-- POLE WYSZUKIWANIA -->
                     <div class="relative flex items-center">
                         <input type="text" id="search-input" oninput="handleSearch(this.value)" placeholder="Szukaj newsa lub klubu..." class="w-40 sm:w-64 pl-9 pr-4 py-2 rounded-xl bg-gray-100 dark:bg-card border border-gray-200 dark:border-border text-xs focus:outline-none focus:border-purple-500 transition text-gray-900 dark:text-white placeholder-gray-400">
                         <i class="fa-solid fa-magnifying-glass absolute left-3 text-gray-400 text-xs"></i>
                     </div>
 
-                    <!-- PRZYCISK MOTYWU -->
                     <button id="theme-toggle" class="p-2 rounded-xl bg-gray-100 dark:bg-card border border-gray-200 dark:border-border hover:bg-gray-200 dark:hover:bg-gray-800 transition flex items-center justify-center w-10 h-10 shrink-0">
                         <i id="theme-toggle-dark-icon" class="fa-solid fa-sun text-amber-400 text-sm hidden"></i>
                         <i id="theme-toggle-light-icon" class="fa-solid fa-moon text-indigo-400 text-sm"></i>
@@ -76,7 +74,7 @@
             <!-- PAS Z MENU ROZWIJANYMI LIG I PUCHARÓW -->
             <nav class="flex items-center justify-between py-2.5 text-xs sm:text-sm font-bold relative">
                 <div class="flex items-center gap-2 sm:gap-3 flex-wrap">
-                    <button onclick="filterNews('ALL')" data-cat="ALL" class="cat-btn px-4 py-2 rounded-xl bg-purple-600 text-white shadow-sm transition flex items-center gap-2">
+                    <button onclick="handleNavigationCategory('ALL')" data-cat="ALL" class="cat-btn px-4 py-2 rounded-xl bg-purple-600 text-white shadow-sm transition flex items-center gap-2">
                         <i class="fa-solid fa-border-all text-xs"></i> Wszystkie
                     </button>
 
@@ -89,19 +87,19 @@
                         </button>
 
                         <div id="league-dropdown" class="absolute left-0 mt-2 w-56 bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl shadow-2xl py-2 hidden z-50">
-                            <button onclick="selectLeague('PL', 'Premier League', 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                            <button onclick="selectLeagueAndTable('PL', 'Premier League', 'PL', 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <i class="fa-solid fa-crown text-purple-500 w-4 text-center"></i> Premier League
                             </button>
-                            <button onclick="selectLeague('LL', 'La Liga', 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                            <button onclick="selectLeagueAndTable('LL', 'La Liga', 'PD', 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <i class="fa-solid fa-fire text-red-500 w-4 text-center"></i> La Liga
                             </button>
-                            <button onclick="selectLeague('SA', 'Serie A', 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                            <button onclick="selectLeagueAndTable('SA', 'Serie A', 'SA', 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <i class="fa-solid fa-shield-halved text-sky-500 w-4 text-center"></i> Serie A
                             </button>
-                            <button onclick="selectLeague('BL', 'Bundesliga', 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                            <button onclick="selectLeagueAndTable('BL', 'Bundesliga', 'BL1', 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <i class="fa-solid fa-bolt text-amber-500 w-4 text-center"></i> Bundesliga
                             </button>
-                            <button onclick="selectLeague('EKS', 'Ekstraklasa', 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                            <button onclick="selectLeagueAndTable('EKS', 'Ekstraklasa', null, 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <i class="fa-solid fa-star text-rose-500 w-4 text-center"></i> Ekstraklasa
                             </button>
                         </div>
@@ -116,13 +114,13 @@
                         </button>
 
                         <div id="cups-dropdown" class="absolute left-0 mt-2 w-56 bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl shadow-2xl py-2 hidden z-50">
-                            <button onclick="selectLeague('CL', 'Liga Mistrzów', 'current-cup-label', 'dropdown-cups-btn', 'cups-dropdown', 'dropdown-arrow-2')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                            <button onclick="selectLeagueAndTable('CL', 'Liga Mistrzów', 'CL', 'current-cup-label', 'dropdown-cups-btn', 'cups-dropdown', 'dropdown-arrow-2')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <i class="fa-solid fa-trophy text-amber-500 w-4 text-center"></i> Liga Mistrzów
                             </button>
-                            <button onclick="selectLeague('EL', 'Liga Europy', 'current-cup-label', 'dropdown-cups-btn', 'cups-dropdown', 'dropdown-arrow-2')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                            <button onclick="selectLeagueAndTable('EL', 'Liga Europy', null, 'current-cup-label', 'dropdown-cups-btn', 'cups-dropdown', 'dropdown-arrow-2')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <i class="fa-solid fa-award text-blue-500 w-4 text-center"></i> Liga Europy
                             </button>
-                            <button onclick="selectLeague('ECL', 'Liga Konferencji', 'current-cup-label', 'dropdown-cups-btn', 'cups-dropdown', 'dropdown-arrow-2')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                            <button onclick="selectLeagueAndTable('ECL', 'Liga Konferencji', null, 'current-cup-label', 'dropdown-cups-btn', 'cups-dropdown', 'dropdown-arrow-2')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <i class="fa-solid fa-certificate text-emerald-500 w-4 text-center"></i> Liga Konferencji
                             </button>
                         </div>
@@ -130,7 +128,7 @@
                 </div>
 
                 <div class="text-xs text-gray-400 hidden xl:block">
-                    Wybierz rozgrywki, aby filtrować wiadomości
+                    Wybierz rozgrywki, aby filtrować wiadomości i tabelę
                 </div>
             </nav>
         </div>
@@ -152,7 +150,7 @@
                 <h2 class="text-xl font-black uppercase tracking-wider flex items-center gap-2">
                     <span class="w-2 h-6 bg-purple-600 rounded-full"></span> <span id="news-section-title">Najnowsze Wiadomości</span>
                 </h2>
-                <button id="reset-filter-btn" onclick="filterNews('ALL')" class="hidden text-xs font-bold text-purple-500 hover:underline">
+                <button id="reset-filter-btn" onclick="handleNavigationCategory('ALL')" class="hidden text-xs font-bold text-purple-500 hover:underline">
                     Pokaż wszystkie ×
                 </button>
             </div>
@@ -163,7 +161,7 @@
             </div>
 
             <div id="empty-filter-msg" class="hidden p-8 rounded-2xl bg-white dark:bg-card border border-gray-200 dark:border-border text-center text-sm text-gray-400">
-                Brak opublikowanych artykułów pasujących do Twoich kryteriów. Kliknij <button onclick="filterNews('ALL')" class="text-purple-500 font-bold underline">Wszystkie</button>, aby wrócić.
+                Brak opublikowanych artykułów pasujących do Twoich kryteriów. Kliknij <button onclick="handleNavigationCategory('ALL')" class="text-purple-500 font-bold underline">Wszystkie</button>, aby wrócić.
             </div>
 
             <!-- SKRÓTY WIDEO -->
@@ -293,7 +291,8 @@
             arrow.classList.toggle('rotate-180');
         }
 
-        function selectLeague(categoryCode, leagueName, labelId, btnId, dropdownId, arrowId) {
+        // NOWA FUNKCJA: Wybór ligi filtruje newsy ORAZ automatycznie zmienia tabelę w bocznym pasku
+        function selectLeagueAndTable(categoryCode, leagueName, tableCode, labelId, btnId, dropdownId, arrowId) {
             document.getElementById(labelId).innerText = leagueName;
             document.getElementById(dropdownId).classList.add('hidden');
             document.getElementById(arrowId).classList.remove('rotate-180');
@@ -301,7 +300,21 @@
             const btn = document.getElementById(btnId);
             btn.className = "px-4 py-2 rounded-xl bg-purple-600 text-white border border-purple-500 transition flex items-center gap-2 shadow-sm font-bold";
             
+            // Jeśli wybrano drugie menu, zresetuj etykietę pierwszego (i odwrotnie)
+            if (labelId === 'current-league-label') {
+                document.getElementById('current-cup-label').innerText = 'Puchary europejskie';
+                document.getElementById('dropdown-cups-btn').className = "px-4 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm";
+            } else {
+                document.getElementById('current-league-label').innerText = 'Ligi krajowe';
+                document.getElementById('dropdown-menu-btn').className = "px-4 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm";
+            }
+
             filterNews(categoryCode);
+
+            // Jeśli dla danej ligi dostępna jest tabela na żywo, przełącz ją automatycznie
+            if (tableCode) {
+                loadLiveTable(tableCode);
+            }
         }
 
         window.addEventListener('click', () => {
@@ -510,7 +523,6 @@
 
             if (!Array.isArray(allArticles) || allArticles.length === 0) return;
 
-            // Filtrowanie po kategorii i wyszukiwarce
             const filteredArticles = allArticles.map((article, originalIndex) => ({ ...article, originalIndex })).filter(item => {
                 const matchesCat = matchesCategory(item.category, activeCategory);
                 const matchesQuery = searchQuery === '' || 
@@ -520,7 +532,6 @@
                 return matchesCat && matchesQuery;
             });
 
-            // Hero (główny news dnia) wyświetlamy tylko jeśli użytkownik nie szuka specyficznej frazy i jesteśmy na odpowiedniej kategorii
             const hero = filteredArticles.length > 0 ? filteredArticles[0] : null;
             if (hero && searchQuery === '' && (activeCategory === 'ALL' || hero.originalIndex === 0)) {
                 featuredContainer.classList.remove('hidden');
@@ -552,7 +563,6 @@
                 featuredContainer.classList.add('hidden');
             }
 
-            // Siatka artykułów (pomijamy hero jeśli był wyświetlony na górze i nie szukamy)
             const gridItems = filteredArticles.filter(item => {
                 if (searchQuery === '' && activeCategory === 'ALL' && hero && item.originalIndex === hero.originalIndex) {
                     return false;
@@ -601,7 +611,7 @@
             `).join('');
         }
 
-        function filterNews(category) {
+        function handleNavigationCategory(category) {
             activeCategory = category;
             const titleEl = document.getElementById('news-section-title');
             const resetBtn = document.getElementById('reset-filter-btn');
@@ -636,6 +646,10 @@
             }
 
             renderNews();
+        }
+
+        function filterNews(category) {
+            handleNavigationCategory(category);
         }
 
         function openArticle(index) {
