@@ -217,6 +217,25 @@
                     <table class="w-full text-left">
                         <thead>
                             <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
+                                <th class="pb-2 w-6">#</th>
+                                <th class="pb-2">Klub</th>
+                                <th class="pb-2 text-center">M</th>
+                                <th class="pb-2 text-center">+/-</th>
+                                <th class="pb-2 text-right">PKT</th>
+                            </tr>
+                        </thead>
+                        <tbody id="standings-body" class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
+                            <tr><td colspan="5" class="py-4 text-center text-gray-400">Ładowanie dzisiejszej tabeli...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <button id="toggle-table-btn" onclick="toggleFullTable()" class="w-full mt-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 text-gray-600 dark:text-gray-300 text-[11px] font-bold uppercase tracking-wider transition hidden">
+                    Pokaż pełną tabelę
+                </button>
+                    <table class="w-full text-left">
+                        <thead>
+                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
                                 <th class="pb-2">#</th>
                                 <th class="pb-2">Klub</th>
                                 <th class="pb-2 text-center">M</th>
@@ -293,7 +312,7 @@
             localStorage.setItem('color-theme', newThemeIsDark ? 'dark' : 'light');
         });
 
-        // WYWOŁANIE NASZEJ FUNKCJI BACKENDOWEJ API VERCELA (TABELA)
+      // WYWOŁANIE NASZEJ FUNKCJI BACKENDOWEJ API VERCELA (TABELA)
         async function loadLiveTable(leagueCode) {
             const tbody = document.getElementById('standings-body');
             const buttons = ['PL', 'PD', 'CL'];
