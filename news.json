@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "category": "PL",
+    "badge": "Premier League • HIT TRANSFEROWY",
+    "badgeColor": "bg-purple-600",
+    "time": "10 minut temu",
+    "source": "Źródło: Sky Sports",
+    "img": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80",
+    "title": "Niezwykły zwrot akcji! Gwiazda Realu Madryt zmierza do Premier League",
+    "summary": "Według najnowszych przecieków Fabrizio Romano, rozmowy zostały wznowione dzisiaj rano. Kwota odstępnego przekroczy 90 milionów euro.",
+    "content": "<p>Według najnowszych doniesień z Hiszpanii i Anglii, negocjacje w sprawie jednego z najgłośniejszych transferów tego sezonu nabrały niespodziewanego tempa. Przedstawiciele angielskiego giganta przylecieli rano do Madrytu, aby dopiąć ostatnie szczegóły kontraktu indywidualnego.</p><p>Kwota odstępnego ma wynieść ponad 90 milionów euro plus bonusy uzależnione od występów w Lidze Mistrzów. Sam zawodnik wyraził już zgodę na przeprowadzkę na Wyspy, licząc na kluczową rolę w nowym projekcie sportowym.</p>"
+  },
+  {
+    "id": 2,
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "35 minut temu",
+    "source": "Źródło: Marca",
+    "img": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80",
+    "title": "Barcelona reaguje na kontuzję pomocnika. Awaryjny transfer",
+    "summary": "Sztab medyczny wydał oświadczenie. Kluczowy zawodnik uniknie operacji i wróci na boisko szybciej niż przewidywano.",
+    "content": "<p>Sztab medyczny FC Barcelony opublikował oficjalny komunikat po szczegółowych badaniach rezonansem magnetycznym. Choć uraz wyglądał groźnie, zawodnik uniknie zabiegu chirurgicznego i zastosuje leczenie zachowawcze.</p><p>Mimo optymistycznych prognoz powrotu na boisko za około cztery tygodnie, dyrekcja sportowa analizuje rynek wolnych zawodników.</p>"
+  },
+  {
+    "id": 3,
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "1 godzinę temu",
+    "source": "Źródło: BBC Sport",
+    "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=800&q=80",
+    "title": "Oficjalnie: Trener zwolniony po porażce w derbach",
+    "summary": "Zarząd klubu nie czekał do końca tygodnia. Decyzja została podjęta jednogłośnie podczas nocnego spotkania.",
+    "content": "<p>Władze klubu podjęły natychmiastową decyzję po serii rozczarowujących wyników, której kulminacją była wczorajsza bolesna porażka w derbach przed własną publicznością.</p><p>Tymczasowo obowiązki pierwszego szkoleniowca przejmie dotychczasowy asystent, natomiast zarząd rozpoczął już rozmowy z dwoma głównymi kandydatami.</p>"
+  }
+]
