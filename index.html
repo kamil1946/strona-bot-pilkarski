@@ -28,10 +28,6 @@
             -ms-overflow-style: none;
             scrollbar-width: none;
         }
-        .fade-mask {
-            mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
-            -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
-        }
     </style>
 </head>
 <body class="bg-gray-100 text-gray-900 dark:bg-pitch dark:text-gray-100 transition-colors duration-300 font-sans min-h-screen flex flex-col">
@@ -49,7 +45,7 @@
         </div>
     </div>
 
-    <!-- TOP HEADER / NAWIGACJA Z NOWOCZESNYM SUWAKIEM -->
+    <!-- TOP HEADER / NAWIGACJA Z ROZWIJANYM MENU LIG -->
     <header class="border-b border-gray-200 dark:border-border bg-white dark:bg-pitch/90 backdrop-blur-md sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex justify-between items-center py-3 border-b border-gray-100 dark:border-border/60">
@@ -69,42 +65,50 @@
                 </div>
             </div>
 
-            <!-- ELEGANCKI PŁYNNY SUWAK LIG ZE STRZAŁKAMI -->
-            <nav class="flex items-center gap-2 py-2.5 text-xs sm:text-sm font-bold">
-                <button onclick="filterNews('ALL')" data-cat="ALL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-purple-600 text-white shadow-sm transition flex items-center gap-2">
-                    <i class="fa-solid fa-border-all text-xs"></i> Wszystkie
-                </button>
+            <!-- PAS Z PRZYCISKIEM WSZYSTKIE ORAZ ROZWIJANYM MENU LIG -->
+            <nav class="flex items-center justify-between py-2.5 text-xs sm:text-sm font-bold relative">
+                <div class="flex items-center gap-3">
+                    <!-- Przycisk Wszystkie -->
+                    <button onclick="filterNews('ALL')" data-cat="ALL" class="cat-btn px-4 py-2 rounded-xl bg-purple-600 text-white shadow-sm transition flex items-center gap-2">
+                        <i class="fa-solid fa-border-all text-xs"></i> Wszystkie
+                    </button>
 
-                <div class="h-5 w-[1px] bg-gray-200 dark:bg-border shrink-0 mx-1"></div>
+                    <!-- PRZYCISK ROZWIJANY (DROPDOWN) DLA LIG -->
+                    <div class="relative">
+                        <button onclick="toggleDropdown(event)" id="dropdown-menu-btn" class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm">
+                            <i class="fa-solid fa-trophy text-purple-500 text-xs"></i> 
+                            <span id="current-league-label">Wybierz ligę</span> 
+                            <i class="fa-solid fa-chevron-down text-[10px] ml-1 transition-transform duration-200" id="dropdown-arrow"></i>
+                        </button>
 
-                <button onclick="scrollCategories(-240)" aria-label="W lewo" class="shrink-0 w-8 h-8 rounded-xl bg-gray-100 dark:bg-card border border-gray-200 dark:border-border text-gray-400 hover:text-purple-500 hover:border-purple-500/40 transition flex items-center justify-center">
-                    <i class="fa-solid fa-chevron-left text-[11px]"></i>
-                </button>
-
-                <div id="category-slider" class="flex items-center gap-2 overflow-x-auto no-scrollbar scroll-smooth select-none cursor-grab py-1 px-1 fade-mask">
-                    <button onclick="filterNews('PL')" data-cat="PL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/40 transition flex items-center gap-2">
-                        <i class="fa-solid fa-crown text-purple-500 text-xs"></i> Premier League
-                    </button>
-                    <button onclick="filterNews('LL')" data-cat="LL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-red-500/40 transition flex items-center gap-2">
-                        <i class="fa-solid fa-fire text-red-500 text-xs"></i> La Liga
-                    </button>
-                    <button onclick="filterNews('SA')" data-cat="SA" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-sky-500/40 transition flex items-center gap-2">
-                        <i class="fa-solid fa-shield-halved text-sky-500 text-xs"></i> Serie A
-                    </button>
-                    <button onclick="filterNews('BL')" data-cat="BL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-amber-500/40 transition flex items-center gap-2">
-                        <i class="fa-solid fa-bolt text-amber-500 text-xs"></i> Bundesliga
-                    </button>
-                    <button onclick="filterNews('EKS')" data-cat="EKS" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-rose-500/40 transition flex items-center gap-2">
-                        <i class="fa-solid fa-star text-rose-500 text-xs"></i> Ekstraklasa
-                    </button>
-                    <button onclick="filterNews('OTHER')" data-cat="OTHER" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-emerald-500/40 transition flex items-center gap-2">
-                        <i class="fa-solid fa-globe text-emerald-500 text-xs"></i> Inne Ligi
-                    </button>
+                        <!-- WYSUWANE MENU (DOMYŚLNIE UKRYTE) -->
+                        <div id="league-dropdown" class="absolute left-0 mt-2 w-56 bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl shadow-2xl py-2 hidden z-50">
+                            <button onclick="selectLeague('PL', 'Premier League')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                                <i class="fa-solid fa-crown text-purple-500 w-4 text-center"></i> Premier League
+                            </button>
+                            <button onclick="selectLeague('LL', 'La Liga')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                                <i class="fa-solid fa-fire text-red-500 w-4 text-center"></i> La Liga
+                            </button>
+                            <button onclick="selectLeague('SA', 'Serie A')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                                <i class="fa-solid fa-shield-halved text-sky-500 w-4 text-center"></i> Serie A
+                            </button>
+                            <button onclick="selectLeague('BL', 'Bundesliga')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                                <i class="fa-solid fa-bolt text-amber-500 w-4 text-center"></i> Bundesliga
+                            </button>
+                            <button onclick="selectLeague('EKS', 'Ekstraklasa')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                                <i class="fa-solid fa-star text-rose-500 w-4 text-center"></i> Ekstraklasa
+                            </button>
+                            <div class="h-[1px] bg-gray-100 dark:bg-border my-1"></div>
+                            <button onclick="selectLeague('OTHER', 'Inne Ligi')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                                <i class="fa-solid fa-globe text-emerald-500 w-4 text-center"></i> Inne Ligi
+                            </button>
+                        </div>
+                    </div>
                 </div>
 
-                <button onclick="scrollCategories(240)" aria-label="W prawo" class="shrink-0 w-8 h-8 rounded-xl bg-gray-100 dark:bg-card border border-gray-200 dark:border-border text-gray-400 hover:text-purple-500 hover:border-purple-500/40 transition flex items-center justify-center">
-                    <i class="fa-solid fa-chevron-right text-[11px]"></i>
-                </button>
+                <div class="text-xs text-gray-400 hidden sm:block">
+                    Wybierz rozgrywki, aby filtrować wiadomości
+                </div>
             </nav>
         </div>
     </header>
@@ -250,36 +254,38 @@
         const today = new Date().toLocaleDateString('pl-PL', dateOptions);
         document.getElementById('current-date').innerText = `(${today})`;
 
-        const catSlider = document.getElementById('category-slider');
-        function scrollCategories(offset) {
-            catSlider.scrollBy({ left: offset, behavior: 'smooth' });
+        // OBSŁUGA ROZWIJANEGO MENU LIG (DROPDOWN)
+        function toggleDropdown(event) {
+            event.stopPropagation();
+            const dropdown = document.getElementById('league-dropdown');
+            const arrow = document.getElementById('dropdown-arrow');
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
         }
 
-        catSlider.addEventListener('wheel', (e) => {
-            if (e.deltaY !== 0) {
-                e.preventDefault();
-                catSlider.scrollLeft += e.deltaY;
+        function selectLeague(categoryCode, leagueName) {
+            document.getElementById('current-league-label').innerText = leagueName;
+            document.getElementById('league-dropdown').classList.add('hidden');
+            document.getElementById('dropdown-arrow').classList.remove('rotate-180');
+            
+            // Stylizacja przycisku głównego po wybraniu ligi
+            const btn = document.getElementById('dropdown-menu-btn');
+            btn.className = "px-4 py-2 rounded-xl bg-purple-600 text-white border border-purple-500 transition flex items-center gap-2 shadow-sm font-bold";
+            
+            filterNews(categoryCode);
+        }
+
+        // Zamknięcie menu po kliknięciu poza nim
+        window.addEventListener('click', () => {
+            const dropdown = document.getElementById('league-dropdown');
+            const arrow = document.getElementById('dropdown-arrow');
+            if (!dropdown.classList.contains('hidden')) {
+                dropdown.classList.add('hidden');
+                arrow.classList.remove('rotate-180');
             }
         });
 
-        let isCatDown = false;
-        let catStartX;
-        let catScrollLeft;
-        catSlider.addEventListener('mousedown', (e) => {
-            isCatDown = true;
-            catSlider.classList.add('cursor-grabbing');
-            catStartX = e.pageX - catSlider.offsetLeft;
-            catScrollLeft = catSlider.scrollLeft;
-        });
-        catSlider.addEventListener('mouseleave', () => { isCatDown = false; catSlider.classList.remove('cursor-grabbing'); });
-        catSlider.addEventListener('mouseup', () => { isCatDown = false; catSlider.classList.remove('cursor-grabbing'); });
-        catSlider.addEventListener('mousemove', (e) => {
-            if (!isCatDown) return;
-            e.preventDefault();
-            const x = e.pageX - catSlider.offsetLeft;
-            catSlider.scrollLeft = catScrollLeft - (x - catStartX) * 1.4;
-        });
-
+        // PRZEŁĄCZNIK MOTYWU
         const themeToggleBtn = document.getElementById('theme-toggle');
         const darkIcon = document.getElementById('theme-toggle-dark-icon');
         const lightIcon = document.getElementById('theme-toggle-light-icon');
@@ -310,6 +316,7 @@
             localStorage.setItem('color-theme', newThemeIsDark ? 'dark' : 'light');
         });
 
+        // TABELA LIGOWA
         let currentStandingsData = [];
         let isTableExpanded = false;
 
@@ -563,13 +570,12 @@
                 'OTHER': 'Inne Ligi'
             };
 
-            document.querySelectorAll('.cat-btn').forEach(btn => {
-                if (btn.dataset.cat === category) {
-                    btn.className = "cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-purple-600 text-white shadow-sm transition flex items-center gap-2";
-                } else {
-                    btn.className = "cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/40 transition flex items-center gap-2";
-                }
-            });
+            // Jeśli wybrano "Wszystkie", zresetuj etykietę rozwijanego menu
+            if (category === 'ALL') {
+                document.getElementById('current-league-label').innerText = 'Wybierz ligę';
+                const btn = document.getElementById('dropdown-menu-btn');
+                btn.className = "px-4 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm";
+            }
 
             titleEl.innerText = categoryLabels[category] || 'Najnowsze Wiadomości';
             if (category === 'ALL') {
