@@ -45,7 +45,7 @@
         </div>
     </div>
 
-    <!-- TOP HEADER / NAWIGACJA Z DWOMA MENU ROZWIJANYMI -->
+    <!-- TOP HEADER / NAWIGACJA Z WYSZUKIWARKĄ -->
     <header class="border-b border-gray-200 dark:border-border bg-white dark:bg-pitch/90 backdrop-blur-md sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex justify-between items-center py-3 border-b border-gray-100 dark:border-border/60">
@@ -57,18 +57,25 @@
                     </span>
                 </a>
 
-                <div class="flex items-center gap-4">
-                    <button id="theme-toggle" class="p-2 rounded-xl bg-gray-100 dark:bg-card border border-gray-200 dark:border-border hover:bg-gray-200 dark:hover:bg-gray-800 transition flex items-center justify-center w-10 h-10">
+                <!-- PRAWA STRONA: WYSZUKIWARKA + MOTYW -->
+                <div class="flex items-center gap-3">
+                    <!-- POLE WYSZUKIWANIA -->
+                    <div class="relative flex items-center">
+                        <input type="text" id="search-input" oninput="handleSearch(this.value)" placeholder="Szukaj newsa lub klubu..." class="w-40 sm:w-64 pl-9 pr-4 py-2 rounded-xl bg-gray-100 dark:bg-card border border-gray-200 dark:border-border text-xs focus:outline-none focus:border-purple-500 transition text-gray-900 dark:text-white placeholder-gray-400">
+                        <i class="fa-solid fa-magnifying-glass absolute left-3 text-gray-400 text-xs"></i>
+                    </div>
+
+                    <!-- PRZYCISK MOTYWU -->
+                    <button id="theme-toggle" class="p-2 rounded-xl bg-gray-100 dark:bg-card border border-gray-200 dark:border-border hover:bg-gray-200 dark:hover:bg-gray-800 transition flex items-center justify-center w-10 h-10 shrink-0">
                         <i id="theme-toggle-dark-icon" class="fa-solid fa-sun text-amber-400 text-sm hidden"></i>
                         <i id="theme-toggle-light-icon" class="fa-solid fa-moon text-indigo-400 text-sm"></i>
                     </button>
                 </div>
             </div>
 
-            <!-- PAS Z PRZYCISKIEM WSZYSTKIE ORAZ DWOOMA MENU DROPDOWN -->
+            <!-- PAS Z MENU ROZWIJANYMI LIG I PUCHARÓW -->
             <nav class="flex items-center justify-between py-2.5 text-xs sm:text-sm font-bold relative">
                 <div class="flex items-center gap-2 sm:gap-3 flex-wrap">
-                    <!-- Przycisk Wszystkie -->
                     <button onclick="filterNews('ALL')" data-cat="ALL" class="cat-btn px-4 py-2 rounded-xl bg-purple-600 text-white shadow-sm transition flex items-center gap-2">
                         <i class="fa-solid fa-border-all text-xs"></i> Wszystkie
                     </button>
@@ -156,7 +163,7 @@
             </div>
 
             <div id="empty-filter-msg" class="hidden p-8 rounded-2xl bg-white dark:bg-card border border-gray-200 dark:border-border text-center text-sm text-gray-400">
-                Brak opublikowanych artykułów w tej kategorii. Kliknij <button onclick="filterNews('ALL')" class="text-purple-500 font-bold underline">Wszystkie</button>, aby wrócić.
+                Brak opublikowanych artykułów pasujących do Twoich kryteriów. Kliknij <button onclick="filterNews('ALL')" class="text-purple-500 font-bold underline">Wszystkie</button>, aby wrócić.
             </div>
 
             <!-- SKRÓTY WIDEO -->
@@ -273,8 +280,6 @@
         // OBSŁUGA ROZWIJANYCH MENU DROPDOWN
         function toggleDropdown(dropdownId, arrowId, event) {
             event.stopPropagation();
-            
-            // Zamknij inne otwarte menu
             ['league-dropdown', 'cups-dropdown'].forEach(id => {
                 if (id !== dropdownId) document.getElementById(id).classList.add('hidden');
             });
@@ -293,14 +298,12 @@
             document.getElementById(dropdownId).classList.add('hidden');
             document.getElementById(arrowId).classList.remove('rotate-180');
             
-            // Stylizacja aktywnego przycisku
             const btn = document.getElementById(btnId);
             btn.className = "px-4 py-2 rounded-xl bg-purple-600 text-white border border-purple-500 transition flex items-center gap-2 shadow-sm font-bold";
             
             filterNews(categoryCode);
         }
 
-        // Zamknięcie menu po kliknięciu poza nimi
         window.addEventListener('click', () => {
             ['league-dropdown', 'cups-dropdown'].forEach(id => {
                 document.getElementById(id).classList.add('hidden');
@@ -473,6 +476,7 @@
 
         let allArticles = [];
         let activeCategory = 'ALL';
+        let searchQuery = '';
 
         function matchesCategory(articleCat, selectedCat) {
             if (selectedCat === 'ALL') return true;
@@ -493,6 +497,11 @@
             }
         }
 
+        function handleSearch(query) {
+            searchQuery = query.toLowerCase().trim();
+            renderNews();
+        }
+
         function renderNews() {
             const featuredContainer = document.getElementById('featured-news-container');
             const gridContainer = document.getElementById('news-grid');
@@ -501,11 +510,22 @@
 
             if (!Array.isArray(allArticles) || allArticles.length === 0) return;
 
-            const hero = allArticles[0];
-            if (matchesCategory(hero.category, activeCategory)) {
+            // Filtrowanie po kategorii i wyszukiwarce
+            const filteredArticles = allArticles.map((article, originalIndex) => ({ ...article, originalIndex })).filter(item => {
+                const matchesCat = matchesCategory(item.category, activeCategory);
+                const matchesQuery = searchQuery === '' || 
+                    item.title.toLowerCase().includes(searchQuery) || 
+                    item.summary.toLowerCase().includes(searchQuery) ||
+                    item.badge.toLowerCase().includes(searchQuery);
+                return matchesCat && matchesQuery;
+            });
+
+            // Hero (główny news dnia) wyświetlamy tylko jeśli użytkownik nie szuka specyficznej frazy i jesteśmy na odpowiedniej kategorii
+            const hero = filteredArticles.length > 0 ? filteredArticles[0] : null;
+            if (hero && searchQuery === '' && (activeCategory === 'ALL' || hero.originalIndex === 0)) {
                 featuredContainer.classList.remove('hidden');
                 featuredContainer.innerHTML = `
-                    <a href="#" onclick="openArticle(0); return false;" class="block group">
+                    <a href="#" onclick="openArticle(${hero.originalIndex}); return false;" class="block group">
                         <div class="relative rounded-2xl overflow-hidden shadow-2xl bg-black min-h-[380px] flex items-end p-6 border border-gray-200 dark:border-border transition transform group-hover:border-purple-500/50">
                             <div class="absolute inset-0 bg-cover bg-center opacity-55 group-hover:scale-105 transition duration-500" style="background-image: url('${hero.img}');"></div>
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/65 to-transparent"></div>
@@ -532,14 +552,15 @@
                 featuredContainer.classList.add('hidden');
             }
 
-            const gridItems = allArticles
-                .map((article, originalIndex) => ({ ...article, originalIndex }))
-                .filter(item => {
-                    if (activeCategory === 'ALL') return item.originalIndex > 0;
-                    return matchesCategory(item.category, activeCategory);
-                });
+            // Siatka artykułów (pomijamy hero jeśli był wyświetlony na górze i nie szukamy)
+            const gridItems = filteredArticles.filter(item => {
+                if (searchQuery === '' && activeCategory === 'ALL' && hero && item.originalIndex === hero.originalIndex) {
+                    return false;
+                }
+                return true;
+            });
 
-            if (gridItems.length === 0 && featuredContainer.classList.contains('hidden')) {
+            if (gridItems.length === 0) {
                 gridContainer.innerHTML = '';
                 emptyMsg.classList.remove('hidden');
             } else {
@@ -598,7 +619,6 @@
                 'OTHER': 'Inne Ligi'
             };
 
-            // Jeśli wybrano "Wszystkie", zresetuj etykiety obu menu
             if (category === 'ALL') {
                 document.getElementById('current-league-label').innerText = 'Ligi krajowe';
                 document.getElementById('current-cup-label').innerText = 'Puchary europejskie';
@@ -609,7 +629,7 @@
             }
 
             titleEl.innerText = categoryLabels[category] || 'Najnowsze Wiadomości';
-            if (category === 'ALL') {
+            if (category === 'ALL' && searchQuery === '') {
                 resetBtn.classList.add('hidden');
             } else {
                 resetBtn.classList.remove('hidden');
