@@ -401,6 +401,47 @@
         }
 
         fetchLiveMatches();
+    // PRZECIĄGANIE PASKA MECZÓW MYSZKĄ (DRAG TO SCROLL + KÓŁKO)
+        const ticker = document.getElementById('matches-ticker');
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+
+        ticker.addEventListener('mousedown', (e) => {
+            isDown = true;
+            ticker.classList.add('cursor-grabbing');
+            ticker.classList.remove('cursor-grab');
+            startX = e.pageX - ticker.offsetLeft;
+            scrollLeft = ticker.scrollLeft;
+        });
+
+        ticker.addEventListener('mouseleave', () => {
+            isDown = false;
+            ticker.classList.remove('cursor-grabbing');
+            ticker.classList.add('cursor-grab');
+        });
+
+        ticker.addEventListener('mouseup', () => {
+            isDown = false;
+            ticker.classList.remove('cursor-grabbing');
+            ticker.classList.add('cursor-grab');
+        });
+
+        ticker.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - ticker.offsetLeft;
+            const walk = (x - startX) * 1.5; // szybkość przesuwania
+            ticker.scrollLeft = scrollLeft - walk;
+        });
+
+        // Przesuwanie w bok kółkiem myszy po najechaniu na pasek
+        ticker.addEventListener('wheel', (e) => {
+            if (e.deltaY !== 0) {
+                e.preventDefault();
+                ticker.scrollLeft += e.deltaY;
+            }
+        });
     </script>
 </body>
 </html>
