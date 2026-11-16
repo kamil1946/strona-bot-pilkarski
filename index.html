@@ -50,7 +50,7 @@
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex justify-between items-center py-4 border-b border-gray-100 dark:border-border/60">
                 
-                <a href="#" class="flex items-center gap-3 group">
+                <a href="#" onclick="filterNews('ALL'); return false;" class="flex items-center gap-3 group">
                     <img src="logo-bramkarz.png" alt="PITCH ZONE Logo" class="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105 dark:invert">
                     <span class="text-2xl font-black tracking-wider uppercase text-slate-900 dark:text-white">
                         PITCH <span class="text-purple-600 dark:text-purple-500">ZONE</span>
@@ -67,17 +67,20 @@
 
             <nav class="flex items-center justify-between overflow-x-auto no-scrollbar py-3 text-sm font-bold">
                 <div class="flex items-center gap-2 md:gap-4 whitespace-nowrap">
-                    <a href="#" class="px-4 py-2 rounded-lg bg-purple-100 text-purple-900 dark:bg-purple-950/60 dark:text-purple-300 border border-purple-900/30 transition flex items-center gap-2">
+                    <a href="#" onclick="filterNews('ALL'); return false;" class="px-3 py-2 rounded-lg text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+                        Wszystkie
+                    </a>
+                    <a href="#" onclick="filterNews('PL'); return false;" class="px-4 py-2 rounded-lg bg-purple-100 text-purple-900 dark:bg-purple-950/60 dark:text-purple-300 border border-purple-900/30 hover:opacity-80 transition flex items-center gap-2">
                         <i class="fa-solid fa-crown text-purple-500"></i> Premier League
                     </a>
-                    <a href="#" class="px-4 py-2 rounded-lg bg-red-100 text-red-900 dark:bg-red-950/60 dark:text-red-300 border border-red-900/30 transition flex items-center gap-2">
+                    <a href="#" onclick="filterNews('LL'); return false;" class="px-4 py-2 rounded-lg bg-red-100 text-red-900 dark:bg-red-950/60 dark:text-red-300 border border-red-900/30 hover:opacity-80 transition flex items-center gap-2">
                         <i class="fa-solid fa-fire text-red-500"></i> La Liga
                     </a>
-                    <a href="#" class="px-4 py-2 rounded-lg bg-blue-100 text-blue-900 dark:bg-blue-950/60 dark:text-blue-300 border border-blue-900/30 transition flex items-center gap-2">
+                    <a href="#" onclick="filterNews('CL'); return false;" class="px-4 py-2 rounded-lg bg-blue-100 text-blue-900 dark:bg-blue-950/60 dark:text-blue-300 border border-blue-900/30 hover:opacity-80 transition flex items-center gap-2">
                         <i class="fa-solid fa-trophy text-amber-500"></i> Liga Mistrzów
                     </a>
-                    <a href="#" class="px-3 py-2 text-gray-600 dark:text-gray-400 hover:text-purple-500 transition">Reprezentacje</a>
-                    <a href="#" class="px-3 py-2 text-gray-600 dark:text-gray-400 hover:text-purple-500 transition">Reszta Świata</a>
+                    <a href="#" onclick="filterNews('REP'); return false;" class="px-3 py-2 text-gray-600 dark:text-gray-400 hover:text-purple-500 transition">Reprezentacje</a>
+                    <a href="#" onclick="filterNews('WORLD'); return false;" class="px-3 py-2 text-gray-600 dark:text-gray-400 hover:text-purple-500 transition">Reszta Świata</a>
                 </div>
             </nav>
         </div>
@@ -88,7 +91,7 @@
         
         <section class="lg:col-span-8 space-y-6">
             
-            <a href="#" class="block group">
+            <a href="#" onclick="openArticle(0); return false;" data-category="PL" class="news-card block group">
                 <div class="relative rounded-2xl overflow-hidden shadow-2xl bg-black min-h-[380px] flex items-end p-6 border border-gray-200 dark:border-border transition transform group-hover:border-purple-500/50">
                     <div class="absolute inset-0 bg-cover bg-center opacity-50 group-hover:scale-105 transition duration-500" style="background-image: url('https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80');"></div>
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
@@ -111,13 +114,18 @@
                 </div>
             </a>
 
-            <h2 class="text-xl font-black uppercase tracking-wider flex items-center gap-2 pt-4">
-                <span class="w-2 h-6 bg-purple-600 rounded-full"></span> Najnowsze Wiadomości
-            </h2>
+            <div class="flex items-center justify-between pt-4">
+                <h2 class="text-xl font-black uppercase tracking-wider flex items-center gap-2">
+                    <span class="w-2 h-6 bg-purple-600 rounded-full"></span> <span id="news-section-title">Najnowsze Wiadomości</span>
+                </h2>
+                <button id="reset-filter-btn" onclick="filterNews('ALL')" class="hidden text-xs font-bold text-purple-500 hover:underline">
+                    Pokaż wszystkie ×
+                </button>
+            </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 
-                <a href="#" class="block group">
+                <a href="#" onclick="openArticle(1); return false;" data-category="LL" class="news-card block group">
                     <article class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl overflow-hidden shadow-sm group-hover:border-red-500/50 transition flex flex-col h-full">
                         <div class="h-44 overflow-hidden relative">
                             <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80" alt="La Liga Match" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
@@ -142,7 +150,7 @@
                     </article>
                 </a>
 
-                <a href="#" class="block group">
+                <a href="#" onclick="openArticle(2); return false;" data-category="PL" class="news-card block group">
                     <article class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl overflow-hidden shadow-sm group-hover:border-purple-500/50 transition flex flex-col h-full">
                         <div class="h-44 overflow-hidden relative">
                             <img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=800&q=80" alt="Premier League Stadium" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
@@ -167,6 +175,10 @@
                     </article>
                 </a>
 
+            </div>
+
+            <div id="empty-filter-msg" class="hidden p-8 rounded-2xl bg-white dark:bg-card border border-gray-200 dark:border-border text-center text-sm text-gray-400">
+                Brak opublikowanych artykułów w tej kategorii. Kliknij <button onclick="filterNews('ALL')" class="text-purple-500 font-bold underline">Wszystkie</button>, aby wrócić.
             </div>
 
             <!-- MODUŁ SKRÓTÓW WIDEO -->
@@ -239,11 +251,11 @@
                     <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse"></span> Alerty Na Żywo
                 </h3>
                 <div class="space-y-4">
-                    <a href="#" class="block pl-3 border-l-2 border-purple-500 hover:opacity-80 transition">
+                    <a href="#" onclick="openArticle(3); return false;" class="block pl-3 border-l-2 border-purple-500 hover:opacity-80 transition">
                         <span class="text-[10px] font-bold text-purple-500">14:22 • Premier League</span>
                         <p class="text-xs font-bold">Arsenal dogadał warunki indywidualne z napastnikiem.</p>
                     </a>
-                    <a href="#" class="block pl-3 border-l-2 border-red-500 hover:opacity-80 transition">
+                    <a href="#" onclick="openArticle(4); return false;" class="block pl-3 border-l-2 border-red-500 hover:opacity-80 transition">
                         <span class="text-[10px] font-bold text-red-500">13:58 • La Liga</span>
                         <p class="text-xs font-bold">Real Madryt zgłasza wniosek o przełożenie meczu z powodu ulewy.</p>
                     </a>
@@ -260,6 +272,39 @@
         </aside>
 
     </main>
+
+    <!-- MODAL DO CZYTANIA ARTYKUŁÓW -->
+    <div id="article-modal" class="fixed inset-0 z-[100] hidden items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
+        <div class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl relative">
+            <button onclick="closeArticle()" class="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-black/60 text-white hover:bg-purple-600 transition flex items-center justify-center">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="h-64 sm:h-72 w-full relative bg-black">
+                <img id="modal-img" src="" alt="" class="w-full h-full object-cover opacity-85">
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+                <span id="modal-badge" class="absolute bottom-4 left-6 px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider bg-purple-600 text-white"></span>
+            </div>
+
+            <div class="p-6 sm:p-8 space-y-4">
+                <div class="flex items-center gap-4 text-xs text-gray-400">
+                    <span id="modal-time"></span>
+                    <span>•</span>
+                    <span id="modal-source" class="font-semibold text-purple-500"></span>
+                </div>
+
+                <h2 id="modal-title" class="text-2xl sm:text-3xl font-black leading-tight text-gray-900 dark:text-white"></h2>
+
+                <div id="modal-body" class="text-sm sm:text-base text-gray-600 dark:text-gray-300 leading-relaxed space-y-4 pt-2 border-t border-gray-100 dark:border-border"></div>
+
+                <div class="pt-6 flex justify-end">
+                    <button onclick="closeArticle()" class="px-5 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-700 text-white text-xs font-bold uppercase tracking-wider transition">
+                        ← Wróć na stronę główną
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script>
         const dateOptions = { weekday: 'long', day: 'numeric', month: 'long' };
@@ -492,6 +537,144 @@
                 e.preventDefault();
                 ticker.scrollLeft += e.deltaY;
             }
+        });
+
+        // FILTROWANIE KATEGORII W MENU
+        function filterNews(category) {
+            const cards = document.querySelectorAll('.news-card');
+            const titleEl = document.getElementById('news-section-title');
+            const resetBtn = document.getElementById('reset-filter-btn');
+            const emptyMsg = document.getElementById('empty-filter-msg');
+
+            const categoryLabels = {
+                'ALL': 'Najnowsze Wiadomości',
+                'PL': 'Premier League',
+                'LL': 'La Liga',
+                'CL': 'Liga Mistrzów',
+                'REP': 'Reprezentacje',
+                'WORLD': 'Reszta Świata'
+            };
+
+            titleEl.innerText = categoryLabels[category] || 'Najnowsze Wiadomości';
+            let visibleCount = 0;
+
+            cards.forEach(card => {
+                if (category === 'ALL' || card.dataset.category === category) {
+                    card.classList.remove('hidden');
+                    visibleCount++;
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+
+            if (category === 'ALL') {
+                resetBtn.classList.add('hidden');
+            } else {
+                resetBtn.classList.remove('hidden');
+            }
+
+            if (visibleCount === 0) {
+                emptyMsg.classList.remove('hidden');
+            } else {
+                emptyMsg.classList.add('hidden');
+            }
+        }
+
+        // SYSTEM CZYTANIA ARTYKUŁÓW (MODAL)
+        const articlesData = [
+            {
+                badge: 'Premier League • HIT TRANSFEROWY',
+                badgeColor: 'bg-purple-600',
+                time: '10 minut temu',
+                source: 'Źródło: Sky Sports',
+                img: 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80',
+                title: 'Niezwykły zwrot akcji! Gwiazda Realu Madryt zmierza do Premier League',
+                content: `
+                    <p>Według najnowszych doniesień z Hiszpanii i Anglii, negocjacje w sprawie jednego z najgłośniejszych transferów tego sezonu nabrały niespodziewanego tempa. Przedstawiciele angielskiego giganta przylecieli rano do Madrytu, aby dopiąć ostatnie szczegóły kontraktu indywidualnego.</p>
+                    <p>Kwota odstępnego ma wynieść ponad 90 milionów euro plus bonusy uzależnione od występów w Lidze Mistrzów. Sam zawodnik wyraził już zgodę na przeprowadzkę na Wyspy, licząc na kluczową rolę w nowym projekcie sportowym.</p>
+                    <p>Oficjalne potwierdzenie ze strony obu klubów spodziewane jest w ciągu najbliższych 48 godzin, zaraz po przejściu obligatoryjnych testów medycznych.</p>
+                `
+            },
+            {
+                badge: 'La Liga',
+                badgeColor: 'bg-red-600',
+                time: '35 minut temu',
+                source: 'Źródło: Marca',
+                img: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80',
+                title: 'Barcelona reaguje na kontuzję pomocnika. Awaryjny transfer',
+                content: `
+                    <p>Sztab medyczny FC Barcelony opublikował oficjalny komunikat po szczegółowych badaniach rezonansem magnetycznym. Choć uraz wyglądał groźnie, zawodnik uniknie zabiegu chirurgicznego i zastosuje leczenie zachowawcze.</p>
+                    <p>Mimo optymistycznych prognoz powrotu na boisko za około cztery tygodnie, dyrekcja sportowa analizuje rynek wolnych zawodników oraz opcje krótkoterminowego wypożyczenia, aby zabezpieczyć środek pola przed kluczowymi meczami w Lidze Mistrzów.</p>
+                `
+            },
+            {
+                badge: 'Premier League',
+                badgeColor: 'bg-purple-600',
+                time: '1 godzinę temu',
+                source: 'Źródło: BBC Sport',
+                img: 'https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=800&q=80',
+                title: 'Oficjalnie: Trener zwolniony po porażce w derbach',
+                content: `
+                    <p>Władze klubu podjęły natychmiastową decyzję po serii rozczarowujących wyników, której kulminacją była wczorajsza bolesna porażka w derbach przed własną publicznością.</p>
+                    <p>Tymczasowo obowiązki pierwszego szkoleniowca przejmie dotychczasowy asystent, natomiast zarząd rozpoczął już rozmowy z dwoma głównymi kandydatami do objęcia sterów na stałe jeszcze przed najbliższą kolejką ligową.</p>
+                `
+            },
+            {
+                badge: 'Alert • Premier League',
+                badgeColor: 'bg-purple-600',
+                time: '14:22 • Dziś',
+                source: 'Źródło: The Athletic',
+                img: 'https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=800&q=80',
+                title: 'Arsenal dogadał warunki indywidualne z napastnikiem',
+                content: `
+                    <p>Kanonierzy osiągnęli pełne porozumienie z otoczeniem zawodnika w sprawie pięcioletniego kontraktu. Do sfinalizowania transakcji pozostało już tylko ustalenie struktury rat pomiędzy klubami.</p>
+                `
+            },
+            {
+                badge: 'Alert • La Liga',
+                badgeColor: 'bg-red-600',
+                time: '13:58 • Dziś',
+                source: 'Źródło: Cadena SER',
+                img: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80',
+                title: 'Real Madryt zgłasza wniosek o przełożenie meczu z powodu ulewy',
+                content: `
+                    <p>Intensywne opady deszczu oraz ostrzeżenia meteorologiczne skłoniły władze klubu do wystąpienia do federacji z oficjalnym zapytaniem o bezpieczeństwo kibiców i stan murawy przed wieczornym spotkaniem.</p>
+                `
+            }
+        ];
+
+        function openArticle(index) {
+            const article = articlesData[index];
+            if (!article) return;
+
+            document.getElementById('modal-img').src = article.img;
+            const badgeEl = document.getElementById('modal-badge');
+            badgeEl.innerText = article.badge;
+            badgeEl.className = `absolute bottom-4 left-6 px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider text-white ${article.badgeColor}`;
+            
+            document.getElementById('modal-time').innerText = article.time;
+            document.getElementById('modal-source').innerText = article.source;
+            document.getElementById('modal-title').innerText = article.title;
+            document.getElementById('modal-body').innerHTML = article.content;
+
+            const modal = document.getElementById('article-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeArticle() {
+            const modal = document.getElementById('article-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = '';
+        }
+
+        document.getElementById('article-modal').addEventListener('click', (e) => {
+            if (e.target.id === 'article-modal') closeArticle();
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeArticle();
         });
     </script>
 </body>
