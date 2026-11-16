@@ -33,7 +33,7 @@
 <body class="bg-gray-100 text-gray-900 dark:bg-pitch dark:text-gray-100 transition-colors duration-300 font-sans min-h-screen flex flex-col">
 
     <!-- PASEK MECZÓW NA ŻYWO -->
-    <div id="matches-ticker" class="bg-gray-200 dark:bg-black border-b border-gray-300 dark:border-border text-xs py-2 px-4 overflow-x-auto no-scrollbar cursor-grab select-none">
+    <div id="matches-ticker" class="bg-gray-200/80 dark:bg-black/80 backdrop-blur border-b border-gray-300 dark:border-border text-xs py-2 px-4 overflow-x-auto no-scrollbar cursor-grab select-none">
         <div class="max-w-7xl mx-auto flex items-center gap-4 whitespace-nowrap">
             <span class="font-black text-purple-600 dark:text-purple-400 uppercase tracking-wider flex items-center gap-2 text-[11px]">
                 <i class="fa-regular fa-calendar-days"></i> Nadchodzące hity <span id="current-date" class="text-gray-400 font-normal"></span>:
@@ -45,26 +45,26 @@
         </div>
     </div>
 
-    <!-- TOP HEADER / NAWIGACJA Z WYSZUKIWARKĄ -->
-    <header class="border-b border-gray-200 dark:border-border bg-white dark:bg-pitch/90 backdrop-blur-md sticky top-0 z-50">
+    <!-- ODŚWIEŻONY NAGŁÓWEK Z EFEKTEM SZKŁA (GLASSMORPHISM) -->
+    <header class="border-b border-gray-200/60 dark:border-border/80 bg-white/80 dark:bg-pitch/80 backdrop-blur-xl sticky top-0 z-50 transition-all">
         <div class="max-w-7xl mx-auto px-4">
-            <div class="flex justify-between items-center py-3 border-b border-gray-100 dark:border-border/60">
+            <div class="flex justify-between items-center py-3.5 border-b border-gray-100 dark:border-border/40">
                 
-                <a href="#" onclick="filterNews('ALL'); return false;" class="flex items-center gap-3 group">
+                <a href="#" onclick="handleNavigationCategory('ALL'); return false;" class="flex items-center gap-3 group">
                     <img src="logo-bramkarz.png" alt="PITCH ZONE Logo" class="h-9 w-auto object-contain transition-transform duration-300 group-hover:scale-105 dark:invert">
                     <span class="text-2xl font-black tracking-wider uppercase text-slate-900 dark:text-white">
                         PITCH <span class="text-purple-600 dark:text-purple-500">ZONE</span>
                     </span>
                 </a>
 
-                <!-- PRAWA STRONA: WYSZUKIWARKA + MOTYW -->
+                <!-- PRAWA STRONA: ELEGANTKA WYSZUKIWARKA + MOTYW -->
                 <div class="flex items-center gap-3">
                     <div class="relative flex items-center">
-                        <input type="text" id="search-input" oninput="handleSearch(this.value)" placeholder="Szukaj newsa lub klubu..." class="w-40 sm:w-64 pl-9 pr-4 py-2 rounded-xl bg-gray-100 dark:bg-card border border-gray-200 dark:border-border text-xs focus:outline-none focus:border-purple-500 transition text-gray-900 dark:text-white placeholder-gray-400">
+                        <input type="text" id="search-input" oninput="handleSearch(this.value)" placeholder="Szukaj newsa lub klubu..." class="w-44 sm:w-72 pl-9 pr-4 py-2 rounded-xl bg-gray-100/80 dark:bg-card/80 border border-gray-200 dark:border-border text-xs focus:outline-none focus:border-purple-500 transition text-gray-900 dark:text-white placeholder-gray-400 shadow-inner">
                         <i class="fa-solid fa-magnifying-glass absolute left-3 text-gray-400 text-xs"></i>
                     </div>
 
-                    <button id="theme-toggle" class="p-2 rounded-xl bg-gray-100 dark:bg-card border border-gray-200 dark:border-border hover:bg-gray-200 dark:hover:bg-gray-800 transition flex items-center justify-center w-10 h-10 shrink-0">
+                    <button id="theme-toggle" class="p-2 rounded-xl bg-gray-100/80 dark:bg-card/80 border border-gray-200 dark:border-border hover:bg-gray-200 dark:hover:bg-gray-800 transition flex items-center justify-center w-10 h-10 shrink-0 shadow-sm">
                         <i id="theme-toggle-dark-icon" class="fa-solid fa-sun text-amber-400 text-sm hidden"></i>
                         <i id="theme-toggle-light-icon" class="fa-solid fa-moon text-indigo-400 text-sm"></i>
                     </button>
@@ -74,13 +74,13 @@
             <!-- PAS Z MENU ROZWIJANYMI LIG I PUCHARÓW -->
             <nav class="flex items-center justify-between py-2.5 text-xs sm:text-sm font-bold relative">
                 <div class="flex items-center gap-2 sm:gap-3 flex-wrap">
-                    <button onclick="handleNavigationCategory('ALL')" data-cat="ALL" class="cat-btn px-4 py-2 rounded-xl bg-purple-600 text-white shadow-sm transition flex items-center gap-2">
+                    <button onclick="handleNavigationCategory('ALL')" data-cat="ALL" class="cat-btn px-4 py-2 rounded-xl bg-purple-600 text-white shadow-sm transition flex items-center gap-2 hover:bg-purple-700">
                         <i class="fa-solid fa-border-all text-xs"></i> Wszystkie
                     </button>
 
                     <!-- DROPDOWN 1: LIGI KRAJOWE -->
                     <div class="relative">
-                        <button onclick="toggleDropdown('league-dropdown', 'dropdown-arrow-1', event)" id="dropdown-menu-btn" class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm">
+                        <button onclick="toggleDropdown('league-dropdown', 'dropdown-arrow-1', event)" id="dropdown-menu-btn" class="px-4 py-2 rounded-xl bg-gray-100/80 dark:bg-card/80 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm">
                             <i class="fa-solid fa-trophy text-purple-500 text-xs"></i> 
                             <span id="current-league-label">Ligi krajowe</span> 
                             <i class="fa-solid fa-chevron-down text-[10px] ml-1 transition-transform duration-200" id="dropdown-arrow-1"></i>
@@ -99,7 +99,7 @@
                             <button onclick="selectLeagueAndTable('BL', 'Bundesliga', 'BL1', 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <i class="fa-solid fa-bolt text-amber-500 w-4 text-center"></i> Bundesliga
                             </button>
-                            <button onclick="selectLeagueAndTable('EKS', 'Ekstraklasa', null, 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                            <button onclick="selectLeagueAndTable('EKS', 'Ekstraklasa', 'EK', 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <i class="fa-solid fa-star text-rose-500 w-4 text-center"></i> Ekstraklasa
                             </button>
                         </div>
@@ -107,7 +107,7 @@
 
                     <!-- DROPDOWN 2: PUCHARY EUROPEJSKIE -->
                     <div class="relative">
-                        <button onclick="toggleDropdown('cups-dropdown', 'dropdown-arrow-2', event)" id="dropdown-cups-btn" class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm">
+                        <button onclick="toggleDropdown('cups-dropdown', 'dropdown-arrow-2', event)" id="dropdown-cups-btn" class="px-4 py-2 rounded-xl bg-gray-100/80 dark:bg-card/80 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm">
                             <i class="fa-solid fa-medal text-amber-500 text-xs"></i> 
                             <span id="current-cup-label">Puchary europejskie</span> 
                             <i class="fa-solid fa-chevron-down text-[10px] ml-1 transition-transform duration-200" id="dropdown-arrow-2"></i>
@@ -275,7 +275,6 @@
         const today = new Date().toLocaleDateString('pl-PL', dateOptions);
         document.getElementById('current-date').innerText = `(${today})`;
 
-        // OBSŁUGA ROZWIJANYCH MENU DROPDOWN
         function toggleDropdown(dropdownId, arrowId, event) {
             event.stopPropagation();
             ['league-dropdown', 'cups-dropdown'].forEach(id => {
@@ -291,7 +290,6 @@
             arrow.classList.toggle('rotate-180');
         }
 
-        // NOWA FUNKCJA: Wybór ligi filtruje newsy ORAZ automatycznie zmienia tabelę w bocznym pasku
         function selectLeagueAndTable(categoryCode, leagueName, tableCode, labelId, btnId, dropdownId, arrowId) {
             document.getElementById(labelId).innerText = leagueName;
             document.getElementById(dropdownId).classList.add('hidden');
@@ -300,18 +298,16 @@
             const btn = document.getElementById(btnId);
             btn.className = "px-4 py-2 rounded-xl bg-purple-600 text-white border border-purple-500 transition flex items-center gap-2 shadow-sm font-bold";
             
-            // Jeśli wybrano drugie menu, zresetuj etykietę pierwszego (i odwrotnie)
             if (labelId === 'current-league-label') {
                 document.getElementById('current-cup-label').innerText = 'Puchary europejskie';
-                document.getElementById('dropdown-cups-btn').className = "px-4 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm";
+                document.getElementById('dropdown-cups-btn').className = "px-4 py-2 rounded-xl bg-gray-100/80 dark:bg-card/80 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm";
             } else {
                 document.getElementById('current-league-label').innerText = 'Ligi krajowe';
-                document.getElementById('dropdown-menu-btn').className = "px-4 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm";
+                document.getElementById('dropdown-menu-btn').className = "px-4 py-2 rounded-xl bg-gray-100/80 dark:bg-card/80 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm";
             }
 
             filterNews(categoryCode);
 
-            // Jeśli dla danej ligi dostępna jest tabela na żywo, przełącz ją automatycznie
             if (tableCode) {
                 loadLiveTable(tableCode);
             }
@@ -326,7 +322,6 @@
             });
         });
 
-        // PRZEŁĄCZNIK MOTYWU
         const themeToggleBtn = document.getElementById('theme-toggle');
         const darkIcon = document.getElementById('theme-toggle-dark-icon');
         const lightIcon = document.getElementById('theme-toggle-light-icon');
@@ -357,7 +352,6 @@
             localStorage.setItem('color-theme', newThemeIsDark ? 'dark' : 'light');
         });
 
-        // TABELA LIGOWA
         let currentStandingsData = [];
         let isTableExpanded = false;
 
@@ -405,7 +399,7 @@
         async function loadLiveTable(leagueCode) {
             const tbody = document.getElementById('standings-body');
             const toggleBtn = document.getElementById('toggle-table-btn');
-            const buttons = ['PL', 'PD', 'SA', 'BL1', 'CL'];
+            const buttons = ['PL', 'PD', 'SA', 'BL1', 'CL', 'EK'];
             
             isTableExpanded = false;
             toggleBtn.classList.add('hidden');
@@ -634,7 +628,7 @@
                 document.getElementById('current-cup-label').innerText = 'Puchary europejskie';
                 
                 ['dropdown-menu-btn', 'dropdown-cups-btn'].forEach(id => {
-                    document.getElementById(id).className = "px-4 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm";
+                    document.getElementById(id).className = "px-4 py-2 rounded-xl bg-gray-100/80 dark:bg-card/80 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm";
                 });
             }
 
