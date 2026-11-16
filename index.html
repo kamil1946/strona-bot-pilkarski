@@ -28,11 +28,16 @@
             -ms-overflow-style: none;
             scrollbar-width: none;
         }
+        /* Efekt zanikania krawędzi suwaka */
+        .fade-mask {
+            mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+            -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+        }
     </style>
 </head>
 <body class="bg-gray-100 text-gray-900 dark:bg-pitch dark:text-gray-100 transition-colors duration-300 font-sans min-h-screen flex flex-col">
 
-    <!-- PASEK MECZÓW NA ŻYWO Z DYNAMICZNĄ DATĄ Z API -->
+    <!-- PASEK MECZÓW NA ŻYWO -->
     <div id="matches-ticker" class="bg-gray-200 dark:bg-black border-b border-gray-300 dark:border-border text-xs py-2 px-4 overflow-x-auto no-scrollbar cursor-grab select-none">
         <div class="max-w-7xl mx-auto flex items-center gap-4 whitespace-nowrap">
             <span class="font-black text-purple-600 dark:text-purple-400 uppercase tracking-wider flex items-center gap-2 text-[11px]">
@@ -45,13 +50,13 @@
         </div>
     </div>
 
-    <!-- TOP HEADER / NAWIGACJA Z SUWAKIEM LIG -->
+    <!-- TOP HEADER / NAWIGACJA Z NOWOCZESNYM SUWAKIEM -->
     <header class="border-b border-gray-200 dark:border-border bg-white dark:bg-pitch/90 backdrop-blur-md sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4">
-            <div class="flex justify-between items-center py-4 border-b border-gray-100 dark:border-border/60">
+            <div class="flex justify-between items-center py-3 border-b border-gray-100 dark:border-border/60">
                 
                 <a href="#" onclick="filterNews('ALL'); return false;" class="flex items-center gap-3 group">
-                    <img src="logo-bramkarz.png" alt="PITCH ZONE Logo" class="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105 dark:invert">
+                    <img src="logo-bramkarz.png" alt="PITCH ZONE Logo" class="h-9 w-auto object-contain transition-transform duration-300 group-hover:scale-105 dark:invert">
                     <span class="text-2xl font-black tracking-wider uppercase text-slate-900 dark:text-white">
                         PITCH <span class="text-purple-600 dark:text-purple-500">ZONE</span>
                     </span>
@@ -65,45 +70,45 @@
                 </div>
             </div>
 
-            <!-- KOMPAKTOWY SUWAK KATEGORII -->
+            <!-- ELEGANCKI PŁYNNY SUWAK LIG ZE STRZAŁKAMI -->
             <nav class="flex items-center gap-2 py-2.5 text-xs sm:text-sm font-bold">
-                <!-- Przypięty przycisk Wszystkie -->
-                <button onclick="filterNews('ALL')" data-cat="ALL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-purple-600 text-white shadow-sm transition">
-                    Wszystkie
+                <!-- Przycisk Wszystkie (Zawsze przypięty) -->
+                <button onclick="filterNews('ALL')" data-cat="ALL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-purple-600 text-white shadow-sm transition flex items-center gap-2">
+                    <i class="fa-solid fa-border-all text-xs"></i> Wszystkie
                 </button>
 
-                <div class="h-5 w-[1px] bg-gray-200 dark:bg-border shrink-0 mx-0.5"></div>
+                <div class="h-5 w-[1px] bg-gray-200 dark:bg-border shrink-0 mx-1"></div>
 
-                <!-- Strzałka w lewo -->
-                <button onclick="scrollCategories(-220)" aria-label="Przewiń w lewo" class="shrink-0 w-8 h-8 rounded-lg bg-gray-100 dark:bg-card border border-gray-200 dark:border-border text-gray-500 hover:text-purple-500 hover:border-purple-500/50 transition flex items-center justify-center">
-                    <i class="fa-solid fa-chevron-left text-xs"></i>
+                <!-- Przycisk przewijania w lewo -->
+                <button onclick="scrollCategories(-240)" aria-label="W lewo" class="shrink-0 w-8 h-8 rounded-xl bg-gray-100 dark:bg-card border border-gray-200 dark:border-border text-gray-400 hover:text-purple-500 hover:border-purple-500/40 transition flex items-center justify-center">
+                    <i class="fa-solid fa-chevron-left text-[11px]"></i>
                 </button>
 
-                <!-- Przewijany kontener (Suwak) -->
-                <div id="category-slider" class="flex items-center gap-2 overflow-x-auto no-scrollbar scroll-smooth select-none cursor-grab py-0.5">
-                    <button onclick="filterNews('PL')" data-cat="PL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-purple-100/80 text-purple-900 dark:bg-purple-950/50 dark:text-purple-300 border border-purple-500/20 hover:border-purple-500/60 transition flex items-center gap-2">
+                <!-- Suwak z maską cienia po bokach -->
+                <div id="category-slider" class="flex items-center gap-2 overflow-x-auto no-scrollbar scroll-smooth select-none cursor-grab py-1 px-1 fade-mask">
+                    <button onclick="filterNews('PL')" data-cat="PL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/40 transition flex items-center gap-2">
                         <i class="fa-solid fa-crown text-purple-500 text-xs"></i> Premier League
                     </button>
-                    <button onclick="filterNews('LL')" data-cat="LL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-red-100/80 text-red-900 dark:bg-red-950/50 dark:text-red-300 border border-red-500/20 hover:border-red-500/60 transition flex items-center gap-2">
+                    <button onclick="filterNews('LL')" data-cat="LL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-red-500/40 transition flex items-center gap-2">
                         <i class="fa-solid fa-fire text-red-500 text-xs"></i> La Liga
                     </button>
-                    <button onclick="filterNews('SA')" data-cat="SA" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-sky-100/80 text-sky-900 dark:bg-sky-950/50 dark:text-sky-300 border border-sky-500/20 hover:border-sky-500/60 transition flex items-center gap-2">
+                    <button onclick="filterNews('SA')" data-cat="SA" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-sky-500/40 transition flex items-center gap-2">
                         <i class="fa-solid fa-shield-halved text-sky-500 text-xs"></i> Serie A
                     </button>
-                    <button onclick="filterNews('BL')" data-cat="BL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-amber-100/80 text-amber-900 dark:bg-amber-950/50 dark:text-amber-300 border border-amber-500/20 hover:border-amber-500/60 transition flex items-center gap-2">
+                    <button onclick="filterNews('BL')" data-cat="BL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-amber-500/40 transition flex items-center gap-2">
                         <i class="fa-solid fa-bolt text-amber-500 text-xs"></i> Bundesliga
                     </button>
-                    <button onclick="filterNews('EKS')" data-cat="EKS" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-rose-100/80 text-rose-900 dark:bg-rose-950/50 dark:text-rose-300 border border-rose-500/20 hover:border-rose-500/60 transition flex items-center gap-2">
+                    <button onclick="filterNews('EKS')" data-cat="EKS" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-rose-500/40 transition flex items-center gap-2">
                         <i class="fa-solid fa-star text-rose-500 text-xs"></i> Ekstraklasa
                     </button>
-                    <button onclick="filterNews('OTHER')" data-cat="OTHER" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-emerald-100/80 text-emerald-900 dark:bg-emerald-950/50 dark:text-emerald-300 border border-emerald-500/20 hover:border-emerald-500/60 transition flex items-center gap-2">
+                    <button onclick="filterNews('OTHER')" data-cat="OTHER" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-emerald-500/40 transition flex items-center gap-2">
                         <i class="fa-solid fa-globe text-emerald-500 text-xs"></i> Inne Ligi
                     </button>
                 </div>
 
-                <!-- Strzałka w prawo -->
-                <button onclick="scrollCategories(220)" aria-label="Przewiń w prawo" class="shrink-0 w-8 h-8 rounded-lg bg-gray-100 dark:bg-card border border-gray-200 dark:border-border text-gray-500 hover:text-purple-500 hover:border-purple-500/50 transition flex items-center justify-center">
-                    <i class="fa-solid fa-chevron-right text-xs"></i>
+                <!-- Przycisk przewijania w prawo -->
+                <button onclick="scrollCategories(240)" aria-label="W prawo" class="shrink-0 w-8 h-8 rounded-xl bg-gray-100 dark:bg-card border border-gray-200 dark:border-border text-gray-400 hover:text-purple-500 hover:border-purple-500/40 transition flex items-center justify-center">
+                    <i class="fa-solid fa-chevron-right text-[11px]"></i>
                 </button>
             </nav>
         </div>
@@ -114,7 +119,7 @@
         
         <section class="lg:col-span-8 space-y-6">
             
-            <!-- GŁÓWNY NEWS DNIA (DYNAMICZNY Z NEWS.JSON) -->
+            <!-- GŁÓWNY NEWS DNIA -->
             <div id="featured-news-container">
                 <div class="rounded-2xl bg-white dark:bg-card border border-gray-200 dark:border-border min-h-[380px] flex items-center justify-center text-gray-400 text-sm">
                     Ładowanie najnowszego hitu...
@@ -130,7 +135,7 @@
                 </button>
             </div>
 
-            <!-- DYNAMICZNA SIATKA ARTYKUŁÓW Z BOTA -->
+            <!-- SIATKA ARTYKUŁÓW -->
             <div id="news-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div class="col-span-full p-8 text-center text-gray-400 text-sm">Pobieranie wiadomości z bota...</div>
             </div>
@@ -139,7 +144,7 @@
                 Brak opublikowanych artykułów w tej kategorii. Kliknij <button onclick="filterNews('ALL')" class="text-purple-500 font-bold underline">Wszystkie</button>, aby wrócić.
             </div>
 
-            <!-- MODUŁ SKRÓTÓW WIDEO -->
+            <!-- SKRÓTY WIDEO -->
             <div class="pt-4 space-y-4">
                 <h2 class="text-xl font-black uppercase tracking-wider flex items-center gap-2">
                     <span class="w-2 h-6 bg-red-600 rounded-full"></span> Skróty Wideo i Bramki
@@ -158,16 +163,9 @@
                 </div>
             </div>
 
-            <div class="p-4 rounded-2xl border border-dashed border-gray-300 dark:border-border bg-gray-50 dark:bg-black/50 text-center">
-                <span class="text-[10px] font-bold text-gray-400 uppercase tracking-widest block mb-1">MIEJSCE NA REKLAMĘ / SPONSOR</span>
-                <div class="h-20 flex items-center justify-center text-xs text-gray-500">
-                    [ Ad Banner 728x90 / Sponsor ]
-                </div>
-            </div>
-
         </section>
 
-        <!-- BOCZNY PASEK Z NIEZAWODNĄ TABELĄ API -->
+        <!-- BOCZNY PASEK -->
         <aside class="lg:col-span-4 space-y-6">
             
             <div class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl p-5 shadow-sm">
@@ -213,13 +211,6 @@
                 </div>
             </div>
 
-            <div class="p-4 rounded-2xl border border-dashed border-gray-300 dark:border-border bg-gray-50 dark:bg-black/50 text-center">
-                <span class="text-[10px] font-bold text-gray-400 uppercase tracking-widest block mb-1">REKLAMA</span>
-                <div class="h-60 flex items-center justify-center text-xs text-gray-500">
-                    [ Ad Box 300x250 ]
-                </div>
-            </div>
-
         </aside>
 
     </main>
@@ -262,7 +253,7 @@
         const today = new Date().toLocaleDateString('pl-PL', dateOptions);
         document.getElementById('current-date').innerText = `(${today})`;
 
-        // OBSŁUGA SUWAKA KATEGORII
+        // PŁYNNY SUWAK KATEGORII ZE STRZAŁKAMI I MYSZKĄ
         const catSlider = document.getElementById('category-slider');
         function scrollCategories(offset) {
             catSlider.scrollBy({ left: offset, behavior: 'smooth' });
@@ -324,7 +315,7 @@
             localStorage.setItem('color-theme', newThemeIsDark ? 'dark' : 'light');
         });
 
-        // TABELA LIGOWA Z HERBAMI I ROZWIJANIEM
+        // TABELA LIGOWA
         let currentStandingsData = [];
         let isTableExpanded = false;
 
@@ -334,11 +325,8 @@
             const rowsToShow = isTableExpanded ? currentStandingsData : currentStandingsData.slice(0, 5);
 
             tbody.innerHTML = rowsToShow.map(item => {
-                const crest = item.team.crest 
-                    ? `<img src="${item.team.crest}" alt="" class="w-4 h-4 object-contain shrink-0">` 
-                    : '';
+                const crest = item.team.crest ? `<img src="${item.team.crest}" alt="" class="w-4 h-4 object-contain shrink-0">` : '';
                 const goalDiff = item.goalDifference > 0 ? `+${item.goalDifference}` : item.goalDifference;
-                
                 let posColor = 'text-gray-400';
                 if (item.position <= 4) posColor = 'text-purple-500';
                 else if (item.position >= 18) posColor = 'text-red-500';
@@ -361,9 +349,7 @@
 
             if (currentStandingsData.length > 5) {
                 toggleBtn.classList.remove('hidden');
-                toggleBtn.innerText = isTableExpanded 
-                    ? 'Zwiń do TOP 5 ↑' 
-                    : `Pokaż pełną tabelę (${currentStandingsData.length}) ↓`;
+                toggleBtn.innerText = isTableExpanded ? 'Zwiń do TOP 5 ↑' : `Pokaż pełną tabelę (${currentStandingsData.length}) ↓`;
             } else {
                 toggleBtn.classList.add('hidden');
             }
@@ -385,11 +371,9 @@
             buttons.forEach(code => {
                 const btn = document.getElementById(`btn-${code}`);
                 if (btn) {
-                    if (code === leagueCode) {
-                        btn.className = "px-2 py-1 rounded bg-purple-600 text-white transition font-bold";
-                    } else {
-                        btn.className = "px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition font-bold";
-                    }
+                    btn.className = code === leagueCode 
+                        ? "px-2 py-1 rounded bg-purple-600 text-white transition font-bold" 
+                        : "px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition font-bold";
                 }
             });
 
@@ -398,11 +382,7 @@
             try {
                 const res = await fetch(`/api/standings?league=${leagueCode}`);
                 const data = await res.json();
-
-                if (!Array.isArray(data) || data.length === 0) {
-                    throw new Error('Brak danych');
-                }
-
+                if (!Array.isArray(data) || data.length === 0) throw new Error('Brak danych');
                 currentStandingsData = data;
                 renderTableRows();
             } catch (err) {
@@ -412,37 +392,25 @@
 
         loadLiveTable('PL');
 
-        // LIVE SCORE API
+        // LIVE SCORES TICKER
         async function fetchLiveMatches() {
             const container = document.getElementById('matches-container');
             try {
                 const response = await fetch('/api/matches');
                 if (!response.ok) throw new Error('Błąd serwera');
-                
                 const matches = await response.json();
                 if (!Array.isArray(matches) || matches.length === 0) {
                     container.innerHTML = `<span class="pl-3 text-gray-400">Brak zaplanowanych hitów w najbliższych dniach.</span>`;
                     return;
                 }
 
-                const leagueNames = {
-                    'PL': 'Premier League',
-                    'PD': 'La Liga',
-                    'BL1': 'Bundesliga',
-                    'SA': 'Serie A',
-                    'FL1': 'Ligue 1',
-                    'CL': 'Liga Mistrzów',
-                    'WC': 'Mistrzostwa Świata',
-                    'EC': 'Euro'
-                };
+                const leagueNames = { 'PL': 'Premier League', 'PD': 'La Liga', 'BL1': 'Bundesliga', 'SA': 'Serie A', 'FL1': 'Ligue 1', 'CL': 'Liga Mistrzów' };
 
                 container.innerHTML = matches.slice(0, 10).map(match => {
                     const home = match.homeTeam.shortName || match.homeTeam.name;
                     const away = match.awayTeam.shortName || match.awayTeam.name;
-                    const leagueCode = match.competition.code;
-                    const leagueLabel = leagueNames[leagueCode] || leagueCode;
+                    const leagueLabel = leagueNames[match.competition.code] || match.competition.code;
                     const status = match.status;
-                    
                     const homeScore = match.score.fullTime.home;
                     const awayScore = match.score.fullTime.away;
 
@@ -457,9 +425,7 @@
                         scoreDisplay = `<span class="text-purple-500 font-black px-1">${homeScore} : ${awayScore}</span>`;
                     } else {
                         const matchDate = new Date(match.utcDate);
-                        const dayStr = matchDate.toLocaleDateString('pl-PL', { day: '2-digit', month: '2-digit' });
-                        const timeStr = matchDate.toLocaleTimeString('pl-PL', { hour: '2-digit', minute: '2-digit' });
-                        statusBadge = `<span class="text-gray-400 font-semibold">${dayStr} • ${timeStr}</span>`;
+                        statusBadge = `<span class="text-gray-400 font-semibold">${matchDate.toLocaleDateString('pl-PL', { day: '2-digit', month: '2-digit' })} • ${matchDate.toLocaleTimeString('pl-PL', { hour: '2-digit', minute: '2-digit' })}</span>`;
                         scoreDisplay = `<span class="text-gray-500 px-1">vs</span>`;
                     }
 
@@ -480,48 +446,7 @@
 
         fetchLiveMatches();
 
-        // PRZECIĄGANIE PASKA MECZÓW MYSZKĄ
-        const ticker = document.getElementById('matches-ticker');
-        let isDown = false;
-        let startX;
-        let scrollLeft;
-
-        ticker.addEventListener('mousedown', (e) => {
-            isDown = true;
-            ticker.classList.add('cursor-grabbing');
-            ticker.classList.remove('cursor-grab');
-            startX = e.pageX - ticker.offsetLeft;
-            scrollLeft = ticker.scrollLeft;
-        });
-
-        ticker.addEventListener('mouseleave', () => {
-            isDown = false;
-            ticker.classList.remove('cursor-grabbing');
-            ticker.classList.add('cursor-grab');
-        });
-
-        ticker.addEventListener('mouseup', () => {
-            isDown = false;
-            ticker.classList.remove('cursor-grabbing');
-            ticker.classList.add('cursor-grab');
-        });
-
-        ticker.addEventListener('mousemove', (e) => {
-            if (!isDown) return;
-            e.preventDefault();
-            const x = e.pageX - ticker.offsetLeft;
-            const walk = (x - startX) * 1.5;
-            ticker.scrollLeft = scrollLeft - walk;
-        });
-
-        ticker.addEventListener('wheel', (e) => {
-            if (e.deltaY !== 0) {
-                e.preventDefault();
-                ticker.scrollLeft += e.deltaY;
-            }
-        });
-
-        // SYSTEM DYNAMICZNYCH NEWSÓW Z BOTA (NEWS.JSON)
+        // SYSTEM NEWSÓW Z BOTA
         let allArticles = [];
         let activeCategory = 'ALL';
 
@@ -536,15 +461,11 @@
         async function loadBotNews() {
             try {
                 const res = await fetch('/news.json?t=' + Date.now());
-                if (!res.ok) throw new Error('Brak pliku news.json');
+                if (!res.ok) throw new Error('Brak pliku');
                 allArticles = await res.json();
                 renderNews();
             } catch (err) {
-                document.getElementById('news-grid').innerHTML = `
-                    <div class="col-span-full p-8 text-center text-gray-400 text-sm">
-                        Oczekiwanie na pierwsze newsy z bota...
-                    </div>
-                `;
+                document.getElementById('news-grid').innerHTML = `<div class="col-span-full p-8 text-center text-gray-400 text-sm">Oczekiwanie na pierwsze newsy z bota...</div>`;
             }
         }
 
@@ -556,7 +477,6 @@
 
             if (!Array.isArray(allArticles) || allArticles.length === 0) return;
 
-            // 1. Główny baner
             const hero = allArticles[0];
             if (matchesCategory(hero.category, activeCategory)) {
                 featuredContainer.classList.remove('hidden');
@@ -588,7 +508,6 @@
                 featuredContainer.classList.add('hidden');
             }
 
-            // 2. Siatka pozostałych newsów
             const gridItems = allArticles
                 .map((article, originalIndex) => ({ ...article, originalIndex }))
                 .filter(item => {
@@ -629,7 +548,6 @@
                 `).join('');
             }
 
-            // 3. Alerty Na Żywo po prawej stronie
             alertsContainer.innerHTML = allArticles.slice(0, 4).map((item, idx) => `
                 <a href="#" onclick="openArticle(${idx}); return false;" class="block pl-3 border-l-2 ${item.category === 'LL' ? 'border-red-500' : 'border-purple-500'} hover:opacity-80 transition">
                     <span class="text-[10px] font-bold ${item.category === 'LL' ? 'text-red-500' : 'text-purple-500'}">${item.time} • ${item.badge}</span>
@@ -653,12 +571,11 @@
                 'OTHER': 'Inne Ligi'
             };
 
-            // Podświetlenie aktywnego przycisku w suwaku
             document.querySelectorAll('.cat-btn').forEach(btn => {
                 if (btn.dataset.cat === category) {
-                    btn.classList.add('ring-2', 'ring-purple-500');
+                    btn.className = "cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-purple-600 text-white shadow-sm transition flex items-center gap-2";
                 } else {
-                    btn.classList.remove('ring-2', 'ring-purple-500');
+                    btn.className = "cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/40 transition flex items-center gap-2";
                 }
             });
 
