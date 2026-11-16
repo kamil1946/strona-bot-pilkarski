@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PITCH ZONE - Premier League & La Liga</title>
+    <title>PITCH ZONE - Wiadomości Piłkarskie</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -45,7 +45,7 @@
         </div>
     </div>
 
-    <!-- TOP HEADER / NAWIGACJA -->
+    <!-- TOP HEADER / NAWIGACJA Z SUWAKIEM LIG -->
     <header class="border-b border-gray-200 dark:border-border bg-white dark:bg-pitch/90 backdrop-blur-md sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex justify-between items-center py-4 border-b border-gray-100 dark:border-border/60">
@@ -65,23 +65,46 @@
                 </div>
             </div>
 
-            <nav class="flex items-center justify-between overflow-x-auto no-scrollbar py-3 text-sm font-bold">
-                <div class="flex items-center gap-2 md:gap-4 whitespace-nowrap">
-                    <a href="#" onclick="filterNews('ALL'); return false;" class="px-3 py-2 rounded-lg text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 transition">
-                        Wszystkie
-                    </a>
-                    <a href="#" onclick="filterNews('PL'); return false;" class="px-4 py-2 rounded-lg bg-purple-100 text-purple-900 dark:bg-purple-950/60 dark:text-purple-300 border border-purple-900/30 hover:opacity-80 transition flex items-center gap-2">
-                        <i class="fa-solid fa-crown text-purple-500"></i> Premier League
-                    </a>
-                    <a href="#" onclick="filterNews('LL'); return false;" class="px-4 py-2 rounded-lg bg-red-100 text-red-900 dark:bg-red-950/60 dark:text-red-300 border border-red-900/30 hover:opacity-80 transition flex items-center gap-2">
-                        <i class="fa-solid fa-fire text-red-500"></i> La Liga
-                    </a>
-                    <a href="#" onclick="filterNews('CL'); return false;" class="px-4 py-2 rounded-lg bg-blue-100 text-blue-900 dark:bg-blue-950/60 dark:text-blue-300 border border-blue-900/30 hover:opacity-80 transition flex items-center gap-2">
-                        <i class="fa-solid fa-trophy text-amber-500"></i> Liga Mistrzów
-                    </a>
-                    <a href="#" onclick="filterNews('REP'); return false;" class="px-3 py-2 text-gray-600 dark:text-gray-400 hover:text-purple-500 transition">Reprezentacje</a>
-                    <a href="#" onclick="filterNews('WORLD'); return false;" class="px-3 py-2 text-gray-600 dark:text-gray-400 hover:text-purple-500 transition">Reszta Świata</a>
+            <!-- KOMPAKTOWY SUWAK KATEGORII -->
+            <nav class="flex items-center gap-2 py-2.5 text-xs sm:text-sm font-bold">
+                <!-- Przypięty przycisk Wszystkie -->
+                <button onclick="filterNews('ALL')" data-cat="ALL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-purple-600 text-white shadow-sm transition">
+                    Wszystkie
+                </button>
+
+                <div class="h-5 w-[1px] bg-gray-200 dark:bg-border shrink-0 mx-0.5"></div>
+
+                <!-- Strzałka w lewo -->
+                <button onclick="scrollCategories(-220)" aria-label="Przewiń w lewo" class="shrink-0 w-8 h-8 rounded-lg bg-gray-100 dark:bg-card border border-gray-200 dark:border-border text-gray-500 hover:text-purple-500 hover:border-purple-500/50 transition flex items-center justify-center">
+                    <i class="fa-solid fa-chevron-left text-xs"></i>
+                </button>
+
+                <!-- Przewijany kontener (Suwak) -->
+                <div id="category-slider" class="flex items-center gap-2 overflow-x-auto no-scrollbar scroll-smooth select-none cursor-grab py-0.5">
+                    <button onclick="filterNews('PL')" data-cat="PL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-purple-100/80 text-purple-900 dark:bg-purple-950/50 dark:text-purple-300 border border-purple-500/20 hover:border-purple-500/60 transition flex items-center gap-2">
+                        <i class="fa-solid fa-crown text-purple-500 text-xs"></i> Premier League
+                    </button>
+                    <button onclick="filterNews('LL')" data-cat="LL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-red-100/80 text-red-900 dark:bg-red-950/50 dark:text-red-300 border border-red-500/20 hover:border-red-500/60 transition flex items-center gap-2">
+                        <i class="fa-solid fa-fire text-red-500 text-xs"></i> La Liga
+                    </button>
+                    <button onclick="filterNews('SA')" data-cat="SA" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-sky-100/80 text-sky-900 dark:bg-sky-950/50 dark:text-sky-300 border border-sky-500/20 hover:border-sky-500/60 transition flex items-center gap-2">
+                        <i class="fa-solid fa-shield-halved text-sky-500 text-xs"></i> Serie A
+                    </button>
+                    <button onclick="filterNews('BL')" data-cat="BL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-amber-100/80 text-amber-900 dark:bg-amber-950/50 dark:text-amber-300 border border-amber-500/20 hover:border-amber-500/60 transition flex items-center gap-2">
+                        <i class="fa-solid fa-bolt text-amber-500 text-xs"></i> Bundesliga
+                    </button>
+                    <button onclick="filterNews('EKS')" data-cat="EKS" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-rose-100/80 text-rose-900 dark:bg-rose-950/50 dark:text-rose-300 border border-rose-500/20 hover:border-rose-500/60 transition flex items-center gap-2">
+                        <i class="fa-solid fa-star text-rose-500 text-xs"></i> Ekstraklasa
+                    </button>
+                    <button onclick="filterNews('OTHER')" data-cat="OTHER" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-emerald-100/80 text-emerald-900 dark:bg-emerald-950/50 dark:text-emerald-300 border border-emerald-500/20 hover:border-emerald-500/60 transition flex items-center gap-2">
+                        <i class="fa-solid fa-globe text-emerald-500 text-xs"></i> Inne Ligi
+                    </button>
                 </div>
+
+                <!-- Strzałka w prawo -->
+                <button onclick="scrollCategories(220)" aria-label="Przewiń w prawo" class="shrink-0 w-8 h-8 rounded-lg bg-gray-100 dark:bg-card border border-gray-200 dark:border-border text-gray-500 hover:text-purple-500 hover:border-purple-500/50 transition flex items-center justify-center">
+                    <i class="fa-solid fa-chevron-right text-xs"></i>
+                </button>
             </nav>
         </div>
     </header>
@@ -238,6 +261,37 @@
         const dateOptions = { weekday: 'long', day: 'numeric', month: 'long' };
         const today = new Date().toLocaleDateString('pl-PL', dateOptions);
         document.getElementById('current-date').innerText = `(${today})`;
+
+        // OBSŁUGA SUWAKA KATEGORII
+        const catSlider = document.getElementById('category-slider');
+        function scrollCategories(offset) {
+            catSlider.scrollBy({ left: offset, behavior: 'smooth' });
+        }
+
+        catSlider.addEventListener('wheel', (e) => {
+            if (e.deltaY !== 0) {
+                e.preventDefault();
+                catSlider.scrollLeft += e.deltaY;
+            }
+        });
+
+        let isCatDown = false;
+        let catStartX;
+        let catScrollLeft;
+        catSlider.addEventListener('mousedown', (e) => {
+            isCatDown = true;
+            catSlider.classList.add('cursor-grabbing');
+            catStartX = e.pageX - catSlider.offsetLeft;
+            catScrollLeft = catSlider.scrollLeft;
+        });
+        catSlider.addEventListener('mouseleave', () => { isCatDown = false; catSlider.classList.remove('cursor-grabbing'); });
+        catSlider.addEventListener('mouseup', () => { isCatDown = false; catSlider.classList.remove('cursor-grabbing'); });
+        catSlider.addEventListener('mousemove', (e) => {
+            if (!isCatDown) return;
+            e.preventDefault();
+            const x = e.pageX - catSlider.offsetLeft;
+            catSlider.scrollLeft = catScrollLeft - (x - catStartX) * 1.4;
+        });
 
         // PRZEŁĄCZNIK MOTYWU
         const themeToggleBtn = document.getElementById('theme-toggle');
@@ -471,6 +525,14 @@
         let allArticles = [];
         let activeCategory = 'ALL';
 
+        function matchesCategory(articleCat, selectedCat) {
+            if (selectedCat === 'ALL') return true;
+            if (selectedCat === 'OTHER') {
+                return ['OTHER', 'WORLD', 'CL', 'REP'].includes(articleCat);
+            }
+            return articleCat === selectedCat;
+        }
+
         async function loadBotNews() {
             try {
                 const res = await fetch('/news.json?t=' + Date.now());
@@ -494,9 +556,9 @@
 
             if (!Array.isArray(allArticles) || allArticles.length === 0) return;
 
-            // 1. Główny baner (zawsze najnowszy artykuł z listy)
+            // 1. Główny baner
             const hero = allArticles[0];
-            if (activeCategory === 'ALL' || hero.category === activeCategory) {
+            if (matchesCategory(hero.category, activeCategory)) {
                 featuredContainer.classList.remove('hidden');
                 featuredContainer.innerHTML = `
                     <a href="#" onclick="openArticle(0); return false;" class="block group">
@@ -526,12 +588,12 @@
                 featuredContainer.classList.add('hidden');
             }
 
-            // 2. Siatka pozostałych newsów (od indeksu 1 wzwyż lub wszystkie dla wybranej kategorii)
+            // 2. Siatka pozostałych newsów
             const gridItems = allArticles
                 .map((article, originalIndex) => ({ ...article, originalIndex }))
                 .filter(item => {
                     if (activeCategory === 'ALL') return item.originalIndex > 0;
-                    return item.category === activeCategory;
+                    return matchesCategory(item.category, activeCategory);
                 });
 
             if (gridItems.length === 0 && featuredContainer.classList.contains('hidden')) {
@@ -567,7 +629,7 @@
                 `).join('');
             }
 
-            // 3. Alerty Na Żywo po prawej stronie (4 najnowsze wpisy)
+            // 3. Alerty Na Żywo po prawej stronie
             alertsContainer.innerHTML = allArticles.slice(0, 4).map((item, idx) => `
                 <a href="#" onclick="openArticle(${idx}); return false;" class="block pl-3 border-l-2 ${item.category === 'LL' ? 'border-red-500' : 'border-purple-500'} hover:opacity-80 transition">
                     <span class="text-[10px] font-bold ${item.category === 'LL' ? 'text-red-500' : 'text-purple-500'}">${item.time} • ${item.badge}</span>
@@ -585,10 +647,20 @@
                 'ALL': 'Najnowsze Wiadomości',
                 'PL': 'Premier League',
                 'LL': 'La Liga',
-                'CL': 'Liga Mistrzów',
-                'REP': 'Reprezentacje',
-                'WORLD': 'Reszta Świata'
+                'SA': 'Serie A',
+                'BL': 'Bundesliga',
+                'EKS': 'Ekstraklasa',
+                'OTHER': 'Inne Ligi'
             };
+
+            // Podświetlenie aktywnego przycisku w suwaku
+            document.querySelectorAll('.cat-btn').forEach(btn => {
+                if (btn.dataset.cat === category) {
+                    btn.classList.add('ring-2', 'ring-purple-500');
+                } else {
+                    btn.classList.remove('ring-2', 'ring-purple-500');
+                }
+            });
 
             titleEl.innerText = categoryLabels[category] || 'Najnowsze Wiadomości';
             if (category === 'ALL') {
@@ -634,7 +706,6 @@
             if (e.key === 'Escape') closeArticle();
         });
 
-        // Start pobierania newsów
         loadBotNews();
     </script>
 </body>
