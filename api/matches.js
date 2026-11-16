@@ -3,7 +3,7 @@ module.exports = async function (req, res) {
 
     const today = new Date();
     const future = new Date();
-    future.setDate(today.getDate() + 3);
+    future.setDate(today.getDate() + 7);
 
     const dateFrom = today.toISOString().split('T')[0];
     const dateTo = future.toISOString().split('T')[0];
