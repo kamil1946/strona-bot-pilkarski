@@ -19,9 +19,8 @@
             }
         }
     </script>
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
-        /* Ukrycie paska przewijania przy zachowaniu możliwości przesuwania */
         .no-scrollbar::-webkit-scrollbar {
             display: none;
         }
@@ -37,11 +36,11 @@
     <div id="matches-ticker" class="bg-gray-200 dark:bg-black border-b border-gray-300 dark:border-border text-xs py-2 px-4 overflow-x-auto no-scrollbar cursor-grab select-none">
         <div class="max-w-7xl mx-auto flex items-center gap-4 whitespace-nowrap">
             <span class="font-black text-purple-600 dark:text-purple-400 uppercase tracking-wider flex items-center gap-2 text-[11px]">
-                <i class="fa-regular fa-calendar-days"></i> Nadchodzące spotkania <span id="current-date" class="text-gray-400 font-normal"></span>:
+                <i class="fa-regular fa-calendar-days"></i> Nadchodzące hity <span id="current-date" class="text-gray-400 font-normal"></span>:
             </span>
 
             <div id="matches-container" class="flex items-center gap-3 divide-x divide-gray-300 dark:divide-border text-[11px]">
-                <span class="pl-3 text-gray-400">Ładowanie dzisiejszych spotkań...</span>
+                <span class="pl-3 text-gray-400">Ładowanie spotkań...</span>
             </div>
         </div>
     </div>
@@ -66,7 +65,7 @@
                 </div>
             </div>
 
-            <nav class="flex items-center justify-between overflow-x-auto py-3 text-sm font-bold">
+            <nav class="flex items-center justify-between overflow-x-auto no-scrollbar py-3 text-sm font-bold">
                 <div class="flex items-center gap-2 md:gap-4 whitespace-nowrap">
                     <a href="#" class="px-4 py-2 rounded-lg bg-purple-100 text-purple-900 dark:bg-purple-950/60 dark:text-purple-300 border border-purple-900/30 transition flex items-center gap-2">
                         <i class="fa-solid fa-crown text-purple-500"></i> Premier League
@@ -233,20 +232,6 @@
                 <button id="toggle-table-btn" onclick="toggleFullTable()" class="w-full mt-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 text-gray-600 dark:text-gray-300 text-[11px] font-bold uppercase tracking-wider transition hidden">
                     Pokaż pełną tabelę
                 </button>
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
-                                <th class="pb-2">#</th>
-                                <th class="pb-2">Klub</th>
-                                <th class="pb-2 text-center">M</th>
-                                <th class="pb-2 text-right">PKT</th>
-                            </tr>
-                        </thead>
-                        <tbody id="standings-body" class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
-                            <tr><td colspan="4" class="py-4 text-center text-gray-400">Ładowanie dzisiejszej tabeli...</td></tr>
-                        </tbody>
-                    </table>
-                </div>
             </div>
 
             <div class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl p-5 shadow-sm">
@@ -312,11 +297,64 @@
             localStorage.setItem('color-theme', newThemeIsDark ? 'dark' : 'light');
         });
 
-      // WYWOŁANIE NASZEJ FUNKCJI BACKENDOWEJ API VERCELA (TABELA)
+        // TABELA LIGOWA Z HERBAMI I ROZWIJANIEM
+        let currentStandingsData = [];
+        let isTableExpanded = false;
+
+        function renderTableRows() {
+            const tbody = document.getElementById('standings-body');
+            const toggleBtn = document.getElementById('toggle-table-btn');
+            const rowsToShow = isTableExpanded ? currentStandingsData : currentStandingsData.slice(0, 5);
+
+            tbody.innerHTML = rowsToShow.map(item => {
+                const crest = item.team.crest 
+                    ? `<img src="${item.team.crest}" alt="" class="w-4 h-4 object-contain shrink-0">` 
+                    : '';
+                const goalDiff = item.goalDifference > 0 ? `+${item.goalDifference}` : item.goalDifference;
+                
+                let posColor = 'text-gray-400';
+                if (item.position <= 4) posColor = 'text-purple-500';
+                else if (item.position >= 18) posColor = 'text-red-500';
+
+                return `
+                    <tr class="hover:bg-gray-50 dark:hover:bg-white/5 transition">
+                        <td class="py-2.5 ${posColor} font-bold">${item.position}</td>
+                        <td class="py-2.5 font-bold">
+                            <div class="flex items-center gap-2">
+                                ${crest}
+                                <span class="truncate max-w-[130px]">${item.team.shortName || item.team.name}</span>
+                            </div>
+                        </td>
+                        <td class="py-2.5 text-center text-gray-400">${item.playedGames}</td>
+                        <td class="py-2.5 text-center text-gray-400 text-[11px]">${goalDiff}</td>
+                        <td class="py-2.5 text-right font-black text-purple-600 dark:text-purple-400">${item.points}</td>
+                    </tr>
+                `;
+            }).join('');
+
+            if (currentStandingsData.length > 5) {
+                toggleBtn.classList.remove('hidden');
+                toggleBtn.innerText = isTableExpanded 
+                    ? 'Zwiń do TOP 5 ↑' 
+                    : `Pokaż pełną tabelę (${currentStandingsData.length}) ↓`;
+            } else {
+                toggleBtn.classList.add('hidden');
+            }
+        }
+
+        function toggleFullTable() {
+            isTableExpanded = !isTableExpanded;
+            renderTableRows();
+        }
+
         async function loadLiveTable(leagueCode) {
             const tbody = document.getElementById('standings-body');
+            const toggleBtn = document.getElementById('toggle-table-btn');
             const buttons = ['PL', 'PD', 'CL'];
             
+            isTableExpanded = false;
+            toggleBtn.classList.add('hidden');
+
             buttons.forEach(code => {
                 const btn = document.getElementById(`btn-${code}`);
                 if (btn) {
@@ -328,7 +366,7 @@
                 }
             });
 
-            tbody.innerHTML = `<tr><td colspan="4" class="py-4 text-center text-gray-400">Pobieranie tabeli...</td></tr>`;
+            tbody.innerHTML = `<tr><td colspan="5" class="py-4 text-center text-gray-400">Pobieranie tabeli...</td></tr>`;
 
             try {
                 const res = await fetch(`/api/standings?league=${leagueCode}`);
@@ -338,16 +376,10 @@
                     throw new Error('Brak danych');
                 }
 
-                tbody.innerHTML = data.slice(0, 5).map(item => `
-                    <tr>
-                        <td class="py-2 text-purple-500 font-bold">${item.position}</td>
-                        <td class="py-2 font-bold">${item.team.shortName || item.team.name}</td>
-                        <td class="py-2 text-center text-gray-400">${item.playedGames}</td>
-                        <td class="py-2 text-right font-black text-purple-600 dark:text-purple-400">${item.points}</td>
-                    </tr>
-                `).join('');
+                currentStandingsData = data;
+                renderTableRows();
             } catch (err) {
-                tbody.innerHTML = `<tr><td colspan="4" class="py-4 text-center text-red-400">Błąd aktualizacji tabeli.</td></tr>`;
+                tbody.innerHTML = `<tr><td colspan="5" class="py-4 text-center text-red-400">Błąd aktualizacji tabeli.</td></tr>`;
             }
         }
 
@@ -377,7 +409,7 @@
                     'EC': 'Euro'
                 };
 
-                container.innerHTML = matches.slice(0, 8).map(match => {
+                container.innerHTML = matches.slice(0, 10).map(match => {
                     const home = match.homeTeam.shortName || match.homeTeam.name;
                     const away = match.awayTeam.shortName || match.awayTeam.name;
                     const leagueCode = match.competition.code;
@@ -420,7 +452,8 @@
         }
 
         fetchLiveMatches();
-    // PRZECIĄGANIE PASKA MECZÓW MYSZKĄ (DRAG TO SCROLL + KÓŁKO)
+
+        // PRZECIĄGANIE PASKA MECZÓW MYSZKĄ
         const ticker = document.getElementById('matches-ticker');
         let isDown = false;
         let startX;
@@ -450,11 +483,10 @@
             if (!isDown) return;
             e.preventDefault();
             const x = e.pageX - ticker.offsetLeft;
-            const walk = (x - startX) * 1.5; // szybkość przesuwania
+            const walk = (x - startX) * 1.5;
             ticker.scrollLeft = scrollLeft - walk;
         });
 
-        // Przesuwanie w bok kółkiem myszy po najechaniu na pasek
         ticker.addEventListener('wheel', (e) => {
             if (e.deltaY !== 0) {
                 e.preventDefault();
