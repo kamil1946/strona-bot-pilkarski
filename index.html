@@ -91,28 +91,12 @@
         
         <section class="lg:col-span-8 space-y-6">
             
-            <a href="#" onclick="openArticle(0); return false;" data-category="PL" class="news-card block group">
-                <div class="relative rounded-2xl overflow-hidden shadow-2xl bg-black min-h-[380px] flex items-end p-6 border border-gray-200 dark:border-border transition transform group-hover:border-purple-500/50">
-                    <div class="absolute inset-0 bg-cover bg-center opacity-50 group-hover:scale-105 transition duration-500" style="background-image: url('https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80');"></div>
-                    <div class="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
-
-                    <div class="relative z-10 space-y-3">
-                        <span class="inline-block px-3 py-1 rounded-full text-xs font-black uppercase tracking-widest bg-purple-600 text-white">
-                            Premier League • HIT TRANSFEROWY
-                        </span>
-                        <h1 class="text-2xl sm:text-4xl font-extrabold text-white leading-tight group-hover:text-purple-300 transition">
-                            Niezwykły zwrot akcji! Gwiazda Realu Madryt zmierza do Premier League
-                        </h1>
-                        <p class="text-sm text-gray-300 line-clamp-2">
-                            Według najnowszych przecieków Fabrizio Romano, rozmowy zostały wznowione dzisiaj rano. Kwota odstępnego przekroczy 90 milionów euro.
-                        </p>
-                        <div class="flex items-center gap-4 text-xs text-gray-400 pt-2">
-                            <span><i class="fa-regular fa-clock mr-1"></i> 10 minut temu</span>
-                            <span>Źródło: Sky Sports</span>
-                        </div>
-                    </div>
+            <!-- GŁÓWNY NEWS DNIA (DYNAMICZNY Z NEWS.JSON) -->
+            <div id="featured-news-container">
+                <div class="rounded-2xl bg-white dark:bg-card border border-gray-200 dark:border-border min-h-[380px] flex items-center justify-center text-gray-400 text-sm">
+                    Ładowanie najnowszego hitu...
                 </div>
-            </a>
+            </div>
 
             <div class="flex items-center justify-between pt-4">
                 <h2 class="text-xl font-black uppercase tracking-wider flex items-center gap-2">
@@ -123,58 +107,9 @@
                 </button>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                
-                <a href="#" onclick="openArticle(1); return false;" data-category="LL" class="news-card block group">
-                    <article class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl overflow-hidden shadow-sm group-hover:border-red-500/50 transition flex flex-col h-full">
-                        <div class="h-44 overflow-hidden relative">
-                            <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80" alt="La Liga Match" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[10px] font-black uppercase bg-red-600 text-white shadow-md">
-                                La Liga
-                            </span>
-                        </div>
-                        <div class="p-5 flex flex-col flex-grow justify-between">
-                            <div>
-                                <h3 class="font-extrabold text-lg group-hover:text-red-500 transition line-clamp-2">
-                                    Barcelona reaguje na kontuzję pomocnika. Awaryjny transfer
-                                </h3>
-                                <p class="text-xs text-gray-500 dark:text-gray-400 mt-2 line-clamp-2">
-                                    Sztab medyczny wydał oświadczenie. Kluczowy zawodnik uniknie operacji i wróci na boisko szybciej niż przewidywano.
-                                </p>
-                            </div>
-                            <div class="mt-4 pt-3 border-t border-gray-100 dark:border-border text-[11px] text-gray-400 flex justify-between items-center">
-                                <span>Źródło: Marca</span>
-                                <span class="font-bold text-red-500 group-hover:translate-x-1 transition">Czytaj więcej →</span>
-                            </div>
-                        </div>
-                    </article>
-                </a>
-
-                <a href="#" onclick="openArticle(2); return false;" data-category="PL" class="news-card block group">
-                    <article class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl overflow-hidden shadow-sm group-hover:border-purple-500/50 transition flex flex-col h-full">
-                        <div class="h-44 overflow-hidden relative">
-                            <img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=800&q=80" alt="Premier League Stadium" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[10px] font-black uppercase bg-purple-600 text-white shadow-md">
-                                Premier League
-                            </span>
-                        </div>
-                        <div class="p-5 flex flex-col flex-grow justify-between">
-                            <div>
-                                <h3 class="font-extrabold text-lg group-hover:text-purple-500 transition line-clamp-2">
-                                    Oficjalnie: Trener zwolniony po porażce w derbach
-                                </h3>
-                                <p class="text-xs text-gray-500 dark:text-gray-400 mt-2 line-clamp-2">
-                                    Zarząd klubu nie czekał do końca tygodnia. Decyzja została podjęta jednogłośnie podczas nocnego spotkania.
-                                </p>
-                            </div>
-                            <div class="mt-4 pt-3 border-t border-gray-100 dark:border-border text-[11px] text-gray-400 flex justify-between items-center">
-                                <span>Źródło: BBC Sport</span>
-                                <span class="font-bold text-purple-500 group-hover:translate-x-1 transition">Czytaj więcej →</span>
-                            </div>
-                        </div>
-                    </article>
-                </a>
-
+            <!-- DYNAMICZNA SIATKA ARTYKUŁÓW Z BOTA -->
+            <div id="news-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div class="col-span-full p-8 text-center text-gray-400 text-sm">Pobieranie wiadomości z bota...</div>
             </div>
 
             <div id="empty-filter-msg" class="hidden p-8 rounded-2xl bg-white dark:bg-card border border-gray-200 dark:border-border text-center text-sm text-gray-400">
@@ -250,15 +185,8 @@
                 <h3 class="font-black text-sm uppercase tracking-wider mb-4 pb-3 border-b border-gray-100 dark:border-border flex items-center gap-2">
                     <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse"></span> Alerty Na Żywo
                 </h3>
-                <div class="space-y-4">
-                    <a href="#" onclick="openArticle(3); return false;" class="block pl-3 border-l-2 border-purple-500 hover:opacity-80 transition">
-                        <span class="text-[10px] font-bold text-purple-500">14:22 • Premier League</span>
-                        <p class="text-xs font-bold">Arsenal dogadał warunki indywidualne z napastnikiem.</p>
-                    </a>
-                    <a href="#" onclick="openArticle(4); return false;" class="block pl-3 border-l-2 border-red-500 hover:opacity-80 transition">
-                        <span class="text-[10px] font-bold text-red-500">13:58 • La Liga</span>
-                        <p class="text-xs font-bold">Real Madryt zgłasza wniosek o przełożenie meczu z powodu ulewy.</p>
-                    </a>
+                <div id="live-alerts-container" class="space-y-4">
+                    <p class="text-xs text-gray-400">Ładowanie alertów...</p>
                 </div>
             </div>
 
@@ -430,7 +358,7 @@
 
         loadLiveTable('PL');
 
-        // LIVE SCORE API (TOP 5 LIG + LM + TURNIEJE REPREZENTACYJNE)
+        // LIVE SCORE API
         async function fetchLiveMatches() {
             const container = document.getElementById('matches-container');
             try {
@@ -539,12 +467,119 @@
             }
         });
 
-        // FILTROWANIE KATEGORII W MENU
+        // SYSTEM DYNAMICZNYCH NEWSÓW Z BOTA (NEWS.JSON)
+        let allArticles = [];
+        let activeCategory = 'ALL';
+
+        async function loadBotNews() {
+            try {
+                const res = await fetch('/news.json?t=' + Date.now());
+                if (!res.ok) throw new Error('Brak pliku news.json');
+                allArticles = await res.json();
+                renderNews();
+            } catch (err) {
+                document.getElementById('news-grid').innerHTML = `
+                    <div class="col-span-full p-8 text-center text-gray-400 text-sm">
+                        Oczekiwanie na pierwsze newsy z bota...
+                    </div>
+                `;
+            }
+        }
+
+        function renderNews() {
+            const featuredContainer = document.getElementById('featured-news-container');
+            const gridContainer = document.getElementById('news-grid');
+            const alertsContainer = document.getElementById('live-alerts-container');
+            const emptyMsg = document.getElementById('empty-filter-msg');
+
+            if (!Array.isArray(allArticles) || allArticles.length === 0) return;
+
+            // 1. Główny baner (zawsze najnowszy artykuł z listy)
+            const hero = allArticles[0];
+            if (activeCategory === 'ALL' || hero.category === activeCategory) {
+                featuredContainer.classList.remove('hidden');
+                featuredContainer.innerHTML = `
+                    <a href="#" onclick="openArticle(0); return false;" class="block group">
+                        <div class="relative rounded-2xl overflow-hidden shadow-2xl bg-black min-h-[380px] flex items-end p-6 border border-gray-200 dark:border-border transition transform group-hover:border-purple-500/50">
+                            <div class="absolute inset-0 bg-cover bg-center opacity-55 group-hover:scale-105 transition duration-500" style="background-image: url('${hero.img}');"></div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black via-black/65 to-transparent"></div>
+
+                            <div class="relative z-10 space-y-3">
+                                <span class="inline-block px-3 py-1 rounded-full text-xs font-black uppercase tracking-widest ${hero.badgeColor || 'bg-purple-600'} text-white">
+                                    ${hero.badge}
+                                </span>
+                                <h1 class="text-2xl sm:text-4xl font-extrabold text-white leading-tight group-hover:text-purple-300 transition">
+                                    ${hero.title}
+                                </h1>
+                                <p class="text-sm text-gray-300 line-clamp-2">
+                                    ${hero.summary}
+                                </p>
+                                <div class="flex items-center gap-4 text-xs text-gray-400 pt-2">
+                                    <span><i class="fa-regular fa-clock mr-1"></i> ${hero.time}</span>
+                                    <span>${hero.source}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                `;
+            } else {
+                featuredContainer.classList.add('hidden');
+            }
+
+            // 2. Siatka pozostałych newsów (od indeksu 1 wzwyż lub wszystkie dla wybranej kategorii)
+            const gridItems = allArticles
+                .map((article, originalIndex) => ({ ...article, originalIndex }))
+                .filter(item => {
+                    if (activeCategory === 'ALL') return item.originalIndex > 0;
+                    return item.category === activeCategory;
+                });
+
+            if (gridItems.length === 0 && featuredContainer.classList.contains('hidden')) {
+                gridContainer.innerHTML = '';
+                emptyMsg.classList.remove('hidden');
+            } else {
+                emptyMsg.classList.add('hidden');
+                gridContainer.innerHTML = gridItems.map(item => `
+                    <a href="#" onclick="openArticle(${item.originalIndex}); return false;" class="block group">
+                        <article class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl overflow-hidden shadow-sm group-hover:border-purple-500/50 transition flex flex-col h-full">
+                            <div class="h-44 overflow-hidden relative bg-black">
+                                <img src="${item.img}" alt="${item.title}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                                <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[10px] font-black uppercase ${item.badgeColor || 'bg-purple-600'} text-white shadow-md">
+                                    ${item.badge}
+                                </span>
+                            </div>
+                            <div class="p-5 flex flex-col flex-grow justify-between">
+                                <div>
+                                    <h3 class="font-extrabold text-lg group-hover:text-purple-500 transition line-clamp-2">
+                                        ${item.title}
+                                    </h3>
+                                    <p class="text-xs text-gray-500 dark:text-gray-400 mt-2 line-clamp-2">
+                                        ${item.summary}
+                                    </p>
+                                </div>
+                                <div class="mt-4 pt-3 border-t border-gray-100 dark:border-border text-[11px] text-gray-400 flex justify-between items-center">
+                                    <span>${item.source} • ${item.time}</span>
+                                    <span class="font-bold text-purple-500 group-hover:translate-x-1 transition">Czytaj →</span>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                `).join('');
+            }
+
+            // 3. Alerty Na Żywo po prawej stronie (4 najnowsze wpisy)
+            alertsContainer.innerHTML = allArticles.slice(0, 4).map((item, idx) => `
+                <a href="#" onclick="openArticle(${idx}); return false;" class="block pl-3 border-l-2 ${item.category === 'LL' ? 'border-red-500' : 'border-purple-500'} hover:opacity-80 transition">
+                    <span class="text-[10px] font-bold ${item.category === 'LL' ? 'text-red-500' : 'text-purple-500'}">${item.time} • ${item.badge}</span>
+                    <p class="text-xs font-bold line-clamp-2">${item.title}</p>
+                </a>
+            `).join('');
+        }
+
         function filterNews(category) {
-            const cards = document.querySelectorAll('.news-card');
+            activeCategory = category;
             const titleEl = document.getElementById('news-section-title');
             const resetBtn = document.getElementById('reset-filter-btn');
-            const emptyMsg = document.getElementById('empty-filter-msg');
 
             const categoryLabels = {
                 'ALL': 'Najnowsze Wiadomości',
@@ -556,101 +591,23 @@
             };
 
             titleEl.innerText = categoryLabels[category] || 'Najnowsze Wiadomości';
-            let visibleCount = 0;
-
-            cards.forEach(card => {
-                if (category === 'ALL' || card.dataset.category === category) {
-                    card.classList.remove('hidden');
-                    visibleCount++;
-                } else {
-                    card.classList.add('hidden');
-                }
-            });
-
             if (category === 'ALL') {
                 resetBtn.classList.add('hidden');
             } else {
                 resetBtn.classList.remove('hidden');
             }
 
-            if (visibleCount === 0) {
-                emptyMsg.classList.remove('hidden');
-            } else {
-                emptyMsg.classList.add('hidden');
-            }
+            renderNews();
         }
 
-        // SYSTEM CZYTANIA ARTYKUŁÓW (MODAL)
-        const articlesData = [
-            {
-                badge: 'Premier League • HIT TRANSFEROWY',
-                badgeColor: 'bg-purple-600',
-                time: '10 minut temu',
-                source: 'Źródło: Sky Sports',
-                img: 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80',
-                title: 'Niezwykły zwrot akcji! Gwiazda Realu Madryt zmierza do Premier League',
-                content: `
-                    <p>Według najnowszych doniesień z Hiszpanii i Anglii, negocjacje w sprawie jednego z najgłośniejszych transferów tego sezonu nabrały niespodziewanego tempa. Przedstawiciele angielskiego giganta przylecieli rano do Madrytu, aby dopiąć ostatnie szczegóły kontraktu indywidualnego.</p>
-                    <p>Kwota odstępnego ma wynieść ponad 90 milionów euro plus bonusy uzależnione od występów w Lidze Mistrzów. Sam zawodnik wyraził już zgodę na przeprowadzkę na Wyspy, licząc na kluczową rolę w nowym projekcie sportowym.</p>
-                    <p>Oficjalne potwierdzenie ze strony obu klubów spodziewane jest w ciągu najbliższych 48 godzin, zaraz po przejściu obligatoryjnych testów medycznych.</p>
-                `
-            },
-            {
-                badge: 'La Liga',
-                badgeColor: 'bg-red-600',
-                time: '35 minut temu',
-                source: 'Źródło: Marca',
-                img: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80',
-                title: 'Barcelona reaguje na kontuzję pomocnika. Awaryjny transfer',
-                content: `
-                    <p>Sztab medyczny FC Barcelony opublikował oficjalny komunikat po szczegółowych badaniach rezonansem magnetycznym. Choć uraz wyglądał groźnie, zawodnik uniknie zabiegu chirurgicznego i zastosuje leczenie zachowawcze.</p>
-                    <p>Mimo optymistycznych prognoz powrotu na boisko za około cztery tygodnie, dyrekcja sportowa analizuje rynek wolnych zawodników oraz opcje krótkoterminowego wypożyczenia, aby zabezpieczyć środek pola przed kluczowymi meczami w Lidze Mistrzów.</p>
-                `
-            },
-            {
-                badge: 'Premier League',
-                badgeColor: 'bg-purple-600',
-                time: '1 godzinę temu',
-                source: 'Źródło: BBC Sport',
-                img: 'https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=800&q=80',
-                title: 'Oficjalnie: Trener zwolniony po porażce w derbach',
-                content: `
-                    <p>Władze klubu podjęły natychmiastową decyzję po serii rozczarowujących wyników, której kulminacją była wczorajsza bolesna porażka w derbach przed własną publicznością.</p>
-                    <p>Tymczasowo obowiązki pierwszego szkoleniowca przejmie dotychczasowy asystent, natomiast zarząd rozpoczął już rozmowy z dwoma głównymi kandydatami do objęcia sterów na stałe jeszcze przed najbliższą kolejką ligową.</p>
-                `
-            },
-            {
-                badge: 'Alert • Premier League',
-                badgeColor: 'bg-purple-600',
-                time: '14:22 • Dziś',
-                source: 'Źródło: The Athletic',
-                img: 'https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=800&q=80',
-                title: 'Arsenal dogadał warunki indywidualne z napastnikiem',
-                content: `
-                    <p>Kanonierzy osiągnęli pełne porozumienie z otoczeniem zawodnika w sprawie pięcioletniego kontraktu. Do sfinalizowania transakcji pozostało już tylko ustalenie struktury rat pomiędzy klubami.</p>
-                `
-            },
-            {
-                badge: 'Alert • La Liga',
-                badgeColor: 'bg-red-600',
-                time: '13:58 • Dziś',
-                source: 'Źródło: Cadena SER',
-                img: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80',
-                title: 'Real Madryt zgłasza wniosek o przełożenie meczu z powodu ulewy',
-                content: `
-                    <p>Intensywne opady deszczu oraz ostrzeżenia meteorologiczne skłoniły władze klubu do wystąpienia do federacji z oficjalnym zapytaniem o bezpieczeństwo kibiców i stan murawy przed wieczornym spotkaniem.</p>
-                `
-            }
-        ];
-
         function openArticle(index) {
-            const article = articlesData[index];
+            const article = allArticles[index];
             if (!article) return;
 
             document.getElementById('modal-img').src = article.img;
             const badgeEl = document.getElementById('modal-badge');
             badgeEl.innerText = article.badge;
-            badgeEl.className = `absolute bottom-4 left-6 px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider text-white ${article.badgeColor}`;
+            badgeEl.className = `absolute bottom-4 left-6 px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider text-white ${article.badgeColor || 'bg-purple-600'}`;
             
             document.getElementById('modal-time').innerText = article.time;
             document.getElementById('modal-source').innerText = article.source;
@@ -676,6 +633,9 @@
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') closeArticle();
         });
+
+        // Start pobierania newsów
+        loadBotNews();
     </script>
 </body>
 </html>
