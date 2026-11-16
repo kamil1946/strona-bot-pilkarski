@@ -57,7 +57,7 @@
                     </span>
                 </a>
 
-                <!-- PRAWA STRONA: ELEGANTKA WYSZUKIWARKA + MOTYW -->
+                <!-- PRAWA STRONA: WYSZUKIWARKA + MOTYW -->
                 <div class="flex items-center gap-3">
                     <div class="relative flex items-center">
                         <input type="text" id="search-input" oninput="handleSearch(this.value)" placeholder="Szukaj newsa lub klubu..." class="w-44 sm:w-72 pl-9 pr-4 py-2 rounded-xl bg-gray-100/80 dark:bg-card/80 border border-gray-200 dark:border-border text-xs focus:outline-none focus:border-purple-500 transition text-gray-900 dark:text-white placeholder-gray-400 shadow-inner">
@@ -99,7 +99,7 @@
                             <button onclick="selectLeagueAndTable('BL', 'Bundesliga', 'BL1', 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <i class="fa-solid fa-bolt text-amber-500 w-4 text-center"></i> Bundesliga
                             </button>
-                            <button onclick="selectLeagueAndTable('EKS', 'Ekstraklasa', 'EK', 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                            <button onclick="selectLeagueAndTable('EKS', 'Ekstraklasa', 'PPL', 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <i class="fa-solid fa-star text-rose-500 w-4 text-center"></i> Ekstraklasa
                             </button>
                         </div>
@@ -399,7 +399,7 @@
         async function loadLiveTable(leagueCode) {
             const tbody = document.getElementById('standings-body');
             const toggleBtn = document.getElementById('toggle-table-btn');
-            const buttons = ['PL', 'PD', 'SA', 'BL1', 'CL', 'EK'];
+            const buttons = ['PL', 'PD', 'SA', 'BL1', 'CL', 'PPL'];
             
             isTableExpanded = false;
             toggleBtn.classList.add('hidden');
