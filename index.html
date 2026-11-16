@@ -28,7 +28,6 @@
             -ms-overflow-style: none;
             scrollbar-width: none;
         }
-        /* Efekt zanikania krawędzi suwaka */
         .fade-mask {
             mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
             -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
@@ -72,19 +71,16 @@
 
             <!-- ELEGANCKI PŁYNNY SUWAK LIG ZE STRZAŁKAMI -->
             <nav class="flex items-center gap-2 py-2.5 text-xs sm:text-sm font-bold">
-                <!-- Przycisk Wszystkie (Zawsze przypięty) -->
                 <button onclick="filterNews('ALL')" data-cat="ALL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-purple-600 text-white shadow-sm transition flex items-center gap-2">
                     <i class="fa-solid fa-border-all text-xs"></i> Wszystkie
                 </button>
 
                 <div class="h-5 w-[1px] bg-gray-200 dark:bg-border shrink-0 mx-1"></div>
 
-                <!-- Przycisk przewijania w lewo -->
                 <button onclick="scrollCategories(-240)" aria-label="W lewo" class="shrink-0 w-8 h-8 rounded-xl bg-gray-100 dark:bg-card border border-gray-200 dark:border-border text-gray-400 hover:text-purple-500 hover:border-purple-500/40 transition flex items-center justify-center">
                     <i class="fa-solid fa-chevron-left text-[11px]"></i>
                 </button>
 
-                <!-- Suwak z maską cienia po bokach -->
                 <div id="category-slider" class="flex items-center gap-2 overflow-x-auto no-scrollbar scroll-smooth select-none cursor-grab py-1 px-1 fade-mask">
                     <button onclick="filterNews('PL')" data-cat="PL" class="cat-btn shrink-0 px-3.5 py-2 rounded-xl bg-gray-100 dark:bg-card text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/40 transition flex items-center gap-2">
                         <i class="fa-solid fa-crown text-purple-500 text-xs"></i> Premier League
@@ -106,7 +102,6 @@
                     </button>
                 </div>
 
-                <!-- Przycisk przewijania w prawo -->
                 <button onclick="scrollCategories(240)" aria-label="W prawo" class="shrink-0 w-8 h-8 rounded-xl bg-gray-100 dark:bg-card border border-gray-200 dark:border-border text-gray-400 hover:text-purple-500 hover:border-purple-500/40 transition flex items-center justify-center">
                     <i class="fa-solid fa-chevron-right text-[11px]"></i>
                 </button>
@@ -173,9 +168,11 @@
                     <h3 class="font-black text-sm uppercase tracking-wider flex items-center gap-2">
                         <i class="fa-solid fa-list-ol text-purple-500"></i> Tabela Na Żywo
                     </h3>
-                    <div class="flex gap-1 text-[10px] font-bold">
+                    <div class="flex gap-1 text-[10px] font-bold overflow-x-auto no-scrollbar py-1">
                         <button id="btn-PL" onclick="loadLiveTable('PL')" class="px-2 py-1 rounded bg-purple-600 text-white transition">PL</button>
                         <button id="btn-PD" onclick="loadLiveTable('PD')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LL</button>
+                        <button id="btn-SA" onclick="loadLiveTable('SA')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">SA</button>
+                        <button id="btn-BL1" onclick="loadLiveTable('BL1')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">BL</button>
                         <button id="btn-CL" onclick="loadLiveTable('CL')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LM</button>
                     </div>
                 </div>
@@ -253,7 +250,6 @@
         const today = new Date().toLocaleDateString('pl-PL', dateOptions);
         document.getElementById('current-date').innerText = `(${today})`;
 
-        // PŁYNNY SUWAK KATEGORII ZE STRZAŁKAMI I MYSZKĄ
         const catSlider = document.getElementById('category-slider');
         function scrollCategories(offset) {
             catSlider.scrollBy({ left: offset, behavior: 'smooth' });
@@ -284,7 +280,6 @@
             catSlider.scrollLeft = catScrollLeft - (x - catStartX) * 1.4;
         });
 
-        // PRZEŁĄCZNIK MOTYWU
         const themeToggleBtn = document.getElementById('theme-toggle');
         const darkIcon = document.getElementById('theme-toggle-dark-icon');
         const lightIcon = document.getElementById('theme-toggle-light-icon');
@@ -315,7 +310,6 @@
             localStorage.setItem('color-theme', newThemeIsDark ? 'dark' : 'light');
         });
 
-        // TABELA LIGOWA
         let currentStandingsData = [];
         let isTableExpanded = false;
 
@@ -363,7 +357,7 @@
         async function loadLiveTable(leagueCode) {
             const tbody = document.getElementById('standings-body');
             const toggleBtn = document.getElementById('toggle-table-btn');
-            const buttons = ['PL', 'PD', 'CL'];
+            const buttons = ['PL', 'PD', 'SA', 'BL1', 'CL'];
             
             isTableExpanded = false;
             toggleBtn.classList.add('hidden');
@@ -392,7 +386,6 @@
 
         loadLiveTable('PL');
 
-        // LIVE SCORES TICKER
         async function fetchLiveMatches() {
             const container = document.getElementById('matches-container');
             try {
@@ -446,7 +439,6 @@
 
         fetchLiveMatches();
 
-        // SYSTEM NEWSÓW Z BOTA
         let allArticles = [];
         let activeCategory = 'ALL';
 
