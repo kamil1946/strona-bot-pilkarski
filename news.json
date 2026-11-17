@@ -1,5 +1,41 @@
 [
   {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "17.11 • 20:51",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Robert_Gould_Shaw_Memorial_-_panoramio.jpg/1280px-Robert_Gould_Shaw_Memorial_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imgCredit": "Fot. Jon Platek (CC BY-SA 3.0)",
+    "title": "Zmiana właściciela w Spezia Calcio: Amerykański miliarder przejmuje stery",
+    "summary": "Amerykański miliarder Robert Platek sfinalizował przejęcie większościowego pakietu udziałów w klubie Spezia Calcio, otwierając nowy rozdział w historii włoskiego zespołu.",
+    "content": "<p>Włoski klub Spezia Calcio oficjalnie potwierdził zmianę struktury właścicielskiej. Większościowy pakiet udziałów w drużynie został wykupiony przez amerykańskiego inwestora Roberta Platka, co oznacza wycofanie się dotychczasowych udziałowców z kluczowego wpływu na zarządzanie.</p><p>Transakcja ta jest częścią szerszego trendu inwestycji kapitału z USA w kluby piłkarskie na Półwyspie Apenińskim. Nowy właściciel zapowiedział stabilizację finansową oraz chęć długofalowego rozwoju infrastruktury i struktur sportowych klubu.</p><p>Dla kibiców Spezii to moment zwrotny, który ma zapewnić zespołowi większą konkurencyjność w rozgrywkach ligowych. Szczegóły finansowe umowy nie zostały ujawnione, jednak przejęcie zostało już w pełni zatwierdzone przez odpowiednie organy kontrolne.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMikwFBVV95cUxPWjQ1SGwtU280Z2VFUE1WSGJCZ2VoQ1lIUGpibWRCSlJGRThBNDJFRXpzU3k5UkhoUVJzVVkxS0lxNnVwRVdjbG5VOTFPTGFPZHNwaHdta1BaeG52c2xjMzl6blItNmE2UzdaQmJld3dON3NUaDBpNURXZS0yNlBCNkJ6X1RneGUyd0trQ1J2Q3pjU2s?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "17.11 • 20:51",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Nat_team_of_italy_2012.jpg/1280px-Nat_team_of_italy_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imgCredit": "Fot. Biser Todorov (CC BY 3.0)",
+    "title": "Massimiliano Alvini broni włoskiej młodzieży: W kraju nie brakuje talentów",
+    "summary": "Trener Massimiliano Alvini stanowczo sprzeciwia się twierdzeniom, jakoby we Włoszech brakowało utalentowanych młodych piłkarzy, apelując o zmianę narracji w mediach.",
+    "content": "<p>Massimiliano Alvini, znany włoski szkoleniowiec, zabrał głos w debacie dotyczącej kondycji tamtejszego futbolu. Trener podkreślił, że powszechnie powtarzana teza o deficycie młodych talentów na Półwyspie Apenińskim jest całkowicie nieprawdziwa.</p><p>W swojej wypowiedzi Alvini zaznaczył, że włoskie kluby dysponują wieloma obiecującymi zawodnikami, którzy potrzebują jedynie odpowiedniego zaufania oraz szansy na regularną grę w profesjonalnych rozgrywkach.</p><p>Szkoleniowiec wezwał środowisko piłkarskie do zaprzestania pesymistycznego tonu. Jego zdaniem, zamiast narzekać na brak jakości, należy skupić się na skuteczniejszym wprowadzaniu wychowanków do dorosłego futbolu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMihgFBVV95cUxQYnFVWThwcmVmdHJRUThkdGtndzE4cFNXNko2QlozT2NZbVNteDVzTmlJczJTd1liMWowbm1heXBQX3hiWGpaelF4YTJodjVjdVpFekFWcWUyZUVEWjdHbllqZ0VBMFpRUjdCLVh1UGZvVGVoVlBCLTdLcTY5ZnBmQ1J0U3hkUQ?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "17.11 • 20:51",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Equip_del_Val%C3%A8ncia_Club_de_Futbol_Mestalla_%28Alginet%2C_Pa%C3%ADs_Valenci%C3%A0%2C_1958%29.jpg/1280px-Equip_del_Val%C3%A8ncia_Club_de_Futbol_Mestalla_%28Alginet%2C_Pa%C3%ADs_Valenci%C3%A0%2C_1958%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imgCredit": "Fot. Ismael Latorre Mendoza (CC BY-SA 3.0)",
+    "title": "Valencia chce wzmocnić skład piłkarzem Aston Villi",
+    "summary": "Valencia CF rozpoczęła rozmowy w sprawie zaskakującego transferu zawodnika Aston Villi podczas zimowego okna transferowego.",
+    "content": "<p>Hiszpański klub podjął pierwsze kroki w celu pozyskania piłkarza z Premier League, co stanowi spore zaskoczenie dla obserwatorów rynku transferowego.</p><p>Przedstawiciele Valencii skontaktowali się z władzami Aston Villi, aby wybadać możliwość przeprowadzenia zimowej transakcji i warunki potencjalnego wypożyczenia lub transferu definitywnego.</p><p>Na ten moment szczegóły dotyczące nazwiska zawodnika oraz kwoty ewentualnej operacji pozostają nieoficjalne, jednak klub z Mestalla intensywnie poszukuje wzmocnień przed drugą częścią sezonu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMijwFBVV95cUxObjBUZjRNQ2JaY19MX1FOdGU1aElkQUNuLWVYRUNoTTIwb1NwaDlVdXdhMnRzeFZMNnZPWlVaejN5dVhtMF9IRzl2ZzJxNmRlQ2xYNWYwWXdzVDZRbmNaMjRjWVlYWkNDYzRKb2plS0tfTjhzYXhoNmszU0Y2Q0lkMDdxUnBNQzIwTTRiMFpISQ?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "LL",
     "badge": "La Liga",
     "badgeColor": "bg-red-600",
@@ -262,41 +298,5 @@
     "title": "Rooney contemplated suicide at ‘lowest point’ of Man Utd career",
     "summary": "Wayne Rooney has revealed he contemplated suicide during his Manchester United career; this article discusses mental health and suicide, which some readers may find distressing; if",
     "content": "<p>Wayne Rooney has revealed he contemplated suicide during his Manchester United career; this article discusses mental health and suicide, which some readers may find distressing; if you have been affected by this story, support and guidance are available at sky.com/viewersupport\nWayne Rooney has revealed there was a period in his Manchester United c</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/12040/13613275/wayne-rooney-says-he-contemplated-suicide-during-lowest-point-of-manchester-united-career' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "17.11 • 15:24",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Wayne_Rooney_%2850121495731%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Wayne Rooney szczerze o walce z depresją: „Myślałem o odebraniu sobie życia”",
-    "summary": "Legenda Manchesteru United, Wayne Rooney, ujawniła, że u szczytu kariery zmagała się z poważnymi problemami psychicznymi i myślami samobójczymi.",
-    "content": "<p>W szczerej rozmowie w podcaście „Life at the Midpoint” Wayne Rooney przyznał, że mimo ogromnych sukcesów sportowych w barwach Manchesteru United, prywatnie przechodził przez niezwykle trudny okres. Piłkarz wyznał, że w chwilach największego kryzysu izolował się od otoczenia, zamykając się w domu na wielodniowe maratony alkoholowe.</p><p>Były reprezentant Anglii otwarcie opowiedział o myślach samobójczych, które towarzyszyły mu w tamtym czasie. Rooney podkreślił, że wstydził się przyznać do słabości, czując, że jako mężczyzna powinien radzić sobie z emocjami samodzielnie, co dodatkowo utrudniało mu wyjście na prostą i kontakt z bliskimi.</p><p>Kluczową rolę w procesie wychodzenia z kryzysu odegrała żona piłkarza, Coleen, oraz profesjonalna pomoc terapeutyczna. Rooney zaznaczył, że choć był to dla niego czas pełen sukcesów zawodowych i szczęścia rodzinnego, wewnętrzna walka sprawiała, że nie potrafił cieszyć się życiem, dopóki nie zaczął szukać wsparcia.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/11095/13613275/wayne-rooney-says-he-contemplated-suicide-during-lowest-point-of-manchester-united-career' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "17.11 • 14:19",
-    "source": "Na podstawie: BBC Sport",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Wayne_Rooney_%2850121495731%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Wayne Rooney szczerze o mrocznych chwilach w Manchesterze United",
-    "summary": "Legenda Manchesteru United, Wayne Rooney, wyznała, że w trakcie swojej kariery zmagała się z myślami samobójczymi i problemami z alkoholem.",
-    "content": "<p>W rozmowie w podcaście Life at the Midpoint, Wayne Rooney ujawnił, że w czasach gry dla Manchesteru United przechodził głęboki kryzys psychiczny. Piłkarz przyznał, że w najtrudniejszych momentach zamykał się w domu na dwa dni, nadużywając alkoholu, aby uciec od narastającej presji.</p><p>Były kapitan reprezentacji Anglii wyznał, że w tamtym okresie rozważał odebranie sobie życia. Mimo ogromnych sukcesów sportowych, czuł się przytłoczony oczekiwaniami, co skłoniło go do poszukiwania profesjonalnej pomocy terapeutycznej oraz szczerej rozmowy z żoną i matką.</p><p>Rooney podkreślił, że przyznanie się do słabości było dla niego niezwykle trudne, gdyż w tamtym czasie utożsamiał prośbę o wsparcie z utratą męskości. Dziś otwarcie mówi o swoich dawnych zmaganiach, chcąc przełamać tabu dotyczące zdrowia psychicznego wśród sportowców.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/articles/cx1l0n3v003eo?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "17.11 • 14:19",
-    "source": "Na podstawie: BBC Sport",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/The_rise_and_fall_of_Chosen_Soren_-_its_effect_on_Japan%27s_relations_on_the_Korean_Peninsula_%28IA_therisendfallofc109456216%29.pdf/page1-960px-The_rise_and_fall_of_Chosen_Soren_-_its_effect_on_Japan%27s_relations_on_the_Korean_Peninsula_%28IA_therisendfallofc109456216%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "imgCredit": "Fot. Creamer, Dewayne J. (Public domain)",
-    "title": "Niespodziewany występ Sorena Coldinga w meczu gwiazd FIFA z 1997 roku",
-    "summary": "Duński obrońca Soren Colding wspomina swój nieoczekiwany udział w meczu Europe XI kontra Reszta Świata, gdzie stanął naprzeciw legendarnym piłkarzom jak Ronaldo czy Batistuta.",
-    "content": "<p>W grudniu 1997 roku na stadionie Velodrome w Marsylii odbyło się wyjątkowe spotkanie, w którym drużyna Europy zmierzyła się z Resztą Świata. W składzie europejskiego zespołu znalazły się takie gwiazdy jak Zinedine Zidane, Fernando Hierro czy Patrick Kluivert, a do kadry w ostatniej chwili dołączył duński obrońca Soren Colding.</p><p>Colding przyznaje, że powołanie było dla niego ogromnym zaskoczeniem, gdyż w tamtym czasie był zawodnikiem Brondby z niewielkim doświadczeniem w reprezentacji. Piłkarz wspomina, jak po przyjeździe do hotelu czuł się nieco wyobcowany, pojawiając się na lunchu w dresie, podczas gdy największe sławy światowego futbolu towarzyszyły swoim rodzinom i agentom.</p><p>Mecz był częścią promocji przed nadchodzącymi Mistrzostwami Świata, a Colding miał za zadanie powstrzymać w ataku m.in. Ronaldo oraz Gabriela Batistutę. Mimo braku statusu gwiazdy, Duńczyk szybko odnalazł się w elitarnym towarzystwie, nawiązując kontakt z innymi zawodnikami podczas krótkiego treningu przed spotkaniem.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/articles/cwj34058rvv6o?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
