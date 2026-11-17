@@ -50,11 +50,32 @@
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex justify-between items-center py-3.5 border-b border-gray-100 dark:border-border/40">
                 
-                <a href="#" onclick="handleNavigationCategory('ALL'); return false;" class="flex items-center gap-3 group">
-                    <img src="logo-bramkarz.png" alt="PITCH ZONE Logo" class="h-9 w-auto object-contain transition-transform duration-300 group-hover:scale-105 dark:invert">
-                    <span class="text-2xl font-black tracking-wider uppercase text-slate-900 dark:text-white">
-                        PITCH <span class="text-purple-600 dark:text-purple-500">ZONE</span>
-                    </span>
+                <!-- PODRASOWANE LOGO PITCH ZONE -->
+                <a href="#" onclick="handleNavigationCategory('ALL'); return false;" class="flex items-center gap-3.5 group py-0.5">
+                    <img src="logo-bramkarz.png" alt="PITCH ZONE Logo" class="h-10 w-auto object-contain transform transition-all duration-300 group-hover:scale-105 group-hover:-rotate-3 dark:invert filter drop-shadow-[0_2px_8px_rgba(168,85,247,0.25)]">
+                    
+                    <div class="flex flex-col justify-center -space-y-1">
+                        <div class="flex items-center gap-1.5">
+                            <span class="font-black text-2xl sm:text-3xl tracking-tighter text-slate-900 dark:text-white uppercase italic transform -skew-x-6 transition-transform duration-300">
+                                PITCH
+                            </span>
+                            <span class="font-black text-2xl sm:text-3xl tracking-tighter uppercase italic transform -skew-x-6 bg-gradient-to-r from-purple-600 to-indigo-500 dark:from-purple-400 dark:to-indigo-400 bg-clip-text text-transparent drop-shadow-[0_0_12px_rgba(168,85,247,0.3)]">
+                                ZONE
+                            </span>
+                            <div class="flex items-center gap-1 ml-1 self-start mt-1 transform -skew-x-12 select-none">
+                                <span class="relative flex h-2 w-2">
+                                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                                    <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.7)]"></span>
+                                </span>
+                                <span class="text-[9px] font-black tracking-wider text-emerald-500 dark:text-emerald-400 uppercase italic">
+                                    LIVE
+                                </span>
+                            </div>
+                        </div>
+                        <span class="text-[9px] font-extrabold tracking-[0.25em] text-gray-500 dark:text-gray-400 uppercase italic transform -skew-x-6 pl-0.5 transition-colors duration-300 group-hover:text-purple-500 dark:group-hover:text-gray-300">
+                            SERWIS PIŁKARSKI
+                        </span>
+                    </div>
                 </a>
 
                 <!-- PRAWA STRONA: WYSZUKIWARKA + MOTYW -->
@@ -102,8 +123,8 @@
                             <button onclick="selectLeagueAndTable('EKS', 'Ekstraklasa', 'PPL', 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <i class="fa-solid fa-star text-rose-500 w-4 text-center"></i> Ekstraklasa
                             </button>
-                     <button onclick="selectLeagueAndTable('OTHER', 'Inne Ligi', null, 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300 border-t border-gray-100 dark:border-border/50">
-    <i class="fa-solid fa-globe text-emerald-500 w-4 text-center"></i> Inne Ligi
+                            <button onclick="selectLeagueAndTable('OTHER', 'Inne Ligi', null, 'current-league-label', 'dropdown-menu-btn', 'league-dropdown', 'dropdown-arrow-1')" class="w-full text-left px-4 py-2.5 hover:bg-gray-100 dark:hover:bg-white/5 transition flex items-center gap-3 text-gray-700 dark:text-gray-300 border-t border-gray-100 dark:border-border/50">
+                                <i class="fa-solid fa-globe text-emerald-500 w-4 text-center"></i> Inne Ligi
                             </button>
                         </div>
                     </div>
