@@ -1,5 +1,17 @@
 [
   {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "17.11 • 21:50",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1280px-FC_Barcelona_%28crest%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Wyścig po Jordana Arnolina: Barcelona i Bayern w walce o młody talent",
+    "summary": "FC Barcelona oraz Bayern Monachium dołączyły do grona klubów rywalizujących o pozyskanie obiecującego zawodnika, Jordana Arnolina.",
+    "content": "<p>Jordan Arnolin stał się obiektem zainteresowania największych europejskich potęg. Według doniesień Yahoo Sports, młody piłkarz znajduje się obecnie na celowniku FC Barcelony oraz Bayernu Monachium.</p><p>Sytuacja wokół zawodnika jest dynamiczna, ponieważ do walki o jego podpis włączyły się również inne czołowe drużyny ze Starego Kontynentu, co zwiastuje zaciętą rywalizację na rynku transferowym.</p><p>Choć szczegóły dotyczące ewentualnej oferty czy kwoty odstępnego nie zostały jeszcze ujawnione, zainteresowanie tak uznanych marek potwierdza wysoki potencjał sportowy, jaki drzemie w tym graczu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMiiwFBVV95cUxQa3VVRlpJT3JPRHVneVBybDRBQWpmcWhZNUtySjVSTEU2SVk5eGh5WWZfbjYyLWJlYWxBQTJ3WEhBVDB0cFFlZEpzcHZLVlNBXzNvc0gwNHQtV2c1RGx5akIxdU5DaFVLMG1OM2xrSlhCaUdsczFhWGt6cFhlQ0JoNTR6WXF2b3h1NV9N?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "OTHER",
     "badge": "Inne Ligi",
     "badgeColor": "bg-emerald-600",
@@ -286,17 +298,5 @@
     "title": "Anglia chce zorganizować finały Ligi Narodów. FA zgłasza gotowość",
     "summary": "Angielska federacja piłkarska (FA) wyraziła zainteresowanie organizacją czerwcowego turnieju finałowego Ligi Narodów, rywalizując o to miano z Hiszpanią oraz Francją.",
     "content": "<p>Angielska federacja (FA) oficjalnie zgłosiła chęć przeprowadzenia decydującej fazy Ligi Narodów, która zaplanowana jest na dni 9-13 czerwca. O prawo do goszczenia czterech najlepszych drużyn turnieju ubiegają się również Hiszpania i Francja, a UEFA podejmie ostateczną decyzję w tej sprawie.</p><p>Władze angielskiego futbolu analizują obecnie potencjalne lokalizacje, przy czym dostępność stadionu Wembley pozostaje kwestią otwartą. Choć w czerwcu obiekt ma gościć koncerty Sama Fendera, odbywają się one już po terminie rozgrywania finałów Ligi Narodów.</p><p>Sukces w staraniach o organizację byłby dla Anglii cennym sprawdzianem przed Euro 2028. Podopieczni Thomasa Tuchela, którzy wygrali grupę po prestiżowym zwycięstwie 3:2 nad Hiszpanią, czekają teraz na losowanie ćwierćfinałów, w których mogą trafić na Belgię, Holandię, Danię lub Norwegię.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/articles/c5742x4xldmpo?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "17.11 • 15:25",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Rooney contemplated suicide at ‘lowest point’ of Man Utd career",
-    "summary": "Wayne Rooney has revealed he contemplated suicide during his Manchester United career; this article discusses mental health and suicide, which some readers may find distressing; if",
-    "content": "<p>Wayne Rooney has revealed he contemplated suicide during his Manchester United career; this article discusses mental health and suicide, which some readers may find distressing; if you have been affected by this story, support and guidance are available at sky.com/viewersupport\nWayne Rooney has revealed there was a period in his Manchester United c</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/12040/13613275/wayne-rooney-says-he-contemplated-suicide-during-lowest-point-of-manchester-united-career' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
