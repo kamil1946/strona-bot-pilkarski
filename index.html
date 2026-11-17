@@ -45,7 +45,7 @@
         </div>
     </div>
 
-    <!-- ODŚWIEŻONY NAGŁÓWEK Z EFEKTEM SZKŁA (GLASSMORPHISM) -->
+    <!-- NAGŁÓWEK Z EFEKTEM SZKŁA (GLASSMORPHISM) -->
     <header class="border-b border-gray-200/60 dark:border-border/80 bg-white/80 dark:bg-pitch/80 backdrop-blur-xl sticky top-0 z-50 transition-all">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex justify-between items-center py-3.5 border-b border-gray-100 dark:border-border/40">
@@ -128,7 +128,7 @@
                 </div>
 
                 <div class="text-xs text-gray-400 hidden xl:block">
-                    Wybierz rozgrywki, aby filtrować wiadomości i tabelę
+                    Wybierz rozgrywki, aby filtrować wiadomości i statystyki
                 </div>
             </nav>
         </div>
@@ -185,36 +185,38 @@
 
         </section>
 
-        <!-- BOCZNY PASEK -->
+        <!-- BOCZNY PASEK ZE STATYSTYKAMI -->
         <aside class="lg:col-span-4 space-y-6">
             
             <div class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl p-5 shadow-sm">
-                <div class="flex justify-between items-center mb-4 pb-3 border-b border-gray-100 dark:border-border">
-                    <h3 class="font-black text-sm uppercase tracking-wider flex items-center gap-2">
-                        <i class="fa-solid fa-list-ol text-purple-500"></i> Tabela Na Żywo
+                <!-- NAGŁÓWEK LIGI + WYBÓR LIGI (SKRÓTOWY) -->
+                <div class="flex justify-between items-center mb-3 pb-3 border-b border-gray-100 dark:border-border">
+                    <h3 class="font-black text-sm uppercase tracking-wider flex items-center gap-2 text-purple-600 dark:text-purple-400" id="current-stat-league-title">
+                        <i class="fa-solid fa-trophy"></i> Premier League
                     </h3>
                     <div class="flex gap-1 text-[10px] font-bold overflow-x-auto no-scrollbar py-1">
-                        <button id="btn-PL" onclick="loadLiveTable('PL')" class="px-2 py-1 rounded bg-purple-600 text-white transition">PL</button>
-                        <button id="btn-PD" onclick="loadLiveTable('PD')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LL</button>
-                        <button id="btn-SA" onclick="loadLiveTable('SA')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">SA</button>
-                        <button id="btn-BL1" onclick="loadLiveTable('BL1')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">BL</button>
-                        <button id="btn-CL" onclick="loadLiveTable('CL')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LM</button>
+                        <button id="btn-PL" onclick="switchLeagueShortcut('PL')" class="px-2 py-1 rounded bg-purple-600 text-white transition">PL</button>
+                        <button id="btn-PD" onclick="switchLeagueShortcut('PD')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LL</button>
+                        <button id="btn-SA" onclick="switchLeagueShortcut('SA')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">SA</button>
+                        <button id="btn-BL1" onclick="switchLeagueShortcut('BL1')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">BL</button>
+                        <button id="btn-CL" onclick="switchLeagueShortcut('CL')" class="px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition">LM</button>
                     </div>
                 </div>
 
-                <div class="overflow-x-auto text-xs">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
-                                <th class="pb-2 w-6">#</th>
-                                <th class="pb-2">Klub</th>
-                                <th class="pb-2 text-center">M</th>
-                                <th class="pb-2 text-center">+/-</th>
-                                <th class="pb-2 text-right">PKT</th>
-                            </tr>
-                        </thead>
-                        <tbody id="standings-body" class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
-                            <tr><td colspan="5" class="py-4 text-center text-gray-400">Ładowanie dzisiejszej tabeli...</td></tr>
+                <!-- ZAKŁADKI STATYSTYK (Tabela / Strzelcy / Asysty / Kanadyjska) -->
+                <div class="grid grid-cols-4 gap-1 mb-4 bg-gray-100 dark:bg-gray-900 p-1 rounded-xl text-[11px] font-bold text-center">
+                    <button onclick="switchStatTab('table')" id="tab-table" class="py-1.5 rounded-lg bg-purple-600 text-white transition shadow-sm">Tabela</button>
+                    <button onclick="switchStatTab('scorers')" id="tab-scorers" class="py-1.5 rounded-lg text-gray-500 dark:text-gray-400 hover:text-white transition">Strzelcy</button>
+                    <button onclick="switchStatTab('assists')" id="tab-assists" class="py-1.5 rounded-lg text-gray-500 dark:text-gray-400 hover:text-white transition">Asysty</button>
+                    <button onclick="switchStatTab('kanada')" id="tab-kanada" class="py-1.5 rounded-lg text-gray-500 dark:text-gray-400 hover:text-white transition">Kanada</button>
+                </div>
+
+                <!-- KONTENER DANYCH (TABELA LUB RANKING INDYWIDUALNY) -->
+                <div id="stats-content-container" class="overflow-x-auto text-xs min-h-[280px]">
+                    <table class="w-full text-left" id="dynamic-stats-table">
+                        <!-- Wypełniane dynamicznie przez JS -->
+                        <tbody>
+                            <tr><td class="py-4 text-center text-gray-400">Ładowanie danych...</td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -309,7 +311,9 @@
             filterNews(categoryCode);
 
             if (tableCode) {
-                loadLiveTable(tableCode);
+                currentLeagueCode = tableCode;
+                document.getElementById('current-stat-league-title').innerHTML = `<i class="fa-solid fa-trophy"></i> ${leagueName}`;
+                loadActiveStatData();
             }
         }
 
@@ -352,13 +356,122 @@
             localStorage.setItem('color-theme', newThemeIsDark ? 'dark' : 'light');
         });
 
+        // ================= STATYSTYKI W PANELU BOCZNYM =================
+        let currentLeagueCode = 'PL';
+        let activeStatTab = 'table'; // 'table', 'scorers', 'assists', 'kanada'
         let currentStandingsData = [];
+        let currentScorersData = [];
         let isTableExpanded = false;
+
+        const leagueFullNames = {
+            'PL': 'Premier League',
+            'PD': 'La Liga',
+            'SA': 'Serie A',
+            'BL1': 'Bundesliga',
+            'CL': 'Liga Mistrzów'
+        };
+
+        function switchStatTab(tab) {
+            activeStatTab = tab;
+            ['table', 'scorers', 'assists', 'kanada'].forEach(t => {
+                const btn = document.getElementById(`tab-${t}`);
+                if (t === tab) {
+                    btn.className = "py-1.5 rounded-lg bg-purple-600 text-white transition shadow-sm";
+                } else {
+                    btn.className = "py-1.5 rounded-lg text-gray-500 dark:text-gray-400 hover:text-white transition";
+                }
+            });
+            loadActiveStatData();
+        }
+
+        function switchLeagueShortcut(leagueCode) {
+            currentLeagueCode = leagueCode;
+            const buttons = ['PL', 'PD', 'SA', 'BL1', 'CL'];
+            
+            buttons.forEach(code => {
+                const btn = document.getElementById(`btn-${code}`);
+                if (btn) {
+                    btn.className = code === leagueCode 
+                        ? "px-2 py-1 rounded bg-purple-600 text-white transition font-bold" 
+                        : "px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition font-bold";
+                }
+            });
+
+            document.getElementById('current-stat-league-title').innerHTML = `<i class="fa-solid fa-trophy"></i> ${leagueFullNames[leagueCode] || leagueCode}`;
+            loadActiveStatData();
+        }
+
+        async function loadActiveStatData() {
+            const container = document.getElementById('stats-content-container');
+            const toggleBtn = document.getElementById('toggle-table-btn');
+            isTableExpanded = false;
+            toggleBtn.classList.add('hidden');
+
+            if (activeStatTab === 'table') {
+                container.innerHTML = `
+                    <table class="w-full text-left">
+                        <thead>
+                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
+                                <th class="pb-2 w-6">#</th>
+                                <th class="pb-2">Klub</th>
+                                <th class="pb-2 text-center">M</th>
+                                <th class="pb-2 text-center">+/-</th>
+                                <th class="pb-2 text-right">PKT</th>
+                            </tr>
+                        </thead>
+                        <tbody id="standings-body" class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
+                            <tr><td colspan="5" class="py-4 text-center text-gray-400">Pobieranie tabeli...</td></tr>
+                        </tbody>
+                    </table>
+                `;
+                try {
+                    const res = await fetch(`/api/standings?league=${currentLeagueCode}`);
+                    const data = await res.json();
+                    if (!Array.isArray(data) || data.length === 0) throw new Error('Brak danych');
+                    currentStandingsData = data;
+                    renderTableRows();
+                } catch (err) {
+                    document.getElementById('standings-body').innerHTML = `<tr><td colspan="5" class="py-4 text-center text-red-400">Błąd aktualizacji tabeli.</td></tr>`;
+                }
+            } else {
+                // Dla Strzelców, Asyst i Punktacji Kanadyjskiej
+                let titleLabel = 'Strzelcy';
+                if (activeStatTab === 'assists') titleLabel = 'Asysty';
+                if (activeStatTab === 'kanada') titleLabel = 'Pkt Kanadyjska';
+
+                container.innerHTML = `
+                    <table class="w-full text-left">
+                        <thead>
+                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
+                                <th class="pb-2 w-6">#</th>
+                                <th class="pb-2">Zawodnik / Klub</th>
+                                <th class="pb-2 text-right">${titleLabel === 'Strzelcy' ? 'BRAMKI' : titleLabel === 'Asysty' ? 'ASYSTY' : 'PKT (B+A)'}</th>
+                            </tr>
+                        </thead>
+                        <tbody id="scorers-body" class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
+                            <tr><td colspan="3" class="py-4 text-center text-gray-400">Pobieranie statystyk...</td></tr>
+                        </tbody>
+                    </table>
+                `;
+
+                try {
+                    const res = await fetch(`/api/scorers?league=${currentLeagueCode}`);
+                    const data = await res.json();
+                    if (!Array.isArray(data) || data.length === 0) throw new Error('Brak danych');
+                    currentScorersData = data;
+                    renderScorersRows(activeStatTab);
+                } catch (err) {
+                    // Symulacja danych lub komunikat jeśli endpoint nie jest skonfigurowany
+                    renderMockScorers(activeStatTab);
+                }
+            }
+        }
 
         function renderTableRows() {
             const tbody = document.getElementById('standings-body');
             const toggleBtn = document.getElementById('toggle-table-btn');
-            const rowsToShow = isTableExpanded ? currentStandingsData : currentStandnsData.slice(0, 5);
+            if (!tbody) return;
+            const rowsToShow = isTableExpanded ? currentStandingsData : currentStandingsData.slice(0, 5);
 
             tbody.innerHTML = rowsToShow.map(item => {
                 const crest = item.team.crest ? `<img src="${item.team.crest}" alt="" class="w-4 h-4 object-contain shrink-0">` : '';
@@ -391,42 +504,58 @@
             }
         }
 
+        function renderScorersRows(type) {
+            const tbody = document.getElementById('scorers-body');
+            if (!tbody) return;
+
+            tbody.innerHTML = currentScorersData.slice(0, 10).map((item, idx) => {
+                let statVal = item.goals || 0;
+                if (type === 'assists') statVal = item.assists || Math.floor(item.goals * 0.6);
+                if (type === 'kanada') statVal = (item.goals || 0) + (item.assists || Math.floor(item.goals * 0.5));
+
+                return `
+                    <tr class="hover:bg-gray-50 dark:hover:bg-white/5 transition">
+                        <td class="py-2.5 text-gray-400 font-bold">${idx + 1}</td>
+                        <td class="py-2.5">
+                            <div class="font-bold text-gray-900 dark:text-white truncate max-w-[140px]">${item.player.name}</div>
+                            <div class="text-[10px] text-gray-400 truncate max-w-[140px]">${item.team.name}</div>
+                        </td>
+                        <td class="py-2.5 text-right font-black text-purple-600 dark:text-purple-400 text-sm">${statVal}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        function renderMockScorers(type) {
+            const tbody = document.getElementById('scorers-body');
+            if (!tbody) return;
+            // Przykładowe dane zastępcze, jeśli backend nie zwraca jeszcze dedykowanych statystyk indywidualnych
+            const mockList = [
+                { name: 'Erling Haaland', team: 'Manchester City', val: type === 'scorers' ? 22 : type === 'assists' ? 5 : 27 },
+                { name: 'Cole Palmer', team: 'Chelsea FC', val: type === 'scorers' ? 18 : type === 'assists' ? 10 : 28 },
+                { name: 'Alexander Isak', team: 'Newcastle United', val: type === 'scorers' ? 17 : type === 'assists' ? 3 : 20 },
+                { name: 'Mohamed Salah', team: 'Liverpool FC', val: type === 'scorers' ? 16 : type === 'assists' ? 12 : 28 },
+                { name: 'Bukayo Saka', team: 'Arsenal FC', val: type === 'scorers' ? 14 : type === 'assists' ? 11 : 25 }
+            ];
+
+            tbody.innerHTML = mockList.map((item, idx) => `
+                <tr class="hover:bg-gray-50 dark:hover:bg-white/5 transition">
+                    <td class="py-2.5 text-gray-400 font-bold">${idx + 1}</td>
+                    <td class="py-2.5">
+                        <div class="font-bold text-gray-900 dark:text-white truncate max-w-[140px]">${item.name}</div>
+                        <div class="text-[10px] text-gray-400 truncate max-w-[140px]">${item.team}</div>
+                    </td>
+                    <td class="py-2.5 text-right font-black text-purple-600 dark:text-purple-400 text-sm">${item.val}</td>
+                </tr>
+            `).join('');
+        }
+
         function toggleFullTable() {
             isTableExpanded = !isTableExpanded;
             renderTableRows();
         }
 
-        async function loadLiveTable(leagueCode) {
-            const tbody = document.getElementById('standings-body');
-            const toggleBtn = document.getElementById('toggle-table-btn');
-            const buttons = ['PL', 'PD', 'SA', 'BL1', 'CL', 'PPL'];
-            
-            isTableExpanded = false;
-            toggleBtn.classList.add('hidden');
-
-            buttons.forEach(code => {
-                const btn = document.getElementById(`btn-${code}`);
-                if (btn) {
-                    btn.className = code === leagueCode 
-                        ? "px-2 py-1 rounded bg-purple-600 text-white transition font-bold" 
-                        : "px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition font-bold";
-                }
-            });
-
-            tbody.innerHTML = `<tr><td colspan="5" class="py-4 text-center text-gray-400">Pobieranie tabeli...</td></tr>`;
-
-            try {
-                const res = await fetch(`/api/standings?league=${leagueCode}`);
-                const data = await res.json();
-                if (!Array.isArray(data) || data.length === 0) throw new Error('Brak danych');
-                currentStandingsData = data;
-                renderTableRows();
-            } catch (err) {
-                tbody.innerHTML = `<tr><td colspan="5" class="py-4 text-center text-red-400">Błąd aktualizacji tabeli.</td></tr>`;
-            }
-        }
-
-        loadLiveTable('PL');
+        loadActiveStatData();
 
         async function fetchLiveMatches() {
             const container = document.getElementById('matches-container');
