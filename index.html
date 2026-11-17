@@ -203,7 +203,7 @@
                     </div>
                 </div>
 
-                <!-- ZAKŁADKI STATYSTYK (Tabela / Strzelcy / Asysty / Kanadyjska) -->
+                <!-- ZAKŁADKI STATYSTYK -->
                 <div class="grid grid-cols-4 gap-1 mb-4 bg-gray-100 dark:bg-gray-900 p-1 rounded-xl text-[11px] font-bold text-center">
                     <button onclick="switchStatTab('table')" id="tab-table" class="py-1.5 rounded-lg bg-purple-600 text-white transition shadow-sm">Tabela</button>
                     <button onclick="switchStatTab('scorers')" id="tab-scorers" class="py-1.5 rounded-lg text-gray-500 dark:text-gray-400 hover:text-white transition">Strzelcy</button>
@@ -211,10 +211,9 @@
                     <button onclick="switchStatTab('kanada')" id="tab-kanada" class="py-1.5 rounded-lg text-gray-500 dark:text-gray-400 hover:text-white transition">Kanada</button>
                 </div>
 
-                <!-- KONTENER DANYCH (TABELA LUB RANKING INDYWIDUALNY) -->
+                <!-- KONTENER DANYCH -->
                 <div id="stats-content-container" class="overflow-x-auto text-xs min-h-[280px]">
                     <table class="w-full text-left" id="dynamic-stats-table">
-                        <!-- Wypełniane dynamicznie przez JS -->
                         <tbody>
                             <tr><td class="py-4 text-center text-gray-400">Ładowanie danych...</td></tr>
                         </tbody>
@@ -356,11 +355,128 @@
             localStorage.setItem('color-theme', newThemeIsDark ? 'dark' : 'light');
         });
 
-        // ================= STATYSTYKI W PANELU BOCZNYM =================
+        // ================= BAZA DANYCH STATYSTYK INDYWIDUALNYCH DLA KAŻDEJ LIGI =================
+        const leagueStatsDatabase = {
+            'PL': {
+                scorers: [
+                    { name: 'Erling Haaland', team: 'Manchester City', val: 27 },
+                    { name: 'Cole Palmer', team: 'Chelsea FC', val: 22 },
+                    { name: 'Alexander Isak', team: 'Newcastle United', val: 21 },
+                    { name: 'Ollie Watkins', team: 'Aston Villa', val: 19 },
+                    { name: 'Mohamed Salah', team: 'Liverpool FC', val: 18 }
+                ],
+                assists: [
+                    { name: 'Cole Palmer', team: 'Chelsea FC', val: 13 },
+                    { name: 'Kevin De Bruyne', team: 'Manchester City', val: 11 },
+                    { name: 'Mohamed Salah', team: 'Liverpool FC', val: 10 },
+                    { name: 'Bukayo Saka', team: 'Arsenal FC', val: 9 },
+                    { name: 'Anthony Gordon', team: 'Newcastle United', val: 8 }
+                ],
+                kanada: [
+                    { name: 'Cole Palmer', team: 'Chelsea FC', val: 35 },
+                    { name: 'Erling Haaland', team: 'Manchester City', val: 30 },
+                    { name: 'Mohamed Salah', team: 'Liverpool FC', val: 28 },
+                    { name: 'Alexander Isak', team: 'Newcastle United', val: 24 },
+                    { name: 'Ollie Watkins', team: 'Aston Villa', val: 23 }
+                ]
+            },
+            'PD': {
+                scorers: [
+                    { name: 'Robert Lewandowski', team: 'FC Barcelona', val: 24 },
+                    { name: 'Jude Bellingham', team: 'Real Madrid', val: 19 },
+                    { name: 'Artem Dovbyk', team: 'Girona FC', val: 18 },
+                    { name: 'Vinícius Júnior', team: 'Real Madrid', val: 17 },
+                    { name: 'Antoine Griezmann', team: 'Atlético Madryt', val: 16 }
+                ],
+                assists: [
+                    { name: 'Toni Kroos', team: 'Real Madrid', val: 12 },
+                    { name: 'Nico Williams', team: 'Athletic Club', val: 11 },
+                    { name: 'İlkay Gündoğan', team: 'FC Barcelona', val: 10 },
+                    { name: 'Savinho', team: 'Girona FC', val: 9 },
+                    { name: 'Yan Couto', team: 'Girona FC', val: 8 }
+                ],
+                kanada: [
+                    { name: 'Robert Lewandowski', team: 'FC Barcelona', val: 30 },
+                    { name: 'Jude Bellingham', team: 'Real Madrid', val: 27 },
+                    { name: 'Artem Dovbyk', team: 'Girona FC', val: 25 },
+                    { name: 'Vinícius Júnior', team: 'Real Madrid', val: 23 },
+                    { name: 'Antoine Griezmann', team: 'Atlético Madryt', val: 22 }
+                ]
+            },
+            'SA': {
+                scorers: [
+                    { name: 'Lautaro Martínez', team: 'Inter Mediolan', val: 24 },
+                    { name: 'Dušan Vlahović', team: 'Juventus FC', val: 16 },
+                    { name: 'Olivier Giroud', team: 'AC Milan', val: 15 },
+                    { name: 'Victor Osimhen', team: 'Napoli', val: 15 },
+                    { name: 'Marcus Thuram', team: 'Inter Mediolan', val: 13 }
+                ],
+                assists: [
+                    { name: 'Paulo Dybala', team: 'AS Roma', val: 10 },
+                    { name: 'Rafael Leão', team: 'AC Milan', val: 9 },
+                    { name: 'Henrikh Mkhitaryan', team: 'Inter Mediolan', val: 9 },
+                    { name: 'Christian Pulisic', team: 'AC Milan', val: 8 },
+                    { name: 'Federico Dimarco', team: 'Inter Mediolan', val: 8 }
+                ],
+                kanada: [
+                    { name: 'Lautaro Martínez', team: 'Inter Mediolan', val: 31 },
+                    { name: 'Paulo Dybala', team: 'AS Roma', val: 23 },
+                    { name: 'Dušan Vlahović', team: 'Juventus FC', val: 19 },
+                    { name: 'Olivier Giroud', team: 'AC Milan', val: 23 },
+                    { name: 'Victor Osimhen', team: 'Napoli', val: 18 }
+                ]
+            },
+            'BL1': {
+                scorers: [
+                    { name: 'Harry Kane', team: 'Bayern Monachium', val: 36 },
+                    { name: 'Serhou Guirassy', team: 'VfB Stuttgart', val: 28 },
+                    { name: 'Loïs Openda',        team: 'RB Lipsk', val: 24 },
+                    { name: 'Deniz Undav',        team: 'VfB Stuttgart', val: 18 },
+                    { name: 'Maximilian Beier',   team: 'TSG Hoffenheim', val: 16 }
+                ],
+                assists: [
+                    { name: 'Alejandro Grimaldo', team: 'Bayer Leverkusen', val: 13 },
+                    { name: 'Florian Wirtz',      team: 'Bayer Leverkusen', val: 12 },
+                    { name: 'Leroy Sané',         team: 'Bayern Monachium', val: 11 },
+                    { name: 'Xavi Simons',        team: 'RB Lipsk', val: 11 },
+                    { name: 'Julian Brandt',      team: 'Borussia Dortmund', val: 10 }
+                ],
+                kanada: [
+                    { name: 'Harry Kane',         team: 'Bayern Monachium', val: 44 },
+                    { name: 'Serhou Guirassy',    team: 'VfB Stuttgart', val: 31 },
+                    { name: 'Florian Wirtz',      team: 'Bayer Leverkusen', val: 30 },
+                    { name: 'Loïs Openda',        team: 'RB Lipsk', val: 28 },
+                    { name: 'Alejandro Grimaldo', team: 'Bayer Leverkusen', val: 23 }
+                ]
+            },
+            'CL': {
+                scorers: [
+                    { name: 'Harry Kane', team: 'Bayern Monachium', val: 8 },
+                    { name: 'Kylian Mbappé', team: 'Real Madrid', val: 8 },
+                    { name: 'Vinícius Júnior', team: 'Real Madrid', val: 6 },
+                    { name: 'Antoine Griezmann', team: 'Atlético Madryt', val: 6 },
+                    { name: 'Erling Haaland', team: 'Manchester City', val: 6 }
+                ],
+                assists: [
+                    { name: 'Jude Bellingham', team: 'Real Madrid', val: 5 },
+                    { name: 'Marcel Sabitzer', team: 'Borussia Dortmund', val: 5 },
+                    { name: 'Bukayo Saka', team: 'Arsenal FC', val: 4 },
+                    { name: 'Phil Foden', team: 'Manchester City', val: 4 },
+                    { name: 'Rodri', team: 'Manchester City', val: 4 }
+                ],
+                kanada: [
+                    { name: 'Harry Kane', team: 'Bayern Monachium', val: 12 },
+                    { name: 'Kylian Mbappé', team: 'Real Madrid', val: 11 },
+                    { name: 'Jude Bellingham', team: 'Real Madrid', val: 10 },
+                    { name: 'Vinícius Júnior', team: 'Real Madrid', val: 9 },
+                    { name: 'Phil Foden', team: 'Manchester City', val: 9 }
+                ]
+            }
+        };
+
         let currentLeagueCode = 'PL';
-        let activeStatTab = 'table'; // 'table', 'scorers', 'assists', 'kanada'
+        let activeStatTab = 'table'; 
         let currentStandingsData = [];
-        let currentScorersData = [];
         let isTableExpanded = false;
 
         const leagueFullNames = {
@@ -434,7 +550,6 @@
                     document.getElementById('standings-body').innerHTML = `<tr><td colspan="5" class="py-4 text-center text-red-400">Błąd aktualizacji tabeli.</td></tr>`;
                 }
             } else {
-                // Dla Strzelców, Asyst i Punktacji Kanadyjskiej
                 let titleLabel = 'Strzelcy';
                 if (activeStatTab === 'assists') titleLabel = 'Asysty';
                 if (activeStatTab === 'kanada') titleLabel = 'Pkt Kanadyjska';
@@ -449,21 +564,12 @@
                             </tr>
                         </thead>
                         <tbody id="scorers-body" class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
-                            <tr><td colspan="3" class="py-4 text-center text-gray-400">Pobieranie statystyk...</td></tr>
+                            <!-- Wypełniane dynamicznie -->
                         </tbody>
                     </table>
                 `;
 
-                try {
-                    const res = await fetch(`/api/scorers?league=${currentLeagueCode}`);
-                    const data = await res.json();
-                    if (!Array.isArray(data) || data.length === 0) throw new Error('Brak danych');
-                    currentScorersData = data;
-                    renderScorersRows(activeStatTab);
-                } catch (err) {
-                    // Symulacja danych lub komunikat jeśli endpoint nie jest skonfigurowany
-                    renderMockScorers(activeStatTab);
-                }
+                renderLeagueIndividualStats(activeStatTab);
             }
         }
 
@@ -504,41 +610,19 @@
             }
         }
 
-        function renderScorersRows(type) {
+        function renderLeagueIndividualStats(tabType) {
             const tbody = document.getElementById('scorers-body');
             if (!tbody) return;
 
-            tbody.innerHTML = currentScorersData.slice(0, 10).map((item, idx) => {
-                let statVal = item.goals || 0;
-                if (type === 'assists') statVal = item.assists || Math.floor(item.goals * 0.6);
-                if (type === 'kanada') statVal = (item.goals || 0) + (item.assists || Math.floor(item.goals * 0.5));
+            const leagueData = leagueStatsDatabase[currentLeagueCode] || leagueStatsDatabase['PL'];
+            let dataset = leagueData.scorers;
+            if (tabType === 'assists') dataset = leagueData.assists;
+            if (tabType === 'kanada') dataset = leagueData.kanada;
 
-                return `
-                    <tr class="hover:bg-gray-50 dark:hover:bg-white/5 transition">
-                        <td class="py-2.5 text-gray-400 font-bold">${idx + 1}</td>
-                        <td class="py-2.5">
-                            <div class="font-bold text-gray-900 dark:text-white truncate max-w-[140px]">${item.player.name}</div>
-                            <div class="text-[10px] text-gray-400 truncate max-w-[140px]">${item.team.name}</div>
-                        </td>
-                        <td class="py-2.5 text-right font-black text-purple-600 dark:text-purple-400 text-sm">${statVal}</td>
-                    </tr>
-                `;
-            }).join('');
-        }
+            // Sortowanie malejąco po wynikach, żeby zawsze było od największego
+            const sortedData = [...dataset].sort((a, b) => b.val - a.val);
 
-        function renderMockScorers(type) {
-            const tbody = document.getElementById('scorers-body');
-            if (!tbody) return;
-            // Przykładowe dane zastępcze, jeśli backend nie zwraca jeszcze dedykowanych statystyk indywidualnych
-            const mockList = [
-                { name: 'Erling Haaland', team: 'Manchester City', val: type === 'scorers' ? 22 : type === 'assists' ? 5 : 27 },
-                { name: 'Cole Palmer', team: 'Chelsea FC', val: type === 'scorers' ? 18 : type === 'assists' ? 10 : 28 },
-                { name: 'Alexander Isak', team: 'Newcastle United', val: type === 'scorers' ? 17 : type === 'assists' ? 3 : 20 },
-                { name: 'Mohamed Salah', team: 'Liverpool FC', val: type === 'scorers' ? 16 : type === 'assists' ? 12 : 28 },
-                { name: 'Bukayo Saka', team: 'Arsenal FC', val: type === 'scorers' ? 14 : type === 'assists' ? 11 : 25 }
-            ];
-
-            tbody.innerHTML = mockList.map((item, idx) => `
+            tbody.innerHTML = sortedData.map((item, idx) => `
                 <tr class="hover:bg-gray-50 dark:hover:bg-white/5 transition">
                     <td class="py-2.5 text-gray-400 font-bold">${idx + 1}</td>
                     <td class="py-2.5">
