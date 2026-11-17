@@ -785,21 +785,53 @@
 
         loadActiveStatData();
 
-        // ================= MECZE LIVE =================
+        // ================= MECZE LIVE (NAPRAWIONE) =================
         async function fetchLiveMatches() {
             const container = document.getElementById('matches-container');
             try {
                 const response = await fetch('/api/matches');
+                if (!response.ok) throw new Error('Błąd serwera');
                 const matches = await response.json();
-                if (!Array.isArray(matches) || matches.length === 0) throw new Error();
-                container.innerHTML = matches.slice(0, 10).map(m => `
-                    <div class="pl-3 flex items-center gap-2">
-                        <span class="px-1.5 py-0.5 rounded bg-purple-950 text-purple-300 text-[9px] font-black uppercase">${m.competition.code}</span>
-                        <span class="font-bold text-gray-900 dark:text-white">${m.homeTeam.shortName || m.homeTeam.name}</span>
-                        <span class="text-purple-500 font-black px-1">${m.score.fullTime.home ?? '0'} : ${m.score.fullTime.away ?? '0'}</span>
-                        <span class="font-bold text-gray-900 dark:text-white">${m.awayTeam.shortName || m.awayTeam.name}</span>
-                    </div>
-                `).join('');
+                if (!Array.isArray(matches) || matches.length === 0) {
+                    container.innerHTML = `<span class="pl-3 text-gray-400">Brak zaplanowanych hitów w najbliższych dniach.</span>`;
+                    return;
+                }
+
+                const leagueNames = { 'PL': 'Premier League', 'PD': 'La Liga', 'BL1': 'Bundesliga', 'SA': 'Serie A', 'FL1': 'Ligue 1', 'CL': 'Liga Mistrzów' };
+
+                container.innerHTML = matches.slice(0, 10).map(match => {
+                    const home = match.homeTeam.shortName || match.homeTeam.name;
+                    const away = match.awayTeam.shortName || match.awayTeam.name;
+                    const leagueLabel = leagueNames[match.competition.code] || match.competition.code;
+                    const status = match.status;
+                    const homeScore = match.score?.fullTime?.home;
+                    const awayScore = match.score?.fullTime?.away;
+
+                    let statusBadge = '';
+                    let scoreDisplay = '';
+
+                    if (status === 'IN_PLAY' || status === 'PAUSED') {
+                        statusBadge = `<span class="px-1.5 py-0.5 rounded bg-red-600 text-white text-[9px] font-black animate-pulse">LIVE</span>`;
+                        scoreDisplay = `<span class="text-purple-500 font-black px-1">${homeScore ?? 0} : ${awayScore ?? 0}</span>`;
+                    } else if (status === 'FINISHED') {
+                        statusBadge = `<span class="px-1.5 py-0.5 rounded bg-gray-700 text-gray-300 text-[9px] font-black">KONIEC</span>`;
+                        scoreDisplay = `<span class="text-purple-500 font-black px-1">${homeScore ?? 0} : ${awayScore ?? 0}</span>`;
+                    } else {
+                        const matchDate = new Date(match.utcDate);
+                        statusBadge = `<span class="text-gray-400 font-semibold">${matchDate.toLocaleDateString('pl-PL', { day: '2-digit', month: '2-digit' })} • ${matchDate.toLocaleTimeString('pl-PL', { hour: '2-digit', minute: '2-digit' })}</span>`;
+                        scoreDisplay = `<span class="text-gray-500 px-1 font-bold">vs</span>`;
+                    }
+
+                    return `
+                        <div class="pl-3 flex items-center gap-2">
+                            <span class="px-1.5 py-0.5 rounded bg-purple-950 text-purple-300 text-[9px] font-black uppercase">${leagueLabel}</span>
+                            ${statusBadge}
+                            <span class="font-bold text-gray-900 dark:text-white">${home}</span>
+                            ${scoreDisplay}
+                            <span class="font-bold text-gray-900 dark:text-white">${away}</span>
+                        </div>
+                    `;
+                }).join('');
             } catch (e) {
                 container.innerHTML = `<span class="pl-3 text-gray-400">Brak aktywnych spotkań na żywo.</span>`;
             }
