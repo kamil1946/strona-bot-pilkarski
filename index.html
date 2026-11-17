@@ -50,7 +50,7 @@
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex justify-between items-center py-3.5 border-b border-gray-100 dark:border-border/40">
                 
-                <!-- PODRASOWANE LOGO PITCH ZONE -->
+                <!-- PODRASOWANE LOGO PITCH ZONE (Z KURSYWĄ I LIVE) -->
                 <a href="#" onclick="handleNavigationCategory('ALL'); return false;" class="flex items-center gap-3.5 group py-0.5">
                     <img src="logo-bramkarz.png" alt="PITCH ZONE Logo" class="h-10 w-auto object-contain transform transition-all duration-300 group-hover:scale-105 group-hover:-rotate-3 dark:invert filter drop-shadow-[0_2px_8px_rgba(168,85,247,0.25)]">
                     
@@ -163,6 +163,27 @@
         
         <section class="lg:col-span-8 space-y-6">
             
+            <!-- NOWY PASKOWY FILTR CZASOWY / ZAKŁADKI -->
+            <div class="flex items-center justify-between bg-white dark:bg-card border border-gray-200 dark:border-border p-2 rounded-2xl shadow-sm overflow-x-auto no-scrollbar">
+                <div class="flex items-center gap-1.5 min-w-max">
+                    <button onclick="setFeedFilter('latest')" id="filter-btn-latest" class="px-4 py-2 rounded-xl bg-purple-600 text-white text-xs font-bold transition shadow-sm flex items-center gap-1.5">
+                        <i class="fa-solid fa-bolt text-[10px]"></i> Najnowsze
+                    </button>
+                    <button onclick="setFeedFilter('today')" id="filter-btn-today" class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs font-bold transition">
+                        Dziś
+                    </button>
+                    <button onclick="setFeedFilter('yesterday')" id="filter-btn-yesterday" class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs font-bold transition">
+                        Wczoraj
+                    </button>
+                    <button onclick="setFeedFilter('all')" id="filter-btn-all" class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs font-bold transition">
+                        Wszystkie w bazie
+                    </button>
+                </div>
+                <div class="hidden sm:block text-[11px] text-gray-400 px-3">
+                    <span id="article-count-label">0</span> artykułów
+                </div>
+            </div>
+
             <!-- GŁÓWNY NEWS DNIA -->
             <div id="featured-news-container">
                 <div class="rounded-2xl bg-white dark:bg-card border border-gray-200 dark:border-border min-h-[380px] flex items-center justify-center text-gray-400 text-sm">
@@ -182,6 +203,13 @@
             <!-- SIATKA ARTYKUŁÓW -->
             <div id="news-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div class="col-span-full p-8 text-center text-gray-400 text-sm">Pobieranie wiadomości z bota...</div>
+            </div>
+
+            <!-- PRZYCISK ROZWIJANIA WIĘKSZEJ LICZBY NEWSÓW -->
+            <div id="load-more-container" class="text-center pt-2 hidden">
+                <button onclick="toggleLoadMore()" id="load-more-btn" class="px-6 py-3 rounded-xl bg-gray-200 dark:bg-card border border-gray-300 dark:border-border hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 text-xs font-black uppercase tracking-wider transition shadow-sm">
+                    Pokaż starsze wiadomości ↓
+                </button>
             </div>
 
             <div id="empty-filter-msg" class="hidden p-8 rounded-2xl bg-white dark:bg-card border border-gray-200 dark:border-border text-center text-sm text-gray-400">
@@ -262,7 +290,7 @@
 
     </main>
 
-    <!-- STOPKA PRAWNA (RODO, REGULAMIN, NOTA O PRAWACH AUTORSKICH) -->
+    <!-- STOPKA PRAWNA -->
     <footer class="border-t border-gray-200 dark:border-border bg-white/70 dark:bg-card/70 backdrop-blur mt-12">
         <div class="max-w-7xl mx-auto px-4 py-8 space-y-4">
             <div class="flex flex-col sm:flex-row justify-between items-center gap-4">
@@ -286,7 +314,7 @@
         </div>
     </footer>
 
-    <!-- BANER ZGODY NA PLIKI COOKIES / LOCALSTORAGE -->
+    <!-- BANER ZGODY NA PLIKI COOKIES -->
     <div id="cookie-banner" class="fixed bottom-4 left-4 right-4 sm:left-auto sm:right-6 sm:max-w-md z-[90] hidden bg-white/95 dark:bg-card/95 backdrop-blur-xl border border-gray-200 dark:border-border rounded-2xl p-4 shadow-2xl">
         <div class="space-y-3">
             <div class="flex items-start gap-3">
@@ -355,8 +383,9 @@
         </div>
     </div>
 
+    <!-- SKRYPTY APLIKACJI -->
     <script>
-        // ================= ZABEZPIECZENIE ZDJĘĆ (WIKIMEDIA COMMONS + UNSPLASH CC0) =================
+        // ================= ZABEZPIECZENIE ZDJĘĆ =================
         const safeFootballFallbacks = [
             'https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80',
             'https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80',
@@ -402,25 +431,22 @@
             privacy: {
                 title: 'Polityka Prywatności (RODO)',
                 content: `
-                    <p><strong>1. Informacje ogólne:</strong> Serwis PITCH ZONE szanuje prywatność użytkowników i przetwarza dane zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 (RODO).</p>
-                    <p><strong>2. Zakres przetwarzanych danych:</strong> Serwis nie wymaga rejestracji ani nie zbiera bezpośrednio danych osobowych (takich jak imię, nazwisko czy adres e-mail). W celach technicznych i zapewnienia bezpieczeństwa hostingodawca (Vercel Inc.) przetwarza standardowe logi serwera (adres IP, typ przeglądarki).</p>
-                    <p><strong>3. Zewnętrzni dostawcy:</strong> Strona korzysta z odtwarzacza wideo YouTube w trybie rozszerzonej prywatności (<code>youtube-nocookie.com</code>), sieci dostarczania treści (CDN), zasobów Wikimedia Commons oraz interfejsu API Football-Data.org.</p>
+                    <p><strong>1. Informacje ogólne:</strong> Serwis PITCH ZONE szanuje prywatność użytkowników i przetwarza dane zgodnie z RODO.</p>
+                    <p><strong>2. Zakres danych:</strong> Serwis nie wymaga rejestracji. Hostingodawca (Vercel Inc.) przetwarza standardowe logi serwera.</p>
+                    <p><strong>3. Usługi zewnętrzne:</strong> YouTube (wideo), Wikimedia Commons oraz Football-Data.org.</p>
                 `
             },
             terms: {
                 title: 'Regulamin i Nota Prawna',
                 content: `
-                    <p><strong>1. Charakter serwisu:</strong> PITCH ZONE jest niekomercyjnym portalem informacyjno-statystycznym poświęconym piłce nożnej.</p>
-                    <p><strong>2. Prawa autorskie i licencje zdjęć:</strong> Publikowane informacje stanowią autorskie opracowania i skróty bieżących wydarzeń sportowych (art. 25 ustawy o prawie autorskim i prawach pokrewnych) z każdorazowym wskazaniem źródła informacji. Fotografie zawodników pochodzą z Wikimedia Commons na licencjach Creative Commons (z podaniem autora) lub z banków zdjęć na licencji CC0.</p>
-                    <p><strong>3. Znaki towarowe:</strong> Nazwy lig, rozgrywek, klubów piłkarskich oraz ich logotypy i herby należą do odpowiednich organizacji sportowych i klubów. Zostały wykorzystane wyłącznie w celu identyfikacji wyników i tabel.</p>
+                    <p><strong>1. Charakter serwisu:</strong> PITCH ZONE to hobbystyczny portal piłkarski.</p>
+                    <p><strong>2. Prawa autorskie:</strong> Opracowania redakcyjne na bazie doniesień prasowych (art. 25 Ustawy o prawie autorskim).</p>
                 `
             },
             cookies: {
-                title: 'Polityka Plików Cookies i Pamięci Lokalnej',
+                title: 'Polityka Plików Cookies',
                 content: `
-                    <p><strong>1. Pamięć lokalna (localStorage):</strong> Serwis zapisuje w pamięci Twojej przeglądarki wyłącznie ustawienie wybranego motywu kolorystycznego (jasny/ciemny) oraz informację o akceptacji komunikatu informacyjnego.</p>
-                    <p><strong>2. Pliki cookies podmiotów trzecich:</strong> Osadzone materiały wideo z serwisu YouTube mogą zapisywać własne pliki cookies po uruchomieniu odtwarzacza przez użytkownika.</p>
-                    <p><strong>3. Zarządzanie:</strong> Możesz w każdej chwili usunąć dane witryny w ustawieniach swojej przeglądarki internetowej.</p>
+                    <p><strong>1. LocalStorage:</strong> Zapisujemy wybrany motyw strony oraz akceptację ciasteczek.</p>
                 `
             }
         };
@@ -441,10 +467,10 @@
             modal.classList.remove('flex');
         }
 
-        // ================= DATA I NAWIGACJA =================
+        // ================= DATA I INTERFEJS =================
         const dateOptions = { weekday: 'long', day: 'numeric', month: 'long' };
-        const today = new Date().toLocaleDateString('pl-PL', dateOptions);
-        document.getElementById('current-date').innerText = `(${today})`;
+        const todayStr = new Date().toLocaleDateString('pl-PL', dateOptions);
+        document.getElementById('current-date').innerText = `(${todayStr})`;
 
         function toggleDropdown(dropdownId, arrowId, event) {
             event.stopPropagation();
@@ -503,6 +529,7 @@
             });
         });
 
+        // ================= MOTYW =================
         const themeToggleBtn = document.getElementById('theme-toggle');
         const darkIcon = document.getElementById('theme-toggle-dark-icon');
         const lightIcon = document.getElementById('theme-toggle-light-icon');
@@ -520,20 +547,15 @@
         }
 
         const savedTheme = localStorage.getItem('color-theme');
-        if (savedTheme === 'light') {
-            applyTheme(false);
-        } else {
-            applyTheme(true);
-        }
+        applyTheme(savedTheme !== 'light');
 
         themeToggleBtn.addEventListener('click', function() {
             const isCurrentlyDark = document.documentElement.classList.contains('dark');
-            const newThemeIsDark = !isCurrentlyDark;
-            applyTheme(newThemeIsDark);
-            localStorage.setItem('color-theme', newThemeIsDark ? 'dark' : 'light');
+            applyTheme(!isCurrentlyDark);
+            localStorage.setItem('color-theme', !isCurrentlyDark ? 'dark' : 'light');
         });
 
-        // ================= AKTUALNE STATYSTYKI SEZONU 2026/27 =================
+        // ================= STATYSTYKI =================
         const leagueStatsDatabase = {
             'PL': {
                 scorers: [
@@ -649,17 +671,6 @@
                     { name: 'Anastasios Douvikas', team: 'Como 1907', val: 6 },
                     { name: 'Ousmane Dembélé', team: 'Paris Saint-Germain', val: 6 }
                 ]
-            },
-            'PPL': {
-                scorers: [
-                    { name: 'Jordi Sánchez', team: 'Ekstraklasa', val: 9 }
-                ],
-                assists: [
-                    { name: 'Brak danych w API', team: 'Ekstraklasa', val: '-' }
-                ],
-                kanada: [
-                    { name: 'Jordi Sánchez', team: 'Ekstraklasa', val: 9 }
-                ]
             }
         };
 
@@ -667,43 +678,23 @@
         let activeStatTab = 'table'; 
         let currentStandingsData = [];
         let isTableExpanded = false;
-
-        const leagueFullNames = {
-            'PL': 'Premier League',
-            'PD': 'La Liga',
-            'SA': 'Serie A',
-            'BL1': 'Bundesliga',
-            'CL': 'Liga Mistrzów',
-            'PPL': 'Ekstraklasa'
-        };
+        const leagueFullNames = { 'PL': 'Premier League', 'PD': 'La Liga', 'SA': 'Serie A', 'BL1': 'Bundesliga', 'CL': 'Liga Mistrzów', 'PPL': 'Ekstraklasa' };
 
         function switchStatTab(tab) {
             activeStatTab = tab;
             ['table', 'scorers', 'assists', 'kanada'].forEach(t => {
-                const btn = document.getElementById(`tab-${t}`);
-                if (t === tab) {
-                    btn.className = "py-1.5 rounded-lg bg-purple-600 text-white transition shadow-sm";
-                } else {
-                    btn.className = "py-1.5 rounded-lg text-gray-500 dark:text-gray-400 hover:text-white transition";
-                }
+                document.getElementById(`tab-${t}`).className = t === tab ? "py-1.5 rounded-lg bg-purple-600 text-white transition shadow-sm" : "py-1.5 rounded-lg text-gray-500 dark:text-gray-400 hover:text-white transition";
             });
             loadActiveStatData();
         }
 
         function switchLeagueShortcut(leagueCode) {
             currentLeagueCode = leagueCode;
-            const buttons = ['PL', 'PD', 'SA', 'BL1', 'CL'];
-            
-            buttons.forEach(code => {
+            ['PL', 'PD', 'SA', 'BL1', 'CL'].forEach(code => {
                 const btn = document.getElementById(`btn-${code}`);
-                if (btn) {
-                    btn.className = code === leagueCode 
-                        ? "px-2 py-1 rounded bg-purple-600 text-white transition font-bold" 
-                        : "px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition font-bold";
-                }
+                if (btn) btn.className = code === leagueCode ? "px-2 py-1 rounded bg-purple-600 text-white transition font-bold" : "px-2 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-white transition font-bold";
             });
-
-            document.getElementById('current-stat-league-title').innerHTML = `<i class="fa-solid fa-trophy"></i> ${leagueFullNames[leagueCode] || leagueCode}`;
+            document.getElementById('current-stat-league-title').innerHTML = `<i class="fa-solid fa-trophy"></i> ${leagueFullNames[leagueCode]}`;
             loadActiveStatData();
         }
 
@@ -714,58 +705,23 @@
             toggleBtn.classList.add('hidden');
 
             if (activeStatTab === 'table') {
-                container.innerHTML = `
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
-                                <th class="pb-2 w-6">#</th>
-                                <th class="pb-2">Klub</th>
-                                <th class="pb-2 text-center">M</th>
-                                <th class="pb-2 text-center">+/-</th>
-                                <th class="pb-2 text-right">PKT</th>
-                            </tr>
-                        </thead>
-                        <tbody id="standings-body" class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
-                            <tr><td colspan="5" class="py-4 text-center text-gray-400">Pobieranie tabeli...</td></tr>
-                        </tbody>
-                    </table>
-                `;
+                container.innerHTML = `<table class="w-full text-left"><thead><tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border"><th class="pb-2 w-6">#</th><th class="pb-2">Klub</th><th class="pb-2 text-center">M</th><th class="pb-2 text-center">+/-</th><th class="pb-2 text-right">PKT</th></tr></thead><tbody id="standings-body" class="divide-y divide-gray-100 dark:divide-border/40 font-semibold"><tr><td colspan="5" class="py-4 text-center text-gray-400">Pobieranie tabeli...</td></tr></tbody></table>`;
                 try {
                     const res = await fetch(`/api/standings?league=${currentLeagueCode}`);
                     const data = await res.json();
-                    if (!Array.isArray(data) || data.length === 0) throw new Error('Brak danych');
+                    if (!Array.isArray(data) || data.length === 0) throw new Error();
                     currentStandingsData = data;
                     renderTableRows();
-                } catch (err) {
-                    document.getElementById('standings-body').innerHTML = `<tr><td colspan="5" class="py-4 text-center text-red-400">Błąd aktualizacji tabeli.</td></tr>`;
+                } catch (e) {
+                    document.getElementById('standings-body').innerHTML = `<tr><td colspan="5" class="py-4 text-center text-red-400">Błąd tabeli.</td></tr>`;
                 }
             } else {
-                let titleLabel = 'Strzelcy';
-                if (activeStatTab === 'assists') titleLabel = 'Asysty';
-                if (activeStatTab === 'kanada') titleLabel = 'Pkt Kanadyjska';
-
-                container.innerHTML = `
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border">
-                                <th class="pb-2 w-6">#</th>
-                                <th class="pb-2">Zawodnik / Klub</th>
-                                <th class="pb-2 text-right">${titleLabel === 'Strzelcy' ? 'BRAMKI' : titleLabel === 'Asysty' ? 'ASYSTY' : 'PKT (B+A)'}</th>
-                            </tr>
-                        </thead>
-                        <tbody id="scorers-body" class="divide-y divide-gray-100 dark:divide-border/40 font-semibold">
-                            <tr><td colspan="3" class="py-4 text-center text-gray-400">Pobieranie statystyk...</td></tr>
-                        </tbody>
-                    </table>
-                `;
-
+                container.innerHTML = `<table class="w-full text-left"><thead><tr class="text-[10px] text-gray-400 border-b border-gray-100 dark:border-border"><th class="pb-2 w-6">#</th><th class="pb-2">Zawodnik / Klub</th><th class="pb-2 text-right">WYNIK</th></tr></thead><tbody id="scorers-body" class="divide-y divide-gray-100 dark:divide-border/40 font-semibold"><tr><td colspan="3" class="py-4 text-center text-gray-400">Ładowanie...</td></tr></tbody></table>`;
                 try {
                     const res = await fetch(`/api/scorers?league=${currentLeagueCode}`);
-                    if (!res.ok) throw new Error('Brak endpointu');
                     const apiData = await res.json();
-                    if (!Array.isArray(apiData) || apiData.length === 0) throw new Error('Puste dane');
                     renderApiScorers(apiData, activeStatTab);
-                } catch (err) {
+                } catch (e) {
                     renderLeagueIndividualStats(activeStatTab);
                 }
             }
@@ -775,63 +731,35 @@
             const tbody = document.getElementById('standings-body');
             const toggleBtn = document.getElementById('toggle-table-btn');
             if (!tbody) return;
-            const rowsToShow = isTableExpanded ? currentStandingsData : currentStandingsData.slice(0, 5);
-
-            tbody.innerHTML = rowsToShow.map(item => {
-                const crest = item.team.crest ? `<img src="${item.team.crest}" alt="" class="w-4 h-4 object-contain shrink-0">` : '';
-                const goalDiff = item.goalDifference > 0 ? `+${item.goalDifference}` : item.goalDifference;
-                let posColor = 'text-gray-400';
-                if (item.position <= 4) posColor = 'text-purple-500';
-                else if (item.position >= 18) posColor = 'text-red-500';
-
-                return `
-                    <tr class="hover:bg-gray-50 dark:hover:bg-white/5 transition">
-                        <td class="py-2.5 ${posColor} font-bold">${item.position}</td>
-                        <td class="py-2.5 font-bold">
-                            <div class="flex items-center gap-2">
-                                ${crest}
-                                <span class="truncate max-w-[130px]">${item.team.shortName || item.team.name}</span>
-                            </div>
-                        </td>
-                        <td class="py-2.5 text-center text-gray-400">${item.playedGames}</td>
-                        <td class="py-2.5 text-center text-gray-400 text-[11px]">${goalDiff}</td>
-                        <td class="py-2.5 text-right font-black text-purple-600 dark:text-purple-400">${item.points}</td>
-                    </tr>
-                `;
-            }).join('');
-
+            const rows = isTableExpanded ? currentStandingsData : currentStandingsData.slice(0, 5);
+            tbody.innerHTML = rows.map(i => `
+                <tr class="hover:bg-gray-50 dark:hover:bg-white/5 transition">
+                    <td class="py-2.5 ${i.position <= 4 ? 'text-purple-500' : 'text-gray-400'} font-bold">${i.position}</td>
+                    <td class="py-2.5 font-bold"><div class="flex items-center gap-2">${i.team.crest ? `<img src="${i.team.crest}" class="w-4 h-4 object-contain">` : ''}<span class="truncate max-w-[130px]">${i.team.shortName || i.team.name}</span></div></td>
+                    <td class="py-2.5 text-center text-gray-400">${i.playedGames}</td>
+                    <td class="py-2.5 text-center text-gray-400 text-[11px]">${i.goalDifference > 0 ? '+' + i.goalDifference : i.goalDifference}</td>
+                    <td class="py-2.5 text-right font-black text-purple-600 dark:text-purple-400">${i.points}</td>
+                </tr>
+            `).join('');
             if (currentStandingsData.length > 5) {
                 toggleBtn.classList.remove('hidden');
                 toggleBtn.innerText = isTableExpanded ? 'Zwiń do TOP 5 ↑' : `Pokaż pełną tabelę (${currentStandingsData.length}) ↓`;
-            } else {
-                toggleBtn.classList.add('hidden');
             }
         }
 
         function renderApiScorers(apiData, tabType) {
             const tbody = document.getElementById('scorers-body');
             if (!tbody) return;
-
-            const mapped = apiData.map(item => {
-                const goals = item.goals ?? 0;
-                const assists = item.assists ?? 0;
-                let val = goals;
-                if (tabType === 'assists') val = assists;
-                if (tabType === 'kanada') val = goals + assists;
-                return {
-                    name: item.player?.name || 'Nieznany',
-                    team: item.team?.shortName || item.team?.name || '',
-                    val
-                };
-            }).sort((a, b) => b.val - a.val).slice(0, 5);
+            const mapped = apiData.map(item => ({
+                name: item.player?.name || 'Nieznany',
+                team: item.team?.shortName || item.team?.name || '',
+                val: tabType === 'assists' ? (item.assists ?? 0) : tabType === 'kanada' ? ((item.goals ?? 0) + (item.assists ?? 0)) : (item.goals ?? 0)
+            })).sort((a, b) => b.val - a.val).slice(0, 5);
 
             tbody.innerHTML = mapped.map((item, idx) => `
                 <tr class="hover:bg-gray-50 dark:hover:bg-white/5 transition">
                     <td class="py-2.5 text-gray-400 font-bold">${idx + 1}</td>
-                    <td class="py-2.5">
-                        <div class="font-bold text-gray-900 dark:text-white truncate max-w-[140px]">${item.name}</div>
-                        <div class="text-[10px] text-gray-400 truncate max-w-[140px]">${item.team}</div>
-                    </td>
+                    <td class="py-2.5"><div class="font-bold text-gray-900 dark:text-white truncate max-w-[140px]">${item.name}</div><div class="text-[10px] text-gray-400">${item.team}</div></td>
                     <td class="py-2.5 text-right font-black text-purple-600 dark:text-purple-400 text-sm">${item.val}</td>
                 </tr>
             `).join('');
@@ -840,21 +768,11 @@
         function renderLeagueIndividualStats(tabType) {
             const tbody = document.getElementById('scorers-body');
             if (!tbody) return;
-
-            const leagueData = leagueStatsDatabase[currentLeagueCode] || leagueStatsDatabase['PL'];
-            let dataset = leagueData.scorers;
-            if (tabType === 'assists') dataset = leagueData.assists;
-            if (tabType === 'kanada') dataset = leagueData.kanada;
-
-            const sortedData = [...dataset].sort((a, b) => (typeof b.val === 'number' ? b.val : -1) - (typeof a.val === 'number' ? a.val : -1));
-
-            tbody.innerHTML = sortedData.map((item, idx) => `
+            const dataset = (leagueStatsDatabase[currentLeagueCode] || leagueStatsDatabase['PL'])[tabType] || [];
+            tbody.innerHTML = dataset.map((item, idx) => `
                 <tr class="hover:bg-gray-50 dark:hover:bg-white/5 transition">
                     <td class="py-2.5 text-gray-400 font-bold">${idx + 1}</td>
-                    <td class="py-2.5">
-                        <div class="font-bold text-gray-900 dark:text-white truncate max-w-[140px]">${item.name}</div>
-                        <div class="text-[10px] text-gray-400 truncate max-w-[140px]">${item.team}</div>
-                    </td>
+                    <td class="py-2.5"><div class="font-bold text-gray-900 dark:text-white truncate max-w-[140px]">${item.name}</div><div class="text-[10px] text-gray-400">${item.team}</div></td>
                     <td class="py-2.5 text-right font-black text-purple-600 dark:text-purple-400 text-sm">${item.val}</td>
                 </tr>
             `).join('');
@@ -867,79 +785,41 @@
 
         loadActiveStatData();
 
+        // ================= MECZE LIVE =================
         async function fetchLiveMatches() {
             const container = document.getElementById('matches-container');
             try {
                 const response = await fetch('/api/matches');
-                if (!response.ok) throw new Error('Błąd serwera');
                 const matches = await response.json();
-                if (!Array.isArray(matches) || matches.length === 0) {
-                    container.innerHTML = `<span class="pl-3 text-gray-400">Brak zaplanowanych hitów w najbliższych dniach.</span>`;
-                    return;
-                }
-
-                const leagueNames = { 'PL': 'Premier League', 'PD': 'La Liga', 'BL1': 'Bundesliga', 'SA': 'Serie A', 'FL1': 'Ligue 1', 'CL': 'Liga Mistrzów' };
-
-                container.innerHTML = matches.slice(0, 10).map(match => {
-                    const home = match.homeTeam.shortName || match.homeTeam.name;
-                    const away = match.awayTeam.shortName || match.awayTeam.name;
-                    const leagueLabel = leagueNames[match.competition.code] || match.competition.code;
-                    const status = match.status;
-                    const homeScore = match.score.fullTime.home;
-                    const awayScore = match.score.fullTime.away;
-
-                    let statusBadge = '';
-                    let scoreDisplay = '';
-
-                    if (status === 'IN_PLAY' || status === 'PAUSED') {
-                        statusBadge = `<span class="px-1.5 py-0.5 rounded bg-red-600 text-white text-[9px] font-black animate-pulse">LIVE</span>`;
-                        scoreDisplay = `<span class="text-purple-500 font-black px-1">${homeScore ?? 0} : ${awayScore ?? 0}</span>`;
-                    } else if (status === 'FINISHED') {
-                        statusBadge = `<span class="px-1.5 py-0.5 rounded bg-gray-700 text-gray-300 text-[9px] font-black">KONIEC</span>`;
-                        scoreDisplay = `<span class="text-purple-500 font-black px-1">${homeScore} : ${awayScore}</span>`;
-                    } else {
-                        const matchDate = new Date(match.utcDate);
-                        statusBadge = `<span class="text-gray-400 font-semibold">${matchDate.toLocaleDateString('pl-PL', { day: '2-digit', month: '2-digit' })} • ${matchDate.toLocaleTimeString('pl-PL', { hour: '2-digit', minute: '2-digit' })}</span>`;
-                        scoreDisplay = `<span class="text-gray-500 px-1">vs</span>`;
-                    }
-
-                    return `
-                        <div class="pl-3 flex items-center gap-2">
-                            <span class="px-1.5 py-0.5 rounded bg-purple-950 text-purple-300 text-[9px] font-black uppercase">${leagueLabel}</span>
-                            ${statusBadge}
-                            <span class="font-bold text-gray-900 dark:text-white">${home}</span>
-                            ${scoreDisplay}
-                            <span class="font-bold text-gray-900 dark:text-white">${away}</span>
-                        </div>
-                    `;
-                }).join('');
-            } catch (error) {
-                container.innerHTML = `<span class="pl-3 text-gray-400">Oczekiwanie na kolejkę ligową.</span>`;
+                if (!Array.isArray(matches) || matches.length === 0) throw new Error();
+                container.innerHTML = matches.slice(0, 10).map(m => `
+                    <div class="pl-3 flex items-center gap-2">
+                        <span class="px-1.5 py-0.5 rounded bg-purple-950 text-purple-300 text-[9px] font-black uppercase">${m.competition.code}</span>
+                        <span class="font-bold text-gray-900 dark:text-white">${m.homeTeam.shortName || m.homeTeam.name}</span>
+                        <span class="text-purple-500 font-black px-1">${m.score.fullTime.home ?? '0'} : ${m.score.fullTime.away ?? '0'}</span>
+                        <span class="font-bold text-gray-900 dark:text-white">${m.awayTeam.shortName || m.awayTeam.name}</span>
+                    </div>
+                `).join('');
+            } catch (e) {
+                container.innerHTML = `<span class="pl-3 text-gray-400">Brak aktywnych spotkań na żywo.</span>`;
             }
         }
-
         fetchLiveMatches();
 
+        // ================= GŁÓWNY SYSTEM NEWSÓW + ZAKŁADKI =================
         let allArticles = [];
         let activeCategory = 'ALL';
+        let feedFilter = 'latest'; 
         let searchQuery = '';
-
-        function matchesCategory(articleCat, selectedCat) {
-            if (selectedCat === 'ALL') return true;
-            if (selectedCat === 'OTHER') {
-                return ['OTHER', 'WORLD', 'REP'].includes(articleCat);
-            }
-            return articleCat === selectedCat;
-        }
+        let showAllNewsLimit = false;
 
         async function loadBotNews() {
             try {
                 const res = await fetch('/news.json?t=' + Date.now());
-                if (!res.ok) throw new Error('Brak pliku');
                 allArticles = await res.json();
                 renderNews();
             } catch (err) {
-                document.getElementById('news-grid').innerHTML = `<div class="col-span-full p-8 text-center text-gray-400 text-sm">Oczekiwanie na pierwsze newsy z bota...</div>`;
+                document.getElementById('news-grid').innerHTML = `<div class="col-span-full p-8 text-center text-gray-400 text-sm">Oczekiwanie na wiadomości...</div>`;
             }
         }
 
@@ -948,11 +828,50 @@
             renderNews();
         }
 
+        function setFeedFilter(filter) {
+            feedFilter = filter;
+            showAllNewsLimit = false;
+            ['latest', 'today', 'yesterday', 'all'].forEach(f => {
+                const btn = document.getElementById(`filter-btn-${f}`);
+                if (f === filter) {
+                    btn.className = "px-4 py-2 rounded-xl bg-purple-600 text-white text-xs font-bold transition shadow-sm flex items-center gap-1.5";
+                } else {
+                    btn.className = "px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs font-bold transition";
+                }
+            });
+            renderNews();
+        }
+
+        function toggleLoadMore() {
+            showAllNewsLimit = !showAllNewsLimit;
+            renderNews();
+        }
+
+        function matchesCategory(articleCat, selectedCat) {
+            if (selectedCat === 'ALL') return true;
+            if (selectedCat === 'OTHER') return ['OTHER', 'WORLD', 'REP'].includes(articleCat);
+            return articleCat === selectedCat;
+        }
+
+        function checkFeedTimeFilter(articleTimeStr) {
+            if (feedFilter === 'all') return true;
+            const lower = (articleTimeStr || '').toLowerCase();
+            const isToday = lower.includes('dzisiaj') || lower.includes('min') || lower.includes('godz') || lower.includes('sek');
+            const isYesterday = lower.includes('wczoraj');
+
+            if (feedFilter === 'today') return isToday;
+            if (feedFilter === 'yesterday') return isYesterday;
+            return true;
+        }
+
         function renderNews() {
             const featuredContainer = document.getElementById('featured-news-container');
             const gridContainer = document.getElementById('news-grid');
             const alertsContainer = document.getElementById('live-alerts-container');
             const emptyMsg = document.getElementById('empty-filter-msg');
+            const loadMoreContainer = document.getElementById('load-more-container');
+            const loadMoreBtn = document.getElementById('load-more-btn');
+            const countLabel = document.getElementById('article-count-label');
 
             if (!Array.isArray(allArticles) || allArticles.length === 0) return;
 
@@ -962,11 +881,14 @@
                     item.title.toLowerCase().includes(searchQuery) || 
                     item.summary.toLowerCase().includes(searchQuery) ||
                     item.badge.toLowerCase().includes(searchQuery);
-                return matchesCat && matchesQuery;
+                const matchesTime = checkFeedTimeFilter(item.time);
+                return matchesCat && matchesQuery && matchesTime;
             });
 
+            countLabel.innerText = filteredArticles.length;
+
             const hero = filteredArticles.length > 0 ? filteredArticles[0] : null;
-            if (hero && searchQuery === '' && (activeCategory === 'ALL' || hero.originalIndex === 0)) {
+            if (hero && searchQuery === '' && feedFilter !== 'all' && (activeCategory === 'ALL' || hero.originalIndex === 0)) {
                 const heroMedia = getSafeArticleMedia(hero, hero.originalIndex);
                 featuredContainer.classList.remove('hidden');
                 featuredContainer.innerHTML = `
@@ -999,18 +921,22 @@
             }
 
             const gridItems = filteredArticles.filter(item => {
-                if (searchQuery === '' && activeCategory === 'ALL' && hero && item.originalIndex === hero.originalIndex) {
+                if (searchQuery === '' && feedFilter !== 'all' && activeCategory === 'ALL' && hero && item.originalIndex === hero.originalIndex) {
                     return false;
                 }
                 return true;
             });
 
+            const displayLimit = showAllNewsLimit ? gridItems.length : 6;
+            const visibleGridItems = gridItems.slice(0, displayLimit);
+
             if (gridItems.length === 0) {
                 gridContainer.innerHTML = '';
                 emptyMsg.classList.remove('hidden');
+                loadMoreContainer.classList.add('hidden');
             } else {
                 emptyMsg.classList.add('hidden');
-                gridContainer.innerHTML = gridItems.map(item => {
+                gridContainer.innerHTML = visibleGridItems.map(item => {
                     const media = getSafeArticleMedia(item, item.originalIndex);
                     return `
                         <a href="#" onclick="openArticle(${item.originalIndex}); return false;" class="block group">
@@ -1040,6 +966,13 @@
                         </a>
                     `;
                 }).join('');
+
+                if (gridItems.length > 6) {
+                    loadMoreContainer.classList.remove('hidden');
+                    loadMoreBtn.innerText = showAllNewsLimit ? 'Zwiń listę ↑' : `Pokaż starsze wiadomości (${gridItems.length - 6}) ↓`;
+                } else {
+                    loadMoreContainer.classList.add('hidden');
+                }
             }
 
             alertsContainer.innerHTML = allArticles.slice(0, 4).map((item, idx) => `
@@ -1071,19 +1004,10 @@
             if (category === 'ALL') {
                 document.getElementById('current-league-label').innerText = 'Ligi krajowe';
                 document.getElementById('current-cup-label').innerText = 'Puchary europejskie';
-                
-                ['dropdown-menu-btn', 'dropdown-cups-btn'].forEach(id => {
-                    document.getElementById(id).className = "px-4 py-2 rounded-xl bg-gray-100/80 dark:bg-card/80 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm";
-                });
             }
 
             titleEl.innerText = categoryLabels[category] || 'Najnowsze Wiadomości';
-            if (category === 'ALL' && searchQuery === '') {
-                resetBtn.classList.add('hidden');
-            } else {
-                resetBtn.classList.remove('hidden');
-            }
-
+            resetBtn.classList.toggle('hidden', category === 'ALL' && searchQuery === '');
             renderNews();
         }
 
@@ -1091,10 +1015,10 @@
             handleNavigationCategory(category);
         }
 
+        // ================= MODAL CZYTANIA =================
         function openArticle(index) {
             const article = allArticles[index];
             if (!article) return;
-
             const media = getSafeArticleMedia(article, index);
             document.getElementById('modal-img').src = media.url;
             document.getElementById('modal-img-credit').innerText = media.credit;
@@ -1121,18 +1045,9 @@
             document.body.style.overflow = '';
         }
 
-        document.getElementById('article-modal').addEventListener('click', (e) => {
-            if (e.target.id === 'article-modal') closeArticle();
-        });
-        document.getElementById('legal-modal').addEventListener('click', (e) => {
-            if (e.target.id === 'legal-modal') closeLegalModal();
-        });
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {
-                closeArticle();
-                closeLegalModal();
-            }
-        });
+        document.getElementById('article-modal').addEventListener('click', (e) => { if (e.target.id === 'article-modal') closeArticle(); });
+        document.getElementById('legal-modal').addEventListener('click', (e) => { if (e.target.id === 'legal-modal') closeLegalModal(); });
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { closeArticle(); closeLegalModal(); } });
 
         loadBotNews();
     </script>
