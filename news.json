@@ -1,5 +1,29 @@
 [
   {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "17.11 • 23:47",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1280px-FC_Barcelona_%28crest%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "FC Barcelona z kolejnym wzmocnieniem przed meczem z Villarrealem",
+    "summary": "Kataloński zespół otrzymał pozytywne wieści kadrowe przed nadchodzącym starciem ligowym, odzyskując drugiego kluczowego zawodnika po kontuzji.",
+    "content": "<p>Sztab szkoleniowy FC Barcelony może odetchnąć z ulgą, ponieważ proces rehabilitacji kolejnego kontuzjowanego piłkarza przebiegł pomyślnie. Zawodnik jest już gotowy do gry i znalazł się w planach trenera na najbliższe spotkanie.</p><p>Nadchodzący mecz z Villarrealem jest niezwykle istotny dla układu tabeli, a powrót gracza do pełnej sprawności znacząco poszerza pole manewru w formacji, która ostatnio borykała się z brakami kadrowymi.</p><p>Klub nie ujawnił jeszcze pełnego składu meczowego, jednak sztab medyczny potwierdził, że piłkarz otrzymał zielone światło na udział w rywalizacji, co stanowi drugie tak ważne wzmocnienie w ostatnich dniach.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMihgFBVV95cUxOOU5DUVB3Y0FvU3ZZZG9wWjZYX0t4aUZGRWZZdV9DZFBaanVzLVBWM2oxZmgtVEhwSzd3MGdTdDVXMklqUHFVemhQZzZUN2NYMkFUekJOUjZnMkVXdzBUZ1JWVkQ1UXhKVy1faXN1STRjcnZJVXZabXo4SXhTaVdlNi1rTF80Zw?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "17.11 • 23:47",
+    "source": "Na podstawie: BBC Sport",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Troy_Parrott_2025.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Troy Parrott w życiowej formie: Irlandia pewnie pokonuje Kosowo",
+    "summary": "Troy Parrott poprowadził reprezentację Irlandii do zwycięstwa 3:0 nad Kosowem, zdobywając dwa gole z rzutów karnych i umacniając swoją pozycję lidera kadry.",
+    "content": "<p>Reprezentacja Irlandii pod wodzą trenera Heimira Hallgrimssona odniosła cenne zwycięstwo 3:0 nad Kosowem w Lidze Narodów. Dzięki tej wygranej zespół zapewnił sobie drugie miejsce w grupie B3, co gwarantuje lepsze rozstawienie w eliminacjach Euro 2028 oraz szansę na awans do dywizji A Ligi Narodów w barażach.</p><p>Głównym architektem sukcesu był Troy Parrott, który dwukrotnie trafił do siatki z rzutów karnych. Napastnik znajduje się w fenomenalnej dyspozycji, notując 12 bramek w ostatnich dziewięciu meczach o stawkę, w tym aż sześć trafień w trzech ostatnich występach na stadionie Aviva.</p><p>Ostatni rok był dla Parrotta przełomowy, co zaowocowało letnim transferem do Realu Betis. Zawodnik, który w przeszłości błyszczał w AZ Alkmaar, przyznaje, że praca nad mentalnością pozwoliła mu wejść na najwyższy poziom, o jakim marzył, wzorując się na legendarnym Robbie'm Keane'ie.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/articles/cqzjr3yr2z0eo?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "BL",
     "badge": "Bundesliga",
     "badgeColor": "bg-amber-600",
@@ -274,29 +298,5 @@
     "title": "Anthony Gordon zdradza kulisy rozmów z Lamine Yamalem",
     "summary": "Gwiazdor Newcastle United, Anthony Gordon, podzielił się wrażeniami ze spotkania z Lamine Yamalem, podkreślając niezwykłą obsesję młodego Hiszpana na punkcie futbolu.",
     "content": "<p>Anthony Gordon w wywiadzie dla mediów opowiedział o swoich obserwacjach dotyczących Lamine Yamala. Anglik przyznał, że był pod ogromnym wrażeniem dojrzałości oraz pasji, jaką prezentuje młody talent FC Barcelony.</p><p>Według relacji Gordona, Yamal to piłkarz, który żyje futbolem przez całą dobę. Pomocnik Newcastle podkreślił, że nastolatek potrafi prowadzić merytoryczne dyskusje o taktyce i grze bez żadnej przerwy.</p><p>Wypowiedź ta rzuca nowe światło na etykę pracy Yamala, który mimo młodego wieku, wykazuje się profesjonalizmem i zaangażowaniem, które imponują nawet zawodnikom z czołowych lig europejskich.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMikgFBVV95cUxQaktvdVRzTkxqam1uU0YzTWxqZDFHZ2hBbC10SDNDMjdNa1hURnFiV2JkYzdRUGNLdWZEa25nUzBraDJtVEpsaHR4TFdRaGJrTUgyclR2S0tjN1M2Tk1yS2wwUG5FYnpOSmZTTmNLdFFNcEZRM0pqOTI5SG5uVFgtTVZwenhLRE5ueVJueEV4Tk9Ndw?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "17.11 • 17:46",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Nicky_Henderson_17367165035_%28cropped%29.jpg/1280px-Nicky_Henderson_17367165035_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Wielkie starcie na torze Ffos Las: Old Park Star kontra Sober Glory",
-    "summary": "Faworyci Old Park Star oraz Sober Glory zmierzą się w środowym wyścigu w Walii po tym, jak zrezygnowali ze startu w Cheltenham z powodu zbyt twardej nawierzchni.",
-    "content": "<p>Środowy wyścig Golwg Gwendraeth Beginners' Chase na torze Ffos Las zapowiada się niezwykle emocjonująco. Na starcie pojawią się czołowe konie, w tym zwycięzca Supreme Novices' Hurdle, Old Park Star, trenowany przez Hendersona, oraz wicemistrz tej samej gonitwy, Sober Glory, przygotowywany przez duet Philip Hobbs i Johnson White.</p><p>Decyzja o przeniesieniu rywalizacji z Cheltenham do Walii wynika z niekorzystnych warunków pogodowych. Organizatorzy spodziewają się intensywnych opadów deszczu, które zapewnią odpowiednio miękkie podłoże, preferowane przez uczestników tego prestiżowego starcia, nazywanego przez ekspertów „Walijskim Arkle”.</p><p>Rywalizacja nawiązuje do pamiętnego wyścigu z marca, w którym Old Park Star pokonał Sober Glory. Wówczas o wyniku zdecydował błąd Sober Glory na ostatnim płotku, który pozbawił go zwycięstwa. Teraz, przy debiucie w gonitwach z przeszkodami (chase), obaj rywale ponownie staną naprzeciw siebie w walce o triumf.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/racing/news/12040/13613341/old-park-star-sober-glory-and-baron-noir-clash-at-ffos-las' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "17.11 • 17:46",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/9/9f/JURRIEN_TIMBER.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Wielkie przedłużenia w Arsenalu: Raya, Timber i Hincapie na dłużej w Londynie",
-    "summary": "Arsenal intensyfikuje działania w celu zatrzymania swoich kluczowych zawodników. Nowe umowy mają podpisać David Raya, Jurrien Timber oraz Piero Hincapie.",
-    "content": "<p>Klub z północnego Londynu dąży do zabezpieczenia przyszłości swoich liderów. Po wcześniejszym porozumieniu z Declanem Rice'em, zarząd Arsenalu jest bliski finalizacji nowych kontraktów dla bramkarza Davida Rayi oraz obrońców Jurriena Timbera i Piero Hincapiego.</p><p>Jurrien Timber w rozmowie z ESPN potwierdził, że negocjacje przebiegają pomyślnie. Holender podkreślił, że czuje się w drużynie świetnie i wierzy w sukcesy klubu w najbliższych latach, co jest jasnym sygnałem gotowości do przedłużenia obecnej umowy wygasającej w 2028 roku.</p><p>Strategia Arsenalu pod wodzą Mikela Artety zakłada stabilizację kadry. Po zabezpieczeniu przyszłości takich graczy jak Bukayo Saka czy William Saliba, klub chce utrzymać wysoki poziom sportowy, wiążąc długoterminowymi kontraktami również zawodników, którzy dołączyli do zespołu w ostatnim czasie.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/12040/13613327/arsenal-transfer-news-david-raya-jurrien-timber-and-piero-hincapie-close-to-finalising-new-contracts' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
