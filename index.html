@@ -301,7 +301,7 @@
             </button>
 
             <div class="h-64 sm:h-72 w-full relative bg-black">
-                <img id="modal-img" src="" alt="" class="w-full h-full object-cover opacity-85">
+                <img id="modal-img" src="" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80';" alt="" class="w-full h-full object-cover object-top opacity-85">
                 <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                 <span id="modal-badge" class="absolute bottom-4 left-6 px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider bg-purple-600 text-white"></span>
                 <span id="modal-img-credit" class="absolute bottom-4 right-6 px-2 py-0.5 rounded bg-black/70 text-[10px] text-gray-300"></span>
@@ -948,7 +948,7 @@
                 featuredContainer.innerHTML = `
                     <a href="#" onclick="openArticle(${hero.originalIndex}); return false;" class="block group">
                         <div class="relative rounded-2xl overflow-hidden shadow-2xl bg-black min-h-[380px] flex items-end p-6 border border-gray-200 dark:border-border transition transform group-hover:border-purple-500/50">
-                            <div class="absolute inset-0 bg-cover bg-center opacity-55 group-hover:scale-105 transition duration-500" style="background-image: url('${heroMedia.url}');"></div>
+                            <div class="absolute inset-0 bg-cover bg-top opacity-55 group-hover:scale-105 transition duration-500" style="background-image: url('${heroMedia.url}');"></div>
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/65 to-transparent"></div>
                             <span class="absolute top-4 right-4 z-10 px-2 py-0.5 rounded bg-black/60 text-[10px] text-gray-300">${heroMedia.credit}</span>
 
@@ -992,7 +992,7 @@
                         <a href="#" onclick="openArticle(${item.originalIndex}); return false;" class="block group">
                             <article class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl overflow-hidden shadow-sm group-hover:border-purple-500/50 transition flex flex-col h-full">
                                 <div class="h-44 overflow-hidden relative bg-black">
-                                    <img src="${media.url}" alt="${item.title}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                                    <img src="${media.url}" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80';" alt="${item.title}" class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500">
                                     <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[10px] font-black uppercase ${item.badgeColor || 'bg-purple-600'} text-white shadow-md">
                                         ${item.badge}
                                     </span>
