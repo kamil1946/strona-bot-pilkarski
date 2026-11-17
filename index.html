@@ -358,7 +358,7 @@
         function renderTableRows() {
             const tbody = document.getElementById('standings-body');
             const toggleBtn = document.getElementById('toggle-table-btn');
-            const rowsToShow = isTableExpanded ? currentStandingsData : currentStandingsData.slice(0, 5);
+            const rowsToShow = isTableExpanded ? currentStandingsData : currentStandnsData.slice(0, 5);
 
             tbody.innerHTML = rowsToShow.map(item => {
                 const crest = item.team.crest ? `<img src="${item.team.crest}" alt="" class="w-4 h-4 object-contain shrink-0">` : '';
