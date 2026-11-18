@@ -1,5 +1,53 @@
 [
   {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "18.11 • 09:41",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/AC_Milan_tifo.png/1280px-AC_Milan_tifo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imgCredit": "Fot. LHC88 (CC BY 4.0)",
+    "title": "AC Milan liderem finansowym Serie A pod względem umów sponsorskich na koszulkach",
+    "summary": "AC Milan wyprzedził Inter Mediolan oraz Juventus w rankingu wartości kontraktów reklamowych umieszczonych na przodzie koszulek meczowych w lidze włoskiej.",
+    "content": "<p>Z najnowszych raportów finansowych dotyczących włoskiej ekstraklasy wynika, że AC Milan zajmuje obecnie pierwsze miejsce w zestawieniu najlepiej opłacanych umów sponsorskich na strojach. Klub z San Siro wyprzedził swoich głównych rywali w wyścigu o najatrakcyjniejsze kontrakty komercyjne.</p><p>Na kolejnych miejscach w tym zestawieniu plasują się Inter Mediolan oraz Juventus. Oba kluby, mimo silnej pozycji rynkowej, muszą uznać wyższość Milanu pod względem kwot gwarantowanych przez głównych sponsorów widniejących na froncie meczowych trykotów.</p><p>Analiza ta potwierdza rosnące znaczenie przychodów marketingowych w budżetach czołowych włoskich drużyn. Stabilność finansowa płynąca z takich partnerstw staje się kluczowym elementem rywalizacji o dominację w Serie A w nadchodzących sezonach.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMihgFBVV95cUxQY0tHc2NPYlBQWExzS0lSdXdzdXVGUVo1SXZUekZjLVpwOTBzLVRBTl91d0JOUjlPdTJTSzVHSTRuTE9LN1VqSlFRR2s4dDVnRnhBWFRxYW94UzBscHFCN2N5dHBENTRDRmMxcGV1Sm93V0ZlZVRobGM0anIxTWxObXdxQUFlZw?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "18.11 • 09:40",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Antonio_Rudiger_Ecuador_v_Germany_25_June_2026-002.jpg/1280px-Antonio_Rudiger_Ecuador_v_Germany_25_June_2026-002.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Antonio Rüdiger szczerze o presji w Realu Madryt: Dwa lata bez tytułu to koszmar",
+    "summary": "Antonio Rüdiger w wywiadzie dla The New York Times podkreślił, że brak trofeów w Realu Madryt jest dla niego nieakceptowalny i stanowi ogromne obciążenie psychiczne.",
+    "content": "<p>Niemiecki obrońca w rozmowie z amerykańskimi mediami otwarcie przyznał, że mentalność panująca w Madrycie opiera się wyłącznie na zwycięstwach. Rüdiger zaznaczył, że dla zawodnika grającego w barwach 'Królewskich' każdy sezon bez zdobytego tytułu jest odbierany jako osobista i klubowa porażka.</p><p>Piłkarz nie ukrywał frustracji wynikającej z braku sukcesów w ostatnich dwóch latach, określając ten stan mianem 'koszmarnego'. Podkreślił, że historia klubu narzuca ogromną presję, z którą muszą mierzyć się wszyscy zawodnicy występujący na Santiago Bernabéu.</p><p>Rüdiger wskazał, że mimo wysokiej jakości kadry, w futbolu liczą się tylko końcowe wyniki. Jego wypowiedź stanowi jasny sygnał dla szatni, że ambicje zespołu muszą być ukierunkowane na zdobywanie trofeów w każdych rozgrywkach, w których biorą udział.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMilgFBVV95cUxNWE1LZVlYLU4yb3NnemxFV01jdmU0MllEN2xFRjlqZ3FHNkkxNmlDZl83SXBnc1dsMzZ1aHVMQjBmOHAwWEdtLUhGNjRJbmpiMDcxbFRCRVZnYldPMUJGcXNkbDhrRE1jb0lzVXRncWJRMlFmalJ3RnNpbmlVZFVpbXJCRkRQOGVxMTBaTXhyLWNadWdsSlE?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "18.11 • 09:40",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/1_05_Bancroft_departs.jpg/1280px-1_05_Bancroft_departs.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Afera „Sandpapergate” powraca: Bancroft oskarża Pat Cumminsa o kłamstwo",
+    "summary": "Cameron Bancroft przerwał milczenie w sprawie skandalu z 2018 roku, twierdząc, że cały zespół Australii wiedział o manipulacjach przy piłce, co przeczy słowom Pata Cumminsa.",
+    "content": "<p>Cameron Bancroft opublikował oświadczenie, w którym wprost zarzuca kapitanowi reprezentacji Australii, Patowi Cumminsowi, mijanie się z prawdą podczas niedawnej konferencji prasowej. Bancroft poczuł się zdradzony przez publiczne zaprzeczenia Cumminsa, który twierdził, że zawodnicy nie mieli świadomości procederu używania papieru ściernego podczas meczu z RPA.</p><p>W swoim tekście Bancroft podkreślił, że odpowiedzialność za manipulacje przy piłce nie spoczywała jedynie na nim, Steve'ie Smithie i Davidzie Warnerze. Według jego relacji, cały zespół bowlingowy był w pełni świadomy planu, który miał na celu zwiększenie swingu piłki, co było tematem rozmów w szatni z udziałem wielu kluczowych graczy.</p><p>Bancroft przyznał, że podczas pierwotnego śledztwa w 2018 roku zataił istotne fakty dotyczące skali procederu oraz zaangażowania pozostałych członków drużyny. Wśród osób, które miały wiedzieć o planie zaproponowanym przez Warnera, wymienił m.in. Mitchella Starca, Josha Hazlewooda, Mitchella Marsha oraz byłego kapitana Tima Paine’a.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/cricket/news/12040/13613489/cameron-bancroft-former-australia-batter-releases-explosive-statement-accusing-pat-cummins-and-bowlers-of-sandpaper-knowledge' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "18.11 • 09:40",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg/1280px-Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Historyczny ruch Pochettino w United i plany transferowe gigantów",
+    "summary": "Mauricio Pochettino wprowadza zmiany w sztabie Manchesteru United, zatrudniając pierwszą kobietę w historii klubu, podczas gdy inne zespoły Premier League planują ruchy kadrowe.",
+    "content": "<p>Mauricio Pochettino przechodzi do historii Manchesteru United, sprowadzając do sztabu szkoleniowego Silvię Tuyę. Będzie ona pierwszą kobietą w historii klubu pełniącą funkcję trenerki przygotowania motorycznego.</p><p>Arsenal musi przygotować się na zaciętą walkę o Eli Juniora Kroupiego. O napastnika Bournemouth zabiegają również europejscy giganci, tacy jak FC Barcelona oraz Paris Saint-Germain.</p><p>W innych klubach Premier League również panuje ruch: Manchester City negocjuje przedłużenie kontraktu z Matheusem Nunesem, a Newcastle United szuka nowego napastnika po tym, jak plany sprowadzenia Ivana Toneya spaliły na panewce.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/11095/13613427/man-utd-boss-mauricio-pochettino-to-appoint-clubs-first-ever-female-coach-paper-talk' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "OTHER",
     "badge": "Inne Ligi",
     "badgeColor": "bg-emerald-600",
@@ -250,53 +298,5 @@
     "title": "Zmiana właściciela w Spezia Calcio: Amerykański miliarder przejmuje stery",
     "summary": "Amerykański miliarder Robert Platek sfinalizował przejęcie większościowego pakietu udziałów w klubie Spezia Calcio, otwierając nowy rozdział w historii włoskiego zespołu.",
     "content": "<p>Włoski klub Spezia Calcio oficjalnie potwierdził zmianę struktury właścicielskiej. Większościowy pakiet udziałów w drużynie został wykupiony przez amerykańskiego inwestora Roberta Platka, co oznacza wycofanie się dotychczasowych udziałowców z kluczowego wpływu na zarządzanie.</p><p>Transakcja ta jest częścią szerszego trendu inwestycji kapitału z USA w kluby piłkarskie na Półwyspie Apenińskim. Nowy właściciel zapowiedział stabilizację finansową oraz chęć długofalowego rozwoju infrastruktury i struktur sportowych klubu.</p><p>Dla kibiców Spezii to moment zwrotny, który ma zapewnić zespołowi większą konkurencyjność w rozgrywkach ligowych. Szczegóły finansowe umowy nie zostały ujawnione, jednak przejęcie zostało już w pełni zatwierdzone przez odpowiednie organy kontrolne.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMikwFBVV95cUxPWjQ1SGwtU280Z2VFUE1WSGJCZ2VoQ1lIUGpibWRCSlJGRThBNDJFRXpzU3k5UkhoUVJzVVkxS0lxNnVwRVdjbG5VOTFPTGFPZHNwaHdta1BaeG52c2xjMzl6blItNmE2UzdaQmJld3dON3NUaDBpNURXZS0yNlBCNkJ6X1RneGUyd0trQ1J2Q3pjU2s?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "17.11 • 20:51",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Nat_team_of_italy_2012.jpg/1280px-Nat_team_of_italy_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "imgCredit": "Fot. Biser Todorov (CC BY 3.0)",
-    "title": "Massimiliano Alvini broni włoskiej młodzieży: W kraju nie brakuje talentów",
-    "summary": "Trener Massimiliano Alvini stanowczo sprzeciwia się twierdzeniom, jakoby we Włoszech brakowało utalentowanych młodych piłkarzy, apelując o zmianę narracji w mediach.",
-    "content": "<p>Massimiliano Alvini, znany włoski szkoleniowiec, zabrał głos w debacie dotyczącej kondycji tamtejszego futbolu. Trener podkreślił, że powszechnie powtarzana teza o deficycie młodych talentów na Półwyspie Apenińskim jest całkowicie nieprawdziwa.</p><p>W swojej wypowiedzi Alvini zaznaczył, że włoskie kluby dysponują wieloma obiecującymi zawodnikami, którzy potrzebują jedynie odpowiedniego zaufania oraz szansy na regularną grę w profesjonalnych rozgrywkach.</p><p>Szkoleniowiec wezwał środowisko piłkarskie do zaprzestania pesymistycznego tonu. Jego zdaniem, zamiast narzekać na brak jakości, należy skupić się na skuteczniejszym wprowadzaniu wychowanków do dorosłego futbolu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMihgFBVV95cUxQYnFVWThwcmVmdHJRUThkdGtndzE4cFNXNko2QlozT2NZbVNteDVzTmlJczJTd1liMWowbm1heXBQX3hiWGpaelF4YTJodjVjdVpFekFWcWUyZUVEWjdHbllqZ0VBMFpRUjdCLVh1UGZvVGVoVlBCLTdLcTY5ZnBmQ1J0U3hkUQ?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "LL",
-    "badge": "La Liga",
-    "badgeColor": "bg-red-600",
-    "time": "17.11 • 20:51",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Equip_del_Val%C3%A8ncia_Club_de_Futbol_Mestalla_%28Alginet%2C_Pa%C3%ADs_Valenci%C3%A0%2C_1958%29.jpg/1280px-Equip_del_Val%C3%A8ncia_Club_de_Futbol_Mestalla_%28Alginet%2C_Pa%C3%ADs_Valenci%C3%A0%2C_1958%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "imgCredit": "Fot. Ismael Latorre Mendoza (CC BY-SA 3.0)",
-    "title": "Valencia chce wzmocnić skład piłkarzem Aston Villi",
-    "summary": "Valencia CF rozpoczęła rozmowy w sprawie zaskakującego transferu zawodnika Aston Villi podczas zimowego okna transferowego.",
-    "content": "<p>Hiszpański klub podjął pierwsze kroki w celu pozyskania piłkarza z Premier League, co stanowi spore zaskoczenie dla obserwatorów rynku transferowego.</p><p>Przedstawiciele Valencii skontaktowali się z władzami Aston Villi, aby wybadać możliwość przeprowadzenia zimowej transakcji i warunki potencjalnego wypożyczenia lub transferu definitywnego.</p><p>Na ten moment szczegóły dotyczące nazwiska zawodnika oraz kwoty ewentualnej operacji pozostają nieoficjalne, jednak klub z Mestalla intensywnie poszukuje wzmocnień przed drugą częścią sezonu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMijwFBVV95cUxObjBUZjRNQ2JaY19MX1FOdGU1aElkQUNuLWVYRUNoTTIwb1NwaDlVdXdhMnRzeFZMNnZPWlVaejN5dVhtMF9IRzl2ZzJxNmRlQ2xYNWYwWXdzVDZRbmNaMjRjWVlYWkNDYzRKb2plS0tfTjhzYXhoNmszU0Y2Q0lkMDdxUnBNQzIwTTRiMFpISQ?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "LL",
-    "badge": "La Liga",
-    "badgeColor": "bg-red-600",
-    "time": "17.11 • 19:48",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/JJ_Gabriel.jpg/1280px-JJ_Gabriel.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "JJ Gabriel opuszcza Manchester United. Młody talent blisko transferu do Realu Madryt",
-    "summary": "Zaledwie 16-letni JJ Gabriel pożegnał się z akademią Manchesteru United. Utalentowany zawodnik jest o krok od sfinalizowania przenosin do Realu Madryt.",
-    "content": "<p>Szesnastolatek oficjalnie potwierdził swoje odejście z Manchesteru United za pośrednictwem mediów społecznościowych. Piłkarz podziękował klubowi za cztery lata rozwoju, wspominając m.in. zdobycie nagrody Jimmy'ego Murphy'ego oraz występy na Old Trafford.</p><p>Do porozumienia między klubami doszło na początku miesiąca, a finalizacja transakcji spodziewana jest w ciągu najbliższych dni. Zawodnik od września nie trenował z drużyną „Czerwonych Diabłów”, otwarcie deklarując chęć zmiany otoczenia.</p><p>Real Madryt zamierza sfinalizować transfer w styczniu, wykorzystując przepisy FIFA dotyczące młodych zawodników z europejskim paszportem. Gabriel i jego otoczenie wierzą, że w stolicy Hiszpanii otrzyma on realną szansę na szybki awans do pierwszego zespołu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/12040/13613361/jj-gabriel-transfer-news-manchester-united-teenager-announces-departure-from-club-amid-real-madrid-agreement' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "17.11 • 19:48",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Football_match_-_Wales_versus_Ireland_in_Cardiff_%281473971%29.jpg/1280px-Football_match_-_Wales_versus_Ireland_in_Cardiff_%281473971%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "imgCredit": "Fot. Geoff Charles (CC BY-SA 4.0)",
-    "title": "Brak danych o meczu Walia - Portugalia w serwisie Sky Sports",
-    "summary": "Dostarczony materiał źródłowy nie zawiera informacji o przebiegu spotkania, wynikach ani składach, będąc jedynie stroną promocyjną oferty telewizyjnej Sky Sports.",
-    "content": "<p>Analiza przesłanego tekstu wykazała, że nie zawiera on żadnych merytorycznych informacji na temat meczu pomiędzy Walią a Portugalią. Treść skupia się wyłącznie na promocji subskrypcji platformy Sky Sports.</p><p>W artykule brakuje nazwisk piłkarzy, selekcjonerów, a także jakichkolwiek szczegółów dotyczących kontuzji, bramek czy przebiegu rywalizacji na boisku.</p><p>Jako redakcja PITCH ZONE informujemy, że na podstawie udostępnionego źródła nie jest możliwe przygotowanie rzetelnego podsumowania wydarzeń sportowych, gdyż tekst jest jedynie reklamą usług nadawcy.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/wales-vs-portugal/live/554136' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
