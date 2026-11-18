@@ -1,5 +1,77 @@
 [
   {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "18.11 • 19:14",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Coppa_Campioni_d%27Italia_%28Serie_A%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "imgCredit": "Fot. ForzaJuve2019 (CC BY-SA 4.0)",
+    "title": "Włoski fenomen: 60 milionów selekcjonerów i spotkanie z najlepszymi",
+    "summary": "W najnowszym odcinku Football Italia Show redakcja analizuje włoską kulturę piłkarską, w której każdy obywatel uważa się za eksperta, oraz rozmawia z dwoma wybitnymi szkoleniowcami.",
+    "content": "<p>Włoskie środowisko piłkarskie słynie z przekonania, że w kraju żyje 60 milionów selekcjonerów. Każdy kibic ma własną wizję taktyki, co tworzy unikalną, pełną pasji i nieustannych dyskusji atmosferę wokół Serie A.</p><p>Program Football Italia Show postanowił zmierzyć się z tym stereotypem, zapraszając do rozmowy dwóch trenerów, którzy w opinii ekspertów najlepiej rozumieją specyfikę prowadzenia drużyn na Półwyspie Apenińskim.</p><p>W trakcie wywiadu poruszono kwestie presji społecznej, oczekiwań kibiców oraz trudności w zarządzaniu zespołami w lidze, gdzie każdy ruch trenera jest poddawany drobiazgowej analizie przez miliony fanów.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMizwFBVV95cUxNdkpBWk82SjZZR1l5TTdJZVduUDB3OXVBYVBmZ1lkR28yWDJxeWk3QzRjVXFpcE1WMEdoOTBza1JjYmQ4WlFOeVNoU0ZPTFcxSkp4RTJTaDNlcW9QaWhjSjZpVmx1c1dGamJQUEZoMWJuYWJMUC12OENuRC05MTlfZXFFNGR2eEROaXZtVG1USUQ5U0RTSXQtVjgxZ2lBWUtXWHN0V0V5Zk1sRnZBZXo3aXJiU0NNZmg4UU14UnAtbk1mMzNFVGJrYktlSnZBbUU?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "18.11 • 19:13",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Diego_Simeone_-_240422_192621-2_%28cropped%29.jpg/1280px-25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Diego_Simeone_-_240422_192621-2_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Osłabienie Atletico przed hitem z Barceloną: Kluczowy skrzydłowy poza grą",
+    "summary": "Atletico Madryt przystąpi do wyczekiwanego starcia z FC Barceloną bez jednego ze swoich podstawowych skrzydłowych, który zmaga się z urazem.",
+    "content": "<p>Nadchodzące spotkanie w ramach La Liga pomiędzy Atletico Madryt a FC Barceloną odbędzie się przy znaczącym osłabieniu kadrowym zespołu ze stolicy Hiszpanii. Sztab medyczny potwierdził, że jeden z kluczowych zawodników ofensywnych nie będzie zdolny do gry w tym prestiżowym pojedynku.</p><p>Powodem absencji jest kontuzja, której piłkarz nabawił się w trakcie ostatnich treningów. Choć szczegóły dotyczące dokładnego rodzaju urazu nie zostały w pełni ujawnione, sztab szkoleniowy podjął decyzję o wykluczeniu zawodnika z kadry meczowej, aby nie ryzykować pogłębienia problemów zdrowotnych.</p><p>Brak tego gracza stanowi poważne wyzwanie dla trenera Diego Simeone, który musi teraz przemodelować ustawienie drużyny. Obecność skrzydłowego była dotychczas kluczowym elementem taktyki Atletico w meczach przeciwko czołowym rywalom z ligowej tabeli.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMijwFBVV95cUxPdElYUTlwblZlWENCbjhhLUtISjJBN3JwdG84MWozM1dyMkdBVEMya0ozOXlFSVlMdjdNbTZ3RnduNHVPUGpxNGc2RDF0MzEwem1HZDlIS3BrT2Ezc05IakpIZjZsc0xlaENRellGU1dBVmU5dXFDdU8wZ1NFNHRLQXQyQlVEaGdFbnlmNzNSMA?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "18.11 • 19:13",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/0/08/Jamie_Duncan.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Historyczny ruch w Szkocji: Dumbarton FC ma najmłodszego trenera w lidze",
+    "summary": "Klub Dumbarton FC dokonał przełomowego wyboru, zatrudniając Jamiego Duncana na stanowisko menedżera, co czyni go najmłodszym szkoleniowcem w historii profesjonalnych lig szkockich.",
+    "content": "<p>Dumbarton FC oficjalnie ogłosiło zatrudnienie Jamiego Duncana, który w wieku zaledwie 23 lat przejmuje stery w pierwszej drużynie. Decyzja ta stanowi historyczny moment dla szkockiego futbolu, gdyż żaden inny klub w SPFL nie powierzył wcześniej tak odpowiedzialnej roli osobie w tak młodym wieku.</p><p>Władze klubu zdecydowały się na ten odważny krok, licząc na powiew świeżości i nowoczesne podejście do prowadzenia zespołu. Duncan, mimo braku wieloletniego doświadczenia, zyskał zaufanie zarządu swoimi kompetencjami oraz wizją rozwoju drużyny w nadchodzącym sezonie.</p><p>Wybór ten wywołał duże poruszenie w środowisku piłkarskim, stawiając Dumbarton w centrum uwagi mediów. Kibice z niecierpliwością czekają na debiut młodego menedżera, który stanie przed wyzwaniem udowodnienia, że wiek nie jest przeszkodą w osiąganiu sukcesów na poziomie profesjonalnym.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/live-blog/12040/13176154/scottish-premiership-news-transfers-rumours-gossip-and-more' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "18.11 • 19:13",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Alan_Pardew.jpg/1280px-Alan_Pardew.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Sky Sports zaprasza na specjalny program przed zimowym oknem transferowym",
+    "summary": "Dziennikarze Sky Sports wraz z Alanem Pardew analizują nadchodzące ruchy kadrowe w klubach Premier League w specjalnym programie „Unfinished Business”.",
+    "content": "<p>W obliczu zbliżającego się zimowego okna transferowego, stacja Sky Sports News przygotowała specjalną audycję pod nazwą „Unfinished Business”. Program ma na celu podsumowanie potrzeb kadrowych drużyn oraz omówienie najgorętszych plotek transferowych.</p><p>W studiu pojawią się reporterzy James Savundra oraz Michael Bridge. Do dyskusji zaproszono również Alana Pardew, byłego menedżera Newcastle United, który podzieli się swoim eksperckim spojrzeniem na rynek transferowy.</p><p>W ramach programu prowadzący odpowiedzą na pytania przesłane przez kibiców. Widzowie mogą śledzić rozwój sytuacji w swoich ulubionych klubach Premier League oraz niższych ligach angielskich za pośrednictwem dedykowanych serwisów informacyjnych Sky Sports.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/12040/13613662/free-stream-watch-special-unfinished-business-transfer-show-on-sky-sports-news-with-guest-alan-pardew' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "18.11 • 19:13",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/0/0a/2026-03-26_Premier_League_Darts_%E2%80%93_Night_8_%E2%80%93_Berlin_2026_by_Sandro_Halank%E2%80%93168.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Grand Slam of Darts: Luke Littler w walce o ćwierćfinał w Wolverhampton",
+    "summary": "W Wolverhampton trwa rywalizacja w ramach Grand Slam of Darts. Luke Littler zmierzy się z Jermaine'em Wattimeną w kluczowym starciu o awans do najlepszej ósemki turnieju.",
+    "content": "<p>Turniej Grand Slam of Darts wkracza w decydującą fazę. W Wolverhampton kibice śledzą zmagania w 1/8 finału, gdzie stawką jest przepustka do kolejnego etapu prestiżowych zawodów.</p><p>Jednym z najbardziej wyczekiwanych pojedynków wieczoru jest starcie wschodzącej gwiazdy darta, Luke'a Littlera, z doświadczonym Jermaine'em Wattimeną. Obaj zawodnicy walczą o utrzymanie się w drabince turniejowej.</p><p>Relacja z wydarzenia prowadzona jest w systemie leg-po-leg, co pozwala fanom na bieżąco śledzić każdy rzut. Transmisja spotkań rozpoczęła się o godzinie 19:00 na antenie Sky Sports.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/darts/live-blog/12040/13613592/grand-slam-of-darts-live-commentary-updates-scores-analysis-with-luke-littler-gerwyn-price-rob-cross-in-action' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "18.11 • 19:13",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Alan_Pardew.jpg/1280px-Alan_Pardew.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Transferowe emocje w PITCH ZONE: Sky Sports zapowiada program Unfinished Business",
+    "summary": "Zbliża się zimowe okno transferowe, a stacja Sky Sports News przygotowała specjalny program poświęcony ruchom kadrowym w klubach Premier League i EFL.",
+    "content": "<p>W dzisiejszym wydaniu specjalnym programu „Unfinished Business” dziennikarze James Savundra oraz Michael Bridge przeanalizują nadchodzące wyzwania transferowe, przed którymi stoją angielskie kluby.</p><p>Do dyskusji w studiu zaproszono byłego menedżera Newcastle United, Alana Pardew. Ekspert pomoże ocenić, jakie wzmocnienia są niezbędne dla poszczególnych drużyn w trakcie zimowej przerwy.</p><p>Program skupi się nie tylko na analizie rynku, ale również na odpowiedziach na pytania przesłane przez kibiców, którzy aktywnie włączyli się w dyskusję o przyszłości swoich zespołów.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/11095/13613662/free-stream-watch-special-unfinished-business-transfer-show-on-sky-sports-news-with-guest-alan-pardew' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "LL",
     "badge": "La Liga",
     "badgeColor": "bg-red-600",
@@ -226,77 +298,5 @@
     "title": "Anglia triumfuje w ODI: Pewna wygrana w Hobart pieczętuje serię z Australią",
     "summary": "Reprezentacja Anglii pokonała Australię różnicą 97 runów w decydującym meczu serii ODI, wygrywając cały cykl 2-1 po imponującym powrocie.",
     "content": "<p>Po porażce w pierwszym meczu w Perth, podopieczni Harry'ego Brooka odwrócili losy rywalizacji. Kluczowym momentem decydującego starcia w Hobart był świetny występ Bena Ducketta, który zdobył 133 runy, prowadząc Anglię do łącznego wyniku 328 punktów.</p><p>Australijczycy nie poradzili sobie z presją, tracąc wczesne wickety po znakomitych zagraniach Sonny'ego Bakera (4-45). Gospodarze zostali wyeliminowani przy 231 runach, a mecz zakończył się po wyeliminowaniu Spencera Johnsona przez kapitana gości, Harry'ego Brooka.</p><p>Mecz przyniósł też chwile grozy, gdy Cameron Green został trafiony piłką w kask i musiał zostać zastąpiony przez Ollie'ego Peake'a. Teraz obie drużyny przenoszą się do Melbourne, gdzie w sobotę rozpocznie się seria pięciu spotkań w formacie T20I.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/cricket/news/12040/13613516/england-cruise-to-odi-series-win-over-australia-as-ben-duckett-scores-century-and-sonny-baker-takes-four-wickets' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "18.11 • 11:43",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/RSA_vs_AUS_Day_1-47_%28cropped%29.jpg/1280px-RSA_vs_AUS_Day_1-47_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Nasser Nasser domaga się wyjaśnień od Cumminsa w sprawie afery „Sandpapergate”",
-    "summary": "Były kapitan reprezentacji Anglii, Nasser Hussain, publicznie wezwał trenera Pat Cumminsa do zajęcia stanowiska w sprawie kontrowersji związanych z aferą „Sandpapergate”.",
-    "content": "<p>Nasser Hussain podkreślił, że obecny kapitan australijskiej kadry, Pat Cummins, musi w końcu otwarcie odnieść się do wydarzeń z 2018 roku, znanych jako „Sandpapergate”. Zdaniem eksperta, unikanie tematu nie służy wizerunkowi drużyny.</p><p>Sprawa dotyczy incydentu z manipulacją piłką podczas meczu z RPA, który wstrząsnął światem krykieta. Hussain uważa, że Cummins, jako lider zespołu, ma moralny obowiązek wyjaśnienia wątpliwości, które wciąż ciążą na australijskim sporcie.</p><p>Wypowiedź Hussaina wywołała szeroką dyskusję w mediach, wskazując na potrzebę pełnej transparentności wewnątrz australijskiej federacji. Presja na Cumminsa rośnie, gdyż kibice oczekują definitywnego zamknięcia tego bolesnego rozdziału.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/watch/video/13613537/nasser-hussain-calls-for-cummins-sandpapergate-response' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "18.11 • 11:43",
-    "source": "Na podstawie: BBC Sport",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Bordeaux w otchłani: od chwały do amatorskich boisk w cieniu wizyty Zidane'a",
-    "summary": "Podczas gdy Zinedine Zidane świętował powrót do Bordeaux, jego dawny klub kontynuuje walkę o powrót do profesjonalizmu, rywalizując obecnie na szóstym poziomie rozgrywkowym we Francji.",
-    "content": "<p>Zinedine Zidane powrócił do miasta, w którym w latach 1992-1996 kształtował swój piłkarski charakter. Przy okazji meczu reprezentacji Francji z Turcją na Stade Atlantique, legendarny pomocnik został entuzjastycznie przywitany przez 40 tysięcy kibiców, którzy przygotowali specjalną oprawę na jego cześć.</p><p>Zupełnie inne nastroje panują wewnątrz Girondins de Bordeaux. Sześciokrotni mistrzowie kraju, po serii problemów finansowych i błędów w zarządzaniu, zostali zdegradowani aż do szóstej ligi. Obecnie zespół musi mierzyć się z amatorskimi drużynami, co stanowi drastyczny kontrast dla klubu z tak bogatą historią w europejskich pucharach.</p><p>Kłopoty klubu pogłębiły się po przejęciu władzy w 2021 roku przez Gerarda Lopeza. Fatalne decyzje biznesowe i sportowe doprowadziły do spadku z Ligue 1, a następnie do dalszej degradacji. Mimo trudnej sytuacji, tysiące wiernych fanów wciąż wspiera drużynę, która w obecnych rozgrywkach Regional 1 wygrała wszystkie pięć dotychczasowych spotkań.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/articles/c63rgqrz9jgqo?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "18.11 • 10:45",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/4/49/Arsenal_v_Everton_-_52223142689_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Dylemat Artety: Co zrobić z Konsą po powrocie Saliby do składu Arsenalu?",
-    "summary": "William Saliba wraca do treningów po kontuzji, stawiając Mikela Artetę przed trudną decyzją dotyczącą obsady środka obrony, gdzie świetnie radzi sobie Ezri Konsa.",
-    "content": "<p>Ezri Konsa, który latem trafił do Arsenalu z Aston Villi za 55 milionów funtów, stał się kluczowym ogniwem defensywy podczas nieobecności Williama Saliby. Statystyki pokazują, że Anglik prezentuje się na poziomie mistrzowskim, zajmując czołowe miejsca w lidze pod względem celności podań oraz skuteczności w pojedynkach na ziemi.</p><p>Powrót Saliby do pełnej sprawności stanowi dla Mikela Artety wyzwanie logistyczne. Menedżer musi zdecydować, jak wkomponować Francuza do wyjściowej jedenastki, nie tracąc przy tym wysokiej formy Konsy, co jest kluczowe w kontekście nadchodzącego, wymagającego terminarza przed świętami.</p><p>Znaczenie Saliby dla układanki Artety potwierdzają dane dotyczące ustawienia linii obrony, która pod jego nieobecność obniżyła się o metr. Przed Arsenalem seria prestiżowych starć z rywalami takimi jak Manchester City, Real Madryt czy Tottenham, gdzie każda decyzja personalna może mieć decydujące znaczenie dla wyników.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/12040/13610324/william-saliba-or-ezri-konsa-mikel-arteta-has-tough-arsenal-selection-dilemma-when-french-defender-returns-to-full-fitness' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "18.11 • 10:44",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/1_05_Bancroft_departs.jpg/1280px-1_05_Bancroft_departs.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Afera Sandpapergate powraca: Cameron Bancroft przerywa milczenie",
-    "summary": "Cameron Bancroft w szczerym wywiadzie dla The West Australian ponownie poruszył temat skandalu z 2018 roku, sugerując szerszą wiedzę zespołu o manipulacji piłką.",
-    "content": "<p>Sprawa tzw. Sandpapergate, czyli słynnego incydentu z manipulacją piłką podczas meczu w RPA w 2018 roku, znów wywołała ogromne poruszenie w świecie krykieta. Cameron Bancroft zdecydował się na udzielenie obszernego wywiadu, w którym odniósł się do kulis tamtych wydarzeń.</p><p>Wypowiedź Bancrofta jest bezpośrednią reakcją na wcześniejsze sugestie Usmana Khawaji. Khawaja otwarcie twierdził, że cały zespół reprezentacji Australii posiadał wiedzę na temat planu nielegalnego wpływania na stan piłki podczas tamtej serii spotkań.</p><p>Nowe fakty rzucają cień na dotychczasowe ustalenia dotyczące odpowiedzialności za skandal. Wywiad dla The West Australian wywołał falę dyskusji na temat uczciwości w sporcie oraz tego, kto dokładnie był wtajemniczony w działania podjęte w RPA.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/cricket/live-blog/12040/13613502/australian-cricket-sandpapergate-latest-live-reaction-to-cameron-bancrofts-explosive-interview-telling-all-of-2018-ball-tampering' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "18.11 • 10:44",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg/1280px-Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Pochettino zapowiada powrót potęgi Manchesteru United: „Jeszcze zobaczycie”",
-    "summary": "Mauricio Pochettino objął stery w Manchesterze United z jasną deklaracją: przywróci klubowi dominację w mieście, prosząc kibiców o cierpliwość w procesie przebudowy zespołu.",
-    "content": "<p>Argentyński szkoleniowiec oficjalnie rozpoczyna pracę w Manchesterze United, zastępując na stanowisku Michaela Carricka. Jego debiut na ławce trenerskiej „Czerwonych Diabłów” nastąpi już w najbliższą niedzielę w prestiżowym starciu przeciwko Liverpoolowi.</p><p>Podczas wywiadu dla TNT Sports, Pochettino odniósł się do prowokacji byłego gracza Manchesteru City, DaMarcusa Beasleya, który stwierdził, że miasto pozostanie niebieskie. Trener odpowiedział pewnie, prosząc o czas na wdrożenie swojej wizji i naprawę obecnej sytuacji klubu.</p><p>Pochettino, który ostatnio prowadził reprezentację USA, podkreślił, że kluczem do sukcesu na Old Trafford będzie odpowiednie podejście, komunikacja oraz budowanie relacji z zawodnikami. Zaznaczył, że obecny stan klubu nie przystoi jego renomie i wspaniałej bazie kibiców.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/11095/13613499/mauricio-pochettino-incoming-manchester-united-head-coach-calls-for-time-to-topple-manchester-city-ahead-of-old-trafford-arrival' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "18.11 • 10:44",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Premier_League_Trophy_at_Manchester%27s_National_Football_Museum_%28Ank_Kumar%29_02.jpg/1280px-Premier_League_Trophy_at_Manchester%27s_National_Football_Museum_%28Ank_Kumar%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "imgCredit": "Fot. Ank Kumar (CC BY-SA 4.0)",
-    "title": "Stwórz własny ranking 25 najlepszych piłkarzy Premier League",
-    "summary": "Redakcja Sky Sports zaprasza fanów angielskiej piłki do udziału w interaktywnym głosowaniu na najlepszych zawodników obecnego sezonu Premier League.",
-    "content": "<p>Portal Sky Sports uruchomił specjalną platformę, która pozwala kibicom na wyłonienie czołowej dwudziestki piątki zawodników występujących na boiskach angielskiej ekstraklasy.</p><p>Użytkownicy mają okazję wyrazić swoją opinię i stworzyć własne zestawienie, oceniając formę gwiazd ligi w trwających rozgrywkach 2024/2025.</p><p>Inicjatywa ma na celu zaangażowanie społeczności fanów w debatę na temat poziomu sportowego oraz indywidualnych osiągnięć piłkarzy w najbardziej prestiżowej lidze świata.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/live-blog/11095/13613478/premier-league-top-25-players-who-is-the-best-player-in-the-premier-league-right-now' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
