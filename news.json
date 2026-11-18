@@ -1,5 +1,41 @@
 [
   {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "18.11 • 07:09",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/1280px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Vinicius Jr szczerze o kryzysie: Plotki transferowe wpływają na moją formę",
+    "summary": "Gwiazdor Realu Madryt, Vinicius Jr, przyznał w rozmowie z BBC, że medialne spekulacje dotyczące jego przyszłości negatywnie odbijają się na jego dyspozycji na boisku.",
+    "content": "<p>Brazylijski skrzydłowy Realu Madryt otwarcie przyznał, że ciągłe doniesienia o potencjalnym transferze nie pozostają bez wpływu na jego koncentrację. Piłkarz podkreślił, że szum medialny wokół jego osoby utrudnia mu skupienie się wyłącznie na obowiązkach boiskowych.</p><p>Wypowiedź zawodnika dla BBC rzuca nowe światło na ostatnie wahania formy, z jakimi zmaga się lider ofensywy Królewskich. Vinicius Jr zaznaczył, że presja związana z nieustannymi plotkami jest wyzwaniem, z którym musi mierzyć się na co dzień.</p><p>Choć Brazylijczyk pozostaje kluczową postacią w układance Carlo Ancelottiego, jego słowa sugerują, że kwestia przyszłości w klubie z Madrytu stała się dla niego istotnym obciążeniem mentalnym w trwającym sezonie.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMiaEFVX3lxTE5icFQ2NE5HS01SZXBNZEI1dzk0SVYwcVBiSE1scEdRNk1mekhfWm5ZWjlPdEJLTFdJQk5qaURCc2FLaVg4Yl9nQ1dGY1Z4TjU0cXhZNVE0dnV2SUhraHdnSXZxdU9ENnZh?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "18.11 • 07:09",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Nicky_Henderson_17367165035_%28cropped%29.jpg/1280px-Nicky_Henderson_17367165035_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Debiut w płotach: Old Park Star i Sober Glory zmierzą się na torze Ffos Las",
+    "summary": "Gwiazdy zeszłego sezonu, Old Park Star oraz Sober Glory, po raz pierwszy spróbują swoich sił w gonitwach z przeszkodami podczas dzisiejszych zawodów na torze Ffos Las.",
+    "content": "<p>Old Park Star, podopieczny trenera Nicky'ego Hendersona, rozpoczyna nowy etap kariery po perfekcyjnym sezonie, w którym wygrał wszystkie cztery starty w płotach. Koń, dosiadany przez Nico de Boinville'a, jest obecnie głównym faworytem do zwycięstwa w prestiżowym Arkle Trophy.</p><p>Jego najgroźniejszym rywalem w dzisiejszym debiucie w Golwg Gwendraeth Beginners' Chase będzie Sober Glory, trenowany przez duet Hobbs i White. Obaj zawodnicy rywalizowali ze sobą już w zeszłym roku, a eksperci od dawna wskazywali Sober Glory jako konia o idealnych predyspozycjach do skoków przez przeszkody.</p><p>Stawkę uczestników uzupełniają Baron Noir, przygotowywany przez Alana Kinga, a także Carlenrig oraz Bobby's Nelson. Wydarzenie to jest bacznie obserwowane przez środowisko jeździeckie, gdyż może zdefiniować układ sił w nadchodzącym sezonie wyścigowym.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/racing/news/12040/13612907/today-on-sky-sports-racing-supreme-hero-old-park-star-makes-chasing-debut-at-ffos-las' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "18.11 • 07:09",
+    "source": "Na podstawie: BBC Sport",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/9/93/Rebecca_Lord_by_Dirty_Bob.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "imgCredit": "Fot. Bob K (D.B)\" dirtybob@dirtybob.com (CC BY 2.5)",
+    "title": "Koniec blokady transmisji o 15:00? Premier League i EFL rozważą zmiany",
+    "summary": "Premier League oraz EFL planują debatę nad przyszłością tzw. blackoutu, czyli zakazu transmisji meczów w soboty o 15:00, który obowiązuje w Anglii od lat 60. XX wieku.",
+    "content": "<p>Tradycja zakazująca pokazywania spotkań piłkarskich w sobotnie popołudnie ma na celu ochronę frekwencji na stadionach niższych lig. Obecnie jednak władze lig rozważają rewizję tych przepisów, co budzi ogromne emocje wśród kibiców czujących się poszkodowanymi brakiem dostępu do meczów własnych drużyn.</p><p>W dyskusję włączył się polityk Andy Burnham, który apeluje o dużą ostrożność. Jego zdaniem priorytetem powinna pozostać stabilność finansowa całego systemu rozgrywek w Anglii, a nie tylko interesy najbogatszych klubów z elity.</p><p>Historycznie za wprowadzeniem blokady stał Bob Lord, prezes Burnley, który jako pierwszy sprzeciwił się wpuszczeniu kamer na stadion Turf Moor. Od tamtego czasu debata o sensowności tego rozwiązania powraca regularnie, stając się unikalnym elementem brytyjskiej kultury futbolowej.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/articles/cwvg2mxkd4x8o?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "OTHER",
     "badge": "Inne Ligi",
     "badgeColor": "bg-emerald-600",
@@ -262,41 +298,5 @@
     "title": "Amerykanie w Bundeslidze: Przegląd kadrowy przed sezonem 2026/27",
     "summary": "Oficjalny serwis Bundesligi przygląda się amerykańskim talentom, którzy będą stanowić o sile niemieckich klubów w nadchodzącym sezonie 2026/27.",
     "content": "<p>Nowa kampania Bundesligi przynosi kolejną falę zawodników ze Stanów Zjednoczonych, którzy zdecydowali się na rozwój kariery w Niemczech. Liga pozostaje jednym z głównych kierunków dla młodych talentów z USA, oferując im optymalne warunki do podnoszenia swoich umiejętności na najwyższym europejskim poziomie.</p><p>W zestawieniu przygotowanym przez ligę wyróżniono kluczowe postacie, które mają odegrać istotne role w swoich zespołach. Analiza obejmuje zarówno zawodników już zadomowionych w niemieckich realiach, jak i nowe twarze, które mają szansę stać się objawieniami nadchodzących rozgrywek.</p><p>Eksperci podkreślają, że obecność amerykańskich piłkarzy w Bundeslidze to nie tylko kwestia marketingu, ale przede wszystkim realnego wzmocnienia kadrowego klubów. Zawodnicy ci coraz częściej stają się fundamentami swoich drużyn, walcząc o najwyższe cele w tabeli.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMirwFBVV95cUxOMHVFVWo3V2QzWjZULXhkY2FsajRiZ0NObjdod2E0bW1od3hvbWxiRVNfdVo4LUpQbEM0cFo5b0g0em0tbnAxc3dHZk1EV01jb0tBNjdrUUtkallHcERjMHJKdGt2SjRKbW81RUs0bHBPb0FLVFF5NGhTZkM3WUloN1dWc3hZb3dZVEp6QzE4bGtoRENDc1pPb2h6VDI4eHlOSGFGTTd2cjZxVHpyeDJV?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "17.11 • 18:46",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/SSV_Ulm_1846_Fussball.svg/1280px-SSV_Ulm_1846_Fussball.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Lennart Stoll oficjalnie piłkarzem SSV Ulm 1846",
-    "summary": "Lennart Stoll dołącza do kadry SSV Ulm 1846, wzmacniając zespół przed wyzwaniami w niemieckiej Bundeslidze.",
-    "content": "<p>Oficjalna strona internetowa SSV Ulm 1846 potwierdziła transfer Lennarta Stolla. Zawodnik został oficjalnie zaprezentowany jako nowy członek drużyny występującej na najwyższym szczeblu rozgrywkowym w Niemczech.</p><p>Klub zdecydował się na ten ruch, aby zwiększyć rywalizację w składzie i poprawić jakość gry w nadchodzących meczach ligowych. Stoll ma wnieść swoje doświadczenie do zespołu, który walczy o utrzymanie swojej pozycji w Bundeslidze.</p><p>Sztab szkoleniowy SSV Ulm 1846 liczy na to, że nowy nabytek szybko zaadaptuje się do wymagań taktycznych drużyny. Transfer ten jest częścią szerszej strategii klubu mającej na celu ustabilizowanie formy w obecnym sezonie.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hSjRkX0hobE0wWmpYYzNHRE1Ea0FwTUx2aEdQbk5jUjFzbmNLdGJDR0pEX0xzYnhJclZ3UmZvTURxaTlVTnhfbGk1b2ZaT1VIeFV0NzNGOG9mSnU1M2E4?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "17.11 • 18:46",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/6/6e/2022-07-21_Fu%C3%9Fball%2C_M%C3%A4nner%2CFreundschaftsspiel%2C_RB_Leipzig_-_FC_Liverpool_1DX_2243_by_Stepro_%28cropped%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Niemiecki futbol ufa Kloppowi: Brak planów zwolnienia mimo słabej formy",
-    "summary": "Mimo serii rozczarowujących wyników reprezentacji Niemiec, tamtejsza federacja nie rozważa zakończenia współpracy z Jürgenem Kloppem.",
-    "content": "<p>Niemiecki związek piłkarski stanowczo dementuje plotki o możliwym zwolnieniu selekcjonera. Władze federacji podkreślają, że mają pełne zaufanie do warsztatu szkoleniowego Kloppa, pomimo wyraźnego kryzysu formy drużyny narodowej.</p><p>Obecna sytuacja kadrowa i wyniki osiągane przez zespół nie wpłynęły na zmianę priorytetów zarządu. Decydenci uważają, że to właśnie ten trener jest osobą, która najlepiej poradzi sobie z wyprowadzeniem kadry na prostą przed nadchodzącymi turniejami.</p><p>W mediach coraz głośniej mówiło się o konieczności wstrząsu w sztabie szkoleniowym, jednak oficjalne stanowisko związku ucina wszelkie spekulacje. Klopp pozostaje na swoim stanowisku i ma pełne wsparcie swoich przełożonych w procesie przebudowy zespołu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQUZ6SzlCMkRmS20wR3E4OXJoYXl0VTJsd1V5Vk1ydlVYQzYzbVEtcWRqNWx6dmRJdjczYkkwWkJVa2RCR2g1LTJzby05bzVqNUtDSG5hcUVJbDM0QWtWeG9SanBVcEg0cnNYNnk5SkRqUlMtTVktbWJxemg2U2tORm5RVi1paUs1Y19KbDF5U04zdkZpaE03TTZrRFRYeG05QWJIbW5CV1Z3dFZGWFhsUmpVWWNxYXZXNHZiNXNqaFlNQU9kb0hqMllnN0ZFMnB2?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "17.11 • 18:45",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Vergadering_van_de_Staten_van_de_Nederlandse_Antillen%2C_Bestanddeelnr_935-1543.jpg/1280px-Vergadering_van_de_Staten_van_de_Nederlandse_Antillen%2C_Bestanddeelnr_935-1543.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "imgCredit": "Fot. Anefo (CC0)",
-    "title": "Elia Caprile o szansie w Napoli: Conte, Cagliari i marzenia o kadrze",
-    "summary": "Elia Caprile komentuje swoją sytuację w Napoli, odnosząc się do rywalizacji o miejsce w składzie, emocjonalnego podejścia Antonio Conte oraz ambicji związanych z reprezentacją Włoch.",
-    "content": "<p>Elia Caprile otrzymał szansę na pokazanie swoich umiejętności w bramce Napoli podczas meczu z Cagliari. Występ ten był dla niego kluczowym momentem w kontekście walki o zaufanie sztabu szkoleniowego w obliczu kontuzji Alexa Mereta.</p><p>Bramkarz odniósł się również do temperamentu Antonio Conte. Włoski szkoleniowiec znany jest z ogromnej pasji i surowości, a Caprile podkreślił, że gniew trenera jest motywatorem, który zmusza zawodników do utrzymywania najwyższej koncentracji przez pełne 90 minut.</p><p>W kontekście przyszłości, golkiper nie ukrywa swoich aspiracji związanych z reprezentacją Włoch. Choć konkurencja jest duża, Caprile wierzy, że regularna gra w barwach Napoli otworzy mu drzwi do powołania na zgrupowania kadry narodowej.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMijAFBVV95cUxPWDdHRkRuMThoV2VIdVBkR2w1UnhHeHBud19CMnFNTHlVMlNIdVpSOGpGT0RrT2hIOVVPaS1KR0JRRzBOeXBrX1VyandwTUprdm0xWVR4cjl2UmtwazJLSDFaTVkxSEYyVFpzOWJqaVlQTmNaVkptc1N0QVdUSm12VXpjV25waHZCa3lpOQ?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
