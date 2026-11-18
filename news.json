@@ -1,5 +1,53 @@
 [
   {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "18.11 • 15:58",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Arda_G%C3%BCler_2025_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Arda Guler zostaje w Realu Madryt na lata: Nowy kontrakt do 2032 roku",
+    "summary": "Real Madryt zabezpieczył przyszłość swojej młodej gwiazdy, przedłużając kontrakt z Ardą Gulerem aż do 2032 roku. Turecki talent pozostanie kluczową postacią projektu Królewskich.",
+    "content": "<p>Władze Realu Madryt podjęły decyzję o długoterminowym związaniu się z Ardą Gulerem. Nowa umowa wiążąca utalentowanego pomocnika z klubem ze stolicy Hiszpanii obowiązuje teraz do końca czerwca 2032 roku.</p><p>Decyzja ta jest jasnym sygnałem ze strony zarządu Los Blancos, że pokładają ogromne nadzieje w rozwoju tureckiego zawodnika. Klub chce w ten sposób uniknąć spekulacji transferowych i zapewnić piłkarzowi stabilne warunki do dalszego rozwoju.</p><p>Guler, który dołączył do Realu jako jeden z najbardziej obiecujących graczy młodego pokolenia, cieszy się dużym zaufaniem sztabu szkoleniowego. Przedłużenie kontraktu o tak długi okres podkreśla jego status jako przyszłej legendy madryckiego zespołu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMikwFBVV95cUxNcjh5dkJ5bDV4Yi1kVU5LVXlQZWN5Q2NPYUxSN05EYXZjUV9uN3FLYnUwbFNDNVcwNXVvWkI2QnJCV0l0RjY0UGtzQTFhUEtsRVBLT1EzcVJ4ZmVYcy15blFYMFdqdEtkRnhpUTduVlpDM2hKTFRZeklPYU9LZWtjMHU2akdUZXhvYlNaS1RQWkZkWEk?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "18.11 • 15:58",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Ben_L._Jones_101st_Congress_1989.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Sober Glory triumfuje w debiucie: Udany rewanż na Old Park Star we Ffos Las",
+    "summary": "Sober Glory w imponującym stylu wygrał swój pierwszy wyścig z przeszkodami we Ffos Las, pokonując faworyzowanego rywala Old Park Star o ponad dziewięć długości.",
+    "content": "<p>Podczas wyścigu Golwg Gwendraeth Beginners’ Chase na torze Ffos Las doszło do wyczekiwanego starcia dwóch utalentowanych koni. Sober Glory, trenowany przez duet Philipa Hobbsa i Johnsona White’a, zaprezentował się znacznie lepiej od swojego rywala, odnosząc pewne zwycięstwo w swoim debiucie w konkurencji typu chase.</p><p>Old Park Star, dosiadany przez Nico de Boinville’a i prowadzony przez Nicky’ego Hendersona, nie zdołał utrzymać tempa w końcowej fazie rywalizacji. Jak się okazało, koń ten doznał pęknięcia naczynia krwionośnego, co wpłynęło na jego słabszy występ i zajęcie dopiero trzeciego miejsca.</p><p>Dżokej Ben Jones, który poprowadził zwycięskiego konia, podkreślił, że mimo drobnych błędów debiutanta, występ był bardzo obiecujący. Johnson White wyraził zadowolenie z formy swojego podopiecznego, zaznaczając, że koń z każdym kolejnym startem będzie zyskiwał na doświadczeniu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/racing/news/12040/13613649/sober-glory-storms-to-victory-over-old-park-star-on-chase-debut' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "18.11 • 15:58",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg/1280px-Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Pochettino w Manchesterze: Oficjalny start nowej ery w United",
+    "summary": "Mauricio Pochettino przybył do Manchesteru, aby oficjalnie rozpocząć swoją pracę w roli menedżera Manchesteru United.",
+    "content": "<p>Mauricio Pochettino został zauważony w Manchesterze, co stanowi symboliczny początek jego kadencji na Old Trafford. Argentyński szkoleniowiec przejmuje stery w klubie w momencie dużych oczekiwań kibiców oraz mediów.</p><p>Wewnątrz struktur klubu panuje napięta atmosfera, co potwierdzają doniesienia o odejściu JJ Gabriela. Decyzja ta wywołała spore poruszenie i frustrację wśród osób związanych z drużyną, co rzuca cień na pierwsze dni pracy nowego trenera.</p><p>Pochettino staje przed trudnym zadaniem ustabilizowania sytuacji w zespole, który zmaga się z problemami wizerunkowymi i organizacyjnymi. Jego przyjazd jest traktowany jako kluczowy krok w procesie przebudowy Manchesteru United.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/watch/video/13613622/watch-sober-glory-slams-rivals-on-chase-debut-at-ffos-las' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "18.11 • 15:57",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Alex_Scott_09052026_%285%29.jpg/1280px-Alex_Scott_09052026_%285%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Arsenal gotowy na sprzedaż pomocnika, by pozyskać gwiazdę Bournemouth",
+    "summary": "Arsenal planuje transfer Alexa Scotta, ale musi najpierw sprzedać jednego ze swoich zawodników, aby sprostać wysokim wymaganiom finansowym Bournemouth sięgającym 100 milionów funtów.",
+    "content": "<p>Mistrzowie Anglii włączyli się do wyścigu o podpis 23-letniego Alexa Scotta, rywalizując o niego z Chelsea oraz Liverpoolem. Bournemouth oczekuje za swojego pomocnika kwoty rzędu 100 milionów funtów, co zmusza londyńczyków do przeprowadzenia roszad w kadrze.</p><p>Menedżer Mikel Arteta oraz dyrektor sportowy Andrea Berta rozpoczęli już planowanie ruchów transferowych na rok 2027. Aby sfinalizować transakcję, klub musi zwolnić miejsce w środku pola, sprzedając jednego z obecnych zawodników w zimowym lub letnim oknie.</p><p>Głównym kandydatem do odejścia wydaje się Mikel Merino, który rzadko pojawia się w wyjściowym składzie i publicznie wyraził chęć częstszej gry. Wśród potencjalnych nazwisk do sprzedaży wymieniany jest również Martin Zubimendi, choć jego sytuację komplikują ostatnie problemy zdrowotne.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/11095/13613285/alex-scott-arsenal-keen-on-chelsea-and-liverpool-target-with-bournemouth-softening-stance-over-potential-sale' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "SA",
     "badge": "Serie A",
     "badgeColor": "bg-sky-600",
@@ -250,53 +298,5 @@
     "title": "Antonio Rüdiger szczerze o presji w Realu Madryt: Dwa lata bez tytułu to koszmar",
     "summary": "Antonio Rüdiger w wywiadzie dla The New York Times podkreślił, że brak trofeów w Realu Madryt jest dla niego nieakceptowalny i stanowi ogromne obciążenie psychiczne.",
     "content": "<p>Niemiecki obrońca w rozmowie z amerykańskimi mediami otwarcie przyznał, że mentalność panująca w Madrycie opiera się wyłącznie na zwycięstwach. Rüdiger zaznaczył, że dla zawodnika grającego w barwach 'Królewskich' każdy sezon bez zdobytego tytułu jest odbierany jako osobista i klubowa porażka.</p><p>Piłkarz nie ukrywał frustracji wynikającej z braku sukcesów w ostatnich dwóch latach, określając ten stan mianem 'koszmarnego'. Podkreślił, że historia klubu narzuca ogromną presję, z którą muszą mierzyć się wszyscy zawodnicy występujący na Santiago Bernabéu.</p><p>Rüdiger wskazał, że mimo wysokiej jakości kadry, w futbolu liczą się tylko końcowe wyniki. Jego wypowiedź stanowi jasny sygnał dla szatni, że ambicje zespołu muszą być ukierunkowane na zdobywanie trofeów w każdych rozgrywkach, w których biorą udział.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMilgFBVV95cUxNWE1LZVlYLU4yb3NnemxFV01jdmU0MllEN2xFRjlqZ3FHNkkxNmlDZl83SXBnc1dsMzZ1aHVMQjBmOHAwWEdtLUhGNjRJbmpiMDcxbFRCRVZnYldPMUJGcXNkbDhrRE1jb0lzVXRncWJRMlFmalJ3RnNpbmlVZFVpbXJCRkRQOGVxMTBaTXhyLWNadWdsSlE?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "18.11 • 09:40",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/1_05_Bancroft_departs.jpg/1280px-1_05_Bancroft_departs.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Afera „Sandpapergate” powraca: Bancroft oskarża Pat Cumminsa o kłamstwo",
-    "summary": "Cameron Bancroft przerwał milczenie w sprawie skandalu z 2018 roku, twierdząc, że cały zespół Australii wiedział o manipulacjach przy piłce, co przeczy słowom Pata Cumminsa.",
-    "content": "<p>Cameron Bancroft opublikował oświadczenie, w którym wprost zarzuca kapitanowi reprezentacji Australii, Patowi Cumminsowi, mijanie się z prawdą podczas niedawnej konferencji prasowej. Bancroft poczuł się zdradzony przez publiczne zaprzeczenia Cumminsa, który twierdził, że zawodnicy nie mieli świadomości procederu używania papieru ściernego podczas meczu z RPA.</p><p>W swoim tekście Bancroft podkreślił, że odpowiedzialność za manipulacje przy piłce nie spoczywała jedynie na nim, Steve'ie Smithie i Davidzie Warnerze. Według jego relacji, cały zespół bowlingowy był w pełni świadomy planu, który miał na celu zwiększenie swingu piłki, co było tematem rozmów w szatni z udziałem wielu kluczowych graczy.</p><p>Bancroft przyznał, że podczas pierwotnego śledztwa w 2018 roku zataił istotne fakty dotyczące skali procederu oraz zaangażowania pozostałych członków drużyny. Wśród osób, które miały wiedzieć o planie zaproponowanym przez Warnera, wymienił m.in. Mitchella Starca, Josha Hazlewooda, Mitchella Marsha oraz byłego kapitana Tima Paine’a.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/cricket/news/12040/13613489/cameron-bancroft-former-australia-batter-releases-explosive-statement-accusing-pat-cummins-and-bowlers-of-sandpaper-knowledge' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "LL",
-    "badge": "La Liga",
-    "badgeColor": "bg-red-600",
-    "time": "18.11 • 09:40",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg/1280px-Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Historyczny ruch Pochettino w United i plany transferowe gigantów",
-    "summary": "Mauricio Pochettino wprowadza zmiany w sztabie Manchesteru United, zatrudniając pierwszą kobietę w historii klubu, podczas gdy inne zespoły Premier League planują ruchy kadrowe.",
-    "content": "<p>Mauricio Pochettino przechodzi do historii Manchesteru United, sprowadzając do sztabu szkoleniowego Silvię Tuyę. Będzie ona pierwszą kobietą w historii klubu pełniącą funkcję trenerki przygotowania motorycznego.</p><p>Arsenal musi przygotować się na zaciętą walkę o Eli Juniora Kroupiego. O napastnika Bournemouth zabiegają również europejscy giganci, tacy jak FC Barcelona oraz Paris Saint-Germain.</p><p>W innych klubach Premier League również panuje ruch: Manchester City negocjuje przedłużenie kontraktu z Matheusem Nunesem, a Newcastle United szuka nowego napastnika po tym, jak plany sprowadzenia Ivana Toneya spaliły na panewce.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/11095/13613427/man-utd-boss-mauricio-pochettino-to-appoint-clubs-first-ever-female-coach-paper-talk' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "18.11 • 08:31",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Piacenza_through_the_ages_2023.jpg/1280px-Piacenza_through_the_ages_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "imgCredit": "Fot. TThaarup (CC0)",
-    "title": "Piacenza kontra Lucchese: Walka o awans do ćwierćfinału Coppa Italia Serie D",
-    "summary": "Piacenza Calcio podejmie na własnym stadionie Lucchese w ramach 1/8 finału Coppa Italia Serie D. Stawką tego starcia jest przepustka do kolejnej rundy rozgrywek pucharowych.",
-    "content": "<p>Nadchodzące spotkanie w Piacenzy elektryzuje kibiców obu drużyn, gdyż pucharowa rywalizacja rządzi się swoimi prawami. Obie ekipy przystępują do tego meczu z jasnym celem, jakim jest wyeliminowanie przeciwnika i kontynuowanie przygody w Coppa Italia Serie D.</p><p>Sztaby szkoleniowe obu klubów zapowiadają pełną mobilizację, traktując te rozgrywki jako istotny sprawdzian formy przed kluczowymi meczami ligowymi. Mimo że w tego typu starciach często dochodzi do rotacji w składach, nikt nie zamierza odpuszczać walki o awans do najlepszej ósemki turnieju.</p><p>Mecz 1/8 finału zapowiada się jako wyrównane widowisko, w którym o końcowym wyniku może zadecydować dyspozycja dnia oraz skuteczność w kluczowych momentach spotkania. Zwycięzca tego pojedynku wykona ważny krok w stronę końcowego triumfu w pucharze.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMiakFVX3lxTE9OUHAtbGp1SG1YOVpWdTZiLXBZSTd1ck5XbzZXS2ZwbjQ4WkFDeTNGcHBlUzV3Rkx6bHV3TE8ydHZqcnpFRkk0NXBxSjhwUWdXSTl3ZUhOUmF0VnhremFqdGE0aF9QMHZSOUE?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "18.11 • 08:30",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/e/ef/2018.01.05.17.43.25-Usman_Khawaja_%26_Steve_Smith_%2838876757994%29_%28Khawaja_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Afera „Sandpapergate” powraca: Khawaja i Warner sceptyczni wobec działań federacji",
-    "summary": "Cricket Australia powołuje specjalne forum w sprawie skandalu z 2018 roku, jednak Usman Khawaja i David Warner wyrażają wątpliwości co do przejrzystości i celu tej inicjatywy.",
-    "content": "<p>Federacja Cricket Australia zdecydowała o utworzeniu niezależnego panelu, który ma pozwolić uczestnikom wydarzeń z RPA z 2018 roku na przedstawienie własnej perspektywy. Decyzja ta jest bezpośrednią reakcją na kontrowersyjne tezy zawarte w autobiografii Usmana Khawaji, sugerujące, że wiedza o manipulacji piłką była znacznie szersza, niż oficjalnie przyznano.</p><p>W aferze „Sandpapergate” sprzed lat ukarani zostali Steve Smith, David Warner oraz Cameron Bancroft. Khawaja twierdzi jednak, że w proceder zaangażowany był cały sztab i drużyna, co spotkało się z poparciem Warnera i Chadda Sayersa, ale stanowczym zaprzeczeniem ze strony obecnego kapitana reprezentacji, Pata Cumminsa.</p><p>Mimo zapewnień władz federacji o braku dalszych konsekwencji dyscyplinarnych, Khawaja i Warner obawiają się, że forum może służyć jedynie wyciszeniu sprawy. Obaj zawodnicy wyrażają sceptycyzm wobec tego, czy ich zeznania faktycznie ujrzą światło dzienne i czy proces ten nie będzie jedynie powielaniem dotychczasowych niejasności.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/cricket/news/12040/13613446/sandpapergate-usman-khawaja-and-david-warner-question-cricket-australias-new-forum-following-explosive-fallout' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
