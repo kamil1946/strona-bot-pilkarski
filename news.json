@@ -1,5 +1,17 @@
 [
   {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "18.11 • 14:00",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/4/42/%D0%9C%D0%B0%D1%82%D1%87_%C2%AB%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE%C2%BB_-_%C2%AB%D0%91%D0%B0%D1%80%D1%81%D0%B5%D0%BB%D0%BE%D0%BD%D0%B0%C2%BB_0-1._2_%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F_2021_%D0%B3%D0%BE%D0%B4%D0%B0._II_%E2%80%94_1289671_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Czy Frenkie de Jong ma przyszłość w Barcelonie? Analiza sytuacji Holendra",
+    "summary": "Przyszłość Frenkiego de Jonga w FC Barcelonie stoi pod znakiem zapytania, a media spekulują, czy klub faktycznie widzi w nim kluczowy element swojego długofalowego projektu.",
+    "content": "<p>Sytuacja Frenkiego de Jonga w stolicy Katalonii od dłuższego czasu budzi kontrowersje. Mimo wysokich umiejętności technicznych pomocnika, zarząd klubu wielokrotnie rozważał jego sprzedaż, aby podreperować budżet i odciążyć listę płac, co stawia pod znakiem zapytania jego status w zespole.</p><p>Wątpliwości potęguje fakt, że holenderski zawodnik często bywa łączony z odejściem do Premier League, zwłaszcza w kontekście zainteresowania ze strony Manchesteru United. Barcelona, zmagająca się z ograniczeniami finansowymi, traktuje go jako jednego z niewielu piłkarzy, na których mogłaby zarobić znaczną kwotę.</p><p>Eksperci zwracają uwagę na dysonans między oczekiwaniami sztabu szkoleniowego a polityką transferową klubu. Choć trenerzy doceniają jego wkład w grę, to struktura kontraktu zawodnika i jego wysokie zarobki sprawiają, że pozostaje on głównym kandydatem do opuszczenia Camp Nou w przypadku konieczności przeprowadzenia kolejnych cięć.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXp5N2hhSzN0RUZRcGhRUl9hcmU1T3RUaFdiYTZFRzU2ZTBTeUhuQVh1aExmODJNRFB3LWhDWlNsd1hfY0o5RkJTbTl2MDV3bDVwb2ZoSGY2R2x0dU9qQ2Z6NjlqYm9EXzZDa1VlcDVMcE9qWnIzdENyRFBhSEZNSThuR1VpZUp4aDhjMkJVVzU3RjdxZGc?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "SA",
     "badge": "Serie A",
     "badgeColor": "bg-sky-600",
@@ -286,17 +298,5 @@
     "title": "Debiut w płotach: Old Park Star i Sober Glory zmierzą się na torze Ffos Las",
     "summary": "Gwiazdy zeszłego sezonu, Old Park Star oraz Sober Glory, po raz pierwszy spróbują swoich sił w gonitwach z przeszkodami podczas dzisiejszych zawodów na torze Ffos Las.",
     "content": "<p>Old Park Star, podopieczny trenera Nicky'ego Hendersona, rozpoczyna nowy etap kariery po perfekcyjnym sezonie, w którym wygrał wszystkie cztery starty w płotach. Koń, dosiadany przez Nico de Boinville'a, jest obecnie głównym faworytem do zwycięstwa w prestiżowym Arkle Trophy.</p><p>Jego najgroźniejszym rywalem w dzisiejszym debiucie w Golwg Gwendraeth Beginners' Chase będzie Sober Glory, trenowany przez duet Hobbs i White. Obaj zawodnicy rywalizowali ze sobą już w zeszłym roku, a eksperci od dawna wskazywali Sober Glory jako konia o idealnych predyspozycjach do skoków przez przeszkody.</p><p>Stawkę uczestników uzupełniają Baron Noir, przygotowywany przez Alana Kinga, a także Carlenrig oraz Bobby's Nelson. Wydarzenie to jest bacznie obserwowane przez środowisko jeździeckie, gdyż może zdefiniować układ sił w nadchodzącym sezonie wyścigowym.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/racing/news/12040/13612907/today-on-sky-sports-racing-supreme-hero-old-park-star-makes-chasing-debut-at-ffos-las' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "18.11 • 07:09",
-    "source": "Na podstawie: BBC Sport",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/9/93/Rebecca_Lord_by_Dirty_Bob.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "imgCredit": "Fot. Bob K (D.B)\" dirtybob@dirtybob.com (CC BY 2.5)",
-    "title": "Koniec blokady transmisji o 15:00? Premier League i EFL rozważą zmiany",
-    "summary": "Premier League oraz EFL planują debatę nad przyszłością tzw. blackoutu, czyli zakazu transmisji meczów w soboty o 15:00, który obowiązuje w Anglii od lat 60. XX wieku.",
-    "content": "<p>Tradycja zakazująca pokazywania spotkań piłkarskich w sobotnie popołudnie ma na celu ochronę frekwencji na stadionach niższych lig. Obecnie jednak władze lig rozważają rewizję tych przepisów, co budzi ogromne emocje wśród kibiców czujących się poszkodowanymi brakiem dostępu do meczów własnych drużyn.</p><p>W dyskusję włączył się polityk Andy Burnham, który apeluje o dużą ostrożność. Jego zdaniem priorytetem powinna pozostać stabilność finansowa całego systemu rozgrywek w Anglii, a nie tylko interesy najbogatszych klubów z elity.</p><p>Historycznie za wprowadzeniem blokady stał Bob Lord, prezes Burnley, który jako pierwszy sprzeciwił się wpuszczeniu kamer na stadion Turf Moor. Od tamtego czasu debata o sensowności tego rozwiązania powraca regularnie, stając się unikalnym elementem brytyjskiej kultury futbolowej.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/articles/cwvg2mxkd4x8o?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
