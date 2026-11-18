@@ -1,8 +1,8 @@
 module.exports = async function (req, res) {
     const channels = [
-        { name: 'Serie A (Oficjalny)', league: 'SA', id: 'UCBJeMCIeLQos7wacox4hmLQ', keywords: ['highlights', 'sintesi', 'gol'] },
-        { name: 'Bundesliga (Oficjalny)', league: 'BL', id: 'UC6UL29enLNe4mqwTfAyeNuw', keywords: ['highlights', 'goals', 'matchday'] },
-        { name: 'Ligue 1 (Oficjalny)', league: 'OTHER', id: 'UC58_wzhiIMdzHuszHvqsAdc', keywords: ['highlights', 'résumé', 'buts'] }
+        { name: 'Serie A (Oficjalny)', league: 'SA', id: 'UCBJeMCIeLQos7wacox4hmLQ', keywords: ['highlights'], exclude: ['sintesi', 'ita'] },
+        { name: 'Bundesliga (Oficjalny)', league: 'BL', id: 'UC6UL29enLNe4mqwTfAyeNuw', keywords: ['highlights'], exclude: ['ger'] },
+        { name: 'Ligue 1 (Oficjalny)', league: 'OTHER', id: 'UC58_wzhiIMdzHuszHvqsAdc', keywords: ['highlights'], exclude: ['résumé', 'fr'] }
     ];
 
     try {
@@ -12,7 +12,7 @@ module.exports = async function (req, res) {
                 if (!response.ok) return [];
                 const xml = await response.text();
 
-                const entries = xml.split('<entry>').slice(1, 10);
+                const entries = xml.split('<entry>').slice(1, 15);
                 const parsed = [];
 
                 for (const entry of entries) {
@@ -28,7 +28,9 @@ module.exports = async function (req, res) {
                         const lowerTitle = title.toLowerCase();
 
                         const isHighlight = ch.keywords.some(kw => lowerTitle.includes(kw));
-                        if (isHighlight) {
+                        const isBlockedRegion = ch.exclude.some(ex => lowerTitle.includes(ex));
+
+                        if (isHighlight && !isBlockedRegion) {
                             parsed.push({
                                 videoId: idMatch[1],
                                 title: title,
