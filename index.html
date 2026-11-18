@@ -92,11 +92,16 @@
                 </div>
             </div>
 
-            <!-- PAS Z MENU ROZWIJANYMI LIG I PUCHARÓW -->
+            <!-- PAS Z MENU ROZWIJANYMI LIG, PUCHARÓW I TERMINARZEM -->
             <nav class="flex items-center justify-between py-2.5 text-xs sm:text-sm font-bold relative">
                 <div class="flex items-center gap-2 sm:gap-3 flex-wrap">
-                    <button onclick="handleNavigationCategory('ALL')" data-cat="ALL" class="cat-btn px-4 py-2 rounded-xl bg-purple-600 text-white shadow-sm transition flex items-center gap-2 hover:bg-purple-700">
+                    <button onclick="handleNavigationCategory('ALL')" id="nav-btn-all" data-cat="ALL" class="cat-btn px-4 py-2 rounded-xl bg-purple-600 text-white shadow-sm transition flex items-center gap-2 hover:bg-purple-700">
                         <i class="fa-solid fa-border-all text-xs"></i> Wszystkie
+                    </button>
+
+                    <!-- NOWA ZAKŁADKA: TERMINARZ -->
+                    <button onclick="openScheduleView('ALL')" id="nav-btn-schedule" class="px-4 py-2 rounded-xl bg-gray-100/80 dark:bg-card/80 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm">
+                        <i class="fa-regular fa-calendar-check text-emerald-500 text-xs"></i> Terminarz
                     </button>
 
                     <!-- DROPDOWN 1: LIGI KRAJOWE -->
@@ -152,7 +157,7 @@
                 </div>
 
                 <div class="text-xs text-gray-400 hidden xl:block">
-                    Wybierz rozgrywki, aby filtrować wiadomości i statystyki
+                    Wybierz rozgrywki, aby filtrować wiadomości, terminarz i statystyki
                 </div>
             </nav>
         </div>
@@ -161,76 +166,121 @@
     <!-- CONTENT GŁÓWNY -->
     <main class="max-w-7xl mx-auto px-4 py-6 flex-grow w-full grid grid-cols-1 lg:grid-cols-12 gap-8">
         
+        <!-- LEWA KOLUMNA (NEWSY LUB TERMINARZ) -->
         <section class="lg:col-span-8 space-y-6">
             
-            <!-- NOWY PASKOWY FILTR CZASOWY / ZAKŁADKI -->
-            <div class="flex items-center justify-between bg-white dark:bg-card border border-gray-200 dark:border-border p-2 rounded-2xl shadow-sm overflow-x-auto no-scrollbar">
-                <div class="flex items-center gap-1.5 min-w-max">
-                    <button onclick="setFeedFilter('latest')" id="filter-btn-latest" class="px-4 py-2 rounded-xl bg-purple-600 text-white text-xs font-bold transition shadow-sm flex items-center gap-1.5">
-                        <i class="fa-solid fa-bolt text-[10px]"></i> Najnowsze
-                    </button>
-                    <button onclick="setFeedFilter('today')" id="filter-btn-today" class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs font-bold transition">
-                        Dziś
-                    </button>
-                    <button onclick="setFeedFilter('yesterday')" id="filter-btn-yesterday" class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs font-bold transition">
-                        Wczoraj
-                    </button>
-                    <button onclick="setFeedFilter('all')" id="filter-btn-all" class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs font-bold transition">
-                        Wszystkie w bazie
-                    </button>
-                </div>
-                <div class="hidden sm:block text-[11px] text-gray-400 px-3">
-                    <span id="article-count-label">0</span> artykułów
-                </div>
-            </div>
-
-            <!-- GŁÓWNY NEWS DNIA -->
-            <div id="featured-news-container">
-                <div class="rounded-2xl bg-white dark:bg-card border border-gray-200 dark:border-border min-h-[380px] flex items-center justify-center text-gray-400 text-sm">
-                    Ładowanie najnowszego hitu...
-                </div>
-            </div>
-
-            <div class="flex items-center justify-between pt-4">
-                <h2 class="text-xl font-black uppercase tracking-wider flex items-center gap-2">
-                    <span class="w-2 h-6 bg-purple-600 rounded-full"></span> <span id="news-section-title">Najnowsze Wiadomości</span>
-                </h2>
-                <button id="reset-filter-btn" onclick="handleNavigationCategory('ALL')" class="hidden text-xs font-bold text-purple-500 hover:underline">
-                    Pokaż wszystkie ×
-                </button>
-            </div>
-
-            <!-- SIATKA ARTYKUŁÓW -->
-            <div id="news-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div class="col-span-full p-8 text-center text-gray-400 text-sm">Pobieranie wiadomości z bota...</div>
-            </div>
-
-            <!-- PRZYCISK ROZWIJANIA WIĘKSZEJ LICZBY NEWSÓW -->
-            <div id="load-more-container" class="text-center pt-2 hidden">
-                <button onclick="toggleLoadMore()" id="load-more-btn" class="px-6 py-3 rounded-xl bg-gray-200 dark:bg-card border border-gray-300 dark:border-border hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 text-xs font-black uppercase tracking-wider transition shadow-sm">
-                    Pokaż starsze wiadomości ↓
-                </button>
-            </div>
-
-            <div id="empty-filter-msg" class="hidden p-8 rounded-2xl bg-white dark:bg-card border border-gray-200 dark:border-border text-center text-sm text-gray-400">
-                Brak opublikowanych artykułów pasujących do Twoich kryteriów. Kliknij <button onclick="handleNavigationCategory('ALL')" class="text-purple-500 font-bold underline">Wszystkie</button>, aby wrócić.
-            </div>
-
-            <!-- SKRÓTY WIDEO -->
-            <div class="pt-4 space-y-4">
-                <h2 class="text-xl font-black uppercase tracking-wider flex items-center gap-2">
-                    <span class="w-2 h-6 bg-red-600 rounded-full"></span> Skróty Wideo i Bramki
-                </h2>
-                <div class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl p-5 shadow-sm space-y-4">
-                    <div class="aspect-video w-full rounded-xl overflow-hidden bg-black shadow-lg">
-                        <iframe class="w-full h-full" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="Skrót Meczu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- WIDOK 1: WIADOMOŚCI (DOMYŚLNY) -->
+            <div id="news-view-wrapper" class="space-y-6">
+                <!-- PASKOWY FILTR CZASOWY / ZAKŁADKI -->
+                <div class="flex items-center justify-between bg-white dark:bg-card border border-gray-200 dark:border-border p-2 rounded-2xl shadow-sm overflow-x-auto no-scrollbar">
+                    <div class="flex items-center gap-1.5 min-w-max">
+                        <button onclick="setFeedFilter('latest')" id="filter-btn-latest" class="px-4 py-2 rounded-xl bg-purple-600 text-white text-xs font-bold transition shadow-sm flex items-center gap-1.5">
+                            <i class="fa-solid fa-bolt text-[10px]"></i> Najnowsze
+                        </button>
+                        <button onclick="setFeedFilter('today')" id="filter-btn-today" class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs font-bold transition">
+                            Dziś
+                        </button>
+                        <button onclick="setFeedFilter('yesterday')" id="filter-btn-yesterday" class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs font-bold transition">
+                            Wczoraj
+                        </button>
+                        <button onclick="setFeedFilter('all')" id="filter-btn-all" class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs font-bold transition">
+                            Wszystkie w bazie
+                        </button>
                     </div>
-                    <div class="flex justify-between items-center text-xs">
-                        <div>
-                            <span class="px-2 py-0.5 rounded bg-red-600 text-white font-black text-[10px] uppercase">WIDEO</span>
-                            <span class="font-bold ml-2">Zobacz najważniejsze akcje z ostatniego kolejkowego hitu</span>
+                    <div class="hidden sm:block text-[11px] text-gray-400 px-3">
+                        <span id="article-count-label">0</span> artykułów
+                    </div>
+                </div>
+
+                <!-- GŁÓWNY NEWS DNIA -->
+                <div id="featured-news-container">
+                    <div class="rounded-2xl bg-white dark:bg-card border border-gray-200 dark:border-border min-h-[380px] flex items-center justify-center text-gray-400 text-sm">
+                        Ładowanie najnowszego hitu...
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-4">
+                    <h2 class="text-xl font-black uppercase tracking-wider flex items-center gap-2">
+                        <span class="w-2 h-6 bg-purple-600 rounded-full"></span> <span id="news-section-title">Najnowsze Wiadomości</span>
+                    </h2>
+                    <button id="reset-filter-btn" onclick="handleNavigationCategory('ALL')" class="hidden text-xs font-bold text-purple-500 hover:underline">
+                        Pokaż wszystkie ×
+                    </button>
+                </div>
+
+                <!-- SIATKA ARTYKUŁÓW -->
+                <div id="news-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div class="col-span-full p-8 text-center text-gray-400 text-sm">Pobieranie wiadomości z bota...</div>
+                </div>
+
+                <!-- PRZYCISK ROZWIJANIA WIĘKSZEJ LICZBY NEWSÓW -->
+                <div id="load-more-container" class="text-center pt-2 hidden">
+                    <button onclick="toggleLoadMore()" id="load-more-btn" class="px-6 py-3 rounded-xl bg-gray-200 dark:bg-card border border-gray-300 dark:border-border hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 text-xs font-black uppercase tracking-wider transition shadow-sm">
+                        Pokaż starsze wiadomości ↓
+                    </button>
+                </div>
+
+                <div id="empty-filter-msg" class="hidden p-8 rounded-2xl bg-white dark:bg-card border border-gray-200 dark:border-border text-center text-sm text-gray-400">
+                    Brak opublikowanych artykułów pasujących do Twoich kryteriów. Kliknij <button onclick="handleNavigationCategory('ALL')" class="text-purple-500 font-bold underline">Wszystkie</button>, aby wrócić.
+                </div>
+
+                <!-- SKRÓTY WIDEO -->
+                <div class="pt-4 space-y-4">
+                    <h2 class="text-xl font-black uppercase tracking-wider flex items-center gap-2">
+                        <span class="w-2 h-6 bg-red-600 rounded-full"></span> Skróty Wideo i Bramki
+                    </h2>
+                    <div class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl p-5 shadow-sm space-y-4">
+                        <div class="aspect-video w-full rounded-xl overflow-hidden bg-black shadow-lg">
+                            <iframe class="w-full h-full" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="Skrót Meczu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        <span class="text-gray-400">Źródło: YouTube</span>
+                        <div class="flex justify-between items-center text-xs">
+                            <div>
+                                <span class="px-2 py-0.5 rounded bg-red-600 text-white font-black text-[10px] uppercase">WIDEO</span>
+                                <span class="font-bold ml-2">Zobacz najważniejsze akcje z ostatniego kolejkowego hitu</span>
+                            </div>
+                            <span class="text-gray-400">Źródło: YouTube</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WIDOK 2: TERMINARZ I WYNIKI -->
+            <div id="schedule-view-wrapper" class="hidden space-y-6">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                    <h2 class="text-xl font-black uppercase tracking-wider flex items-center gap-2">
+                        <span class="w-2 h-6 bg-emerald-500 rounded-full"></span> Terminarz i Wyniki Meczów
+                    </h2>
+                    <button onclick="handleNavigationCategory('ALL')" class="text-xs font-bold text-purple-500 hover:underline self-start sm:self-auto">
+                        ← Wróć do wiadomości
+                    </button>
+                </div>
+
+                <!-- PASEK ZAKŁADEK LIG W TERMINARZU -->
+                <div class="flex items-center gap-2 bg-white dark:bg-card border border-gray-200 dark:border-border p-2 rounded-2xl shadow-sm overflow-x-auto no-scrollbar">
+                    <button onclick="filterScheduleLeague('ALL')" id="sched-tab-ALL" class="px-4 py-2 rounded-xl bg-purple-600 text-white text-xs font-bold transition shadow-sm shrink-0">
+                        Wszystkie ligi
+                    </button>
+                    <button onclick="filterScheduleLeague('PL')" id="sched-tab-PL" class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs font-bold transition shrink-0 flex items-center gap-1.5">
+                        <i class="fa-solid fa-crown text-purple-500 text-[10px]"></i> Premier League
+                    </button>
+                    <button onclick="filterScheduleLeague('PD')" id="sched-tab-PD" class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs font-bold transition shrink-0 flex items-center gap-1.5">
+                        <i class="fa-solid fa-fire text-red-500 text-[10px]"></i> La Liga
+                    </button>
+                    <button onclick="filterScheduleLeague('SA')" id="sched-tab-SA" class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs font-bold transition shrink-0 flex items-center gap-1.5">
+                        <i class="fa-solid fa-shield-halved text-sky-500 text-[10px]"></i> Serie A
+                    </button>
+                    <button onclick="filterScheduleLeague('BL1')" id="sched-tab-BL1" class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs font-bold transition shrink-0 flex items-center gap-1.5">
+                        <i class="fa-solid fa-bolt text-amber-500 text-[10px]"></i> Bundesliga
+                    </button>
+                    <button onclick="filterScheduleLeague('CL')" id="sched-tab-CL" class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs font-bold transition shrink-0 flex items-center gap-1.5">
+                        <i class="fa-solid fa-trophy text-amber-400 text-[10px]"></i> Liga Mistrzów
+                    </button>
+                </div>
+
+                <!-- KONTENER Z GRUPOWANYMI MECZAMI -->
+                <div id="schedule-matches-list" class="space-y-6">
+                    <div class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl p-8 text-center text-gray-400 text-sm">
+                        Ładowanie terminarza rozgrywek...
                     </div>
                 </div>
             </div>
@@ -485,6 +535,35 @@
             const arrow = document.getElementById(arrowId);
             dropdown.classList.toggle('hidden');
             arrow.classList.toggle('rotate-180');
+        }
+
+        function switchMainView(viewName) {
+            const newsWrapper = document.getElementById('news-view-wrapper');
+            const scheduleWrapper = document.getElementById('schedule-view-wrapper');
+            const navAll = document.getElementById('nav-btn-all');
+            const navSched = document.getElementById('nav-btn-schedule');
+
+            if (viewName === 'SCHEDULE') {
+                newsWrapper.classList.add('hidden');
+                scheduleWrapper.classList.remove('hidden');
+
+                navSched.className = "px-4 py-2 rounded-xl bg-purple-600 text-white shadow-sm transition flex items-center gap-2 font-bold";
+                navAll.className = "cat-btn px-4 py-2 rounded-xl bg-gray-100/80 dark:bg-card/80 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm";
+                document.getElementById('current-league-label').innerText = 'Ligi krajowe';
+                document.getElementById('dropdown-menu-btn').className = "px-4 py-2 rounded-xl bg-gray-100/80 dark:bg-card/80 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm";
+                document.getElementById('current-cup-label').innerText = 'Puchary europejskie';
+                document.getElementById('dropdown-cups-btn').className = "px-4 py-2 rounded-xl bg-gray-100/80 dark:bg-card/80 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm";
+            } else {
+                scheduleWrapper.classList.add('hidden');
+                newsWrapper.classList.remove('hidden');
+
+                navSched.className = "px-4 py-2 rounded-xl bg-gray-100/80 dark:bg-card/80 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm";
+                if (activeCategory === 'ALL') {
+                    navAll.className = "cat-btn px-4 py-2 rounded-xl bg-purple-600 text-white shadow-sm transition flex items-center gap-2 hover:bg-purple-700";
+                } else {
+                    navAll.className = "cat-btn px-4 py-2 rounded-xl bg-gray-100/80 dark:bg-card/80 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm";
+                }
+            }
         }
 
         function selectLeagueAndTable(categoryCode, leagueName, tableCode, labelId, btnId, dropdownId, arrowId) {
@@ -785,21 +864,27 @@
 
         loadActiveStatData();
 
-        // ================= MECZE LIVE (NAPRAWIONE) =================
+        // ================= MECZE LIVE + TERMINARZ =================
+        let allMatchesCache = [];
+        let activeScheduleLeague = 'ALL';
+
         async function fetchLiveMatches() {
             const container = document.getElementById('matches-container');
             try {
                 const response = await fetch('/api/matches');
                 if (!response.ok) throw new Error('Błąd serwera');
                 const matches = await response.json();
-                if (!Array.isArray(matches) || matches.length === 0) {
+                allMatchesCache = Array.isArray(matches) ? matches : [];
+
+                if (allMatchesCache.length === 0) {
                     container.innerHTML = `<span class="pl-3 text-gray-400">Brak zaplanowanych hitów w najbliższych dniach.</span>`;
+                    renderScheduleView();
                     return;
                 }
 
                 const leagueNames = { 'PL': 'Premier League', 'PD': 'La Liga', 'BL1': 'Bundesliga', 'SA': 'Serie A', 'FL1': 'Ligue 1', 'CL': 'Liga Mistrzów' };
 
-                container.innerHTML = matches.slice(0, 10).map(match => {
+                container.innerHTML = allMatchesCache.slice(0, 10).map(match => {
                     const home = match.homeTeam.shortName || match.homeTeam.name;
                     const away = match.awayTeam.shortName || match.awayTeam.name;
                     const leagueLabel = leagueNames[match.competition.code] || match.competition.code;
@@ -832,10 +917,133 @@
                         </div>
                     `;
                 }).join('');
+
+                renderScheduleView();
             } catch (e) {
                 container.innerHTML = `<span class="pl-3 text-gray-400">Brak aktywnych spotkań na żywo.</span>`;
             }
         }
+
+        function openScheduleView(leagueCode = 'ALL') {
+            switchMainView('SCHEDULE');
+            filterScheduleLeague(leagueCode);
+        }
+
+        function filterScheduleLeague(leagueCode) {
+            activeScheduleLeague = leagueCode;
+            ['ALL', 'PL', 'PD', 'SA', 'BL1', 'CL'].forEach(code => {
+                const btn = document.getElementById(`sched-tab-${code}`);
+                if (!btn) return;
+                if (code === leagueCode) {
+                    btn.className = "px-4 py-2 rounded-xl bg-purple-600 text-white text-xs font-bold transition shadow-sm shrink-0 flex items-center gap-1.5";
+                } else {
+                    btn.className = "px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs font-bold transition shrink-0 flex items-center gap-1.5";
+                }
+            });
+            renderScheduleView();
+        }
+
+        function renderScheduleView() {
+            const container = document.getElementById('schedule-matches-list');
+            if (!container) return;
+
+            const filtered = allMatchesCache.filter(m => {
+                if (activeScheduleLeague === 'ALL') return true;
+                return m.competition?.code === activeScheduleLeague;
+            });
+
+            if (filtered.length === 0) {
+                container.innerHTML = `
+                    <div class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl p-8 text-center text-gray-400 text-sm">
+                        Brak zaplanowanych meczów w tym okresie dla wybranych rozgrywek.
+                    </div>
+                `;
+                return;
+            }
+
+            const groupedByDate = {};
+            filtered.forEach(match => {
+                const dateObj = new Date(match.utcDate);
+                const dateKey = dateObj.toLocaleDateString('pl-PL', { weekday: 'long', day: 'numeric', month: 'long' });
+                if (!groupedByDate[dateKey]) groupedByDate[dateKey] = [];
+                groupedByDate[dateKey].push(match);
+            });
+
+            const leagueBadges = {
+                'PL': { name: 'Premier League', cls: 'bg-purple-600 text-white' },
+                'PD': { name: 'La Liga', cls: 'bg-red-600 text-white' },
+                'SA': { name: 'Serie A', cls: 'bg-sky-600 text-white' },
+                'BL1': { name: 'Bundesliga', cls: 'bg-amber-600 text-white' },
+                'CL': { name: 'Liga Mistrzów', cls: 'bg-indigo-600 text-white' }
+            };
+
+            container.innerHTML = Object.entries(groupedByDate).map(([dayLabel, dayMatches]) => `
+                <div class="bg-white dark:bg-card border border-gray-200 dark:border-border rounded-2xl overflow-hidden shadow-sm">
+                    <div class="bg-gray-100/80 dark:bg-black/50 px-5 py-3 border-b border-gray-200 dark:border-border flex items-center justify-between">
+                        <span class="font-black text-xs uppercase tracking-wider text-purple-600 dark:text-purple-400 capitalize">
+                            <i class="fa-regular fa-calendar mr-1.5"></i> ${dayLabel}
+                        </span>
+                        <span class="text-[11px] text-gray-400 font-semibold">${dayMatches.length} spotkań</span>
+                    </div>
+                    <div class="divide-y divide-gray-100 dark:divide-border/50">
+                        ${dayMatches.map(m => {
+                            const comp = leagueBadges[m.competition?.code] || { name: m.competition?.name || m.competition?.code, cls: 'bg-gray-700 text-white' };
+                            const home = m.homeTeam.shortName || m.homeTeam.name;
+                            const away = m.awayTeam.shortName || m.awayTeam.name;
+                            const status = m.status;
+                            const matchTime = new Date(m.utcDate).toLocaleTimeString('pl-PL', { hour: '2-digit', minute: '2-digit' });
+
+                            let centerBox = '';
+                            if (status === 'IN_PLAY' || status === 'PAUSED') {
+                                centerBox = `
+                                    <div class="flex flex-col items-center">
+                                        <span class="px-2 py-0.5 rounded bg-red-600 text-white text-[9px] font-black animate-pulse mb-0.5">LIVE</span>
+                                        <span class="font-black text-base text-purple-600 dark:text-purple-400">${m.score?.fullTime?.home ?? 0} : ${m.score?.fullTime?.away ?? 0}</span>
+                                    </div>
+                                `;
+                            } else if (status === 'FINISHED') {
+                                centerBox = `
+                                    <div class="flex flex-col items-center">
+                                        <span class="text-[9px] font-bold text-gray-400 uppercase mb-0.5">KONIEC</span>
+                                        <span class="font-black text-base text-gray-900 dark:text-white">${m.score?.fullTime?.home ?? 0} : ${m.score?.fullTime?.away ?? 0}</span>
+                                    </div>
+                                `;
+                            } else {
+                                centerBox = `
+                                    <div class="px-3 py-1 rounded-xl bg-gray-100 dark:bg-gray-900 border border-gray-200 dark:border-border text-xs font-black text-gray-700 dark:text-gray-300">
+                                        ${matchTime}
+                                    </div>
+                                `;
+                            }
+
+                            return `
+                                <div class="p-4 hover:bg-gray-50 dark:hover:bg-white/[0.02] transition flex items-center justify-between gap-3">
+                                    <div class="w-24 shrink-0 hidden sm:block">
+                                        <span class="px-2 py-1 rounded-md text-[10px] font-black uppercase ${comp.cls}">
+                                            ${comp.name}
+                                        </span>
+                                    </div>
+                                    <div class="flex-1 flex items-center justify-between gap-2 sm:gap-4">
+                                        <div class="flex-1 flex items-center justify-end gap-2.5 text-right">
+                                            <span class="font-bold text-xs sm:text-sm text-gray-900 dark:text-white truncate">${home}</span>
+                                            ${m.homeTeam.crest ? `<img src="${m.homeTeam.crest}" class="w-6 h-6 object-contain shrink-0">` : ''}
+                                        </div>
+                                        <div class="w-20 flex justify-center shrink-0">
+                                            ${centerBox}
+                                        </div>
+                                        <div class="flex-1 flex items-center justify-start gap-2.5 text-left">
+                                            ${m.awayTeam.crest ? `<img src="${m.awayTeam.crest}" class="w-6 h-6 object-contain shrink-0">` : ''}
+                                            <span class="font-bold text-xs sm:text-sm text-gray-900 dark:text-white truncate">${away}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+                </div>
+            `).join('');
+        }
+
         fetchLiveMatches();
 
         // ================= GŁÓWNY SYSTEM NEWSÓW + ZAKŁADKI =================
@@ -857,6 +1065,7 @@
 
         function handleSearch(query) {
             searchQuery = query.toLowerCase().trim();
+            if (searchQuery !== '') switchMainView('NEWS');
             renderNews();
         }
 
@@ -1017,6 +1226,8 @@
 
         function handleNavigationCategory(category) {
             activeCategory = category;
+            switchMainView('NEWS');
+
             const titleEl = document.getElementById('news-section-title');
             const resetBtn = document.getElementById('reset-filter-btn');
 
@@ -1035,7 +1246,9 @@
 
             if (category === 'ALL') {
                 document.getElementById('current-league-label').innerText = 'Ligi krajowe';
+                document.getElementById('dropdown-menu-btn').className = "px-4 py-2 rounded-xl bg-gray-100/80 dark:bg-card/80 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm";
                 document.getElementById('current-cup-label').innerText = 'Puchary europejskie';
+                document.getElementById('dropdown-cups-btn').className = "px-4 py-2 rounded-xl bg-gray-100/80 dark:bg-card/80 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-border hover:border-purple-500/50 transition flex items-center gap-2 shadow-sm";
             }
 
             titleEl.innerText = categoryLabels[category] || 'Najnowsze Wiadomości';
