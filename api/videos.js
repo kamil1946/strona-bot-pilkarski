@@ -2,9 +2,7 @@ module.exports = async function (req, res) {
     const channels = [
         { name: 'Serie A (Oficjalny)', league: 'SA', id: 'UCBJeMCIeLQos7wacox4hmLQ', keywords: ['highlights', 'sintesi', 'gol'] },
         { name: 'Bundesliga (Oficjalny)', league: 'BL', id: 'UC6UL29enLNe4mqwTfAyeNuw', keywords: ['highlights', 'goals', 'matchday'] },
-        { name: 'LaLiga (Oficjalny)', league: 'LL', id: 'UCTv-XvfzLX3i4IGWAm4sbmA', keywords: ['highlights', 'resumen', 'gol'] },
-        { name: 'Ligue 1 (Oficjalny)', league: 'OTHER', id: 'UC58_wzhiIMdzHuszHvqsAdc', keywords: ['highlights', 'résumé', 'buts'] },
-        { name: 'CANAL+ SPORT', league: 'PL', id: 'UCB7O0i756f7R21-5K599p7g', keywords: ['skrót', 'bramki', 'gole', 'highlights'] }
+        { name: 'Ligue 1 (Oficjalny)', league: 'OTHER', id: 'UC58_wzhiIMdzHuszHvqsAdc', keywords: ['highlights', 'résumé', 'buts'] }
     ];
 
     try {
