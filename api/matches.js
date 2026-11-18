@@ -1,23 +1,26 @@
 module.exports = async function (req, res) {
     const API_KEY = 'ca55c786d1c04de09c04b1d97be37584';
 
-    const today = new Date();
-    const future = new Date();
-    future.setDate(today.getDate() + 7);
+    const now = new Date();
+    const fromDate = new Date(now);
+    fromDate.setDate(now.getDate() - 2);
+    const toDate = new Date(now);
+    toDate.setDate(now.getDate() + 10);
 
-    const dateFrom = today.toISOString().split('T')[0];
-    const dateTo = future.toISOString().split('T')[0];
+    const dateFrom = fromDate.toISOString().split('T')[0];
+    const dateTo = toDate.toISOString().split('T')[0];
 
     try {
-        const response = await fetch(
-            `https://api.football-data.org/v4/matches?competitions=PL,PD,BL1,SA,FL1,CL,WC,EC&dateFrom=${dateFrom}&dateTo=${dateTo}`,
-            {
-                headers: { 'X-Auth-Token': API_KEY }
+        const url = `https://api.football-data.org/v4/matches?competitions=PL,PD,SA,BL1,CL&dateFrom=${dateFrom}&dateTo=${dateTo}`;
+        const response = await fetch(url, {
+            headers: {
+                'X-Auth-Token': API_KEY
             }
-        );
+        });
 
         if (!response.ok) {
-            return res.status(response.status).json({ error: 'Błąd pobierania meczów' });
+            const errorText = await response.text();
+            return res.status(response.status).json({ error: 'Błąd API', details: errorText });
         }
 
         const data = await response.json();
