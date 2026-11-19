@@ -1,5 +1,29 @@
 [
   {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "19.11 • 23:41",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/2023_Las_Vegas_street_circuit.svg/1280px-2023_Las_Vegas_street_circuit.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Deszcz nad torem w Las Vegas: Rozpoczynają się przygotowania do GP",
+    "summary": "Organizatorzy Grand Prix Las Vegas zmagają się z nieoczekiwanymi opadami deszczu tuż przed rozpoczęciem pierwszej sesji treningowej na ulicznym torze.",
+    "content": "<p>Nad torem w Las Vegas pojawiły się opady deszczu, co znacząco komplikuje sytuację zespołów Formuły 1 tuż przed startem pierwszego piątkowego treningu.</p><p>Warunki atmosferyczne stanowią wyzwanie dla kierowców i inżynierów, którzy muszą dostosować ustawienia bolidów do śliskiej nawierzchni w trakcie kluczowej sesji przygotowawczej.</p><p>Relacje na żywo z przebiegu wydarzeń na torze są prowadzone przez stację Sky Sports, która na bieżąco informuje o wpływie pogody na harmonogram weekendu wyścigowego.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/f1/live-blog/12040/13613211/f1-las-vegas-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend-in-the-usa' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "19.11 • 23:41",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Calvin_Bassey_01112025_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Przegląd prasy: Fulham chce zatrzymać Basseya, kary dla kibiców Manchesteru United",
+    "summary": "Fulham stara się o przedłużenie kontraktu z Calvinem Basseyem, podczas gdy Manchester United wyciąga konsekwencje wobec fanów za protesty na Old Trafford.",
+    "content": "<p>Fulham podjęło starania o prolongatę umowy Calvina Basseya. Środkowy obrońca znalazł się na celowniku Manchesteru United, co skłoniło działaczy londyńskiego klubu do zabezpieczenia przyszłości zawodnika.</p><p>Władze Manchesteru United nałożyły zakazy stadionowe na czterech kibiców. Powodem była akcja protestacyjna przeciwko właścicielom klubu, podczas której na murawę Old Trafford w trakcie meczu z Romą rzucono piłki tenisowe.</p><p>W innych doniesieniach: Leicester City oficjalnie wycofało się ze sprzedaży klubu, Andriy Shevchenko odrzucił oskarżenia Mykhailo Mudryka dotyczące nieudanego testu antydopingowego, a FA i UEFA złożyły skargę do FIFA w sprawie dostępu do dokumentacji dotyczącej mundialu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/12040/13614185/fulham-pushing-to-extend-contract-of-man-utd-target-calvin-bassey-paper-talk' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "LL",
     "badge": "La Liga",
     "badgeColor": "bg-red-600",
@@ -274,29 +298,5 @@
     "title": "Finanse Manchesteru United: Wzrost przychodów przy jednoczesnym skoku strat",
     "summary": "Manchester United opublikował raport finansowy za pierwszy kwartał roku fiskalnego 2027, wykazując wzrost przychodów o 4,1%, ale także znaczące zwiększenie strat netto.",
     "content": "<p>Raport obejmuje okres do 30 września 2027 roku, uwzględniając letnie okno transferowe oraz powrót klubu do Ligi Mistrzów. Warto zaznaczyć, że zestawienie nie zawiera jeszcze kosztów związanych ze zwolnieniem Michaela Carricka i zatrudnieniem Mauricio Pochettino.</p><p>Klub zanotował wzrost przychodów do poziomu 146,1 mln funtów, jednak koszty wynagrodzeń wzrosły o 8,6%, osiągając 79,9 mln funtów. Straty po opodatkowaniu zwiększyły się drastycznie o 174,2%, osiągając kwotę 18,1 mln funtów, co wynika m.in. z wysokich nakładów na transfery.</p><p>Dyrektor generalny Omar Berrada podkreślił, że mimo wyższych kosztów i zadłużenia wynikającego z refinansowania, klub utrzymuje stabilną ścieżkę rozwoju. Pozytywny wpływ na finanse miały wyższe wpływy z praw telewizyjnych związane z występami w Champions League.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/12040/13613832/man-utd-latest-financial-results-revealed-as-revenue-and-wages-increase' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "19.11 • 15:30",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Nicholls breaks record for Jumps wins with Warwick triumph",
-    "summary": "Ditcheat handler Paul Nicholls became the winning-most trainer in British National Hunt history, surpassing the great Martin Pipe's total of 3,390 when Knappers Hill crossed the li",
-    "content": "<p>Ditcheat handler Paul Nicholls became the winning-most trainer in British National Hunt history, surpassing the great Martin Pipe's total of 3,390 when Knappers Hill crossed the line in front at Lingfield, donning the colours of Paul Barber\nPaul Nicholls reflected on a “fantastic journey” after rewriting the record books by surpassing Martin Pipe’s</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/racing/news/12040/13613988/paul-nicholls-breaks-record-for-national-hunt-wins-after-surpassing-martin-pipes-all-time-tally-with-warwick-triumph' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "19.11 • 15:29",
-    "source": "Na podstawie: BBC Sport",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg/1280px-Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Pochettino wkracza do akcji: Nowa era w Manchesterze United",
-    "summary": "Mauricio Pochettino objął stery w Manchesterze United, stawiając za główny cel budowę zwycięskiej kultury w zespole, który obecnie zajmuje odległe 18. miejsce w tabeli Premier League.",
-    "content": "<p>Argentyński szkoleniowiec błyskawicznie przystąpił do pracy po zakończeniu misji w reprezentacji USA. Już w czwartek poprowadził swój pierwszy trening w ośrodku Carrington, a w piątek zaplanowano jego oficjalną konferencję prasową przed nadchodzącymi wyzwaniami.</p><p>Debiut Pochettino na ławce trenerskiej „Czerwonych Diabłów” będzie niezwykle wymagający, gdyż już w najbliższą niedzielę drużyna uda się na Anfield, aby zmierzyć się z Liverpoolem w ramach ligowych rozgrywek.</p><p>Nowy menedżer podkreślił, że jego priorytetem jest wypracowanie odpowiednich nawyków i mentalności zwycięzców, co ma pozwolić klubowi na przełamanie kryzysu. Obecnie United notują fatalną serię, wygrywając zaledwie trzy z piętnastu rozegranych w tym sezonie spotkań.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/articles/cxlylzyg38l8o?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
