@@ -1,5 +1,29 @@
 [
   {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "19.11 • 00:01",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/2026-03-26_Premier_League_Darts_%E2%80%93_Night_8_%E2%80%93_Berlin_2026_by_Sandro_Halank%E2%80%93162.jpg/1280px-2026-03-26_Premier_League_Darts_%E2%80%93_Night_8_%E2%80%93_Berlin_2026_by_Sandro_Halank%E2%80%93162.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Grand Slam of Darts: Van Gerwen ostrzega przed formą Wade'a",
+    "summary": "Michael van Gerwen zmierzy się z Jamesem Wade'em w drugiej rundzie Grand Slam of Darts. Holender przyznaje, że musi wznieść się na wyżyny, by pokonać będącego w życiowej formie rywala.",
+    "content": "<p>Nadchodzące starcie w 1/8 finału Grand Slam of Darts to powtórka finału z 2016 roku, w którym górą był Michael van Gerwen. Holender, rozstawiony w turnieju z numerem dziesiątym, awansował do tej fazy po dwóch wyrównanych meczach, które kończyły się decydującymi legami przeciwko Henry'emu Coatesowi oraz Jeffreyowi de Graafowi.</p><p>Van Gerwen otwarcie przyznaje, że jego ostatnie występy nie były idealne, a w starciu z De Graafem zmarnował aż siedem lotek meczowych. Mimo awansu, zawodnik nie ukrywa frustracji swoją dyspozycją i podkreśla, że w kolejnym pojedynku musi zaprezentować swój najwyższy poziom, aby myśleć o zwycięstwie.</p><p>Zadanie nie będzie łatwe, gdyż James Wade prezentuje w tym roku wybitną formę, wygrywając m.in. Australian Masters oraz Flanders Darts Trophy. Wade imponuje skutecznością, tracąc w fazie grupowej obecnego turnieju zaledwie jednego lega, co czyni go niezwykle groźnym przeciwnikiem w drodze do ćwierćfinału.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/darts/news/12040/13613671/michael-van-gerwen-targets-a-game-for-james-wade-meeting-in-last-16-clash-of-grand-slam-of-darts' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "19.11 • 00:01",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/4/44/Jermaine_Wattimena_Grand_Slam_2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Sensacja w Wolverhampton: Jermaine Wattimena eliminuje Luke'a Littlera z Grand Slam",
+    "summary": "Jermaine Wattimena sprawił ogromną niespodziankę, pokonując Luke'a Littlera 10-8 i eliminując go z turnieju Grand Slam of Darts w Wolverhampton.",
+    "content": "<p>Holenderski darter Jermaine Wattimena odniósł jedno z najważniejszych zwycięstw w swojej karierze, wygrywając 10-8 z Lukiem Littlerem w drugiej rundzie prestiżowego turnieju Grand Slam of Darts. Mimo że rywalizował z Anglikiem, publiczność zgromadzona w Wolverhampton żywiołowo wspierała Holendra, doceniając jego fenomenalną postawę przy tarczy.</p><p>Mecz przebiegał pod dyktando Wattimeny, który prowadził już 7-2, przypominając kibicom o bolesnej lekcji z turnieju Matchplay w 2025 roku, gdzie roztrwonił identyczną przewagę przeciwko Littlerowi. Tym razem jednak Holender zachował zimną krew, kończąc spotkanie przy stanie 9-8 skutecznym trafieniem w 77 punktów, co ostatecznie pogrzebało szanse Littlera na trzeci tytuł z rzędu.</p><p>Po zakończeniu pojedynku wyraźnie wzruszony Wattimena przyznał, że to zwycięstwo jest dla niego cenniejsze niż niedawny triumf nad Lukiem Humphriesem. Zawodnik podkreślił, że grał z ogromną pewnością siebie i wierzy, iż jest w stanie zajść w turnieju jeszcze dalej, przełamując wreszcie niemoc w bezpośrednich starciach z Littlerem na wielkiej scenie.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/darts/news/12040/13613686/jermaine-wattimena-wins-wolverhampton-hearts-with-victory-over-luke-littler-you-beat-him-the-crowd-loves-you' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "LL",
     "badge": "La Liga",
     "badgeColor": "bg-red-600",
@@ -274,29 +298,5 @@
     "title": "Arsenal planuje zimowe wzmocnienia: Na celowniku Nusa i Schade",
     "summary": "Arsenal zamierza naprawić letnie błędy transferowe i w styczniu rusza po nowego napastnika. Na liście życzeń klubu znajdują się Antonio Nusa oraz Kevin Schade.",
     "content": "<p>Klub z Londynu nie zrealizował swoich głównych celów ofensywnych podczas letniego okna transferowego. Teraz priorytetem Arsenalu jest pozyskanie wszechstronnego napastnika, który najlepiej czuje się na lewym skrzydle, ale może operować w całym sektorze ataku.</p><p>Wśród kandydatów do wzmocnienia składu wymienia się Antonio Nusę z RB Lipsk oraz Kevina Schade z Brentford. Arsenal wycofał się z prób pozyskania Juliana Alvareza, który nie chce opuszczać Hiszpanii, a Morgan Rogers ostatecznie trafił do Chelsea za rekordową kwotę.</p><p>Poza ofensywą, Arsenal wykazuje zainteresowanie Alexem Scottem z Bournemouth. Z kolei w Aston Villi najważniejszym zadaniem dla zarządu nie jest nowy transfer, a przedłużenie kontraktu z menedżerem Unaiem Emerym, który zbudował tam młody i perspektywiczny zespół.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/11095/13613290/transfer-news-your-premier-league-clubs-unfinished-business-ahead-of-january-window' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "LL",
-    "badge": "La Liga",
-    "badgeColor": "bg-red-600",
-    "time": "18.11 • 14:00",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/4/42/%D0%9C%D0%B0%D1%82%D1%87_%C2%AB%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE%C2%BB_-_%C2%AB%D0%91%D0%B0%D1%80%D1%81%D0%B5%D0%BB%D0%BE%D0%BD%D0%B0%C2%BB_0-1._2_%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F_2021_%D0%B3%D0%BE%D0%B4%D0%B0._II_%E2%80%94_1289671_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Czy Frenkie de Jong ma przyszłość w Barcelonie? Analiza sytuacji Holendra",
-    "summary": "Przyszłość Frenkiego de Jonga w FC Barcelonie stoi pod znakiem zapytania, a media spekulują, czy klub faktycznie widzi w nim kluczowy element swojego długofalowego projektu.",
-    "content": "<p>Sytuacja Frenkiego de Jonga w stolicy Katalonii od dłuższego czasu budzi kontrowersje. Mimo wysokich umiejętności technicznych pomocnika, zarząd klubu wielokrotnie rozważał jego sprzedaż, aby podreperować budżet i odciążyć listę płac, co stawia pod znakiem zapytania jego status w zespole.</p><p>Wątpliwości potęguje fakt, że holenderski zawodnik często bywa łączony z odejściem do Premier League, zwłaszcza w kontekście zainteresowania ze strony Manchesteru United. Barcelona, zmagająca się z ograniczeniami finansowymi, traktuje go jako jednego z niewielu piłkarzy, na których mogłaby zarobić znaczną kwotę.</p><p>Eksperci zwracają uwagę na dysonans między oczekiwaniami sztabu szkoleniowego a polityką transferową klubu. Choć trenerzy doceniają jego wkład w grę, to struktura kontraktu zawodnika i jego wysokie zarobki sprawiają, że pozostaje on głównym kandydatem do opuszczenia Camp Nou w przypadku konieczności przeprowadzenia kolejnych cięć.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXp5N2hhSzN0RUZRcGhRUl9hcmU1T3RUaFdiYTZFRzU2ZTBTeUhuQVh1aExmODJNRFB3LWhDWlNsd1hfY0o5RkJTbTl2MDV3bDVwb2ZoSGY2R2x0dU9qQ2Z6NjlqYm9EXzZDa1VlcDVMcE9qWnIzdENyRFBhSEZNSThuR1VpZUp4aDhjMkJVVzU3RjdxZGc?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "18.11 • 12:45",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Conte vs. Spalletti: The financial gap behind Napoli’s success - Yahoo Sports",
-    "summary": "Conte vs. Spalletti: The financial gap behind Napoli’s success  Yahoo Sports",
-    "content": "<p>Conte vs. Spalletti: The financial gap behind Napoli’s success  Yahoo Sports</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYXdGcWhwYXlUbEVsaUpqNUo1dzVSdXdKSkFhUzlndXl4WmhDRWxrN2hSOVc3YTNnTk9MdlFINzB1dWNpcUNENHBHUV96azNqRjBrQ1gtdk9MRV9yMXR6QnFhSTFfUzlETDlWVTFCeWwxbTMwaFZPTUQ0VUJKdEhYYmxxeUxRaGFk?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
