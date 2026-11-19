@@ -1,5 +1,53 @@
 [
   {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "19.11 • 19:48",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/5/57/Fernando_Torres_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Fernando Torres szczerze o kulisach transferu z Liverpoolu do Chelsea",
+    "summary": "Fernando Torres po latach wraca do momentu swojego głośnego przejścia z Liverpoolu do Chelsea, przyznając, że ta decyzja całkowicie odmieniła jego karierę oraz postrzeganie futbolu.",
+    "content": "<p>Hiszpański napastnik, który w 2011 roku zamienił Anfield na Stamford Bridge, podkreślił, że proces przenosin był niezwykle skomplikowany. Torres przyznał, że po transferze wszystko uległo zmianie, a on sam musiał zmierzyć się z zupełnie nową rzeczywistością sportową oraz ogromną presją oczekiwań.</p><p>Wypowiedź zawodnika rzuca nowe światło na emocjonalny aspekt tamtej transakcji, która była jednym z najgłośniejszych ruchów w historii Premier League. Piłkarz zaznaczył, że zmiana barw klubowych wpłynęła nie tylko na jego formę na boisku, ale również na sposób, w jaki podchodził do profesjonalnej gry.</p><p>Mimo że pobyt w Chelsea przyniósł mu trofea, w tym zwycięstwo w Lidze Mistrzów, Torres otwarcie mówi o trudnościach adaptacyjnych. Jego słowa stanowią szczere podsumowanie jednego z najbardziej dyskutowanych transferów w angielskiej piłce nożnej ostatnich lat.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMiowFBVV95cUxPREM3Q2dHMnVqQnVlR2xuckpDdURMSmREejAtWHlIYXBUQTZyNmVqWV9lM2VrUU1oS1h0MkJrbEJlanlrdHlGLWE2cE4xRGxzREc2WDlEZmF4V1Y3U01rQS1ONkhoSjRmTzltWlpvc25fSnBuNWhHbUJkM3JTVnpCNVdfZEZXWGZ6WUVDcHhmSDFrc0ExM0d1R3JFZ0Npa3ZnTEY0?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "19.11 • 19:48",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/2022_Hansi_Flick_%28cropped%29.jpg/1280px-2022_Hansi_Flick_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Dobre wieści z Barcelony: Kluczowi gracze wracają do treningów przed meczem z Villarreal",
+    "summary": "FC Barcelona otrzymała pozytywne sygnały z obozu treningowego przed wyjazdowym starciem z Villarrealem, gdyż dwaj kontuzjowani zawodnicy wrócili do zajęć z resztą drużyny.",
+    "content": "<p>Sztab szkoleniowy Barcelony, pod wodzą Hansiego Flicka, odnotował znaczący progres w procesie rehabilitacji swoich podopiecznych. Podczas ostatniej sesji treningowej na boisku zameldowali się zawodnicy, którzy do tej pory zmagali się z urazami i pracowali indywidualnie.</p><p>Powrót tej dwójki do pełnego obciążenia treningowego to ogromne wzmocnienie dla składu przed wymagającym spotkaniem ligowym na Estadio de la Cerámica. Obecność tych piłkarzy daje trenerowi znacznie większe pole manewru przy ustalaniu wyjściowej jedenastki.</p><p>Choć klub nie podał jeszcze oficjalnej informacji o ich gotowości do gry od pierwszej minuty, sam fakt wznowienia treningów z grupą jest sygnałem, że ich rekonwalescencja przebiegła zgodnie z planem i uniknięto komplikacji zdrowotnych.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMilAFBVV95cUxNTjZNUUk5Q1dEODJGSGRjR09BUVUwSlVvcjdBU2RDMlF5WFVsYW1ZQ2wxSEIwRmZDdnZpS0tBQ1FlVFN6dEVCWFFib1ZIQkNjMFJtTFRHcWw5UGJsUzliNW1WSWQzckszVjhZcGdMQndsak5FbUdsVVlKczhUYTN5Mzhnc2tGU0JWVWRKeE1wVUVpeG8x?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "19.11 • 19:47",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/0/0a/2026-03-26_Premier_League_Darts_%E2%80%93_Night_8_%E2%80%93_Berlin_2026_by_Sandro_Halank%E2%80%93168.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Luke Littler po porażce w Grand Slam of Darts: Czas na regenerację przed MŚ",
+    "summary": "Po sensacyjnym odpadnięciu z Grand Slam of Darts, Luke Littler musi skupić się na przygotowaniach do Mistrzostw Świata. Ekspert Wayne Mardle wskazuje to jako główny cel nastolatka.",
+    "content": "<p>Luke Littler niespodziewanie pożegnał się z turniejem Grand Slam of Darts na etapie 1/8 finału, przegrywając 8-10 z Jermaine'em Wattimeną. Rywal zaprezentował wybitną formę, notując średnią powyżej 101 punktów, co przekreśliło marzenia Littlera o trzecim z rzędu triumfie w Wolverhampton.</p><p>Ekspert Sky Sports, Wayne Mardle, uważa, że po serii niepowodzeń w ostatnich miesiącach, w tym braku obrony tytułów World Grand Prix i Grand Slam, Littler powinien w pełni skoncentrować się na nadchodzących Mistrzostwach Świata. Zdaniem Mardle'a, prestiż czempionatu w Alexandra Palace stanowi wystarczającą motywację do powrotu na szczyt.</p><p>Littler opuści również turniej Players Championship, co oznacza, że jego kolejny występ przed kamerami nastąpi dopiero 11 grudnia podczas otwarcia Mistrzostw Świata. Po intensywnym roku, w którym wygrał m.in. Premier League i World Matchplay, młody zawodnik ma teraz czas na odpoczynek i szlifowanie formy przed najważniejszą imprezą sezonu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/darts/news/12040/13613983/the-world-darts-championship-is-now-the-incentive-for-luke-littler-after-grand-slam-of-darts-loss-says-wayne-mardle' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "19.11 • 19:47",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Arsenal_WFC_v_Manchester_City_WFC%2C_11_May_2019_%2803%29.jpg/1280px-Arsenal_WFC_v_Manchester_City_WFC%2C_11_May_2019_%2803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imgCredit": "Fot. Katie Chan (CC BY-SA 4.0)",
+    "title": "Arsenal kontra Lyon w Lidze Mistrzyń: Kluczowe informacje przed hitem",
+    "summary": "Arsenal podejmuje Lyon w ramach fazy grupowej Ligi Mistrzyń UEFA. Obie drużyny przystępują do tego prestiżowego starcia z jasnym celem zdobycia kompletu punktów.",
+    "content": "<p>W dzisiejszym spotkaniu Ligi Mistrzyń kobiet Arsenal zmierzy się na własnym stadionie z francuskim Olympique Lyon. To starcie jest jednym z najważniejszych wydarzeń w kalendarzu fazy grupowej, przyciągającym uwagę kibiców z całej Europy.</p><p>Sztaby szkoleniowe obu zespołów do ostatniej chwili monitorowały stan zdrowia swoich zawodniczek. W składach drużyn nie zabraknie największych gwiazd kobiecego futbolu, które mają za zadanie przechylić szalę zwycięstwa na stronę swojego klubu.</p><p>Mecz ten ma ogromne znaczenie dla układu tabeli w grupie. Zarówno Arsenal, jak i Lyon dążą do zapewnienia sobie awansu do kolejnej fazy rozgrywek, co sprawia, że każda bramka i każdy punkt są na wagę złota.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/arsenal-women-vs-olympiques-lyon-women/live/578272' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "LL",
     "badge": "La Liga",
     "badgeColor": "bg-red-600",
@@ -250,53 +298,5 @@
     "title": "Wyścig po Gustavo Varelę: Tottenham i Liverpool walczą o gwiazdę Monzy",
     "summary": "Tottenham Hotspur dołączył do walki o podpis Gustavo Vareli, o którego zabiega także Liverpool. Skauci obu klubów bacznie obserwują formę lidera strzelców Serie A.",
     "content": "<p>Gustavo Varela stał się jednym z najbardziej pożądanych zawodników w Europie po serii znakomitych występów w barwach Monzy. Jego skuteczność w bieżącym sezonie Serie A przyciągnęła uwagę czołowych klubów z Premier League.</p><p>Tottenham Hotspur oficjalnie włączył się do rywalizacji o utalentowanego napastnika, chcąc wzmocnić swoją linię ataku. Klub z Londynu musi jednak liczyć się z bardzo silną konkurencją ze strony innych potęg.</p><p>Liverpool również nie próżnuje, wysyłając swoich skautów na mecze włoskiej ekstraklasy, aby na żywo monitorować rozwój lidera klasyfikacji strzelców. Walka o transfer Vareli zapowiada się na jeden z głównych tematów nadchodzącego okienka.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMFZsMGlxWlJoTzZEQXVjVjZfWVBONjNFdzYzY3pvdjQyRzlBMlBKT1prWUpXdHo5THd6U3BremNEaURfSGNURUF6TXM2WlZTTWd3dXlrU2owdVYwcnRGYmlBNVlJTndUTHd6d0tGUmpUMW5sNHdnbDJUODVGcmdocjBtMEVkdXgxNEJ0X0J2MjFXV056TEFERURVam5zMG10SmRXdjc3ckJUb0E?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "LL",
-    "badge": "La Liga",
-    "badgeColor": "bg-red-600",
-    "time": "19.11 • 12:48",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/2022_Hansi_Flick_%28cropped%29.jpg/1280px-2022_Hansi_Flick_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Morderczy finisz Barcelony: Kalendarz Blaugrany na koniec 2026 roku",
-    "summary": "FC Barcelona stoi przed niezwykle wymagającym wyzwaniem, kończąc rok 2026 serią meczów rozgrywanych w niemal maratońskim tempie.",
-    "content": "<p>Końcówka roku 2026 zapowiada się dla podopiecznych Hansiego Flicka jako prawdziwy test wytrzymałości. Sztab szkoleniowy musi zarządzać siłami zawodników, którzy w krótkim odstępie czasu będą musieli rywalizować na kilku frontach, co znacząco ogranicza czas na regenerację między spotkaniami.</p><p>Harmonogram Barcelony jest niezwykle napięty, co wymusza na trenerze rotację składem w celu uniknięcia kontuzji kluczowych graczy. Intensywność meczów w grudniu będzie kluczowa dla utrzymania wysokiej pozycji w tabeli ligowej oraz zapewnienia sobie korzystnych rozstrzygnięć w rozgrywkach pucharowych.</p><p>Eksperci zwracają uwagę, że tak duża liczba spotkań w końcowej fazie roku może wpłynąć na formę fizyczną drużyny. Klub musi wykazać się głębią składu, aby sprostać oczekiwaniom kibiców i utrzymać zwycięską passę w decydujących starciach przed przerwą zimową.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMikgFBVV95cUxQMTRucXVSTUhmMTFyQmZ3TGQ0Y0I4MWppZEg2RFVrTFYxQ0xLejEwY1EteTRlSWJCR2gyU3NjTXJmR0wwZ0JJaHg5OTk1U25wcE9iODQ4TmpVWVFoc0ExZ2FlZFkxZmJRRmFwMjVHekZuN2dYcmVKQUdobHUtYW9tU2FMVDg3RzNyT1JMOS1iUFhndw?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "19.11 • 12:48",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/RSA_vs_AUS_Day_2_-_Simon_Harmer-2.jpg/1280px-RSA_vs_AUS_Day_2_-_Simon_Harmer-2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Dominacja Simona Harmera: RPA pewnie wygrywa z Bangladeszem w pierwszym teście",
-    "summary": "Reprezentacja RPA pokonała Bangladesz różnicą dziewięciu wicketów, przybliżając się do finału World Test Championship. Kluczową postacią spotkania był Simon Harmer.",
-    "content": "<p>Reprezentacja RPA odniosła przekonujące zwycięstwo w pierwszym meczu serii przeciwko Bangladeszowi, wygrywając różnicą dziewięciu wicketów. Dzięki temu sukcesowi drużyna Proteas umocniła swoją pozycję w rankingu ICC i zrobiła ważny krok w stronę awansu do finału World Test Championship, który odbędzie się w 2027 roku na The Kia Oval.</p><p>Głównym architektem sukcesu gospodarzy był Simon Harmer, który w drugiej części meczu zdominował końcówkę składu Bangladeszu. Doświadczony off-spinner zakończył spotkanie z imponującym wynikiem 6-51, skutecznie eliminując zagrożenie ze strony rywali i ograniczając ich dorobek do 168 punktów. Po szybkim wyeliminowaniu przeciwników, RPA potrzebowało jedynie 12 punktów, by przypieczętować zwycięstwo przed przerwą obiadową.</p><p>Mimo sukcesu, sztab szkoleniowy RPA musi mierzyć się z problemami kadrowymi. Kapitan zespołu, Temba Bavuma, najprawdopodobniej opuści drugie starcie z powodu przedłużających się kłopotów zdrowotnych. Mimo absencji lidera, drużyna liczy na podtrzymanie dobrej passy, w czym ma pomóc będący w życiowej formie 37-letni Harmer.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/cricket/news/12040/13613920/south-africa-vs-bangladesh-simon-harmer-stars-as-proteas-seal-nine-wicket-first-test-win' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "19.11 • 12:48",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg/1280px-Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Pochettino przejmuje stery w United: Czas na wielkie zmiany na Old Trafford",
-    "summary": "Mauricio Pochettino oficjalnie objął Manchester United. Argentyńczyk zapowiada głęboką przebudowę kultury pracy w klubie, by wydobyć potencjał z obecnej kadry po fatalnym początku sezonu.",
-    "content": "<p>Mauricio Pochettino rozpoczął pracę w Manchesterze United, zastępując na stanowisku trenera osobę prowadzącą wcześniej reprezentację USA. Jego głównym celem jest poprawa sytuacji drużyny, która po słabym starcie rozgrywek zajmuje obecnie 18. miejsce w tabeli Premier League.</p><p>W swoim pierwszym wywiadzie szkoleniowiec podkreślił, że nie zamierza skupiać się wyłącznie na kryzysie, lecz na ogromnym potencjale klubu. Argentyńczyk zapowiedział wprowadzenie zmian we wszystkich obszarach funkcjonowania zespołu, aby przywrócić zawodnikom mentalność zwycięzców.</p><p>Choć klub planuje wzmocnienia na pozycjach lewego obrońcy, stopera oraz napastnika, Pochettino zaznaczył, że jego priorytetem jest praca z obecnymi piłkarzami. Debiut nowego trenera nastąpi już w najbliższą niedzielę podczas prestiżowego starcia z Liverpoolem na Anfield.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/11095/13613821/mauricio-pochettino-at-manchester-united-new-boss-vows-to-change-situation-at-old-trafford-in-first-interview' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "19.11 • 12:48",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg/1280px-Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Mauricio Pochettino w Manchesterze United: Czy Argentyńczyk odzyska dawny blask?",
-    "summary": "Siedem lat po zwolnieniu z Tottenhamu, Mauricio Pochettino podejmuje wyzwanie w Manchesterze United, mając za zadanie udowodnić swoją wartość w Premier League.",
-    "content": "<p>Mauricio Pochettino wraca do angielskiej ekstraklasy z renomą trenera, który w przeszłości potrafił wprowadzić Tottenham do ścisłej czołówki ligi oraz historycznego finału Ligi Mistrzów. Jego praca w Londynie, mimo braku trofeów, jest dziś oceniana znacznie wyżej niż w momencie rozstania z klubem.</p><p>Manchester United, który przez ostatnią dekadę zmagał się z nietrafionymi decyzjami kadrowymi, widzi w Argentyńczyku szansę na stabilizację. Eksperci podkreślają, że w przeciwieństwie do poprzedników, takich jak Louis van Gaal czy Jose Mourinho, Pochettino przychodzi do klubu jako szkoleniowiec z bogatszym doświadczeniem.</p><p>Kluczowym pytaniem pozostaje jednak forma Pochettino po siedmioletniej przerwie od sukcesów w Anglii. Praca w PSG oraz Chelsea nauczyła go zarządzania wielkimi gwiazdami, co zdaniem analityków czyni go bardziej wszechstronnym trenerem, gotowym na wyzwania panujące na Old Trafford.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/11095/13612583/mauricio-pochettino-at-man-utd-seven-years-on-from-the-sack-at-spurs-what-sort-of-coach-is-he-now-we-will-soon-find-out' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
