@@ -1,5 +1,65 @@
 [
   {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "19.11 • 08:42",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Lamine_Yamal_France_v_Spain_7.24.26-142.jpg/1280px-Lamine_Yamal_France_v_Spain_7.24.26-142.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "LaLiga ogłasza laureatów za sezon 2025/2026: Flick i Yamal z prestiżowymi nagrodami",
+    "summary": "LaLiga oficjalnie uhonorowała najlepszych zawodników i trenerów minionego sezonu 2025/2026, doceniając wybitne osiągnięcia gwiazd Barcelony, Realu Madryt oraz innych klubów.",
+    "content": "<p>Władze hiszpańskiej ekstraklasy opublikowały listę laureatów indywidualnych wyróżnień za kampanię 2025/2026. Wśród nagrodzonych znaleźli się kluczowi przedstawiciele FC Barcelony, którzy zdominowali ligowe zestawienia po udanym sezonie.</p><p>Tytuł najlepszego trenera powędrował w ręce Hansiego Flicka, a Lamine Yamal został doceniony za swój wkład w ofensywę Blaugrany. Wyróżnienia otrzymali również Arda Güler z Realu Madryt, bramkarz Joan García oraz napastnik Carlos Espí.</p><p>Przyznane nagrody stanowią podsumowanie rywalizacji w LaLiga, wskazując piłkarzy i szkoleniowców, którzy w minionych miesiącach wywarli największy wpływ na kształt tabeli oraz poziom sportowy rozgrywek.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVk1XZC1tUGViVDRZOWVKSGdGWTk0T0F0OHZkY1JPWkRta1YtV01IVGRKWUNYaWoxZjNsQXVaMkV0RGFETnBZaV9ESW54bUdWNWJtLUwxbldmTXJEeEdNTXJBTW9MUEhqN01lUUg2ZmFDRG1tSElLQ0Zwbm4tYWo4TTJ0X1RySmVvZ2JpZ0ZidUs5UVZHWGZ2amRxQmQ3MUFqVVgzcjRaSXgwc09nSHNmZk9tWTJCNkZMQ3RsaGhTM2FfWGNfbTJzSWdibzlEaVNadWVJYWYzVW1rX0Y2TTljbjJZTGpYeVloVV9sbw?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "19.11 • 08:41",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/R%C3%A9gis_Le_Bris_05092026_%281%29.jpg/1280px-R%C3%A9gis_Le_Bris_05092026_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Kryzys City i wyzwanie dla Le Brisa: Zapowiedź weekendu w Premier League",
+    "summary": "Manchester City stoi przed szansą przełamania złej passy w starciu z Fulham, podczas gdy Regis Le Bris walczy o posadę w Sunderlandzie w obliczu poważnych problemów kadrowych.",
+    "content": "<p>Manchester City przeżywa trudny okres, notując trzy ligowe porażki z rzędu przeciwko Aston Villi, Brighton oraz Nottingham Forest. Zespół Enzo Mareski stracił przez to pozycję lidera, a ewentualna czwarta przegrana z rzędu byłaby historycznym wydarzeniem, z którym klub nie mierzył się od 2024 roku.</p><p>Mimo słabszej dyspozycji, City pozostaje zdecydowanym faworytem w meczu z Fulham. Statystyki są bezlitosne dla londyńczyków, którzy przegrali z „Obywatelami” aż 17 ostatnich spotkań w Premier League, tracąc w każdym z nich co najmniej dwa gole.</p><p>Sytuacja w Sunderlandzie pozostaje napięta, mimo niedawnego zwycięstwa nad Chelsea. Trener Regis Le Bris musi radzić sobie z kontuzjami kluczowych zawodników, Granita Xhaki oraz Briana Brobbeya, co znacząco utrudnia przygotowania do wyjazdowego starcia z Aston Villą.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/12040/13613208/mauricio-pochettino-begins-man-utd-tenure-with-testing-trip-to-liverpool-premier-league-talking-points' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "19.11 • 08:41",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/R%C3%A9gis_Le_Bris_05092026_%281%29.jpg/1280px-R%C3%A9gis_Le_Bris_05092026_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Kryzys City i walka o posadę: Zapowiedź weekendu w Premier League",
+    "summary": "Manchester City szuka przełamania po serii porażek, a Regis Le Bris walczy o utrzymanie posady w Sunderlandzie przed trudnym wyjazdem na Villa Park.",
+    "content": "<p>Manchester City znajduje się w trudnym położeniu po trzech ligowych porażkach z rzędu, które kosztowały ich pozycję lidera. Podopieczni Enzo Mareski spróbują przełamać złą passę w starciu z Fulham, rywalem, z którym wygrali 17 ostatnich meczów w Premier League.</p><p>Sytuacja w Sunderlandzie pozostaje napięta mimo niedawnego zwycięstwa nad Chelsea. Trener Regis Le Bris musi poradzić sobie z problemami kadrowymi – w nadchodzącym meczu z Aston Villą nie wystąpią kontuzjowani Granit Xhaka oraz Brian Brobbey.</p><p>Aston Villa przystępuje do rywalizacji po emocjonującym remisie 4:4 z Manchesterem United, w którym dwukrotnie wypuściła dwubramkowe prowadzenie. Mimo problemów Sunderlandu, zespół Le Brisa czeka trudne zadanie na stadionie Villa Park.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/11095/13613208/mauricio-pochettino-begins-man-utd-tenure-with-testing-trip-to-liverpool-premier-league-talking-points' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "19.11 • 08:41",
+    "source": "Na podstawie: BBC Sport",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Premier_League_Trophy_at_Manchester%27s_National_Football_Museum_%28Ank_Kumar%29_02.jpg/1280px-Premier_League_Trophy_at_Manchester%27s_National_Football_Museum_%28Ank_Kumar%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imgCredit": "Fot. Ank Kumar (CC BY-SA 4.0)",
+    "title": "Przepaść finansowa w Premier League: Wielka Szóstka odjeżdża reszcie stawki",
+    "summary": "Analiza finansowa BBC Sport pokazuje ogromną różnicę w przychodach między tzw. Wielką Szóstką a pozostałymi klubami Premier League, co trwale zmienia układ sił w angielskim futbolu.",
+    "content": "<p>Po dziesięciu kolejkach obecnego sezonu Premier League, cztery z sześciu czołowych miejsc w tabeli zajmują przedstawiciele tzw. Wielkiej Szóstki, czyli Manchester United, Liverpool, Manchester City, Arsenal, Tottenham oraz Chelsea. Wyjątkami są jedynie Brighton oraz Everton, które zdołały nawiązać walkę z finansowymi gigantami.</p><p>Kluczowym problemem dla ligowej rywalizacji jest gigantyczna przewaga przychodów generowanych przez najbogatsze kluby. Dzięki ogromnym wpływom z transmisji, sprzedaży koszulek oraz umów sponsorskich, zespoły te zbudowały stabilność finansową, która w dłuższej perspektywie niemal gwarantuje im dominację nad resztą stawki.</p><p>Skalę problemu najlepiej obrazuje porównanie z Evertonem, jedynym klubem poza Wielką Szóstką obecnym w Premier League od 1992 roku. O ile w sezonie 2009-10 różnica w przychodach między średnią dla gigantów a klubem z Liverpoolu wynosiła 120 mln funtów, o tyle w kampanii 2024-25 przepaść ta wzrosła do aż 442 mln funtów.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/articles/c6x28e93zv3jo?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "19.11 • 08:41",
+    "source": "Na podstawie: BBC Sport",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/d/d1/James_McAtee_in_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "James McAtee wyrasta na lidera Nottingham Forest pod wodzą Olivera Glasnera",
+    "summary": "Po trudnych początkach w Nottingham Forest, James McAtee stał się kluczowym zawodnikiem w układance trenera Olivera Glasnera, odgrywając ważną rolę w ostatnich sukcesach drużyny.",
+    "content": "<p>James McAtee, który trafił do Nottingham Forest z Manchesteru City za 30 milionów funtów w 2025 roku, początkowo miał spore problemy z adaptacją w nowym środowisku. Po chaotycznym poprzednim sezonie, w którym klub zmieniał menedżerów aż czterokrotnie, pomocnik rzadko otrzymywał szansę na grę w wyjściowym składzie Premier League.</p><p>Sytuacja uległa diametralnej zmianie pod wodzą Olivera Glasnera. Austriacki szkoleniowiec od początku okresu przygotowawczego obdarzył zawodnika dużym zaufaniem, widząc w nim następcę Elliota Andersona. Efektem tej przemiany był świetny występ McAtee w niedawnym zwycięskim meczu przeciwko jego byłemu klubowi, Manchesterowi City.</p><p>Mimo sukcesów z reprezentacją Anglii U-21, z którą wygrał Euro 2025, piłkarz wciąż czeka na debiut w dorosłej kadrze pod wodzą Thomasa Tuchela. Obecna forma McAtee sprawia jednak, że coraz głośniej mówi się o jego potencjalnym powołaniu, zwłaszcza że z zawodnika rezerwowego stał się on dla Forest postacią niemal niezastąpioną.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/articles/ck98z842gp11o?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "OTHER",
     "badge": "Inne Ligi",
     "badgeColor": "bg-emerald-600",
@@ -238,65 +298,5 @@
     "title": "Historyczny ruch w Szkocji: Dumbarton FC ma najmłodszego trenera w lidze",
     "summary": "Klub Dumbarton FC dokonał przełomowego wyboru, zatrudniając Jamiego Duncana na stanowisko menedżera, co czyni go najmłodszym szkoleniowcem w historii profesjonalnych lig szkockich.",
     "content": "<p>Dumbarton FC oficjalnie ogłosiło zatrudnienie Jamiego Duncana, który w wieku zaledwie 23 lat przejmuje stery w pierwszej drużynie. Decyzja ta stanowi historyczny moment dla szkockiego futbolu, gdyż żaden inny klub w SPFL nie powierzył wcześniej tak odpowiedzialnej roli osobie w tak młodym wieku.</p><p>Władze klubu zdecydowały się na ten odważny krok, licząc na powiew świeżości i nowoczesne podejście do prowadzenia zespołu. Duncan, mimo braku wieloletniego doświadczenia, zyskał zaufanie zarządu swoimi kompetencjami oraz wizją rozwoju drużyny w nadchodzącym sezonie.</p><p>Wybór ten wywołał duże poruszenie w środowisku piłkarskim, stawiając Dumbarton w centrum uwagi mediów. Kibice z niecierpliwością czekają na debiut młodego menedżera, który stanie przed wyzwaniem udowodnienia, że wiek nie jest przeszkodą w osiąganiu sukcesów na poziomie profesjonalnym.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/live-blog/12040/13176154/scottish-premiership-news-transfers-rumours-gossip-and-more' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "18.11 • 19:13",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Alan_Pardew.jpg/1280px-Alan_Pardew.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Sky Sports zaprasza na specjalny program przed zimowym oknem transferowym",
-    "summary": "Dziennikarze Sky Sports wraz z Alanem Pardew analizują nadchodzące ruchy kadrowe w klubach Premier League w specjalnym programie „Unfinished Business”.",
-    "content": "<p>W obliczu zbliżającego się zimowego okna transferowego, stacja Sky Sports News przygotowała specjalną audycję pod nazwą „Unfinished Business”. Program ma na celu podsumowanie potrzeb kadrowych drużyn oraz omówienie najgorętszych plotek transferowych.</p><p>W studiu pojawią się reporterzy James Savundra oraz Michael Bridge. Do dyskusji zaproszono również Alana Pardew, byłego menedżera Newcastle United, który podzieli się swoim eksperckim spojrzeniem na rynek transferowy.</p><p>W ramach programu prowadzący odpowiedzą na pytania przesłane przez kibiców. Widzowie mogą śledzić rozwój sytuacji w swoich ulubionych klubach Premier League oraz niższych ligach angielskich za pośrednictwem dedykowanych serwisów informacyjnych Sky Sports.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/12040/13613662/free-stream-watch-special-unfinished-business-transfer-show-on-sky-sports-news-with-guest-alan-pardew' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "18.11 • 19:13",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/0/0a/2026-03-26_Premier_League_Darts_%E2%80%93_Night_8_%E2%80%93_Berlin_2026_by_Sandro_Halank%E2%80%93168.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Grand Slam of Darts: Luke Littler w walce o ćwierćfinał w Wolverhampton",
-    "summary": "W Wolverhampton trwa rywalizacja w ramach Grand Slam of Darts. Luke Littler zmierzy się z Jermaine'em Wattimeną w kluczowym starciu o awans do najlepszej ósemki turnieju.",
-    "content": "<p>Turniej Grand Slam of Darts wkracza w decydującą fazę. W Wolverhampton kibice śledzą zmagania w 1/8 finału, gdzie stawką jest przepustka do kolejnego etapu prestiżowych zawodów.</p><p>Jednym z najbardziej wyczekiwanych pojedynków wieczoru jest starcie wschodzącej gwiazdy darta, Luke'a Littlera, z doświadczonym Jermaine'em Wattimeną. Obaj zawodnicy walczą o utrzymanie się w drabince turniejowej.</p><p>Relacja z wydarzenia prowadzona jest w systemie leg-po-leg, co pozwala fanom na bieżąco śledzić każdy rzut. Transmisja spotkań rozpoczęła się o godzinie 19:00 na antenie Sky Sports.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/darts/live-blog/12040/13613592/grand-slam-of-darts-live-commentary-updates-scores-analysis-with-luke-littler-gerwyn-price-rob-cross-in-action' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "18.11 • 19:13",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Alan_Pardew.jpg/1280px-Alan_Pardew.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Transferowe emocje w PITCH ZONE: Sky Sports zapowiada program Unfinished Business",
-    "summary": "Zbliża się zimowe okno transferowe, a stacja Sky Sports News przygotowała specjalny program poświęcony ruchom kadrowym w klubach Premier League i EFL.",
-    "content": "<p>W dzisiejszym wydaniu specjalnym programu „Unfinished Business” dziennikarze James Savundra oraz Michael Bridge przeanalizują nadchodzące wyzwania transferowe, przed którymi stoją angielskie kluby.</p><p>Do dyskusji w studiu zaproszono byłego menedżera Newcastle United, Alana Pardew. Ekspert pomoże ocenić, jakie wzmocnienia są niezbędne dla poszczególnych drużyn w trakcie zimowej przerwy.</p><p>Program skupi się nie tylko na analizie rynku, ale również na odpowiedziach na pytania przesłane przez kibiców, którzy aktywnie włączyli się w dyskusję o przyszłości swoich zespołów.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/11095/13613662/free-stream-watch-special-unfinished-business-transfer-show-on-sky-sports-news-with-guest-alan-pardew' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "LL",
-    "badge": "La Liga",
-    "badgeColor": "bg-red-600",
-    "time": "18.11 • 18:05",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/2022_Hansi_Flick_%28cropped%29.jpg/1280px-2022_Hansi_Flick_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Dobre wieści dla Barcelony przed meczem z Villarrealem",
-    "summary": "FC Barcelona odzyskuje kolejnego zawodnika po kontuzji przed nadchodzącym starciem z Villarrealem, co stanowi istotne wzmocnienie kadrowe dla Hansiego Flicka.",
-    "content": "<p>Sztab szkoleniowy Dumy Katalonii otrzymał pozytywne sygnały dotyczące stanu zdrowia kluczowego piłkarza. Po wcześniejszym powrocie innego gracza, zespół przygotowuje się do wyjazdowego spotkania z Villarrealem w znacznie silniejszym zestawieniu.</p><p>Choć szczegóły dotyczące nazwiska zawodnika nie zostały jeszcze oficjalnie potwierdzone w komunikacie, sztab medyczny potwierdził progres w procesie rehabilitacji. Trener Hansi Flick będzie mógł dzięki temu dokonać szerszej rotacji w składzie podczas wymagającego meczu ligowego.</p><p>Barcelona stara się utrzymać zwycięską passę w La Liga, a powrót rekonwalescentów jest kluczowy w kontekście napiętego terminarza. Klub liczy na to, że odzyskana głębia składu pozwoli na skuteczną rywalizację z groźnym przeciwnikiem na jego terenie.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMiigFBVV95cUxPZ21BaXFDaEJ5aFRqZ2hmMklsY2Z4YnpMNHNBdjRJV3RRZHhlYURiTUpnYWVRVUd2TGVEX3hHSlpRNWF5UlVzWGlQV3M0NElURDJkVFAxcGd3T2drcnlubkItUy1mVzZGaWtOWG55THpDMHpmR2hGRjVsNWRFNmJzMVJJY19QRE95NFE?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "18.11 • 17:05",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Nelly_Korda_%28cropped%29.jpg/1280px-Nelly_Korda_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Finał sezonu LPGA: Czy ktoś zatrzyma Nelly Kordę w CME Group Tour Championship?",
-    "summary": "Sezon LPGA Tour 2026 dobiega końca. Najlepsze golfistki świata rywalizują na Florydzie o tytuł Race to the CME Globe, a główną faworytką pozostaje liderka rankingu, Nelly Korda.",
-    "content": "<p>Do turnieju finałowego na polu Tiburon Golf Club zakwalifikowało się 60 najlepszych zawodniczek sezonu. Zwyciężczyni zawodów automatycznie zgarnie tytuł mistrzyni całego cyklu Race to the CME Globe, kończąc tym samym całoroczną rywalizację o punkty.</p><p>Nelly Korda przystępuje do turnieju jako pewna zdobywczyni nagrody Rolex Player of the Year. Amerykanka wciąż czeka na swój pierwszy triumf w tym konkretnym turnieju, a ewentualne zwycięstwo zapewniłoby jej miejsce w prestiżowej Galerii Sław golfa (LPGA Hall of Fame).</p><p>O pokonanie liderki powalczą m.in. dwukrotna zwyciężczyni tego turnieju Jeeno Thitikul, będąca w świetnej formie Miyu Yamashita oraz Haeran Ryu. W stawce nie zabraknie Brytyjki Charley Hull, która triumfowała na tym obiekcie w 2016 roku.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/golf/news/12040/13613433/cme-group-tour-championship-field-format-prize-money-as-nelly-korda-charley-hull-lottie-woad-battle-for-win-at-lpga-finale' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
