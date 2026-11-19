@@ -1,5 +1,29 @@
 [
   {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "19.11 • 04:45",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/9/96/Zweite_Bundesliga_Schale.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "imgCredit": "Fot. Forzaruvo94 (CC BY-SA 3.0)",
+    "title": "Czym jest Englische Woche? Wyjaśniamy fenomen niemieckiego terminu",
+    "summary": "Niemieckie określenie Englische Woche odnosi się do intensywnego tygodnia, w którym drużyny rozgrywają mecze zarówno w weekend, jak i w środku tygodnia.",
+    "content": "<p>Termin Englische Woche, czyli dosłownie angielski tydzień, zakorzenił się w niemieckim futbolu jako opis okresów, w których kluby muszą rywalizować w trybie co trzy lub cztery dni. Wynika to z faktu, że w Anglii tradycja gry w środku tygodnia była obecna od dekad, podczas gdy w Niemczech stała się standardem wraz z rozwojem europejskich pucharów.</p><p>W praktyce oznacza to ogromne obciążenie dla zawodników oraz sztabów szkoleniowych. Trenerzy muszą w takich momentach rotować składem, aby uniknąć kontuzji wynikających z przemęczenia, a przygotowanie taktyczne do kolejnych spotkań ogranicza się do niezbędnego minimum regeneracyjnego.</p><p>Dla kibiców Bundesligi to czas wzmożonych emocji, ponieważ w krótkim odstępie czasu ważą się losy tabeli ligowej oraz awansów w pucharach. Choć dla piłkarzy to okres wyczerpujący fizycznie, dla fanów stanowi kwintesencję intensywnego kalendarza piłkarskiego, który wymusza głębię składu każdej drużyny.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMipwFBVV95cUxOd1B5c3VhVXFPUlFwSmxoay1jd3hUbHVfV3pISlVpQ3IyUERfOHN5YU44OTU2NWRFZThjS0hGZlUzcnhzbTJtd01DbHN6NWFaTFZlQ3g4LVR0TFItNjdYaEVESzliNF9sdlZJRTRZOC0tMzlxd2x4ZG5xaVNUREIza0JPajhpaHl2ME92cFBtaW41aUVPcVR4UmY1Vmt1aXd1eHllTkF2VQ?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "19.11 • 04:45",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Nick_Woltemade_Ecuador_v_Germany_25_June_2026-069.jpg/1280px-Nick_Woltemade_Ecuador_v_Germany_25_June_2026-069.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Historyczny moment Nicka Woltemade: Pierwszy gol dla Juventusu w Serie A",
+    "summary": "Nick Woltemade zdobył swoją debiutancką bramkę w barwach Juventusu podczas meczu Serie A, zapisując się w historii klubu jako skuteczny strzelec.",
+    "content": "<p>Nick Woltemade zanotował niezwykle ważny moment w swojej karierze, trafiając do siatki w meczu ligi włoskiej. To premierowe trafienie niemieckiego napastnika dla Starej Damy potwierdza jego rosnącą rolę w zespole prowadzonym przez sztab szkoleniowy z Turynu.</p><p>Występ zawodnika był szeroko komentowany przez ekspertów, którzy zwracają uwagę na jego adaptację do wymagań włoskiej ekstraklasy. Gol ten nie tylko podbudował pewność siebie piłkarza, ale również stał się istotnym punktem w kontekście walki Juventusu o najwyższe cele w tym sezonie.</p><p>Choć szczegółowe okoliczności bramki oraz przebieg całego spotkania są jeszcze analizowane przez media, debiutanckie trafienie Woltemade jest uznawane za przełomowy moment jego przygody z włoską piłką. Kibice liczą, że to dopiero początek serii udanych występów tego gracza w czarno-białych barwach.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMinwFBVV95cUxQUEFEX2tzMy1IZDcxZDY4ci14M2xxTmd6TkFoVzl0eGZUcUlJMnFtQ1Z1cm9qSzlYeHhSUDlvTVhILV9Qc1BUdmZESTZrcXZ3VzZ1SWw2SUJxTm14R00xTndySktwODFwb2hWT3ZsVUVZZnRxSHdQSk1pQkFXNlNoaUt4b09iYjNPQWROcHh3S2Y2aFl1X1EzYWptOVFiVGc?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "SA",
     "badge": "Serie A",
     "badgeColor": "bg-sky-600",
@@ -274,29 +298,5 @@
     "title": "Arda Guler zostaje w Realu Madryt na lata: Nowy kontrakt do 2032 roku",
     "summary": "Real Madryt zabezpieczył przyszłość swojej młodej gwiazdy, przedłużając kontrakt z Ardą Gulerem aż do 2032 roku. Turecki talent pozostanie kluczową postacią projektu Królewskich.",
     "content": "<p>Władze Realu Madryt podjęły decyzję o długoterminowym związaniu się z Ardą Gulerem. Nowa umowa wiążąca utalentowanego pomocnika z klubem ze stolicy Hiszpanii obowiązuje teraz do końca czerwca 2032 roku.</p><p>Decyzja ta jest jasnym sygnałem ze strony zarządu Los Blancos, że pokładają ogromne nadzieje w rozwoju tureckiego zawodnika. Klub chce w ten sposób uniknąć spekulacji transferowych i zapewnić piłkarzowi stabilne warunki do dalszego rozwoju.</p><p>Guler, który dołączył do Realu jako jeden z najbardziej obiecujących graczy młodego pokolenia, cieszy się dużym zaufaniem sztabu szkoleniowego. Przedłużenie kontraktu o tak długi okres podkreśla jego status jako przyszłej legendy madryckiego zespołu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMikwFBVV95cUxNcjh5dkJ5bDV4Yi1kVU5LVXlQZWN5Q2NPYUxSN05EYXZjUV9uN3FLYnUwbFNDNVcwNXVvWkI2QnJCV0l0RjY0UGtzQTFhUEtsRVBLT1EzcVJ4ZmVYcy15blFYMFdqdEtkRnhpUTduVlpDM2hKTFRZeklPYU9LZWtjMHU2akdUZXhvYlNaS1RQWkZkWEk?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "18.11 • 15:58",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Ben_L._Jones_101st_Congress_1989.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Sober Glory triumfuje w debiucie: Udany rewanż na Old Park Star we Ffos Las",
-    "summary": "Sober Glory w imponującym stylu wygrał swój pierwszy wyścig z przeszkodami we Ffos Las, pokonując faworyzowanego rywala Old Park Star o ponad dziewięć długości.",
-    "content": "<p>Podczas wyścigu Golwg Gwendraeth Beginners’ Chase na torze Ffos Las doszło do wyczekiwanego starcia dwóch utalentowanych koni. Sober Glory, trenowany przez duet Philipa Hobbsa i Johnsona White’a, zaprezentował się znacznie lepiej od swojego rywala, odnosząc pewne zwycięstwo w swoim debiucie w konkurencji typu chase.</p><p>Old Park Star, dosiadany przez Nico de Boinville’a i prowadzony przez Nicky’ego Hendersona, nie zdołał utrzymać tempa w końcowej fazie rywalizacji. Jak się okazało, koń ten doznał pęknięcia naczynia krwionośnego, co wpłynęło na jego słabszy występ i zajęcie dopiero trzeciego miejsca.</p><p>Dżokej Ben Jones, który poprowadził zwycięskiego konia, podkreślił, że mimo drobnych błędów debiutanta, występ był bardzo obiecujący. Johnson White wyraził zadowolenie z formy swojego podopiecznego, zaznaczając, że koń z każdym kolejnym startem będzie zyskiwał na doświadczeniu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/racing/news/12040/13613649/sober-glory-storms-to-victory-over-old-park-star-on-chase-debut' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "18.11 • 15:58",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg/1280px-Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Pochettino w Manchesterze: Oficjalny start nowej ery w United",
-    "summary": "Mauricio Pochettino przybył do Manchesteru, aby oficjalnie rozpocząć swoją pracę w roli menedżera Manchesteru United.",
-    "content": "<p>Mauricio Pochettino został zauważony w Manchesterze, co stanowi symboliczny początek jego kadencji na Old Trafford. Argentyński szkoleniowiec przejmuje stery w klubie w momencie dużych oczekiwań kibiców oraz mediów.</p><p>Wewnątrz struktur klubu panuje napięta atmosfera, co potwierdzają doniesienia o odejściu JJ Gabriela. Decyzja ta wywołała spore poruszenie i frustrację wśród osób związanych z drużyną, co rzuca cień na pierwsze dni pracy nowego trenera.</p><p>Pochettino staje przed trudnym zadaniem ustabilizowania sytuacji w zespole, który zmaga się z problemami wizerunkowymi i organizacyjnymi. Jego przyjazd jest traktowany jako kluczowy krok w procesie przebudowy Manchesteru United.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/watch/video/13613622/watch-sober-glory-slams-rivals-on-chase-debut-at-ffos-las' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
