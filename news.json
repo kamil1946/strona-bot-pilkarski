@@ -1,5 +1,77 @@
 [
   {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "19.11 • 12:49",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/9/96/Zweite_Bundesliga_Schale.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "imgCredit": "Fot. Forzaruvo94 (CC BY-SA 3.0)",
+    "title": "Hoffenheim kontra Stuttgart: Kluczowe starcie w 3. kolejce Bundesligi",
+    "summary": "TSG Hoffenheim podejmuje VfB Stuttgart w ramach trzeciej serii gier sezonu 2026/2027. Obie drużyny przystępują do tego spotkania z jasnym celem zdobycia kompletu punktów.",
+    "content": "<p>Trzecia kolejka niemieckiej Bundesligi przynosi interesujące starcie pomiędzy TSG Hoffenheim a VfB Stuttgart. Obie ekipy intensywnie przygotowywały się do tego pojedynku, analizując taktykę rywala, aby poprawić swoją pozycję w ligowej tabeli na wczesnym etapie sezonu 2026/2027.</p><p>Sztaby szkoleniowe obu klubów musiały podjąć kluczowe decyzje dotyczące wyjściowych jedenastek. W obliczu napiętego terminarza, rotacje w składach mogą odegrać istotną rolę w przebiegu meczu, a trenerzy kładą duży nacisk na odpowiednie zbalansowanie formacji ofensywnych i defensywnych.</p><p>Spotkanie to jest niezwykle istotne dla obu stron w kontekście budowania pewności siebie w nowym sezonie. Kibice zgromadzeni na stadionie oraz przed telewizorami oczekują widowiska na wysokim poziomie, w którym o końcowym wyniku mogą zadecydować indywidualne umiejętności zawodników.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd3hzSjhaQUtnZFBFRFF0bURNd05ydFM1RFpZN3FSTERpUjM1UHNuLXVCNmJCUnB5S3dXbjVMbXA1VXpHYThYdnZna2JkakZ4RjdPRm82dm9ianRXV2hWOGljbVg4VFB0WEdDbjFueGVzVkNXcnRLNXNKVjBTbmZkSFN6N2I2Y1BpUlNBZ3NlQnE5RUZmRG9Ic0pIdnVILUlPaHY4THFqSnUxZWFfWXd0SVlGS0ZsTmlBS0xtZUkwZEN4YWhTUEVCdlZORW85RVNyN3M5dy1B?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "19.11 • 12:48",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Gustavo_Varela%2C_Monza_vs._Sassuolo_2026-09-18_%28cropped%29.jpg/1280px-Gustavo_Varela%2C_Monza_vs._Sassuolo_2026-09-18_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Wyścig po Gustavo Varelę: Tottenham i Liverpool walczą o gwiazdę Monzy",
+    "summary": "Tottenham Hotspur dołączył do walki o podpis Gustavo Vareli, o którego zabiega także Liverpool. Skauci obu klubów bacznie obserwują formę lidera strzelców Serie A.",
+    "content": "<p>Gustavo Varela stał się jednym z najbardziej pożądanych zawodników w Europie po serii znakomitych występów w barwach Monzy. Jego skuteczność w bieżącym sezonie Serie A przyciągnęła uwagę czołowych klubów z Premier League.</p><p>Tottenham Hotspur oficjalnie włączył się do rywalizacji o utalentowanego napastnika, chcąc wzmocnić swoją linię ataku. Klub z Londynu musi jednak liczyć się z bardzo silną konkurencją ze strony innych potęg.</p><p>Liverpool również nie próżnuje, wysyłając swoich skautów na mecze włoskiej ekstraklasy, aby na żywo monitorować rozwój lidera klasyfikacji strzelców. Walka o transfer Vareli zapowiada się na jeden z głównych tematów nadchodzącego okienka.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMFZsMGlxWlJoTzZEQXVjVjZfWVBONjNFdzYzY3pvdjQyRzlBMlBKT1prWUpXdHo5THd6U3BremNEaURfSGNURUF6TXM2WlZTTWd3dXlrU2owdVYwcnRGYmlBNVlJTndUTHd6d0tGUmpUMW5sNHdnbDJUODVGcmdocjBtMEVkdXgxNEJ0X0J2MjFXV056TEFERURVam5zMG10SmRXdjc3ckJUb0E?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "19.11 • 12:48",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/2022_Hansi_Flick_%28cropped%29.jpg/1280px-2022_Hansi_Flick_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Morderczy finisz Barcelony: Kalendarz Blaugrany na koniec 2026 roku",
+    "summary": "FC Barcelona stoi przed niezwykle wymagającym wyzwaniem, kończąc rok 2026 serią meczów rozgrywanych w niemal maratońskim tempie.",
+    "content": "<p>Końcówka roku 2026 zapowiada się dla podopiecznych Hansiego Flicka jako prawdziwy test wytrzymałości. Sztab szkoleniowy musi zarządzać siłami zawodników, którzy w krótkim odstępie czasu będą musieli rywalizować na kilku frontach, co znacząco ogranicza czas na regenerację między spotkaniami.</p><p>Harmonogram Barcelony jest niezwykle napięty, co wymusza na trenerze rotację składem w celu uniknięcia kontuzji kluczowych graczy. Intensywność meczów w grudniu będzie kluczowa dla utrzymania wysokiej pozycji w tabeli ligowej oraz zapewnienia sobie korzystnych rozstrzygnięć w rozgrywkach pucharowych.</p><p>Eksperci zwracają uwagę, że tak duża liczba spotkań w końcowej fazie roku może wpłynąć na formę fizyczną drużyny. Klub musi wykazać się głębią składu, aby sprostać oczekiwaniom kibiców i utrzymać zwycięską passę w decydujących starciach przed przerwą zimową.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMikgFBVV95cUxQMTRucXVSTUhmMTFyQmZ3TGQ0Y0I4MWppZEg2RFVrTFYxQ0xLejEwY1EteTRlSWJCR2gyU3NjTXJmR0wwZ0JJaHg5OTk1U25wcE9iODQ4TmpVWVFoc0ExZ2FlZFkxZmJRRmFwMjVHekZuN2dYcmVKQUdobHUtYW9tU2FMVDg3RzNyT1JMOS1iUFhndw?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "19.11 • 12:48",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/RSA_vs_AUS_Day_2_-_Simon_Harmer-2.jpg/1280px-RSA_vs_AUS_Day_2_-_Simon_Harmer-2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Dominacja Simona Harmera: RPA pewnie wygrywa z Bangladeszem w pierwszym teście",
+    "summary": "Reprezentacja RPA pokonała Bangladesz różnicą dziewięciu wicketów, przybliżając się do finału World Test Championship. Kluczową postacią spotkania był Simon Harmer.",
+    "content": "<p>Reprezentacja RPA odniosła przekonujące zwycięstwo w pierwszym meczu serii przeciwko Bangladeszowi, wygrywając różnicą dziewięciu wicketów. Dzięki temu sukcesowi drużyna Proteas umocniła swoją pozycję w rankingu ICC i zrobiła ważny krok w stronę awansu do finału World Test Championship, który odbędzie się w 2027 roku na The Kia Oval.</p><p>Głównym architektem sukcesu gospodarzy był Simon Harmer, który w drugiej części meczu zdominował końcówkę składu Bangladeszu. Doświadczony off-spinner zakończył spotkanie z imponującym wynikiem 6-51, skutecznie eliminując zagrożenie ze strony rywali i ograniczając ich dorobek do 168 punktów. Po szybkim wyeliminowaniu przeciwników, RPA potrzebowało jedynie 12 punktów, by przypieczętować zwycięstwo przed przerwą obiadową.</p><p>Mimo sukcesu, sztab szkoleniowy RPA musi mierzyć się z problemami kadrowymi. Kapitan zespołu, Temba Bavuma, najprawdopodobniej opuści drugie starcie z powodu przedłużających się kłopotów zdrowotnych. Mimo absencji lidera, drużyna liczy na podtrzymanie dobrej passy, w czym ma pomóc będący w życiowej formie 37-letni Harmer.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/cricket/news/12040/13613920/south-africa-vs-bangladesh-simon-harmer-stars-as-proteas-seal-nine-wicket-first-test-win' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "19.11 • 12:48",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg/1280px-Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Pochettino przejmuje stery w United: Czas na wielkie zmiany na Old Trafford",
+    "summary": "Mauricio Pochettino oficjalnie objął Manchester United. Argentyńczyk zapowiada głęboką przebudowę kultury pracy w klubie, by wydobyć potencjał z obecnej kadry po fatalnym początku sezonu.",
+    "content": "<p>Mauricio Pochettino rozpoczął pracę w Manchesterze United, zastępując na stanowisku trenera osobę prowadzącą wcześniej reprezentację USA. Jego głównym celem jest poprawa sytuacji drużyny, która po słabym starcie rozgrywek zajmuje obecnie 18. miejsce w tabeli Premier League.</p><p>W swoim pierwszym wywiadzie szkoleniowiec podkreślił, że nie zamierza skupiać się wyłącznie na kryzysie, lecz na ogromnym potencjale klubu. Argentyńczyk zapowiedział wprowadzenie zmian we wszystkich obszarach funkcjonowania zespołu, aby przywrócić zawodnikom mentalność zwycięzców.</p><p>Choć klub planuje wzmocnienia na pozycjach lewego obrońcy, stopera oraz napastnika, Pochettino zaznaczył, że jego priorytetem jest praca z obecnymi piłkarzami. Debiut nowego trenera nastąpi już w najbliższą niedzielę podczas prestiżowego starcia z Liverpoolem na Anfield.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/11095/13613821/mauricio-pochettino-at-manchester-united-new-boss-vows-to-change-situation-at-old-trafford-in-first-interview' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "19.11 • 12:48",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg/1280px-Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Mauricio Pochettino w Manchesterze United: Czy Argentyńczyk odzyska dawny blask?",
+    "summary": "Siedem lat po zwolnieniu z Tottenhamu, Mauricio Pochettino podejmuje wyzwanie w Manchesterze United, mając za zadanie udowodnić swoją wartość w Premier League.",
+    "content": "<p>Mauricio Pochettino wraca do angielskiej ekstraklasy z renomą trenera, który w przeszłości potrafił wprowadzić Tottenham do ścisłej czołówki ligi oraz historycznego finału Ligi Mistrzów. Jego praca w Londynie, mimo braku trofeów, jest dziś oceniana znacznie wyżej niż w momencie rozstania z klubem.</p><p>Manchester United, który przez ostatnią dekadę zmagał się z nietrafionymi decyzjami kadrowymi, widzi w Argentyńczyku szansę na stabilizację. Eksperci podkreślają, że w przeciwieństwie do poprzedników, takich jak Louis van Gaal czy Jose Mourinho, Pochettino przychodzi do klubu jako szkoleniowiec z bogatszym doświadczeniem.</p><p>Kluczowym pytaniem pozostaje jednak forma Pochettino po siedmioletniej przerwie od sukcesów w Anglii. Praca w PSG oraz Chelsea nauczyła go zarządzania wielkimi gwiazdami, co zdaniem analityków czyni go bardziej wszechstronnym trenerem, gotowym na wyzwania panujące na Old Trafford.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/11095/13612583/mauricio-pochettino-at-man-utd-seven-years-on-from-the-sack-at-spurs-what-sort-of-coach-is-he-now-we-will-soon-find-out' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "SA",
     "badge": "Serie A",
     "badgeColor": "bg-sky-600",
@@ -226,77 +298,5 @@
     "title": "Bayer Leverkusen rozpoczyna przygotowania do sezonu Bundesligi 2026/27",
     "summary": "Oficjalna strona Bayeru Leverkusen zainaugurowała sekcję poświęconą nadchodzącym rozgrywkom Bundesligi 2026/27, zapowiadając start nowego sezonu.",
     "content": "<p>Klub z Leverkusen oficjalnie uruchomił dedykowaną podstronę w swoim serwisie internetowym, która będzie centrum informacyjnym dla kibiców w trakcie kampanii 2026/27.</p><p>Bayer 04 Leverkusen przygotowuje się do kolejnych wyzwań na krajowym podwórku, dążąc do utrzymania wysokiej dyspozycji w niemieckiej ekstraklasie w nadchodzącym cyklu rozgrywkowym.</p><p>Platforma Bayer04.de ma służyć jako główne źródło aktualności dotyczących kadry, terminarza meczów oraz bieżących wydarzeń związanych z zespołem w nowym sezonie.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMic0FVX3lxTE5scXE5TW52V2ozZ2gtTkc1djBpUDlqNGpkYXVQcEZBcXRNWUpublZDb3ZidkRBR2VveGpDM3k4MndIVFJwVVNOWXpHU1hIVHpyY3pKcXdvLW9VOXdhbU4zdWE2bXlxdDA5LVBJQ1ZocWJHalE?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "19.11 • 04:45",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/9/96/Zweite_Bundesliga_Schale.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "imgCredit": "Fot. Forzaruvo94 (CC BY-SA 3.0)",
-    "title": "Czym jest Englische Woche? Wyjaśniamy fenomen niemieckiego terminu",
-    "summary": "Niemieckie określenie Englische Woche odnosi się do intensywnego tygodnia, w którym drużyny rozgrywają mecze zarówno w weekend, jak i w środku tygodnia.",
-    "content": "<p>Termin Englische Woche, czyli dosłownie angielski tydzień, zakorzenił się w niemieckim futbolu jako opis okresów, w których kluby muszą rywalizować w trybie co trzy lub cztery dni. Wynika to z faktu, że w Anglii tradycja gry w środku tygodnia była obecna od dekad, podczas gdy w Niemczech stała się standardem wraz z rozwojem europejskich pucharów.</p><p>W praktyce oznacza to ogromne obciążenie dla zawodników oraz sztabów szkoleniowych. Trenerzy muszą w takich momentach rotować składem, aby uniknąć kontuzji wynikających z przemęczenia, a przygotowanie taktyczne do kolejnych spotkań ogranicza się do niezbędnego minimum regeneracyjnego.</p><p>Dla kibiców Bundesligi to czas wzmożonych emocji, ponieważ w krótkim odstępie czasu ważą się losy tabeli ligowej oraz awansów w pucharach. Choć dla piłkarzy to okres wyczerpujący fizycznie, dla fanów stanowi kwintesencję intensywnego kalendarza piłkarskiego, który wymusza głębię składu każdej drużyny.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMipwFBVV95cUxOd1B5c3VhVXFPUlFwSmxoay1jd3hUbHVfV3pISlVpQ3IyUERfOHN5YU44OTU2NWRFZThjS0hGZlUzcnhzbTJtd01DbHN6NWFaTFZlQ3g4LVR0TFItNjdYaEVESzliNF9sdlZJRTRZOC0tMzlxd2x4ZG5xaVNUREIza0JPajhpaHl2ME92cFBtaW41aUVPcVR4UmY1Vmt1aXd1eHllTkF2VQ?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "19.11 • 04:45",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Nick_Woltemade_Ecuador_v_Germany_25_June_2026-069.jpg/1280px-Nick_Woltemade_Ecuador_v_Germany_25_June_2026-069.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Historyczny moment Nicka Woltemade: Pierwszy gol dla Juventusu w Serie A",
-    "summary": "Nick Woltemade zdobył swoją debiutancką bramkę w barwach Juventusu podczas meczu Serie A, zapisując się w historii klubu jako skuteczny strzelec.",
-    "content": "<p>Nick Woltemade zanotował niezwykle ważny moment w swojej karierze, trafiając do siatki w meczu ligi włoskiej. To premierowe trafienie niemieckiego napastnika dla Starej Damy potwierdza jego rosnącą rolę w zespole prowadzonym przez sztab szkoleniowy z Turynu.</p><p>Występ zawodnika był szeroko komentowany przez ekspertów, którzy zwracają uwagę na jego adaptację do wymagań włoskiej ekstraklasy. Gol ten nie tylko podbudował pewność siebie piłkarza, ale również stał się istotnym punktem w kontekście walki Juventusu o najwyższe cele w tym sezonie.</p><p>Choć szczegółowe okoliczności bramki oraz przebieg całego spotkania są jeszcze analizowane przez media, debiutanckie trafienie Woltemade jest uznawane za przełomowy moment jego przygody z włoską piłką. Kibice liczą, że to dopiero początek serii udanych występów tego gracza w czarno-białych barwach.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMinwFBVV95cUxQUEFEX2tzMy1IZDcxZDY4ci14M2xxTmd6TkFoVzl0eGZUcUlJMnFtQ1Z1cm9qSzlYeHhSUDlvTVhILV9Qc1BUdmZESTZrcXZ3VzZ1SWw2SUJxTm14R00xTndySktwODFwb2hWT3ZsVUVZZnRxSHdQSk1pQkFXNlNoaUt4b09iYjNPQWROcHh3S2Y2aFl1X1EzYWptOVFiVGc?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "19.11 • 03:39",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Stadio_Ennio_Tardini_2026.jpg/1280px-Stadio_Ennio_Tardini_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Serie A: Parma kontra Roma. Zapowiedź starcia na Stadio Ennio Tardini",
-    "summary": "Parma Calcio podejmie na własnym stadionie AS Romę w ramach kolejnej serii gier Serie A. Obie drużyny przystępują do tego spotkania z odmiennymi celami w tabeli.",
-    "content": "<p>Nadchodzące starcie na Stadio Ennio Tardini budzi spore emocje wśród kibiców obu ekip. Parma, jako gospodarz, będzie chciała wykorzystać atut własnego boiska, aby urwać punkty wyżej notowanemu rywalowi i poprawić swoją sytuację w lidze.</p><p>AS Roma pod wodzą swojego sztabu szkoleniowego przyjeżdża do Parmy z jasnym celem zdobycia kompletu punktów. Drużyna ze stolicy Włoch musi zachować pełną koncentrację, aby uniknąć wpadki z teoretycznie słabszym przeciwnikiem w walce o europejskie puchary.</p><p>Eksperci wskazują, że kluczowym elementem meczu będzie dyspozycja formacji ofensywnych obu zespołów. Analizy bukmacherskie sugerują, że mimo różnic w tabeli, spotkanie może być wyrównane, a o wyniku zadecydują detale oraz indywidualne umiejętności zawodników.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMiUEFVX3lxTE8xWjlBT1hubS1ZRzRncDVFY3ZZZS1YTUQ3YlhDdUcwQUZvdm9XbFN0QzI4czRwYm5rU01OQjh4eFRzbXRIMS1fMGxSS3NZdnhT?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "19.11 • 03:39",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/AC_Milan_tifo.png/1280px-AC_Milan_tifo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "imgCredit": "Fot. LHC88 (CC BY 4.0)",
-    "title": "AC Milan kontra Parma: Wszystko, co musisz wiedzieć o biletach na mecz Serie A",
-    "summary": "Sprawdź najważniejsze informacje dotyczące zakupu wejściówek na nadchodzące starcie AC Milan z Parmą w ramach rozgrywek włoskiej Serie A.",
-    "content": "<p>Mecz pomiędzy AC Milan a Parma Calcio 1913 to jedno z wyczekiwanych spotkań w kalendarzu włoskiej ligi. Kibice planujący pojawić się na stadionie powinni śledzić oficjalne kanały sprzedaży, aby uniknąć problemów z dostępnością miejsc na trybunach.</p><p>Ceny biletów na to wydarzenie są zróżnicowane w zależności od wybranego sektora oraz kategorii wiekowej kibica. Kluby zazwyczaj udostępniają wejściówki w kilku turach, przy czym pierwszeństwo zakupu często mają posiadacze kart kibica lub karnetów sezonowych.</p><p>W przypadku braku dostępności w regularnej sprzedaży, warto sprawdzać platformy oferujące odsprzedaż biletów z drugiej ręki. Należy jednak zachować ostrożność i korzystać wyłącznie z autoryzowanych źródeł, aby uniknąć oszustw przy zakupie wejściówek last-minute.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMipwFBVV95cUxQZG9qb2pBTWhtRlFreTc0MmpoS1lNNk5ZMHE3bG1CeDM2eVVpMWN3YV9IcVh2eW51QVQyVTlPcEtxUHR6S3NEOWl4TXdJWjlUcUNrYnd0LUhROEw5cEdnVTl4WThtOVluajZYaDVrbnctSFBrUnhaTG96Z0dPZnQtTmxvYkhoRlpjSWhNT2dKNzdnYnZPVXhTbGZNVk9teWZiVGd3UGRpWQ?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "LL",
-    "badge": "La Liga",
-    "badgeColor": "bg-red-600",
-    "time": "19.11 • 03:39",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Real_Madrid_Club_de_F%C3%BAtbol_league_performance_1929-present.svg/1280px-Real_Madrid_Club_de_F%C3%BAtbol_league_performance_1929-present.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "imgCredit": "Fot. Ghost456 (CC BY-SA 4.0)",
-    "title": "Brak aktualnych informacji na oficjalnej stronie Realu Madryt",
-    "summary": "Oficjalny serwis internetowy Realu Madryt nie zawiera obecnie żadnych nowych komunikatów ani aktualności dotyczących kadry czy sztabu szkoleniowego klubu.",
-    "content": "<p>Przegląd oficjalnej witryny Realu Madryt nie dostarczył żadnych nowych informacji na temat bieżącej sytuacji w zespole, kontuzji zawodników czy nadchodzących spotkań ligowych.</p><p>Strona główna klubu ogranicza się obecnie do standardowej prezentacji marki, nie publikując żadnych pilnych komunikatów prasowych dotyczących trenerów lub piłkarzy „Królewskich”.</p><p>Brak dostępnych danych w źródle uniemożliwia przygotowanie szczegółowego raportu na temat formy drużyny czy decyzji personalnych podejmowanych przez sztab szkoleniowy w Madrycie.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMilgFBVV95cUxQai1uUUFEaXlDdzViRUJXTXZSNDJFUXFoTlNjQmE5X0hSQVZyU2NiUjlWU0xqOFdUdDlMZ3NpSXZSQU5ybWtlR2NwdXF0V01RQzFnY21HdV9zSkNhbV9DMUg4YWJLbzZSc05zRlZIOU1SbDB2ZEdyWVhmQWtGZm9OMU5qdEliN3dXWnVfaGM3NW5GVllXMVE?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "19.11 • 01:29",
-    "source": "Na podstawie: BBC Sport",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/3/35/%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%9C%D1%83%D0%B4%D1%80%D0%B8%D0%BA._26_%D0%BC%D0%B0%D1%8F_2021_%D0%B3%D0%BE%D0%B4%D0%B0_%E2%80%94_1233123_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Mychajło Mudryk oskarża ukraińską federację o dopingową wpadkę",
-    "summary": "Mychajło Mudryk przerwał milczenie w sprawie zawieszenia za doping, wskazując na zaniedbania w sztabie reprezentacji Ukrainy jako źródło obecności meldonium w jego organizmie.",
-    "content": "<p>Skrzydłowy Chelsea, obecnie wypożyczony do Tottenhamu, został zawieszony w listopadzie 2024 roku po wykryciu w jego organizmie meldonium. Piłkarz przyznał, że substancja ta jest niedostępna w Anglii i mogła trafić do jego organizmu wyłącznie podczas zgrupowania kadry narodowej.</p><p>Początkowo zawodnikowi groziły cztery lata dyskwalifikacji, jednak po odwołaniu do Trybunału Arbitrażowego ds. Sportu (CAS) karę skrócono. Mudryk zaakceptował naruszenie przepisów antydopingowych, co pozwoliło mu na powrót do gry po odbyciu dotychczasowej kary.</p><p>W wywiadzie dla kanału Guest of Gordon, Mudryk otwarcie skrytykował organizację wewnątrz ukraińskiej federacji. Piłkarz podkreślił, że nigdy wcześniej nie słyszał o zakazanym specyfiku i obarcza winą za zaistniałą sytuację środowisko kadrowe, w którym przebywał.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/articles/cr930l71z5ejo?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
