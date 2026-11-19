@@ -1,5 +1,53 @@
 [
   {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "19.11 • 16:39",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Stadio_Meazza_2021_3.jpg/1280px-Stadio_Meazza_2021_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "AC Milan kontra Fiorentina: ruszyła sprzedaż biletów na hit 18. kolejki Serie A",
+    "summary": "Klub AC Milan uruchomił oficjalną sprzedaż wejściówek na nadchodzące starcie z Fiorentiną, które odbędzie się na stadionie San Siro w ramach 18. kolejki sezonu 2026/2027.",
+    "content": "<p>Kibice Rossonerich mogą już nabywać bilety na prestiżowe spotkanie ligowe przeciwko Fiorentinie. Mecz został zaplanowany jako jedno z kluczowych wydarzeń 18. serii gier włoskiej ekstraklasy.</p><p>Rywalizacja odbędzie się na legendarnym obiekcie San Siro, który niezmiennie stanowi twierdzę mediolańskiego zespołu. Klub zachęca fanów do szybkiego zakupu, aby zapewnić sobie miejsce na trybunach.</p><p>Szczegółowe informacje dotyczące dostępności sektorów oraz procedur zakupu są dostępne za pośrednictwem oficjalnego serwisu internetowego AC Milan, który prowadzi dystrybucję wejściówek.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMirAFBVV95cUxOQVR6UFlscHkyamN3Unp4Zm1tQlgzRnBZRW5zZXZ4RE1rRnNRdENZOUJneFMwbXlHT3R1X21fRkpveUcydkpPOVM3aFVWRW1kSjZ6N0ZISUJoN095cWNzcWZVUHRreGZZZjliQWRjS2RDaW1ydXFDYlhTcFdLRHpQQXE3QkJRV1RFX0FkMWVSTnFYMTBWT2UyOGV6YnQwQlFWbU1DbElqTXE3RVpa?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "19.11 • 16:39",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1280px-FC_Barcelona_%28crest%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Barcelona przed trudnym testem: Villarreal to niewygodny rywal na Montjuïc",
+    "summary": "FC Barcelona z respektem podchodzi do nadchodzącego starcia z Villarrealem, pamiętając o fatalnej passie trzech porażek w ostatnich pięciu meczach domowych z tym przeciwnikiem.",
+    "content": "<p>Nadchodzące spotkanie na stadionie olimpijskim w Barcelonie budzi spore emocje, głównie ze względu na historyczne problemy Dumy Katalonii w rywalizacji z Żółtą Łodzią Podwodną. Statystyki pokazują, że Villarreal potrafi regularnie wywozić punkty z terenu Barcelony, co czyni ich jednym z najbardziej niewygodnych rywali dla gospodarzy w ostatnich latach.</p><p>Sztab szkoleniowy Barcelony podkreśla, że zespół musi zachować pełną koncentrację, aby przełamać negatywny trend. Mimo że Blaugrana przystępuje do meczu z pozycji faworyta, trzy przegrane w pięciu ostatnich bezpośrednich starciach na własnym obiekcie stanowią wyraźne ostrzeżenie przed lekceważeniem przyjezdnych.</p><p>Kluczem do sukcesu dla gospodarzy będzie poprawa defensywy, która w poprzednich konfrontacjach z Villarrealem często nie potrafiła poradzić sobie z szybką grą z kontrataku. Trenerzy obu drużyn spodziewają się otwartego widowiska, w którym każdy błąd może zadecydować o końcowym wyniku i układzie w tabeli ligowej.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMikAFBVV95cUxQazFMQ1RvSjk0X1hKOEwyYjNtdDJIaERXUjdITUpOWHJla2NkZFJzaVJnVjl6SldVUnpqSGNZOHQ1SkVzRkJka051ZTBzdHBDM21iQnltRWlGeUktNlBxclpKaEp0RW1iUlRzLU1abXFFVkhVOW5QYmVsMGdWeUdIQ192MVl3X0NHZmxQV3k5Q3A?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "19.11 • 16:39",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Draper_MCM23_%2855%29_%2852883527225%29.jpg/1280px-Draper_MCM23_%2855%29_%2852883527225%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Jack Draper z nowym sztabem: celuje w powrót na korty w 2027 roku",
+    "summary": "Brytyjski tenisista Jack Draper zatrudnił nowego trenera, który będzie współpracował z Andym Murrayem, przygotowując zawodnika do powrotu po długiej kontuzji ręki.",
+    "content": "<p>Jack Draper podjął decyzję o wzmocnieniu swojego sztabu szkoleniowego przed nadchodzącym sezonem. Nowy członek zespołu będzie ściśle współpracował z legendarnym Andym Murrayem, wspierając Brytyjczyka w procesie powrotu do pełnej dyspozycji sportowej.</p><p>Zawodnik obecnie zmaga się z poważnym urazem ręki, który wykluczył go z rywalizacji na dłuższy czas. Zgodnie z planem rehabilitacji, Draper ma pojawić się na kortach ponownie na początku 2027 roku.</p><p>W swojej dotychczasowej karierze Draper odniósł trzy zwycięstwa w turniejach rangi ATP, z których najważniejszym pozostaje triumf w Indian Wells. Jego najlepszym osiągnięciem w Wielkim Szlemie pozostaje półfinał US Open.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/tennis/live-blog/12040/13523297/jack-draper-tennis-results-next-match-news-ranking-video-and-how-to-watch-on-sky-sports-tennis' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "19.11 • 16:38",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Alex_Scott_09052026_%285%29.jpg/1280px-Alex_Scott_09052026_%285%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Liam Rosenior stawia sprawę jasno: Alex Scott otrzyma szansę w najbliższych meczach",
+    "summary": "Trener Bristol City, Liam Rosenior, zapowiedział, że Alex Scott wystąpi w jednym z trzech nadchodzących spotkań, unikając jednak komentarzy na temat plotek transferowych zawodnika.",
+    "content": "<p>Liam Rosenior, menedżer Bristol City, odniósł się do sytuacji kadrowej Alexa Scotta. Szkoleniowiec potwierdził, że młody pomocnik znajduje się w jego planach i otrzyma szansę gry w wyjściowej jedenastce w jednym z trzech najbliższych meczów ligowych.</p><p>Decyzja trenera ma na celu odpowiednie zarządzanie siłami zawodnika oraz utrzymanie rywalizacji w zespole. Rosenior podkreślił, że Scott jest ważnym ogniwem drużyny, mimo napiętego terminarza, który czeka ekipę w najbliższym czasie.</p><p>W trakcie konferencji prasowej Rosenior konsekwentnie unikał odpowiedzi na pytania dotyczące ewentualnego odejścia piłkarza. Mimo licznych spekulacji medialnych łączących Scotta z transferem do innych klubów, trener odmówił komentowania doniesień transferowych.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/live-blog/12040/13279286/bournemouth-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "LL",
     "badge": "La Liga",
     "badgeColor": "bg-red-600",
@@ -250,53 +298,5 @@
     "title": "Chelsea pod wodzą Alonso: chaos w bramce i brak napastnika",
     "summary": "Początki Xabiego Alonso w Chelsea to sinusoida formy, problemy z obsadą bramki oraz brak klarownej strategii w ofensywie, co stawia pod znakiem zapytania walkę o najwyższe cele.",
     "content": "<p>Kwestia obsady bramki pozostaje w Chelsea palącym problemem. Sprowadzony Emiliano Martinez nie spełnił pokładanych w nim nadziei, co otworzyło szansę przed 21-letnim Mikiem Pendersem. Młody Belg, mimo niefortunnego debiutu przeciwko Tottenhamowi, wykazuje lepsze statystyki wskaźnika goli oczekiwanych niż jego bardziej doświadczony kolega.</p><p>Zespół pod wodzą Alonso zmaga się z brakiem stabilizacji, notując serię wzlotów i upadków, takich jak wysoka wygrana z Bournemouth przeplatana bolesnymi porażkami z Sunderlandem czy Tottenhamem. Po dziesięciu kolejkach strata do Arsenalu wynosi już 11 punktów, co czyni walkę o mistrzostwo mało prawdopodobną, mimo wciąż realnych szans na awans do Ligi Mistrzów.</p><p>Kluczowym problemem pozostaje brak nominalnego napastnika. Trener Alonso w wielu spotkaniach decydował się na wystawianie fałszywych dziewiątek, takich jak Morgan Rogers czy Pedro Neto, marginalizując przy tym Danny'ego Welbecka. Brak klasycznej „dziewiątki” sprawia, że skuteczność zespołu opiera się na indywidualnych przebłyskach, co budzi obawy o trwałość ofensywy w dłuższej perspektywie.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/12040/13612519/chelsea-ten-things-weve-learnt-about-xabi-alonsos-blues-after-10-premier-league-games' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "19.11 • 10:44",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/1/11/Federico_Bonazzoli_20140802.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Federico Bonazzoli o powrocie do Cremonese: Cel to awans do Serie A",
-    "summary": "Federico Bonazzoli otwarcie mówi o swoich ambicjach w Cremonese oraz wspomnieniach z czasów gry w Interze Mediolan u boku Javiera Zanettiego.",
-    "content": "<p>Federico Bonazzoli w wywiadzie dla La Gazzetta dello Sport podkreślił silną więź z Cremonese, nazywając ten klub swoim domem. Napastnik deklaruje pełną determinację, by pomóc drużynie w wywalczeniu powrotu do najwyższej klasy rozgrywkowej we Włoszech.</p><p>Wspominając swoje początki w Interze Mediolan, zawodnik przywołał postać Javiera Zanettiego, który był dla niego ważnym punktem odniesienia. Bonazzoli przyznał, że czas spędzony w barwach Nerazzurrich ukształtował go jako piłkarza, mimo że jego kariera potoczyła się różnymi ścieżkami.</p><p>Piłkarz odniósł się również do kwestii związanych z reprezentacją Włoch, przyznając, że brak powołania do kadry narodowej był dla niego bolesnym doświadczeniem. Obecnie jednak skupia się wyłącznie na wyzwaniach w Serie B i realizacji celów sportowych z obecnym zespołem.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQ1B1RUVyZUJkeVBtYlNXZ0Q1ekhGZmN6ZUFlakhjcGwxSEtMaThZWmlJZE1weFRLemlkVUR0Q1I5NjB6cTU5ZDhHYlA3NWlTc3k0NFNydlJzMGppa0xnOVlhVFYxbjdROHJibnpPZ201bFV4ci00Wll1TF9aUHFKU2FWNExKT1F0V0JNY0U1RF9SamZXeldYX1diU25pb05IeGhRU3lzcldKYzBiekd4eE51REFFQzZiZU9IWFA5QWN0VWJjZlg4VGJqSzQ0QjlzLTJxR3VR0gHbAUFVX3lxTE5CWWZ3VXIzN09pRHM3aDFmRUYxR1d2Y0Z3OXp1QzNoLWtpNHktYnBfc3I4SEJKczRjMjA0RTVBVm5qbGtUUmh0WkEyZFlSRWZqUFpmRTRjWjJfVVpPSXNKQmtXMnlQMVlhRkM0TE9kS2VOMVo0SmluZHpFOEZxUl9mamp1TDNBRVJsdGllNktDM0tKc0ZVRTJ0WWE5eWE1SUpNQktsTFVQd1F4T1Bxbk9oRi1EYkhGZy1ySHBORklUWGt4ZWR6aHFEZnVDNjVfdHVWQTB6Q3FIeEdTaw?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "LL",
-    "badge": "La Liga",
-    "badgeColor": "bg-red-600",
-    "time": "19.11 • 10:44",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Florentino_P%C3%A9rez_-_240422_194826_%28cropped%29.jpg/1280px-25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Florentino_P%C3%A9rez_-_240422_194826_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Real Madryt z rekordem wszech czasów: 1,2 miliarda euro przychodu",
-    "summary": "Real Madryt osiągnął historyczny wynik finansowy, przekraczając barierę 1,2 miliarda euro przychodu w jednym roku obrotowym, co jest najlepszym rezultatem w historii światowego futbolu.",
-    "content": "<p>Królewscy oficjalnie potwierdzili, że ich przychody za ostatni sezon osiągnęły zawrotną kwotę 1,2 miliarda euro. To bezprecedensowe osiągnięcie w świecie sportu, które stawia madrycki klub na szczycie finansowej hierarchii europejskich gigantów.</p><p>Mimo tak imponujących wpływów, zarząd klubu pod wodzą Florentino Pereza musi mierzyć się z wyzwaniem utrzymania rentowności. Wysokie koszty operacyjne oraz inwestycje w infrastrukturę, w tym modernizację stadionu Santiago Bernabeu, wymagają ciągłego balansowania budżetem.</p><p>Eksperci analizujący raport finansowy zastanawiają się, czy nawet tak ogromne środki są wystarczające w obliczu rosnących wymagań rynkowych. Klub stoi przed koniecznością dalszego zwiększania zysków, aby utrzymać dominację sportową w Europie przy zachowaniu stabilności finansowej.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMioAFBVV95cUxNY1h0QWxETGVzY0plMXItSjUybWRIXy1DRDhNdHVCUEhaTk42T2dkYzFUUzhfaUlLVXlrN05kVnhGVlkzZHJsOEE4VjQ1alM3aHI2eDNBYy1xeXRyMENyMkF0djdoSFF2OFlUUlZ3bU9HOHlpWWZNR1NFVS1CQVNTdHM2ekZKOEJxWHdwaHJLdk9IQ1hsVjQ4dGsxVWNLYXJY?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "LL",
-    "badge": "La Liga",
-    "badgeColor": "bg-red-600",
-    "time": "19.11 • 10:44",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Lionel_Messi_Player_of_the_Year_2011.jpg/1280px-Lionel_Messi_Player_of_the_Year_2011.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Kluczowy gracz Barcelony gotowy na Villarreal mimo niedawnego urazu",
-    "summary": "Mimo niedawnego powrotu do treningów po kontuzji, uniwersalny zawodnik Barcelony ma znaleźć się w wyjściowym składzie na nadchodzące starcie z Villarrealem.",
-    "content": "<p>Sztab szkoleniowy FC Barcelony podjął decyzję o włączeniu do kadry meczowej zawodnika, który przez ostatnie tygodnie zmagał się z problemami zdrowotnymi. Piłkarz, znany ze swojej wszechstronności na boisku, przeszedł pomyślnie proces rehabilitacji i jest w pełni gotowy do rywalizacji.</p><p>Mimo że sztab medyczny zalecał ostrożność, trener zdecydował się na odważny krok, przewidując dla gracza miejsce w podstawowej jedenastce. Decyzja ta podyktowana jest ważnością nadchodzącego spotkania ligowego oraz kluczową rolą, jaką zawodnik odgrywa w taktyce zespołu.</p><p>Mecz przeciwko Villarrealowi będzie poważnym sprawdzianem dla formy fizycznej piłkarza po przerwie. Klub liczy, że jego obecność na murawie pomoże „Dumie Katalonii” w zdobyciu kompletu punktów i utrzymaniu wysokiego miejsca w tabeli La Liga.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMikgFBVV95cUxQdnV2M1NKdy1sdjhkQm5SV3QtRnZMYkxmTjVqOGRkYktfeUxfMFZPWUhrRTljcm9BRU5WXzB2cFVrRlhuS09jWUc1NTQ5RmJWNjljcF9sYWlka2lYczI2UHcxc1JpNUFrdDVZQm1fWTN1WnVQUW1YRXI2UWl3c0pxSWRQMWtFYXdQR2l1S2VaRVh5Zw?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "19.11 • 09:45",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/2/24/Kenan_Karaman.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Kenan Karaman wznosi trofeum 2. Bundesligi przy owacjach kibiców Schalke",
-    "summary": "Kapitan Schalke 04, Kenan Karaman, odebrał trofeum za zwycięstwo w 2. Bundeslidze, celebrując sukces klubu w obecności wiwatujących fanów.",
-    "content": "<p>Kenan Karaman został uhonorowany rolą lidera zespołu, wznosząc w górę mistrzowską paterę 2. Bundesligi. Wydarzenie to stało się symbolicznym zwieńczeniem udanego sezonu dla drużyny z Gelsenkirchen.</p><p>Uroczystość odbyła się w atmosferze wielkiego entuzjazmu, a zawodnik odebrał puchar przy głośnym dopingu zgromadzonych na stadionie sympatyków Schalke 04.</p><p>Sukces ten stanowi istotny punkt w historii klubu, potwierdzając powrót drużyny na szczyt tabeli zaplecza niemieckiej ekstraklasy pod wodzą swoich liderów.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMia0FVX3lxTFBDbW9OSjM3UHNFRm9LQW8wU3F3dmZPTG5nSEZqQVJpY0FOWnBDNktEeWZ1dDUwZ2wwczlYVHJyMkdWRERtSmlFTmlvLUVlWHA2Y1R4OS1jdzhXYmljTjZVRzl4UmROQnpWaVE0?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
