@@ -1,5 +1,29 @@
 [
   {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "20.11 • 06:01",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/9/96/Zweite_Bundesliga_Schale.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "imgCredit": "Fot. Forzaruvo94 (CC BY-SA 3.0)",
+    "title": "Japońska fala w Bundeslidze: Przegląd gwiazd z Kraju Kwitnącej Wiśni w sezonie 26/27",
+    "summary": "Sezon 2026/27 w Bundeslidze potwierdza rosnącą dominację japońskich piłkarzy, którzy stają się kluczowymi postaciami swoich drużyn w niemieckiej elicie.",
+    "content": "<p>Obecna kampania Bundesligi pokazuje wyraźny trend wzrostowy znaczenia zawodników z Japonii. Piłkarze z tego kraju nie tylko uzupełniają składy, ale pełnią wiodące role w swoich klubach, wpływając bezpośrednio na wyniki i styl gry zespołów.</p><p>Wysoka intensywność treningowa oraz doskonałe przygotowanie techniczne sprawiają, że japońscy gracze idealnie wpasowują się w wymagający model taktyczny niemieckiej ekstraklasy. Ich wszechstronność pozwala trenerom na elastyczne ustawianie składu w różnych fazach meczu.</p><p>Eksperci podkreślają, że sukcesy tych zawodników to wynik długofalowej pracy nad rozwojem talentów. Dzięki regularnym występom na najwyższym poziomie, reprezentanci Japonii stają się fundamentem swoich drużyn w walce o europejskie puchary.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMivAFBVV95cUxNZHdPZVNFVGVDamNReDNDejdnaDcyUFktMlBTS2E2RFFLRFNmeXhvLWM4T1k1TjJDbjI3YUphdWRYUGxGTHRuUUZvYUR0ZFpnNGhIdHgxN2RBRVZScThkOTdjRXZWME5WV2VDT2N5YnNyaXRSaGEtVmNHNlFMMnVmYl8wNGkxNm9LVjE2WjdlVWFpUmV1TkVnYWtwYlhyLUxXMkw5b3hkZklPRVBoVGtaZkNmZkUyZjZTeHRWdg?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "20.11 • 06:01",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/2023-09-09_Handball%2C_Bundesliga_Frauen%2C_Th%C3%BCringer_HC_-_TSV_Bayer_04_Leverkusen_1DX_1769_by_Stepro.jpg/1280px-2023-09-09_Handball%2C_Bundesliga_Frauen%2C_Th%C3%BCringer_HC_-_TSV_Bayer_04_Leverkusen_1DX_1769_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imgCredit": "Fot. Steffen Prößdorf (CC BY-SA 4.0)",
+    "title": "Bayer Leverkusen w starciu z Hoffenheim: Analiza rywalizacji w Bundeslidze",
+    "summary": "Analizujemy konfrontację pomiędzy TSG 1899 Hoffenheim a Bayerem 04 Leverkusen w ramach rozgrywek niemieckiej Bundesligi.",
+    "content": "<p>Mecz pomiędzy TSG 1899 Hoffenheim a Bayerem 04 Leverkusen stanowi istotny punkt w kalendarzu rozgrywek niemieckiej ekstraklasy. Obie drużyny regularnie dostarczają kibicom emocji, prezentując odmienne style gry na poziomie najwyższej klasy rozgrywkowej w Niemczech.</p><p>Rywalizacja tych zespołów jest często analizowana pod kątem taktycznym, biorąc pod uwagę ambicje klubu z Leverkusen, który walczy o najwyższe cele, oraz determinację ekipy z Sinsheim w budowaniu swojej pozycji w tabeli.</p><p>Materiały wizualne z tego spotkania, udostępnione przez agencje informacyjne, dokumentują przebieg rywalizacji na murawie oraz intensywność starć pomiędzy zawodnikami obu klubów w trakcie ligowych zmagań.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRTZYMXhPMURUeTY0MVBOYjd0b2NKbUZ1MDFORkdOR29tWVlCSmVrZnZyYXpBNDVsZ1U1M3BqX2tDZjY2TFVtNDdlSUZVaFNDRjdxemlRel9CTThfMWdQQ3BLMTFSWVBnWENDLTRJVWhGTGtjeHdLS0dvc3ZxU3NnLXdHTWlPZVJEbTRCVmZ3NTJsNFJTTHktaElYQXRxTUY0QXFjTGhCY29FV0J0RF9ZS2NVVW1qNU0xOFpYNzNmMlN5b0FKMTNUbDBnTjUxRXk1V0w0d1NUdTdNVXB4eGFxdFVBSHJ1Uklq?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "SA",
     "badge": "Serie A",
     "badgeColor": "bg-sky-600",
@@ -274,29 +298,5 @@
     "title": "Barcelona przed trudnym testem: Villarreal to niewygodny rywal na Montjuïc",
     "summary": "FC Barcelona z respektem podchodzi do nadchodzącego starcia z Villarrealem, pamiętając o fatalnej passie trzech porażek w ostatnich pięciu meczach domowych z tym przeciwnikiem.",
     "content": "<p>Nadchodzące spotkanie na stadionie olimpijskim w Barcelonie budzi spore emocje, głównie ze względu na historyczne problemy Dumy Katalonii w rywalizacji z Żółtą Łodzią Podwodną. Statystyki pokazują, że Villarreal potrafi regularnie wywozić punkty z terenu Barcelony, co czyni ich jednym z najbardziej niewygodnych rywali dla gospodarzy w ostatnich latach.</p><p>Sztab szkoleniowy Barcelony podkreśla, że zespół musi zachować pełną koncentrację, aby przełamać negatywny trend. Mimo że Blaugrana przystępuje do meczu z pozycji faworyta, trzy przegrane w pięciu ostatnich bezpośrednich starciach na własnym obiekcie stanowią wyraźne ostrzeżenie przed lekceważeniem przyjezdnych.</p><p>Kluczem do sukcesu dla gospodarzy będzie poprawa defensywy, która w poprzednich konfrontacjach z Villarrealem często nie potrafiła poradzić sobie z szybką grą z kontrataku. Trenerzy obu drużyn spodziewają się otwartego widowiska, w którym każdy błąd może zadecydować o końcowym wyniku i układzie w tabeli ligowej.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMikAFBVV95cUxQazFMQ1RvSjk0X1hKOEwyYjNtdDJIaERXUjdITUpOWHJla2NkZFJzaVJnVjl6SldVUnpqSGNZOHQ1SkVzRkJka051ZTBzdHBDM21iQnltRWlGeUktNlBxclpKaEp0RW1iUlRzLU1abXFFVkhVOW5QYmVsMGdWeUdIQ192MVl3X0NHZmxQV3k5Q3A?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "19.11 • 16:39",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Draper_MCM23_%2855%29_%2852883527225%29.jpg/1280px-Draper_MCM23_%2855%29_%2852883527225%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Jack Draper z nowym sztabem: celuje w powrót na korty w 2027 roku",
-    "summary": "Brytyjski tenisista Jack Draper zatrudnił nowego trenera, który będzie współpracował z Andym Murrayem, przygotowując zawodnika do powrotu po długiej kontuzji ręki.",
-    "content": "<p>Jack Draper podjął decyzję o wzmocnieniu swojego sztabu szkoleniowego przed nadchodzącym sezonem. Nowy członek zespołu będzie ściśle współpracował z legendarnym Andym Murrayem, wspierając Brytyjczyka w procesie powrotu do pełnej dyspozycji sportowej.</p><p>Zawodnik obecnie zmaga się z poważnym urazem ręki, który wykluczył go z rywalizacji na dłuższy czas. Zgodnie z planem rehabilitacji, Draper ma pojawić się na kortach ponownie na początku 2027 roku.</p><p>W swojej dotychczasowej karierze Draper odniósł trzy zwycięstwa w turniejach rangi ATP, z których najważniejszym pozostaje triumf w Indian Wells. Jego najlepszym osiągnięciem w Wielkim Szlemie pozostaje półfinał US Open.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/tennis/live-blog/12040/13523297/jack-draper-tennis-results-next-match-news-ranking-video-and-how-to-watch-on-sky-sports-tennis' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "19.11 • 16:38",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Alex_Scott_09052026_%285%29.jpg/1280px-Alex_Scott_09052026_%285%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Liam Rosenior stawia sprawę jasno: Alex Scott otrzyma szansę w najbliższych meczach",
-    "summary": "Trener Bristol City, Liam Rosenior, zapowiedział, że Alex Scott wystąpi w jednym z trzech nadchodzących spotkań, unikając jednak komentarzy na temat plotek transferowych zawodnika.",
-    "content": "<p>Liam Rosenior, menedżer Bristol City, odniósł się do sytuacji kadrowej Alexa Scotta. Szkoleniowiec potwierdził, że młody pomocnik znajduje się w jego planach i otrzyma szansę gry w wyjściowej jedenastce w jednym z trzech najbliższych meczów ligowych.</p><p>Decyzja trenera ma na celu odpowiednie zarządzanie siłami zawodnika oraz utrzymanie rywalizacji w zespole. Rosenior podkreślił, że Scott jest ważnym ogniwem drużyny, mimo napiętego terminarza, który czeka ekipę w najbliższym czasie.</p><p>W trakcie konferencji prasowej Rosenior konsekwentnie unikał odpowiedzi na pytania dotyczące ewentualnego odejścia piłkarza. Mimo licznych spekulacji medialnych łączących Scotta z transferem do innych klubów, trener odmówił komentowania doniesień transferowych.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/live-blog/12040/13279286/bournemouth-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
