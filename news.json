@@ -1,5 +1,17 @@
 [
   {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "20.11 • 18:45",
+    "source": "Na podstawie: Football Italia",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Adrien_Rabiot_France_v_Senegal_16_June_2026-253.jpg/1280px-Adrien_Rabiot_France_v_Senegal_16_June_2026-253.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Priorytet Milanu: Adrien Rabiot z nowym, lukratywnym kontraktem na San Siro",
+    "summary": "Władze AC Milan rozpoczęły rozmowy w sprawie przedłużenia umowy Adriena Rabiota. Klub chce zatrzymać kluczowego pomocnika do 2030 roku, oferując mu znaczną podwyżkę pensji.",
+    "content": "<p>Właściciel Milanu, Gerry Cardinale, odbył serię spotkań w siedzibie klubu, aby nakreślić strategię na nadchodzące okno transferowe. Choć dyskutowano o ruchach kadrowych, głównym celem zarządu jest zabezpieczenie przyszłości Adriena Rabiota, który stał się fundamentem zespołu prowadzonego przez Rubena Amorima.</p><p>Obecna umowa 31-letniego Francuza obowiązuje do czerwca 2028 roku, jednak działacze uznają ją za niewystarczającą w obliczu jego wysokiej formy. Rabiot w tym sezonie zanotował już pięć bramek i pięć asyst w 13 występach, udowadniając, że jest zawodnikiem niemal niezastąpionym w rotacji składu.</p><p>Nowy kontrakt ma obowiązywać do 2030 roku i gwarantować piłkarzowi zarobki na poziomie 5 milionów euro za sezon plus bonusy, co stanowi wyraźny wzrost względem obecnych 3,5 miliona euro. Równolegle Milan finalizuje zatrudnienie Markusa Krosche na stanowisko szefa pionu sportowego.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/milan-priority-rabiot-new-improved-contract/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "BL",
     "badge": "Bundesliga",
     "badgeColor": "bg-amber-600",
