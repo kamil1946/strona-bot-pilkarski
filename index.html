@@ -1157,10 +1157,19 @@
         }
 
         function checkFeedTimeFilter(articleTimeStr) {
-            if (feedFilter === 'all') return true;
+            if (feedFilter === 'all' || feedFilter === 'latest') return true;
             const lower = (articleTimeStr || '').toLowerCase();
-            const isToday = lower.includes('dzisiaj') || lower.includes('min') || lower.includes('godz') || lower.includes('sek');
-            const isYesterday = lower.includes('wczoraj');
+
+            const now = new Date();
+            const pad = (n) => String(n).padStart(2, '0');
+            const todayTag = `${pad(now.getDate())}.${pad(now.getMonth() + 1)}`;
+
+            const yesterday = new Date(now);
+            yesterday.setDate(now.getDate() - 1);
+            const yesterdayTag = `${pad(yesterday.getDate())}.${pad(yesterday.getMonth() + 1)}`;
+
+            const isToday = lower.includes(todayTag) || lower.includes('dzisiaj') || lower.includes('teraz') || lower.includes('min') || lower.includes('godz') || lower.includes('sek');
+            const isYesterday = lower.includes(yesterdayTag) || lower.includes('wczoraj');
 
             if (feedFilter === 'today') return isToday;
             if (feedFilter === 'yesterday') return isYesterday;
