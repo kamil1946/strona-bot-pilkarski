@@ -1,5 +1,29 @@
 [
   {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "20.11 • 17:29",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/2022_Hansi_Flick_%28cropped%29.jpg/1280px-2022_Hansi_Flick_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "FC Barcelona z ważnym wzmocnieniem przed meczem z Villarrealem",
+    "summary": "Trzech kluczowych zawodników Dumy Katalonii wróciło do treningów z pełnym obciążeniem, co stanowi ogromne wsparcie dla Hansiego Flicka przed nadchodzącym starciem ligowym.",
+    "content": "<p>Sytuacja kadrowa FC Barcelony uległa wyraźnej poprawie tuż przed wyjazdowym meczem z Villarrealem. Do zajęć z resztą drużyny powróciło trzech zawodników, którzy dotychczas zmagali się z problemami zdrowotnymi i byli wykluczeni z gry.</p><p>Powrót tej trójki do pełnej sprawności daje trenerowi Hansiemu Flickowi znacznie większe pole manewru przy ustalaniu wyjściowej jedenastki. Sztab medyczny klubu monitorował ich stan przez ostatnie dni, a dzisiejszy trening potwierdził gotowość piłkarzy do rywalizacji.</p><p>Choć klub nie podał jeszcze ostatecznej decyzji dotyczącej ich występu od pierwszej minuty, obecność zawodników na boisku treningowym jest sygnałem, że wracają oni do pełnej dyspozycji po przebytych urazach.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY3I0TmpiVzBqN212U04tTU11c21BUjQzY3JaSDh5dmI2UnFYaUNpZ1lVMUdzM3V2aUdJMU5GSngyMGduMGh0MldncHdPSFI1UzhpbEplUXRPeWdLSEF4a0pSY2Jsdk9KUmxENDRfelpORF9kSVU2X3FHUTk0aWx2bkpqTllLWUI1WjZZ?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "20.11 • 17:29",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Viddal_Riley_at_training.jpg/1280px-Viddal_Riley_at_training.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Cheavon Clarke po nokaucie na Billam-Smithu: Zawsze byłem światowej klasy",
+    "summary": "Cheavon Clarke odniósł spektakularne zwycięstwo nad byłym mistrzem świata Chrisem Billam-Smithem, udowadniając swoją przynależność do ścisłej czołówki kategorii junior ciężkiej.",
+    "content": "<p>Podczas gali w Copper Box Arena, Cheavon Clarke dokonał wyczynu, który nikomu wcześniej się nie udał – dwukrotnie posłał Chrisa Billam-Smitha na deski, ostatecznie kończąc walkę przed czasem.</p><p>Clarke podkreślił w rozmowie ze Sky Sports, że jego dominacja nie była przypadkiem, a jedynie potwierdzeniem umiejętności, które posiadał od dawna, czekając jedynie na odpowiednią szansę.</p><p>Zwycięzca skomentował postawę swojego rywala, zauważając, że mimo ogromnej twardości charakteru Billam-Smitha, w boksie przychodzi moment, w którym odporność przestaje wystarczać do wygrywania.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/boxing/news/12040/13614327/cheavon-clarke-ive-always-been-world-class-i-was-just-waiting-for-the-world-to-catch-up-and-see-it' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "SA",
     "badge": "Serie A",
     "badgeColor": "bg-sky-600",
@@ -274,29 +298,5 @@
     "title": "Szkocka Premiership wraca do gry: Celtic pod presją, debiut Fricka w Aberdeen",
     "summary": "Po przerwie reprezentacyjnej wraca walka o mistrzostwo Szkocji. Celtic musi uważać na Rangersów, a Mario Frick rozpoczyna misję ratunkową w Aberdeen.",
     "content": "<p>Szkocka ekstraklasa wznawia rozgrywki po przerwie na mecze kadr narodowych. Celtic znajduje się w kluczowym momencie sezonu, w którym każda strata punktów może pozwolić Rangersom na zniwelowanie przewagi w tabeli i zaostrzenie rywalizacji o tytuł.</p><p>Ważnym wydarzeniem jest debiut Mario Fricka na ławce trenerskiej Aberdeen. Nowy szkoleniowiec otrzymał zadanie poprawy fatalnych wyników zespołu, który w tej kolejce zmierzy się na wyjeździe z Kilmarnock.</p><p>Rangersi, będący na fali dziesięciu zwycięstw w ostatnich dwunastu spotkaniach, udadzą się na mecz z Motherwell. Trener Derek McInnes podkreśla, że po przerwie reprezentacyjnej największym wyzwaniem jest ponowne zgranie zawodników, którzy trenowali w różnych warunkach.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/12040/13614280/scottish-premiership-derek-mcinnes-rangers-on-sky-celtic-lead-the-way-as-aberdeen-begin-mario-frick-era' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "20.11 • 10:45",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/2025-09-08_Fu%C3%9Fball%2C_Frauen-Bundesliga%2C_FC_Carl_Zeiss_Jena_-_TSG_1899_Hoffenheim_STP_6486.jpg/1280px-2025-09-08_Fu%C3%9Fball%2C_Frauen-Bundesliga%2C_FC_Carl_Zeiss_Jena_-_TSG_1899_Hoffenheim_STP_6486.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "imgCredit": "Fot. Steffen Prößdorf (CC BY-SA 4.0)",
-    "title": "Brak szczegółowych danych: Mecz TSG 1899 Hoffenheim kontra FC Schalke 04",
-    "summary": "Dostępne źródło informacji ogranicza się jedynie do potwierdzenia faktu odbycia się spotkania Bundesligi pomiędzy TSG 1899 Hoffenheim a FC Schalke 04.",
-    "content": "<p>Dostępne materiały źródłowe w serwisie Reuters Connect odnoszą się wyłącznie do kwestii licencyjnych fotografii wykonanych podczas meczu niemieckiej Bundesligi.</p><p>W udostępnionym opisie brakuje jakichkolwiek informacji dotyczących przebiegu rywalizacji, wyniku końcowego czy też sytuacji kadrowych w obu zespołach.</p><p>Portal PITCH ZONE nie jest w stanie dostarczyć szczegółowej analizy sportowej ze względu na brak merytorycznej treści w dostarczonym materiale źródłowym.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNFdFakNHOE1xQ2wyamltOTFTWmNtUUF1MkZJWjhPRmFvbHRiNVVBR1RpQ2tBRG1faGhxTk1fdlhQcTdiMXBnS2M1OTFZVlBjWVVqQzFfT3QxSlBxUW9xZVlfc1ZleFpwZWVTTW5MQUN2M05iOGZLMDBBY0tLWmdNcFoydXRhYmVfaUdRZDhXdVhrdEZkZEs0alJXX1AtSzJTR2ZJaEs3a2hCN0tseUpYOHM1bjVZVG9pWEtyTWJzOFdTYU1Eb3ctTkM0MkxEM3JFWjkyR3gwRnh5WDhHNVZuVg?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "20.11 • 10:45",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg/1280px-Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "PSV Eindhoven odrzuca ofertę Napoli za młodego talentu",
-    "summary": "PSV Eindhoven stanowczo odpowiedziało na propozycję Napoli dotyczącą transferu ich zawodnika, którego media nazywają „następcą De Bruyne”.",
-    "content": "<p>Włoskie Napoli złożyło oficjalną ofertę opiewającą na 7 milionów euro za utalentowanego piłkarza PSV Eindhoven. Klub z Serie A liczył na szybkie domknięcie transakcji, jednak propozycja została odrzucona przez holenderski zespół.</p><p>Władze PSV uznały, że kwota 7 milionów euro jest zdecydowanie zbyt niska w stosunku do potencjału zawodnika, który w mediach jest określany mianem „nowego Kevina De Bruyne”. Holendrzy nie zamierzają wyprzedawać swoich kluczowych talentów za bezcen.</p><p>Mimo zainteresowania ze strony Napoli, PSV zamierza zatrzymać gracza w swoich szeregach, wierząc w jego dalszy rozwój w Eredivisie. Obecnie nie trwają żadne zaawansowane negocjacje, które mogłyby zmienić stanowisko klubu z Eindhoven.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMihAFBVV95cUxNX2hEUGJIRjAtV0trSnhrdVNXLTBna2w4X3V2Q082dUl3a0RmeDFZQmNiQ0ZBY25xRlJvb2xDRS1UdXZnZnRaSmxOczJabHg1SEZHQXdFVXV6ZThmQ0lpd1dQSUxnYUFnazdHNGotZVpVb0Y2RVFUS0pydndra1pLVHF1cUs?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
