@@ -1,5 +1,41 @@
 [
   {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "20.11 • 19:44",
+    "source": "Na podstawie: Bulinews",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Lars_Kehl.jpg/1280px-Lars_Kehl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imgCredit": "Fot. Fotowallenstein (CC0)",
+    "title": "Darmstadt przełamuje niemoc: dublet Kehla pogrąża Heidenheim",
+    "summary": "Darmstadt odniosło ważne zwycięstwo nad Heidenheim, opuszczając strefę spadkową 2. Bundesligi. Bohaterem meczu został Lars Kehl, który zdobył dwie bramki dla gospodarzy.",
+    "content": "<p>Spotkanie rozpoczęło się od szybkiego prowadzenia gości, gdy Budu Zivzivadze dobił strzał Mikkela Kaufmanna. W bramce Darmstadt, z powodu kontuzji Marcela Schuhena, wystąpił Alexander Brunst, który mimo puszczonego gola zaliczył kilka udanych interwencji.</p><p>Darmstadt odpowiedziało jeszcze przed przerwą. Najpierw wyrównał Lars Kehl po zespołowej akcji, a chwilę później prowadzenie gospodarzom dał Aleksandar Vukotić, wykorzystując dośrodkowanie Marco Richtera z rzutu rożnego.</p><p>W drugiej połowie dominację gospodarzy przypieczętował ponownie Kehl, który wykorzystał długie podanie od bramkarza i ustalił wynik na 3:1. Dla podopiecznych Franka Schmidta to już siódmy mecz z rzędu bez zwycięstwa w lidze.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/2-bundesliga-kehl-brace-lifts-darmstadt-out-the-drop-zone-win-over-sinking-heidenheim' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "20.11 • 19:44",
+    "source": "Na podstawie: Football Italia",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Nick_Woltemade_Ecuador_v_Germany_25_June_2026-069.jpg/1280px-Nick_Woltemade_Ecuador_v_Germany_25_June_2026-069.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Juventus planuje wykup Woltemade. Conceicao może trafić do Newcastle",
+    "summary": "Juventus chce zatrzymać Nicka Woltemade na stałe po udanym wypożyczeniu. Aby sfinansować transfer, klub rozważa sprzedaż Francisco Conceicao, być może w ramach wymiany z Newcastle United.",
+    "content": "<p>Nick Woltemade trafił do Turynu w ostatnim dniu okienka transferowego na roczne wypożyczenie z Newcastle United, kosztujące 3,6 mln euro. Niemiecki napastnik szybko przekonał do siebie sztab szkoleniowy, notując cztery bramki i dwie asysty w 13 występach we wszystkich rozgrywkach, dobrze współpracując z Randalem Kolo Muanim.</p><p>Władze Juventusu planują wykupić 24-latka, jednak negocjacje z angielskim klubem będą trudne, gdyż Newcastle zapłaciło za niego aż 75 mln euro w 2025 roku. Włosi liczą na wynegocjowanie przedłużonego wypożyczenia z opcją wykupu po niższej cenie w czerwcu 2028 roku.</p><p>Kluczem do pozyskania środków na ten ruch może być sprzedaż Francisco Conceicao. Portugalczyk jest wyceniany na ponad 40 mln euro, a media sugerują, że mógłby zostać włączony do transakcji z Newcastle jako element rozliczenia za niemieckiego napastnika.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/report-juventus-want-woltemade-stay-conceicao/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "EKS",
+    "badge": "Ekstraklasa",
+    "badgeColor": "bg-rose-600",
+    "time": "20.11 • 19:44",
+    "source": "Na podstawie: Weszło",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Na_zdj%C4%99ciu_Daniel_My%C5%9Bliwiec_%28matiosporcie.pl%29_%28cropped%29.jpg/1280px-Na_zdj%C4%99ciu_Daniel_My%C5%9Bliwiec_%28matiosporcie.pl%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Piast Gliwice wchodzi na podium. Korona Kielce w głębokim kryzysie",
+    "summary": "Piast Gliwice pod wodzą Daniela Myśliwca pokonał Koronę Kielce i awansował na ligowe podium. Dla kielczan to trzecia porażka z rzędu, która stawia pozycję trenera Kolendowicza pod znakiem zapytania.",
+    "content": "<p>Piast Gliwice kontynuuje świetną passę, wygrywając z Koroną Kielce i wskakując na trzecie miejsce w tabeli Ekstraklasy. Drużyna Daniela Myśliwca w ostatnich jedenastu spotkaniach przegrała zaledwie raz, co potwierdza, że gliwiczanie na dobre zadomowili się w czołówce ligi.</p><p>Kluczowe dla losów meczu okazały się błędy Kamila Jakubczyka, który był zamieszany w utratę obu bramek. Najpierw po jego interwencji doszło do zagrania ręką Konrada Matuszewskiego w polu karnym, co wykorzystał Andreas Katsantonis, a później Jakubczyk stracił piłkę, co otworzyło drogę do podwyższenia prowadzenia.</p><p>Sytuacja Korony Kielce staje się coraz trudniejsza – podopieczni Roberta Kolendowicza przegrali trzy mecze z rzędu i pięć z ostatnich sześciu. Mimo wejścia na boisko Camilo Meny, który zastąpił kontuzjowanego Wiktora Długosza, kielczanie nie potrafili przełamać defensywy Piasta i skutecznie zagrozić bramce Domena Grila.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/biedny-piast-gliwice-wygral-z-bogata-korona-kielce-druzyna-mysliwca-jest-niesamowita' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "LL",
     "badge": "La Liga",
     "badgeColor": "bg-red-600",
@@ -454,30 +490,6 @@
     "title": "Eksperci typują faworytów: Miami Magic głównym kandydatem do wygranej w Newbury",
     "summary": "Eksperci programu Weekend Winners wytypowali swoich faworytów na nadchodzące miesiące sezonu wyścigów konnych, wskazując m.in. Miami Magic jako mocnego kandydata do Coral Gold Cup.",
     "content": "<p>W najnowszym odcinku programu Weekend Winners, prowadząca Kate Tracey oraz eksperci Declan Rix i Sam Boswell przeanalizowali nadchodzące wyścigi. Głównym punktem dyskusji był zbliżający się Coral Gold Cup w Newbury, gdzie za faworyta uznano konia o imieniu Miami Magic.</p><p>Zdaniem ekspertów, Miami Magic idealnie wpisuje się w profil uczestnika Coral Gold Cup jako koń startujący w gonitwach typu steeplechase drugi sezon. Po udanym występie w kwalifikacjach Pertemps w zeszłym miesiącu, zawodnik ten jest uważany za dobrze przygotowanego do walki o zwycięstwo.</p><p>Wśród innych typów wymieniono King Turgeon, który po operacji dróg oddechowych i powrocie do formy w stajni Davida Pipe'a ma powalczyć w Becher Chase. Z kolei w kontekście King George VI na Boxing Day, eksperci wskazują na Kitzbuhel, który dobrze radzi sobie na torze w Kempton.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/racing/news/12040/13614284/racing-tips-miami-magic-fancied-for-newbury-gold-as-ante-post-selections-revealed-on-weekend-winners' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "20.11 • 14:17",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg/1280px-Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Debiut Pochettino w Manchesterze United: drony, przecieki i hit z Liverpoolem",
-    "summary": "Mauricio Pochettino po raz pierwszy spotka się z mediami jako trener Manchesteru United. Argentyńczyk musi odnieść się do incydentu z dronem oraz przygotowań do starcia z Liverpoolem.",
-    "content": "<p>Mauricio Pochettino oficjalnie rozpoczyna swoją przygodę w Manchesterze United od piątkowej konferencji prasowej. Głównym tematem spotkania z dziennikarzami będzie incydent z drona, który nielegalnie sfilmował zamknięty trening drużyny w ośrodku Carrington.</p><p>Autor nagrania przyznał się do błędu i usunął materiał z serwisu YouTube, jednak 12-minutowe wideo wciąż krąży w mediach społecznościowych. Pochettino prawdopodobnie zostanie zapytany o to, jak to naruszenie prywatności wpłynęło na przygotowania do jego debiutu.</p><p>Kibice czekają również na wieści o stanie zdrowia zawodników przed niedzielnym hitem na Anfield. Pod znakiem zapytania stoi dyspozycyjność Harry'ego Maguire'a, który zmaga się z urazem pleców, a sztab medyczny monitoruje także powrót do formy Luke'a Shawa i Marcusa Rashforda.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/12040/13614295/mauricio-pochettinos-first-manchester-united-press-conference-watch-live-stream-on-sky-sports-as-new-head-coach-faces-media' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "20.11 • 12:46",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Thomas_Tuchel_England_v_Ghana_23_June_2026-081.jpg/1280px-Thomas_Tuchel_England_v_Ghana_23_June_2026-081.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Bayern Monachium podejmuje FC Köln: Zapowiedź starcia w Bundeslidze",
-    "summary": "Bayern Monachium zmierzy się na własnym stadionie z FC Köln w ramach kolejnej serii gier Bundesligi, walcząc o umocnienie swojej pozycji w tabeli.",
-    "content": "<p>Nadchodzące starcie na Allianz Arena budzi spore emocje, choć faworyt spotkania wydaje się być oczywisty. Bayern Monachium, pod wodzą Thomasa Tuchela, przystępuje do meczu z zamiarem zdobycia kompletu punktów, aby utrzymać presję na liderach ligowej stawki.</p><p>Drużyna FC Köln przyjeżdża do Monachium w trudnej sytuacji kadrowej, desperacko potrzebując punktów w walce o utrzymanie. Goście muszą wznieść się na wyżyny swoich umiejętności, aby przeciwstawić się ofensywnej sile Bawarczyków na ich terenie.</p><p>Eksperci oraz bukmacherzy wskazują na zdecydowaną przewagę gospodarzy, prognozując pewne zwycięstwo Bayernu. Kluczowym czynnikiem dla losów spotkania będzie skuteczność monachijskich napastników oraz dyscyplina taktyczna przyjezdnych w defensywie.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMiwwFBVV95cUxPS3c2NjJBVlA5SU1ZOFpYTGRxQ2U3VXRlS3dFNnJjYlBzMVIxUVpjOHZqbWl4RkZockNPSFpGOGQ0YlBsTnlfRUMxcEZoU2JxVE5ab3JQV01vTWhGMGNUSEcwSmE5MW03SDBQdl9yWXItLVFmTXJwX0czNmhWOC1FYTNGVVJVdnBLNWlHNmg2VDBwNUJiV0o3QTRoQXhqN2p4OGhFZFpqRjBQSm8zdlY3ZGEtRkJYRUNnWXAxcU0yMDlZY2s?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
     "category": "OTHER",
