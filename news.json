@@ -1,5 +1,77 @@
 [
   {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "20.11 • 07:35",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Center_Strip_Before_Sunrise.jpg/1280px-Center_Strip_Before_Sunrise.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "PPL MGM Las Vegas: Relacja z drugiego dnia zmagań na żywo",
+    "summary": "Platforma DAZN prowadzi transmisję na żywo z drugiego dnia turnieju PPL MGM w Las Vegas, umożliwiając kibicom śledzenie rywalizacji w czasie rzeczywistym.",
+    "content": "<p>W Las Vegas trwa kolejna faza prestiżowego turnieju PPL MGM. Wydarzenie przyciąga uwagę fanów sportu, a organizatorzy udostępnili pierwszą sesję drugiego dnia zmagań za pośrednictwem platformy streamingowej DAZN.</p><p>Widzowie mają możliwość śledzenia przebiegu rywalizacji na żywo, korzystając z oficjalnego przekazu. Platforma zachęca nowych użytkowników do rejestracji, aby uzyskać dostęp do pełnej relacji z tego wydarzenia.</p><p>Turniej w Las Vegas stanowi istotny punkt w kalendarzu rozgrywek, gromadząc czołowych uczestników walczących o końcowy triumf. Transmisja obejmuje szczegółowe relacje z poszczególnych sesji meczowych.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYmdnd000eksyb1FpNTlHNkhFZ2pjekJWM2FZN0o1S0piV3RkR3RFeU9PNFk5ZkczSkg1TDI3NW5lWTVaWFdkSXNxa3JWWDc1UUk5b3M0TjZQYWx5Q0lONXVZbUtwQlpOeC0xSm4taUVfc3A0VGF3LXZ4YXEtcWU3U1NZUUtTTGUxQzJR?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "20.11 • 07:35",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/2022_Hansi_Flick_%28cropped%29.jpg/1280px-2022_Hansi_Flick_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Barcelona szuka wzmocnień w obronie: oto 5 kandydatów na styczeń",
+    "summary": "W obliczu problemów kadrowych w defensywie, FC Barcelona aktywnie poszukuje nowego środkowego obrońcy, który zasili szeregi klubu podczas zimowego okna transferowego.",
+    "content": "<p>Klub z Katalonii zmaga się z poważnymi kłopotami w formacji defensywnej, co zmusiło sztab szkoleniowy do sporządzenia listy potencjalnych celów transferowych. Priorytetem jest pozyskanie zawodnika, który zapewni stabilizację i odpowiednią jakość w kluczowej fazie sezonu.</p><p>Na liście życzeń Barcy znalazło się pięciu środkowych obrońców, których profile najlepiej wpisują się w taktyczne wymagania Hansiego Flicka. Zarząd klubu analizuje zarówno opcje budżetowe, jak i piłkarzy o uznanej marce, by załatać luki powstałe w wyniku kontuzji.</p><p>Decyzja o finalnym wyborze będzie zależeć od dostępności finansowej klubu oraz zgody na warunki kontraktowe potencjalnych kandydatów. Barcelona chce zamknąć temat transferu na początku stycznia, aby nowy nabytek mógł jak najszybciej wdrożyć się w system gry drużyny.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMikAFBVV95cUxQVG9iTnpTc1E1Q3c4Qk9raGVwbUd6S19FVHMzOGdsNVJHYm1Kdks3RnZ0ajljckNBRmRQVjVnOFh6ZDJkQzZsbV9pbDFwejVEemxxcUMtcDUwMmRUNThXa2pMWFhfQ21SaGRKc1ZQRzRmbjVkSVRoRkVVWmtLUTNhSTRPRU1fTFRxa21YLWN2czQ?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "20.11 • 07:35",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Equip_del_Val%C3%A8ncia_Club_de_Futbol_Mestalla_%28Alginet%2C_Pa%C3%ADs_Valenci%C3%A0%2C_1958%29.jpg/1280px-Equip_del_Val%C3%A8ncia_Club_de_Futbol_Mestalla_%28Alginet%2C_Pa%C3%ADs_Valenci%C3%A0%2C_1958%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imgCredit": "Fot. Ismael Latorre Mendoza (CC BY-SA 3.0)",
+    "title": "Valencia zainteresowana sprowadzeniem piłkarza Barcelony",
+    "summary": "Valencia CF rozważa transfer zawodnika wypożyczonego obecnie z FC Barcelony, który wyraził chęć powrotu do hiszpańskiej La Liga.",
+    "content": "<p>Władze Valencii aktywnie sondują rynek w poszukiwaniu wzmocnień ofensywnych. Głównym celem klubu stał się piłkarz, który aktualnie przebywa na wypożyczeniu z FC Barcelony, a jego sytuacja kontraktowa pozwala na podjęcie negocjacji w najbliższym oknie transferowym.</p><p>Sam zawodnik jest zdeterminowany, aby opuścić swój obecny klub i wrócić do gry w Hiszpanii. Według doniesień, priorytetem gracza jest znalezienie stabilnego miejsca w składzie drużyny z La Liga, co Valencia jest w stanie mu zagwarantować.</p><p>Choć szczegóły finansowe potencjalnej transakcji nie zostały jeszcze ujawnione, obie strony wykazują otwartość na rozmowy. Valencia liczy na to, że dobre relacje z Barceloną oraz chęć piłkarza do zmiany otoczenia przyspieszą finalizację operacji.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMikwFBVV95cUxNN2Y0YnpuY3N6ZU0xRUZWYkktRmhyV0F6NXVkNVdXU2xGMG1KREhsQXdmeUxpRm9MUi1LXzd1eGo1d0J1b0hmNEdpYzhzSnRCT3l3M1RjTm9meUdNMzFLcl82dUpzOWFwS3otLW5LcDR5OFVNM21KNjZSemJlZlRtaEJYTEQxcWtnVTB4XzAyREt3Z1U?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "20.11 • 07:35",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/f/fd/CJ_Stroud_NFL_Combine_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Przełamanie Texans: CJ Stroud prowadzi Houston do pierwszego domowego zwycięstwa",
+    "summary": "Houston Texans odnieśli pierwsze w tym sezonie zwycięstwo na własnym stadionie, pewnie pokonując Indianapolis Colts 26:3 dzięki świetnej postawie rozgrywającego CJ Strouda.",
+    "content": "<p>CJ Stroud był głównym architektem sukcesu Texans, notując 194 jardy oraz trzy podania na przyłożenie. Młody rozgrywający bezlitośnie wykorzystał osłabienia w defensywie rywali, którzy musieli radzić sobie bez kontuzjowanych podstawowych cornerbacków, Sauce'a Gardnera oraz Charvariusa Warda.</p><p>Dla drużyny z Houston było to niezwykle ważne przełamanie, gdyż po czterech porażkach z rzędu na własnym obiekcie w końcu udało im się wygrać przed własną publicznością. Mecz rozgrywany przy otwartym dachu na Reliant Stadium zakończył się wynikiem 26:3, co pozwoliło zespołowi szybko zapomnieć o niedawnej przegranej z Cleveland.</p><p>Trener DeMeco Ryans nie szczędził pochwał swojemu podopiecznemu, podkreślając, że obecna forma Strouda to efekt ciężkiej pracy wykonanej w okresie przygotowawczym. Sam zawodnik przyznał po meczu, że liczy na to, iż to zwycięstwo stanie się punktem zwrotnym i początkiem dłuższej serii wygranych dla całego zespołu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/nfl/news/12040/13614247/nfl-cj-stroud-stars-as-houston-texans-finally-win-at-home-this-season-with-26-3-defeat-of-indianapolis-colts' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "20.11 • 07:34",
+    "source": "Na podstawie: BBC Sport",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Sweden-Slovenia_Nations_League_2022-09-27_17_Kulusevski_%28cropped%29.jpg/1280px-Sweden-Slovenia_Nations_League_2022-09-27_17_Kulusevski_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Koszmar kontuzji: Kulusevski i Finnigan o walce z samotnością i myślach o końcu kariery",
+    "summary": "Dejan Kulusevski i Megan Finnigan szczerze opowiedzieli o psychicznych skutkach długich przerw od futbolu spowodowanych poważnymi urazami.",
+    "content": "<p>Dejan Kulusevski, gwiazdor Tottenhamu, przeszedł przez niezwykle trudny okres po tym, jak poważna kontuzja kolana wykluczyła go z gry na ponad rok. Zawodnik przyznał, że w pewnym momencie był tak załamany, iż rozważał całkowite zakończenie kariery, dzieląc się swoimi obawami z matką.</p><p>Podczas nieobecności Szweda w Tottenhamie doszło do ogromnych przetasowań kadrowych. Klub zdążył wygrać Ligę Europy, zwolnić Ange Postecoglou, Thomasa Franka oraz Igora Tudora, a stery w drużynie przejął Roberto de Zerbi. Kulusevski opuścił w tym czasie m.in. mundial w 2026 roku.</p><p>Z podobnymi wyzwaniami zmagała się kapitan Evertonu, Megan Finnigan. Po 602 dniach przerwy spowodowanej zerwaniem więzadeł krzyżowych, 28-latka otwarcie przyznała, że podczas żmudnej rehabilitacji wielokrotnie myślała o przejściu na sportową emeryturę z powodu izolacji i frustracji.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/articles/cqvg27m9xp1xo?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "20.11 • 07:34",
+    "source": "Na podstawie: BBC Sport",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/2/24/Mikey_Moore_with_a_fan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Mikey Moore marzy o koszulce Harry'ego Kane'a po meczu z Bayernem",
+    "summary": "Wypożyczony z Tottenhamu do FC Köln Mikey Moore liczy na wymianę koszulek z Harrym Kane'em po piątkowym starciu w Bundeslidze.",
+    "content": "<p>Mikey Moore, 19-letni reprezentant Anglii U-21, obecnie ogrywa się na wypożyczeniu w FC Köln. Młody zawodnik, który zapisał się w historii Tottenhamu jako najmłodszy debiutant w Premier League, stanie w piątek przed szansą rywalizacji z legendą swojego macierzystego klubu.</p><p>Mimo że obaj piłkarze minęli się w szatni Spurs, Moore od lat wskazuje Kane'a jako swojego idola. Młody gracz wspomina, że podczas pierwszych treningów z pierwszą drużyną pod wodzą Antonio Conte był pod ogromnym wrażeniem skuteczności kapitana reprezentacji Anglii.</p><p>Choć piłkarze nie mieli jeszcze okazji lepiej się poznać, Moore krótko przywitał się z gwiazdorem Bayernu podczas ostatniego zgrupowania kadry. Teraz 19-latek otwarcie przyznaje, że po końcowym gwizdku piątkowego meczu zrobi wszystko, aby zdobyć pamiątkową koszulkę swojego idola.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/articles/cq0k65pyp4jvo?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "BL",
     "badge": "Bundesliga",
     "badgeColor": "bg-amber-600",
@@ -226,77 +298,5 @@
     "title": "Arsenal kontra Lyon w Lidze Mistrzyń: Kluczowe informacje przed hitem",
     "summary": "Arsenal podejmuje Lyon w ramach fazy grupowej Ligi Mistrzyń UEFA. Obie drużyny przystępują do tego prestiżowego starcia z jasnym celem zdobycia kompletu punktów.",
     "content": "<p>W dzisiejszym spotkaniu Ligi Mistrzyń kobiet Arsenal zmierzy się na własnym stadionie z francuskim Olympique Lyon. To starcie jest jednym z najważniejszych wydarzeń w kalendarzu fazy grupowej, przyciągającym uwagę kibiców z całej Europy.</p><p>Sztaby szkoleniowe obu zespołów do ostatniej chwili monitorowały stan zdrowia swoich zawodniczek. W składach drużyn nie zabraknie największych gwiazd kobiecego futbolu, które mają za zadanie przechylić szalę zwycięstwa na stronę swojego klubu.</p><p>Mecz ten ma ogromne znaczenie dla układu tabeli w grupie. Zarówno Arsenal, jak i Lyon dążą do zapewnienia sobie awansu do kolejnej fazy rozgrywek, co sprawia, że każda bramka i każdy punkt są na wagę złota.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/arsenal-women-vs-olympiques-lyon-women/live/578272' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "LL",
-    "badge": "La Liga",
-    "badgeColor": "bg-red-600",
-    "time": "19.11 • 18:40",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Real_Madrid_Club_de_F%C3%BAtbol_league_performance_1929-present.svg/1280px-Real_Madrid_Club_de_F%C3%BAtbol_league_performance_1929-present.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "imgCredit": "Fot. Ghost456 (CC BY-SA 4.0)",
-    "title": "Real Madryt kontynuuje politykę przedłużeń: kolejna ważna umowa w 24 godziny",
-    "summary": "Królewscy nie zwalniają tempa w budowaniu kadry na przyszłość, oficjalnie potwierdzając drugie przedłużenie kontraktu w ciągu zaledwie doby.",
-    "content": "<p>Włodarze Realu Madryt podjęli decyzję o zabezpieczeniu przyszłości kolejnego zawodnika, co stanowi drugą taką operację w klubie w przeciągu ostatnich 24 godzin. Zarząd konsekwentnie realizuje strategię stabilizacji składu, przedłużając umowy z kluczowymi postaciami zespołu.</p><p>Choć nazwisko piłkarza nie zostało jeszcze szerzej skomentowane w kontekście długości nowej umowy, ruch ten jest wyraźnym sygnałem ze strony Florentino Péreza. Klub dąży do uniknięcia sytuacji, w których kontrakty zawodników wygasają w sposób niekontrolowany.</p><p>Działania te wpisują się w szerszy plan przebudowy i wzmacniania drużyny prowadzonej przez Carlo Ancelottiego. Real Madryt stawia na długofalową współpracę z graczami, którzy mają stanowić o sile zespołu w nadchodzących sezonach.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMiigFBVV95cUxOLWxZdlI0SWx5OGplTzlQRXZnYk5XdVltTTFaRlM4dG1vOFVSeDZlajdCRnJuVlZsRkN6MExvZERZWWF2QjZtMkhJMldCVXZrTjgtZVBjdjJHZ2FGbk1BQVpwZG81S0hYMzl3cm5BUTNqZ3k5NUgyQnZzem4zTzlKd2R2YUpSbHBJd2c?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "19.11 • 18:39",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/2026-03-26_Premier_League_Darts_%E2%80%93_Night_8_%E2%80%93_Berlin_2026_by_Sandro_Halank%E2%80%93049.jpg/1280px-2026-03-26_Premier_League_Darts_%E2%80%93_Night_8_%E2%80%93_Berlin_2026_by_Sandro_Halank%E2%80%93049.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Grand Slam of Darts: Emocje w Wolverhampton. Faworyci walczą o ćwierćfinał",
-    "summary": "W Wolverhampton trwa faza pucharowa Grand Slam of Darts. Luke Humphries, Nathan Aspinall oraz Michael van Gerwen rywalizują o awans do najlepszej ósemki turnieju.",
-    "content": "<p>W Wolverhampton rozpoczęła się decydująca faza turnieju Grand Slam of Darts. Najlepsi darterzy świata rywalizują w formacie pucharowym o miejsce w ćwierćfinałach prestiżowej imprezy.</p><p>Na scenie pojawili się główni faworyci zawodów, w tym mistrz świata Luke Humphries, a także utytułowani Nathan Aspinall oraz Michael van Gerwen, którzy mierzą się w fazie ostatnich 16 zawodników.</p><p>Organizatorzy zapewniają szczegółową relację leg po legu z każdego pojedynku, a kibice mają możliwość śledzenia zmagań na żywo za pośrednictwem transmisji telewizyjnych i internetowych.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/darts/live-blog/12040/13613976/grand-slam-of-darts-commentary-updates-scores-analysis-with-luke-humphries-michael-van-gerwen-nathan-aspinall-in-action' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "19.11 • 17:39",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Fabian_H%C3%BCrzeler_24012026_%288%29.jpg/1280px-Fabian_H%C3%BCrzeler_24012026_%288%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Tony Bloom ucina spekulacje: Fabian Hürzeler zostaje w Brighton na lata",
-    "summary": "Właściciel Brighton, Tony Bloom, zapewnił, że Fabian Hürzeler pozostanie trenerem klubu na długi czas, dementując plotki o możliwym odejściu szkoleniowca.",
-    "content": "<p>Tony Bloom, właściciel Brighton & Hove Albion, publicznie odniósł się do przyszłości Fabiana Hürzelera. Właściciel Mew podkreślił, że niemiecki szkoleniowiec jest kluczową postacią długofalowego projektu klubu i nie ma mowy o jego rychłym odejściu.</p><p>Hürzeler, który objął stery w Brighton przed rozpoczęciem obecnego sezonu, szybko zyskał uznanie za swój styl gry i wyniki osiągane w Premier League. Bloom zaznaczył, że zarząd jest w pełni zadowolony z pracy, jaką wykonuje młody trener.</p><p>Wypowiedź Blooma ma na celu wyciszenie medialnych spekulacji, które często pojawiają się wokół utalentowanych menedżerów pracujących na angielskich boiskach. Właściciel Brighton jasno zadeklarował, że klub wiąże z Hürzelerem plany na wiele kolejnych sezonów.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/live-blog/12040/13279295/brighton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "19.11 • 17:39",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Thomas_frank_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "imgCredit": "Fot. Larry D. Moore (CC BY 4.0)",
-    "title": "Thomas Frank tajemniczo o sytuacji w Brentford: Znamy tylko ułamek prawdy",
-    "summary": "Menedżer Brentford, Thomas Frank, zaskoczył opinię publiczną stwierdzeniem, że media i kibice nie znają pełnego obrazu problemów kadrowych jego zespołu przed meczem z Tottenhamem.",
-    "content": "<p>Przed nadchodzącym starciem z Tottenhamem Hotspur, Thomas Frank odniósł się do licznych spekulacji dotyczących stanu zdrowia swoich zawodników. Menedżer Brentford zasugerował, że sytuacja w szatni jest znacznie bardziej złożona, niż wynika to z publicznych komunikatów.</p><p>Duński szkoleniowiec stwierdził wymownie, że opinia publiczna posiada wiedzę jedynie o dziesiątej części prawdy dotyczącej problemów, z jakimi boryka się obecnie jego drużyna. Frank nie chciał jednak zdradzić szczegółów, utrzymując aurę tajemnicy wokół przygotowań do spotkania.</p><p>Wypowiedź ta wywołała falę domysłów w angielskich mediach, które próbują ustalić, czy chodzi o poważniejsze kontuzje kluczowych graczy, czy może o kwestie dyscyplinarne. Brentford pod wodzą Franka słynie z dobrej organizacji, więc tak zagadkowe podejście do tematu kadry jest sporym zaskoczeniem.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/live-blog/12040/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "19.11 • 16:39",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Stadio_Meazza_2021_3.jpg/1280px-Stadio_Meazza_2021_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "AC Milan kontra Fiorentina: ruszyła sprzedaż biletów na hit 18. kolejki Serie A",
-    "summary": "Klub AC Milan uruchomił oficjalną sprzedaż wejściówek na nadchodzące starcie z Fiorentiną, które odbędzie się na stadionie San Siro w ramach 18. kolejki sezonu 2026/2027.",
-    "content": "<p>Kibice Rossonerich mogą już nabywać bilety na prestiżowe spotkanie ligowe przeciwko Fiorentinie. Mecz został zaplanowany jako jedno z kluczowych wydarzeń 18. serii gier włoskiej ekstraklasy.</p><p>Rywalizacja odbędzie się na legendarnym obiekcie San Siro, który niezmiennie stanowi twierdzę mediolańskiego zespołu. Klub zachęca fanów do szybkiego zakupu, aby zapewnić sobie miejsce na trybunach.</p><p>Szczegółowe informacje dotyczące dostępności sektorów oraz procedur zakupu są dostępne za pośrednictwem oficjalnego serwisu internetowego AC Milan, który prowadzi dystrybucję wejściówek.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMirAFBVV95cUxOQVR6UFlscHkyamN3Unp4Zm1tQlgzRnBZRW5zZXZ4RE1rRnNRdENZOUJneFMwbXlHT3R1X21fRkpveUcydkpPOVM3aFVWRW1kSjZ6N0ZISUJoN095cWNzcWZVUHRreGZZZjliQWRjS2RDaW1ydXFDYlhTcFdLRHpQQXE3QkJRV1RFX0FkMWVSTnFYMTBWT2UyOGV6YnQwQlFWbU1DbElqTXE3RVpa?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "LL",
-    "badge": "La Liga",
-    "badgeColor": "bg-red-600",
-    "time": "19.11 • 16:39",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1280px-FC_Barcelona_%28crest%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Barcelona przed trudnym testem: Villarreal to niewygodny rywal na Montjuïc",
-    "summary": "FC Barcelona z respektem podchodzi do nadchodzącego starcia z Villarrealem, pamiętając o fatalnej passie trzech porażek w ostatnich pięciu meczach domowych z tym przeciwnikiem.",
-    "content": "<p>Nadchodzące spotkanie na stadionie olimpijskim w Barcelonie budzi spore emocje, głównie ze względu na historyczne problemy Dumy Katalonii w rywalizacji z Żółtą Łodzią Podwodną. Statystyki pokazują, że Villarreal potrafi regularnie wywozić punkty z terenu Barcelony, co czyni ich jednym z najbardziej niewygodnych rywali dla gospodarzy w ostatnich latach.</p><p>Sztab szkoleniowy Barcelony podkreśla, że zespół musi zachować pełną koncentrację, aby przełamać negatywny trend. Mimo że Blaugrana przystępuje do meczu z pozycji faworyta, trzy przegrane w pięciu ostatnich bezpośrednich starciach na własnym obiekcie stanowią wyraźne ostrzeżenie przed lekceważeniem przyjezdnych.</p><p>Kluczem do sukcesu dla gospodarzy będzie poprawa defensywy, która w poprzednich konfrontacjach z Villarrealem często nie potrafiła poradzić sobie z szybką grą z kontrataku. Trenerzy obu drużyn spodziewają się otwartego widowiska, w którym każdy błąd może zadecydować o końcowym wyniku i układzie w tabeli ligowej.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMikAFBVV95cUxQazFMQ1RvSjk0X1hKOEwyYjNtdDJIaERXUjdITUpOWHJla2NkZFJzaVJnVjl6SldVUnpqSGNZOHQ1SkVzRkJka051ZTBzdHBDM21iQnltRWlGeUktNlBxclpKaEp0RW1iUlRzLU1abXFFVkhVOW5QYmVsMGdWeUdIQ192MVl3X0NHZmxQV3k5Q3A?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
