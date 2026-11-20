@@ -1,5 +1,17 @@
 [
   {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "20.11 • 04:56",
+    "source": "Na podstawie: Prasa Zagraniczna",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Scott_McTominay_Scotland_v_Bolivia_6_June_2026-41.jpg/1280px-Scott_McTominay_Scotland_v_Bolivia_6_June_2026-41.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "AC Milan chce sprowadzić Scotta McTominaya. Budżet zasilony umową z Adidasem",
+    "summary": "AC Milan planuje zaskakujący transfer pomocnika Manchesteru United, Scotta McTominaya. Włoski klub zyskał środki na wzmocnienia dzięki nowej, lukratywnej umowie z firmą Adidas.",
+    "content": "<p>Władze AC Milan przygotowują się do niespodziewanego ataku na rynku transferowym, celując w pozyskanie Scotta McTominaya. Reprezentant Szkocji stał się priorytetowym celem dla mediolańskiego klubu, który szuka wzmocnień w środkowej strefie boiska.</p><p>Finansowanie potencjalnej transakcji stało się możliwe dzięki podpisaniu przez Rossonerich nowego, bardzo opłacalnego kontraktu technicznego z marką Adidas. Zastrzyk gotówki z tej umowy znacząco zwiększył budżet transferowy klubu na nadchodzące okienko.</p><p>Choć McTominay jest ważną postacią w Manchesterze United, sytuacja finansowa i plany przebudowy kadry mogą otworzyć drogę do jego odejścia. Milan liczy, że świeże środki pozwolą im wygrać rywalizację o zawodnika z innymi zainteresowanymi klubami.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMipAFBVV95cUxOQVJYQTRMenZOOHUtby1RQUtJMVJpMWJmZVdELUFNU0FVNG9SOEFhekhtakI3a29MZ2dXbDg2SjFxQjIxVnRwcW5Gbmk5WHVsZ3R4TUZnVFFpN0UwaEZ3bzZKMVo3c1lnbjYwaUN6aElXbzNIRW1KVUtWOV9aa2NfdlBTV1M1NklaYlpERS10ZXZnNkxSbGRwLWR5LTJxM2ZmRzBxRA?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "LL",
     "badge": "La Liga",
     "badgeColor": "bg-red-600",
@@ -286,17 +298,5 @@
     "title": "Liam Rosenior stawia sprawę jasno: Alex Scott otrzyma szansę w najbliższych meczach",
     "summary": "Trener Bristol City, Liam Rosenior, zapowiedział, że Alex Scott wystąpi w jednym z trzech nadchodzących spotkań, unikając jednak komentarzy na temat plotek transferowych zawodnika.",
     "content": "<p>Liam Rosenior, menedżer Bristol City, odniósł się do sytuacji kadrowej Alexa Scotta. Szkoleniowiec potwierdził, że młody pomocnik znajduje się w jego planach i otrzyma szansę gry w wyjściowej jedenastce w jednym z trzech najbliższych meczów ligowych.</p><p>Decyzja trenera ma na celu odpowiednie zarządzanie siłami zawodnika oraz utrzymanie rywalizacji w zespole. Rosenior podkreślił, że Scott jest ważnym ogniwem drużyny, mimo napiętego terminarza, który czeka ekipę w najbliższym czasie.</p><p>W trakcie konferencji prasowej Rosenior konsekwentnie unikał odpowiedzi na pytania dotyczące ewentualnego odejścia piłkarza. Mimo licznych spekulacji medialnych łączących Scotta z transferem do innych klubów, trener odmówił komentowania doniesień transferowych.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/live-blog/12040/13279286/bournemouth-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "LL",
-    "badge": "La Liga",
-    "badgeColor": "bg-red-600",
-    "time": "19.11 • 15:31",
-    "source": "Na podstawie: Prasa Zagraniczna",
-    "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Real Madrid confirm Aurelien Tchouameni contract extension - Yahoo Sports",
-    "summary": "Real Madrid confirm Aurelien Tchouameni contract extension  Yahoo Sports",
-    "content": "<p>Real Madrid confirm Aurelien Tchouameni contract extension  Yahoo Sports</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Prasa Zagraniczna. <a href='https://news.google.com/rss/articles/CBMikgFBVV95cUxPTU5PRF9URDhPaUlCMEFTek16MGlpRDZYSkNKZXJKdUllN0Z2bXl6WmFLdXV4al9xTnV4SXY5dV9zMkI5LTZ0N0x5OFJqR2E1eXg1MEhydHN4VW5QMHdYRVJFVndLbnJZT2ZkU05ZVlJhNkl5OXU1WDY0WkRxaFV5YzMyMlVwMmk5MkpQblNVYlJodw?oc=5' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
