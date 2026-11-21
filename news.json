@@ -1,5 +1,89 @@
 [
   {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "21.11 • 14:23",
+    "source": "Na podstawie: BBC Sport",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Elliot_Anderson_England_v_Ghana_23_June_2026-059_%28cropped%29.jpg/1280px-Elliot_Anderson_England_v_Ghana_23_June_2026-059_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Kryzys Manchesteru City trwa: Elliot Anderson ratuje punkt w starciu z Fulham",
+    "summary": "Manchester City nie potrafi przełamać niemocy i po remisie z Fulham przedłużył swoją serię meczów bez zwycięstwa w Premier League do czterech spotkań.",
+    "content": "<p>Spotkanie na Etihad Stadium zakończyło się podziałem punktów, a głównym bohaterem gospodarzy został Elliot Anderson. To właśnie jego efektowne uderzenie z woleja w drugiej połowie pozwoliło drużynie uniknąć porażki i uratować remis.</p><p>Mimo indywidualnego błysku Andersona, zespół Manchesteru City znajduje się w wyraźnym dołku formy. Kapitan Ruben Dias wraz z linią obrony po raz kolejny nie zdołali zachować czystego konta, co staje się coraz większym problemem dla ekipy gospodarzy.</p><p>W składzie City doszło do kilku roszad, w tym występu Ayyouba Bouaddiego w miejsce Enzo Fernandeza, jednak gra zespołu pozostawiała wiele do życzenia. Słabsze zawody rozegrał Iliman Ndiaye, który w obliczu nieobecności Antoine'a Semenyo nie potrafił wziąć na siebie ciężaru kreowania akcji ofensywnych.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/articles/cqwy06p44g3no?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "21.11 • 14:23",
+    "source": "Na podstawie: Bulinews",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/2019-03-09_Fu%C3%9Fball%2C_M%C3%A4nner%2C_1._Bundesliga%2C_FC_Bayern_M%C3%BCnchen_-_VfL_Wolfsburg_StP_2538_by_Stepro.jpg/1280px-2019-03-09_Fu%C3%9Fball%2C_M%C3%A4nner%2C_1._Bundesliga%2C_FC_Bayern_M%C3%BCnchen_-_VfL_Wolfsburg_StP_2538_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imgCredit": "Fot. Steffen Prößdorf (CC BY-SA 4.0)",
+    "title": "Pechowy debiut Mitcha Kniata: Wolfsburg pewnie ogrywa Holstein Kiel",
+    "summary": "VfL Wolfsburg pokonał Holstein Kiel 3:0 w meczu pełnym kuriozalnych bramek, psując tym samym debiut nowego trenera gości, Mitcha Kniata.",
+    "content": "<p>Pierwsza połowa spotkania na Volkswagen Arena była wyrównana, a obie drużyny miały swoje okazje. Choć Wolfsburg był bliski objęcia prowadzenia po strzale Joakima Mæhle, to również goście z Kiel groźnie atakowali, zmuszając Timona Wellenreuthera do interwencji i obijając poprzeczkę po uderzeniu Guillermo Balziego.</p><p>Losy meczu rozstrzygnęły się po przerwie, w dużej mierze za sprawą błędów bramkarza gości, Timona Weinera. Najpierw niefortunnie przepuścił on piłkę do własnej siatki po rzucie rożnym, a w 76. minucie ponownie wpakował futbolówkę do bramki po dośrodkowaniu Fabiana Reese'a, co ostatecznie pogrzebało szanse przyjezdnych.</p><p>Drugiego gola dla gospodarzy zdobył Fraser Hornby w 67. minucie, wykorzystując fatalne podanie Davida Zeca i dobitkę po wcześniejszej interwencji Weinera. Mimo ambitnej postawy w pierwszej części gry, podopieczni Mitcha Kniata nie zdołali odpowiedzieć na skuteczność Wolfsburga i wracają do domu bez punktów.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/2-bundesliga-wolfsburg-cruise-past-holstein-kiel-spoil-mitch-kniat-debut' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "21.11 • 14:23",
+    "source": "Na podstawie: Bulinews",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Sandro_Wagner_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Dramatyczny zwrot akcji w 2. Bundeslidze: Hannover wyrywa zwycięstwo w doliczonym czasie",
+    "summary": "Hannover 96 odwrócił losy meczu z Greuther Fürth, wygrywając 2:1 po golu w 92. minucie. Kluczowym momentem była zmiana wymuszona kontuzją Benjamina Källmana już na początku spotkania.",
+    "content": "<p>Mecz rozpoczął się pechowo dla gospodarzy, gdyż już w czwartej minucie boisko musiał opuścić Benjamin Källman. Zawodnik ucierpiał w starciu w polu karnym, którego arbiter Marc Eckermann nie zakwalifikował jako przewinienie, co zmusiło trenera Sandro Wagnera do wczesnego wprowadzenia Stefana Thordarsona.</p><p>Goście z Fürth objęli prowadzenie w 34. minucie po precyzyjnym uderzeniu głową Ole Pohlmanna, który wykorzystał dośrodkowanie Krisztiana Keresztesa. Hannover długo nie potrafił znaleźć sposobu na szczelną defensywę rywali, mimo wprowadzenia po przerwie Larsa Gindorfa, który wyraźnie ożywił grę ofensywną zespołu.</p><p>Przełamanie nastąpiło w 57. minucie, gdy Stefan Thordarson wyrównał stan rywalizacji po akcji Marcela Hartela i Gindorfa. Ostateczny cios zadał w 92. minucie Taibi, który fenomenalnym strzałem z dystansu zapewnił Hannoverowi komplet punktów w dramatycznych okolicznościach.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/2-bundesliga-hannover-leave-late-snatch-dramatic-victory-over-furth' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "21.11 • 14:22",
+    "source": "Na podstawie: Bulinews",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Hutter_asse_asm_2425.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Bundesliga: Eintracht Frankfurt podejmuje Hoffenheim. Znamy składy na mecz",
+    "summary": "Eintracht Frankfurt zmierzy się z TSG 1899 Hoffenheim w 10. kolejce Bundesligi. Obie drużyny przystępują do starcia na Deutsche Bank Park w różnych nastrojach po przerwie reprezentacyjnej.",
+    "content": "<p>Podopieczni Adiego Hüttera są niepokonani od trzech spotkań, choć przed przerwą na kadrę z trudem zremisowali 2:2 z SC Paderborn 07 dzięki bramce Jonathana Burkardta w doliczonym czasie gry.</p><p>Zespół gości prowadzony przez Christiana Ilzera łączy grę w lidze z występami w Lidze Europy. Hoffenheim w ostatnich czterech meczach Bundesligi odniosło dwa zwycięstwa, pokonując Borussię Mönchengladbach oraz FC Schalke 04.</p><p>Historia bezpośrednich starć wskazuje na wyrównaną rywalizację, w której często pada wynik 3:1. W dzisiejszym meczu gospodarze zagrają w ustawieniu 4-4-2, natomiast goście postawili na formację 4-2-3-1 z Andrejem Kramariciem w składzie.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/confirmed-lineups-eintracht-frankfurt-tsg-1899-hoffenheim' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "21.11 • 14:22",
+    "source": "Na podstawie: Football Italia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/3/37/RubenAmorim4.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Amorim przed meczem z Frosinone: Ramos potrzebuje czasu, Pavlovic wraca do kadry",
+    "summary": "Trener Milanu Ruben Amorim uspokaja w sprawie formy Goncalo Ramosa i potwierdza gotowość zespołu przed niedzielnym starciem z Frosinone w Serie A.",
+    "content": "<p>Ruben Amorim stanął w obronie Goncalo Ramosa, podkreślając, że mimo braku bramek jest zadowolony z jego postawy. Szkoleniowiec wspomniał również o Francesco Camardzie, który wrócił ze zgrupowania kadry U-21 w znacznie lepszym nastroju po rozmowie z selekcjonerem Silvio Baldinim.</p><p>Przed wyjazdowym meczem z Frosinone sytuacja kadrowa Milanu wygląda optymistycznie. Amorim potwierdził brak nowych kontuzji, a Strahinja Pavlovic, mimo wątpliwości co do pełnej sprawności, znajdzie się w kadrze meczowej, choć jego występ od pierwszej minuty pozostaje kwestią otwartą.</p><p>Trener Rossonerich komplementuje najbliższego rywala, zwracając uwagę na ich dużą intensywność gry i bezpośredni styl ataku. Amorim zapowiada, że jego drużyna jest przygotowana na walkę z szybkim przeciwnikiem i posiada własny plan na przełamanie chaosu taktycznego Frosinone.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/amorim-without-ramos-milan-dont-score/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "21.11 • 14:22",
+    "source": "Na podstawie: Weszło",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Wesley_Fofana_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Upadek Wesleya Fofany: Od wielkiego talentu do symbolu porażki Chelsea",
+    "summary": "Wesley Fofana, za którego Chelsea zapłaciła 70 mln funtów, stał się jednym z największych rozczarowań Premier League, zawodząc oczekiwania kibiców i ekspertów.",
+    "content": "<p>Kariera Wesleya Fofany w Chelsea to historia niespełnionych nadziei. Choć w 2022 roku londyński klub wyłożył na niego ogromną kwotę, Francuz zamiast stać się filarem defensywy, stał się obiektem drwin i krytyki ze strony fanów, którzy coraz głośniej domagają się jego odejścia.</p><p>Porównania z Williamem Salibą, z którym Fofana zaczynał w Saint-Etienne, wypadają dla obrońcy Chelsea fatalnie. Podczas gdy Saliba wyrósł na lidera Arsenalu, Fofana zmaga się z łatką zawodnika przepłaconego i przecenionego, co jest bolesnym kontrastem wobec początkowych prognoz ekspertów.</p><p>Problemy Francuza zaczęły się od poważnej kontuzji złamanej nogi, której doznał w sparingu przeciwko Villarreal po brutalnym faulu Fera Nino. Mimo długiej przerwy w grze, Chelsea zdecydowała się na transfer, traktując go jako alternatywę dla Julesa Kounde czy Matthijsa de Ligta, co ostatecznie okazało się kosztownym błędem kadrowym.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/ten-pilkarz-kosztowal-80-milionow-popelnia-dziecinne-bledy' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "21.11 • 14:22",
+    "source": "Na podstawie: Weszło",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Tonda_Eckert_22112025_%284%29.jpg/1280px-Tonda_Eckert_22112025_%284%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Skandal szpiegowski nie przeszkodził trenerowi. Southampton przedłuża kontrakt",
+    "summary": "Mimo afery związanej ze szpiegowaniem rywali, Tonda Eckert pozostaje na stanowisku trenera Southampton. Klub zdecydował się na przedłużenie umowy z niemieckim szkoleniowcem.",
+    "content": "<p>Tonda Eckert przejął Southampton w listopadzie 2025 roku, zastępując Willa Stilla. Niemiec szybko odmienił grę zespołu, notując imponującą serię 20 meczów bez porażki, co pozwoliło drużynie awansować do półfinału Pucharu Anglii po sensacyjnym zwycięstwie nad Arsenalem.</p><p>Pozytywny obraz pracy trenera zniszczył skandal szpiegowski. Wyszło na jaw, że Eckert zlecał pracownikom klubu podglądanie treningów rywali, m.in. Middlesbrough, Oxfordu i Ipswich. Konsekwencją tych działań było wykluczenie Southampton z finałów play-offów, mimo wywalczonego wcześniej awansu.</p><p>Mimo kontrowersji, władze klubu, w tym właściciel Dragan Solak, postanowiły obdarzyć trenera zaufaniem. Eckert oficjalnie potwierdził przedłużenie kontraktu, podkreślając wdzięczność za wsparcie zarządu oraz kibiców w trudnym dla niego i całego zespołu okresie.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/po-tym-wszystkim-taka-decyzja-southampton-ponownie-zaskakuje' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "BL",
     "badge": "Bundesliga",
     "badgeColor": "bg-amber-600",
@@ -192,30 +276,6 @@
     "content": "<p>Piątkowe starcie na San Mamés, otwierające 13. kolejkę La Liga, zakończyło się niespodziewanym sukcesem gości. Mimo że Athletic Club dominował w statystykach, posiadając piłkę przez 58% czasu gry i wykonując dziewięć rzutów rożnych, to Espanyol zdobył jedynego gola meczu.</p><p>Decydujący moment nastąpił w 66. minucie, kiedy to wprowadzony z ławki Tyrhys Dolan asystował przy trafieniu Roberto Fernándeza. Dla napastnika była to już szósta bramka w bieżącym sezonie ligowym, która zapewniła drużynie z Barcelony trzecie z rzędu zwycięstwo nad ekipą z Bilbao.</p><p>Dla Edera Sarabii, który objął stery w Espanyolu pod koniec października, jest to przełomowy moment. Od czasu odejścia Manolo Gonzáleza zespół zdobył siedem z dziewięciu możliwych punktów, co znacząco poprawiło nastroje w klubie i pozwoliło na wyjście z kryzysu po wcześniejszej porażce w Pucharze Króla.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football España. <a href='https://www.football-espana.net/2026/11/21/roberto-fernandez-strikes-as-espanyol-win-at-san-mames-despite-athletic-pressure' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "21.11 • 11:18",
-    "source": "Na podstawie: Bulinews",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/2019-03-09_Fu%C3%9Fball%2C_M%C3%A4nner%2C_1._Bundesliga%2C_FC_Bayern_M%C3%BCnchen_-_VfL_Wolfsburg_StP_2538_by_Stepro.jpg/1280px-2019-03-09_Fu%C3%9Fball%2C_M%C3%A4nner%2C_1._Bundesliga%2C_FC_Bayern_M%C3%BCnchen_-_VfL_Wolfsburg_StP_2538_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "imgCredit": "Fot. Steffen Prößdorf (CC BY-SA 4.0)",
-    "title": "Zmiany w składach na mecz VfL Wolfsburg – Holstein Kiel",
-    "summary": "Trenerzy obu drużyn dokonali roszad w wyjściowych jedenastkach przed dzisiejszym starciem w 2. Bundeslidze.",
-    "content": "<p>W zespole VfL Wolfsburg szkoleniowiec Tobias Strobl zdecydował się na dwie korekty po ostatniej porażce z Herthą. Miejsce pauzujących za kartki Cleitona oraz Maximiliana Arnolda zajmą Mathys Angely i Bence Dardai.</p><p>Debiutujący na ławce trenerskiej Holstein Kiel, Mitch Kniat, również wprowadził dwie zmiany po przegranym meczu z Bielefeld. W składzie pojawią się Ivan Nekic oraz John Tolkin, którzy zastąpią odpowiednio Sebastiana Schonlaua i Leona Parduziego.</p><p>Obie drużyny przystąpią do spotkania w ustawieniu 4-3-3. W barwach Wolfsburga od pierwszej minuty zobaczymy m.in. Wellenreuthera i Reese, natomiast w ekipie gości na boisko wybiegną m.in. Weiner, Meffert i Harres.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/confirmed-2-bundesliga-lineups-vfl-wolfsburg-holstein-kiel' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "21.11 • 11:18",
-    "source": "Na podstawie: Bulinews",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Sandro_Wagner_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Zmiany w składach na mecz Hannover 96 – Greuther Fürth: Znamy wyjściowe jedenastki",
-    "summary": "Sandro Wagner i Heiko Vogel dokonali istotnych roszczeń w wyjściowych składach przed dzisiejszym starciem w 2. Bundeslidze. Sprawdź, kto wybiegnie od pierwszej minuty na murawę.",
-    "content": "<p>Trener Hannoveru 96, Sandro Wagner, zdecydował się na dwie korekty po ostatnim remisie z Heidenheim. W podstawowej jedenastce pojawią się Maurice Neubauer oraz Mustapha Bundu, którzy zastąpią odpowiednio Stefana Teitura Thórdarsona i Wanissa Taibiego.</p><p>Szkoleniowiec Greuther Fürth, Heiko Vogel, zareagował na wysoką porażkę w Dreźnie, wprowadzając aż cztery zmiany. Od początku zagrają Krisztian Keresztes, Faton Ademi, Aaron Keller oraz Dennis Srbeny, zajmując miejsca Hendry'ego Blanka, Sachy Banse, Shinty Appelkamp oraz Felixa Klausa.</p><p>Hannover 96 przystąpi do meczu w ustawieniu 3-4-2-1 z Källmanem na szpicy, natomiast Greuther Fürth postawi na defensywny wariant 4-5-1, w którym jedynym wysuniętym napastnikiem będzie Srbeny.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/confirmed-2-bundesliga-lineups-hannover-96-greuther-furth-1' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "SA",
     "badge": "Serie A",
     "badgeColor": "bg-sky-600",
@@ -252,18 +312,6 @@
     "content": "<p>Jagiellonia Białystok została ukarana przez UEFA zakazem wyjazdowym po zamieszkach, do których doszło w Sofii podczas meczu Ligi Europy. Decyzja ta jest pokłosiem wcześniejszych problemów dyscyplinarnych klubu, w tym incydentów z meczu w Novym Pazarze, gdzie kibice manifestowali swoje poglądy polityczne dotyczące Kosowa.</p><p>Mimo oficjalnego zakazu, część fanów z Podlasia próbowała nabyć wejściówki na sektory przeznaczone dla kibiców Sunderlandu. Angielski klub zareagował stanowczo, ogłaszając, że aktywnie monitoruje sprzedaż biletów i anuluje każdą wejściówkę, która została kupiona przez fanów Jagiellonii lub w ich imieniu.</p><p>Władze Sunderlandu podkreśliły, że na Stadium of Light nie będzie żadnych wyjątków. Każdy kibic Jagiellonii zidentyfikowany na stadionie zostanie usunięty z obiektu, a jedynymi przedstawicielami polskiego klubu na trybunach będą członkowie oficjalnej delegacji oraz zaproszeni goście.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/zamieszanie-przed-meczem-jagiellonii-sunderland-nie-odpuszcza' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "21.11 • 10:23",
-    "source": "Na podstawie: Bulinews",
-    "img": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Schalke 04 vs. VfB Stuttgart preview: Schalke seek first home goal against resurgent Stuttgart",
-    "summary": "It has been a difficult return to the Bundesliga for Miron Muslić's men, who find themselves second-bottom with just six points from their opening nine matches.\nThe Royal Blues hav",
-    "content": "<p>It has been a difficult return to the Bundesliga for Miron Muslić's men, who find themselves second-bottom with just six points from their opening nine matches.\nThe Royal Blues have failed to win any of their last six Bundesliga fixtures, with their solitary victory this season coming away to Union Berlin in September, and their latest setback arri</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/schalke-04-vfb-stuttgart-preview-schalke-seek-first-home-goal-against-resurgent-stuttgart' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "SA",
     "badge": "Serie A",
     "badgeColor": "bg-sky-600",
@@ -288,18 +336,6 @@
     "content": "<p>Podopieczni Gian Piero Gasperiniego przystępują do rywalizacji jako jedna z dwóch niepokonanych drużyn w lidze, zajmując trzecie miejsce w tabeli. Rzymianie wygrali swoje trzy ostatnie ligowe spotkania i liczą na przedłużenie tej passy na stadionie Ennio Tardini.</p><p>Do kadry Romy po kontuzjach wracają bramkarz Mile Svilar, obrońca Gianluca Mancini oraz gwiazdor Paulo Dybala. Z kolei w zespole Alberto Gilardino, który ostatnio przegrał z Bologną, do ataku obok El-Bilala Toure ma wrócić młody Simone Lontani.</p><p>Sytuacja kadrowa Romy nie jest jednak idealna, gdyż z powodu urazów wciąż pauzują Lorenzo Pellegrini i Devyne Rensch. Dodatkowo sztab szkoleniowy rozważa oszczędzenie Matiasa Soule, który dopiero co wrócił z długiej podróży z Argentyny.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/serie-a-parma-vs-roma-probable-line-ups/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "21.11 • 10:21",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Lausanne_vs_Sion_27_february_2013_-_Gennaro_Gattuso.jpg/1280px-Lausanne_vs_Sion_27_february_2013_-_Gennaro_Gattuso.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Lazio kontra Lecce: Lider Serie A wraca do gry po przerwie reprezentacyjnej",
-    "summary": "Lazio Rzym, lider tabeli Serie A, podejmuje dziś Lecce. Mimo problemów kadrowych, Gennaro Gattuso może skorzystać z usług Davide Frattesiego w starciu na Stadio Olimpico.",
-    "content": "<p>Lazio Rzym przystępuje do dzisiejszego spotkania w roli lidera ligi, mając na koncie 29 punktów po 11 kolejkach. Drużyna prowadzona przez Gennaro Gattuso pozostaje jedną z dwóch niepokonanych ekip w stawce, co czyni ich zdecydowanym faworytem w starciu z 14. w tabeli Lecce.</p><p>Sytuacja kadrowa rzymian nie jest jednak idealna. Trener Gattuso nie będzie mógł skorzystać z kontuzjowanego Nuno Tavaresa, który urazu nabawił się podczas zgrupowania reprezentacji Portugalii. W obronie szansę od pierwszej minuty mają otrzymać Danilho Doekhi oraz Diogo Leite.</p><p>Dobrą wiadomością dla kibiców Lazio jest powrót Davide Frattesiego. Pomocnik, który opuścił ostatni mecz kadry Włoch, jest w pełni gotowy do gry i ma stworzyć linię pomocy wraz z Kennethem Taylorem oraz Redą Belahyanem. Spotkanie rozpocznie się o godzinie 14:00 czasu GMT.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/serie-a-lazio-vs-lecce-probable-line-ups-3/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "LL",
     "badge": "La Liga",
     "badgeColor": "bg-red-600",
@@ -322,18 +358,6 @@
     "title": "Kryzys w Szczecinie: Pogoń przegrywa, a Oscar Garcia otwarcie mówi o problemach",
     "summary": "Pogoń Szczecin przegrała trzeci mecz z rzędu, ulegając u siebie Śląskowi Wrocław 1:2. Trener Oscar Garcia wskazuje na problemy kadrowe i organizacyjne w klubie.",
     "content": "<p>Pogoń Szczecin przeżywa wyraźny spadek formy, co potwierdziła piątkowa porażka 1:2 ze Śląskiem Wrocław. Po serii przegranych z Rakowem Częstochowa (1:3) oraz Widzewem Łódź (0:3), drużyna prowadzona przez Oscara Garcię straciła status rewelacji rozgrywek i obecnie zajmuje piąte miejsce w tabeli Ekstraklasy.</p><p>Szkoleniowiec Portowców nie ukrywa frustracji wynikającej z warunków pracy w klubie, o czym wspomniał w wywiadzie dla Kanału Sportowego. Garcia przyznał, że rzeczywistość w Szczecinie odbiega od jego początkowych oczekiwań, co zbiegło się w czasie z zainteresowaniem jego osobą ze strony innych klubów, w tym Dinama Zagrzeb.</p><p>Na konferencji prasowej po meczu ze Śląskiem, Garcia tłumaczył słabe wyniki plagą kontuzji oraz koniecznością wystawiania zawodników na nietypowych pozycjach. Trener podkreślił, że mimo prowadzenia 1:0, zespół nie potrafił utrzymać korzystnego rezultatu przez błędy w defensywie oraz brak skuteczności pod bramką rywala.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/nie-tylko-dinamo-zagrzeb-trener-pogoni-ujawnil-ze-telefonow-bylo-wiecej' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "21.11 • 08:21",
-    "source": "Na podstawie: Weszło",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Real_Madrid_Club_de_F%C3%BAtbol_league_performance_1929-present.svg/1280px-Real_Madrid_Club_de_F%C3%BAtbol_league_performance_1929-present.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "imgCredit": "Fot. Ghost456 (CC BY-SA 4.0)",
-    "title": "Promocja Superbet: 400 złotych za zwycięstwo Realu Madryt z Celtą Vigo",
-    "summary": "Bukmacher Superbet przygotował specjalną ofertę dla nowych graczy, w której można zgarnąć 400 zł bonusu za wygraną Realu Madryt w nadchodzącym starciu z Celtą Vigo.",
-    "content": "<p>Akcja promocyjna skierowana jest do osób, które chcą obstawić triumf Królewskich w meczu przeciwko Celcie Vigo. Przy minimalnej stawce wynoszącej zaledwie 2 złote, użytkownik ma szansę otrzymać bonus o wartości 400 złotych w przypadku poprawnego wytypowania wyniku.</p><p>Po przyznaniu środków trafiają one na saldo bonusowe gracza. Aby móc wypłacić pieniądze na konto bankowe, konieczne jest spełnienie określonych w regulaminie warunków obrotu bonusem.</p><p>Warto pamiętać, że do wymaganego obrotu nie zaliczają się kupony, w których wykorzystano opcję cash-out, ani te, w których zdarzenia zostały rozliczone po kursie 1.00. Po poprawnym obrocie środki stają się dostępne do wypłaty.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/superbet-promocje-bukmacherskie' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
     "category": "EKS",
@@ -370,30 +394,6 @@
     "title": "Real Madryt kontra Celta Vigo: Królewscy w pogoni za liderem La Liga",
     "summary": "Real Madryt podejmie na Santiago Bernabéu Celtę Vigo, celując w dziewiąte zwycięstwo z rzędu i tymczasowe objęcie pozycji lidera w tabeli hiszpańskiej ekstraklasy.",
     "content": "<p>Podopieczni Jose Mourinho przystępują do sobotniego starcia w ramach 13. kolejki La Liga w znakomitych nastrojach, będąc na fali ośmiu wygranych meczów z rzędu. Ewentualne zwycięstwo nad drużyną z Vigo pozwoli Realowi na przynajmniej kilkanaście godzin wskoczyć na szczyt ligowej tabeli.</p><p>Sytuacja gości wygląda znacznie gorzej, gdyż Celta zajmuje obecnie 11. miejsce w lidze, mając zaledwie trzy punkty przewagi nad strefą spadkową. Trener przyjezdnych miał jednak więcej czasu na spokojną pracę z zespołem podczas przerwy reprezentacyjnej, podczas gdy większość kadrowiczów Realu przebywała na zgrupowaniach.</p><p>W kontekście typów bukmacherskich eksperci zwracają uwagę na świetną dyspozycję Ardy Gulera, który w siedmiu ostatnich spotkaniach regularnie oddawał celne strzały. Statystyki wskazują również na dużą szansę na gole z obu stron, co potwierdzają wyniki bezpośrednich starć oraz ostatnich meczów ligowych Królewskich.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/bukmacherzy/typy/real-madryt-celta-vigo-zapowiedz-i-typy-na-la-liga-21-11-2026' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "21.11 • 04:52",
-    "source": "Na podstawie: Weszło",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Newcastle_United_F.C._1960.jpg/1280px-Newcastle_United_F.C._1960.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "imgCredit": "Fot. Eskil Malmberg (Public domain)",
-    "title": "Newcastle United kontra Arsenal: Zapowiedź hitu 11. kolejki Premier League",
-    "summary": "Lider tabeli Arsenal zmierzy się na wyjeździe z Newcastle United. Kanonierzy są zdecydowanymi faworytami sobotniego starcia na St. James' Park.",
-    "content": "<p>Sytuacja obu drużyn przed sobotnim meczem jest skrajnie różna. Newcastle United przeżywa kryzys, wygrywając zaledwie trzy z dziesięciu dotychczasowych spotkań, co sprawia, że mają tylko cztery punkty przewagi nad strefą spadkową.</p><p>Zupełnie inne nastroje panują w obozie Arsenalu. Londyńczycy dominują w lidze, wygrywając dziewięć z dziesięciu meczów i posiadając obecnie pięć punktów przewagi nad Brighton oraz sześć nad Manchesterem City.</p><p>Eksperci przewidują zwycięstwo gości, wskazując na ich stabilną formę oraz słabą dyspozycję Srok, które wygrały tylko jeden z ostatnich sześciu meczów. Statystyki sugerują również niski wynik bramkowy, gdyż w żadnym z dziesięciu spotkań Arsenalu nie padły więcej niż trzy gole.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/bukmacherzy/typy/newcastle-united-arsenal-zapowiedz-i-typy-na-premier-league-21-11-2026' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "20.11 • 23:23",
-    "source": "Na podstawie: BBC Sport",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg/1280px-Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Manchester United blisko bariery 100 mln funtów wydanych na roszady trenerskie",
-    "summary": "Zatrudnienie Mauricio Pochettino kosztowało Manchester United fortunę, windując łączne wydatki klubu na zwalnianie i angażowanie szkoleniowców od 2013 roku do niemal 100 mln funtów.",
-    "content": "<p>Klub z Old Trafford musiał zapłacić 7,5 mln funtów odszkodowania federacji US Soccer, aby wykupić kontrakt Mauricio Pochettino. Argentyńczyk podpisał z United umowę na dwa i pół roku, a zaledwie trzy dni po oficjalnym ogłoszeniu tej decyzji, klub zaciągnął kolejną pożyczkę w wysokości 10 mln funtów.</p><p>Łączna suma wydatków na odprawy i zatrudnienie nowych trenerów od czasu odejścia sir Alexa Fergusona w 2013 roku osiągnęła już 95 mln funtów. Kwota ta przekroczy barierę 100 mln funtów, gdy doliczone zostaną koszty angażu sztabu Pochettino oraz odprawa dla zwolnionego niedawno Michaela Carricka.</p><p>Sytuacja finansowa klubu jest napięta, co potwierdzają raporty giełdowe. Manchester United posiada obecnie 417 mln funtów zaległych opłat transferowych, a całkowite zadłużenie klubu przeliczone na funty wynosi blisko 577,4 mln, co stanowi ogromne obciążenie dla budżetu w obliczu fatalnych wyników sportowych.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/articles/cwd01n9z23x5o?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
     "category": "EKS",
