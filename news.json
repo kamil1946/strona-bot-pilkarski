@@ -1,5 +1,53 @@
 [
   {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "22.11 • 10:19",
+    "source": "Na podstawie: Football Italia",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg/1280px-Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Inter wraca do gry z Atalantą: Lautaro Martinez w kadrze, ale zacznie na ławce",
+    "summary": "Obrońcy tytułu z Mediolanu zmierzą się z Atalantą Maurizio Sarriego. Do składu Interu wraca Lautaro Martinez, jednak w ataku od pierwszej minuty zobaczymy Thurama i Esposito.",
+    "content": "<p>Inter Mediolan przystępuje do wyjazdowego starcia z Atalantą bez kontuzjowanych Piotra Zielińskiego oraz Ange-Yoana Bonny'ego. W miejsce polskiego pomocnika trener Simone Inzaghi rozważa wystawienie od pierwszej minuty Petara Sucica lub Curtisa Jonesa, natomiast w defensywie Benjamin Pavard ma zastąpić odpoczywającego Manuela Akanjiego.</p><p>Najważniejszą informacją dla kibiców Nerazzurrich jest powrót Lautaro Martineza, który po ponad miesięcznej przerwie wznowił treningi z grupą. Mimo dostępności, Argentyńczyk prawdopodobnie rozpocznie mecz na ławce rezerwowych, a ciężar ofensywy wezmą na siebie Marcus Thuram oraz Francesco Pio Esposito.</p><p>Gospodarze z Bergamo przystępują do rywalizacji osłabieni brakiem Odilona Kossounou i Isaka Hiena, co wymusza zmiany w formacji obronnej. Na lewym skrzydle Atalanty spodziewany jest debiutujący w bezpośrednim starciu z Djedem Spence'em Jonathan Rowe, a mecz poprowadzi zespół Maurizio Sarriego.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/serie-a-atalanta-v-inter-probable-line-ups-tv/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "22.11 • 10:19",
+    "source": "Na podstawie: Football Italia",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Christian_Pulisic_USMNT_v_Belgium_Mar_28_2026-73_%28cropped%29.jpg/1280px-Christian_Pulisic_USMNT_v_Belgium_Mar_28_2026-73_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Milan osłabiony przed starciem z Frosinone: Pulisic i Rabiot w wyjściowym składzie",
+    "summary": "AC Milan podejmuje rewelację sezonu, Frosinone, zmagając się z plagą kontuzji w defensywie. Trener Rossonerich stawia na ofensywny tercet z Pulisiciem, Rabiotem i Ramosem.",
+    "content": "<p>Sytuacja kadrowa Milanu przed meczem z Frosinone jest trudna. Z powodu kontuzji wykluczeni z gry są Samuel Chukwueze, Fikayo Tomori, Ruben Loftus-Cheek, Matteo Gabbia oraz Alexis Saelemaekers. Choć Strahinja Pavlović jest już dostępny, jego stan zdrowia nie pozwala na występ od pierwszej minuty.</p><p>Wobec braków w obronie, szkoleniowiec gospodarzy musi eksperymentować. Przewiduje się, że środek defensywy stworzą Sankhoun Diawara oraz Koni De Winter, natomiast na bokach obrony wystąpią Davide Bartesaghi i Mario Gila. W ataku kluczową rolę odegra Christian Pulisic, który wraca do klubu po udanym występie w barwach reprezentacji.</p><p>Goście z Frosinone również przystąpią do rywalizacji osłabieni. Z powodu kontuzji nie zagra ich najlepszy strzelec, Antonio Raimondo, a lewy obrońca Gabriele Bracaglia musi pauzować za nadmiar żółtych kartek. Mecz będzie transmitowany w wybranych krajach za pośrednictwem platform DAZN oraz Paramount+.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/serie-a-milan-v-frosinone-probable-line-ups-tv/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "22.11 • 10:19",
+    "source": "Na podstawie: Weszło",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Robert_Dobrzyckki_CEO_and_Co-owner_Panattoni_2.jpg/1280px-Robert_Dobrzyckki_CEO_and_Co-owner_Panattoni_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imgCredit": "Fot. Ewelina Ciuchta (CC BY-SA 4.0)",
+    "title": "Tajemnicze imperium Roberta Dobrzyckiego: ile naprawdę wart jest właściciel Widzewa?",
+    "summary": "Analizujemy finanse Roberta Dobrzyckiego, właściciela Widzewa Łódź, którego majątek pozostaje zagadką mimo ogromnych inwestycji w klub i globalnych ambicji biznesowych.",
+    "content": "<p>Robert Dobrzycki od blisko dwóch lat zarządza Widzewem Łódź, finansując transfery takich zawodników jak Bukari, Kornvig, Garcia, Cheng, Zeqiri, Świderski czy Drągowski. Mimo ogromnych nakładów na kadrę i infrastrukturę, realna wartość majątku biznesmena pozostaje przedmiotem spekulacji, gdyż nie figuruje on na liście najbogatszych Polaków według Forbesa.</p><p>Szacunki internetowe wskazują na majątek rzędu miliarda dolarów, jednak autorzy analizy podważają te wyliczenia, sugerując, że przedsiębiorca może być znacznie zamożniejszy. Kluczowym elementem jego struktury biznesowej jest współpraca z amerykańskim gigantem Panattoni, gdzie założyciel Carl Panattoni wsparł wczesne projekty Dobrzyckiego, co dziś przekłada się na globalną skalę jego działań.</p><p>Sam Dobrzycki nie ukrywa swoich wysokich aspiracji, otwarcie deklarując w wywiadzie dla magazynu Eurobuild chęć stania się jednym z najbardziej rozpoznawalnych Polaków na świecie. Choć jego pewność siebie bywa odbierana jako arogancja, kibice Widzewa liczą, że globalny sukces biznesowy przełoży się na trwałą dominację łódzkiego klubu w polskiej piłce.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/jak-bogaty-jest-robert-dobrzycki-szacujemy-wartosc-jego-majatku' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "22.11 • 10:19",
+    "source": "Na podstawie: Weszło",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/9/99/Probierz_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Kałużny broni Probierza: Piłkarze zostawili go na lodzie w sprawie Lewandowskiego",
+    "summary": "Radosław Kałużny w ostrych słowach ocenił sytuację w kadrze, stając w obronie Michała Probierza i krytykując obecną pracę Jana Urbana po nieudanej Lidze Narodów.",
+    "content": "<p>Reprezentacja Polski pod wodzą Jana Urbana zakończyła zmagania w Lidze Narodów na trzecim miejscu w grupie Dywizji B, ustępując Szwecji oraz Bośni i Hercegowinie. Słabe wyniki sprawiły, że pozycja Urbana stała się niepewna, a Radosław Kałużny wprost zarzucił mu brak pomysłu na drużynę i wprowadzanie chaosu.</p><p>W swojej analizie Kałużny wrócił do czasów Michała Probierza, który w czerwcu 2025 roku zrezygnował z funkcji selekcjonera. Zdaniem byłego reprezentanta, Probierz miał rację, odbierając opaskę kapitańską Robertowi Lewandowskiemu, jednak został w tej kwestii osamotniony przez zawodników, którzy początkowo go wspierali, a później wycofali się z deklaracji.</p><p>Ekspert docenił również dorobek Czesława Michniewicza, przypominając o wygranych barażach ze Szwecją i awansie do fazy pucharowej Mistrzostw Świata w Katarze. Kałużny podkreślił, że obecna kadra pod wodzą Urbana straciła zbyt wiele czasu, co wymaga natychmiastowych zmian w sztabie szkoleniowym.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/ekspert-o-michale-probierzu-wojowal-slusznie-pilkarze-haniebnie-sie-wycofali' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "PL",
     "badge": "Premier League",
     "badgeColor": "bg-purple-600",
@@ -300,18 +348,6 @@
     "content": "<p>Borussia Dortmund odniosła skromne, ale niezwykle cenne zwycięstwo 1:0 nad Borussią Mönchengladbach. Trener Niko Kovač podkreślił, że po przerwie reprezentacyjnej najważniejsze było udane otwarcie, choć przyznał, że decydujące trafienie było kwestią szczęścia.</p><p>Szkoleniowiec BVB zauważył, że rywale postawili twarde warunki, grając agresywnie w defensywie. Kovač zaznaczył, że dopiero po zmianach w drugiej połowie jego drużyna zdołała przejąć kontrolę nad przebiegiem spotkania i narzucić własny styl gry.</p><p>Strzelec jedynego gola, Felix Nmecha, był bardziej krytyczny wobec postawy zespołu. Pomocnik przyznał, że w pierwszej części meczu drużyna zbyt łatwo traciła piłki, jednak ostatecznie cieszy się z dopisania trzech punktów do ligowej tabeli.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/kova-and-nmecha-reflect-lucky-goal-that-sealed-dortmund-win-gladbach' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "21.11 • 21:24",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Norway_Italy_-_June_2025_A_44_%28Luciano_Spalletti%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Juventus przed meczem z Venezią: Powroty w kadrze, ale bez Kalulu i Gonzaleza",
-    "summary": "Andrea Cambiaso i Zeki Çelik wracają do składu Juventusu na niedzielne starcie z Venezią. Trener Luciano Spalletti wciąż musi jednak radzić sobie bez kontuzjowanych Kalulu oraz Gonzaleza.",
-    "content": "<p>Przed niedzielnym meczem na Allianz Stadium sztab szkoleniowy Juventusu otrzymał mieszane wieści. Do pełnej dyspozycji wrócili Andrea Cambiaso oraz Zeki Çelik, którzy odbyli ostatni trening w ośrodku Continassa. Z kolei Nick Woltemade znalazł się w kadrze po tym, jak wyleczył grypę, która wykluczyła go z gry przed przerwą reprezentacyjną.</p><p>Sytuacja kadrowa w defensywie i ofensywie pozostaje jednak trudna. Luciano Spalletti oficjalnie potwierdził, że Pierre Kalulu oraz Nicolás González nie zagrają w najbliższym spotkaniu. Kalulu zmaga się z urazem, który wykluczy go z gry co najmniej do początku grudnia, co stanowi spore wyzwanie dla rotacji na bokach obrony.</p><p>W przypadku Gonzaleza, który pauzuje od miesiąca z powodu kontuzji mięśnia płaszczykowatego odniesionej w meczu z Rennes, sztab medyczny podejmie decyzję o powrocie w najbliższych dniach. Argentyńczyk ma szansę na występ w przyszłotygodniowym meczu Ligi Europy przeciwko Omonii Nikozja lub w ligowym starciu z Como.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/juventus-squad-vs-venezia-cambiaso-and-celik/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "LL",
     "badge": "La Liga",
     "badgeColor": "bg-red-600",
@@ -358,18 +394,6 @@
     "title": "Arsenal powiększa przewagę w tabeli po emocjonującym remisie z Newcastle",
     "summary": "Arsenal zremisował 2:2 na wyjeździe z Newcastle United, dzięki czemu londyńczycy zwiększyli swoją przewagę nad resztą stawki Premier League do sześciu punktów.",
     "content": "<p>Spotkanie na St James' Park zakończyło się podziałem punktów, który ostatecznie okazał się korzystny dla drużyny przyjezdnej. Mimo intensywnego przebiegu meczu, obie strony musiały zadowolić się remisem 2:2.</p><p>Kluczową postacią w zespole gości okazał się Noni Madueke, którego trafienie w drugiej połowie pozwoliło Arsenalowi na wywiezienie cennego punktu z trudnego terenu w Newcastle.</p><p>Dzięki temu rezultatowi, aktualni mistrzowie Anglii umocnili się na pozycji lidera ligowej tabeli. Obecnie przewaga Arsenalu nad bezpośrednimi rywalami w walce o tytuł wynosi już sześć punktów.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/videos/cm702zzl66l6o?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "21.11 • 20:41",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/b/b7/500097_035878ea106y4486h0g214_A.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Kolejny dramat w Neapolu: Antonio Vergara kontuzjowany w meczu z Torino",
-    "summary": "Antonio Vergara opuścił boisko ze łzami w oczach już w 13. minucie meczu z Torino. To poważny cios dla Napoli, które zmaga się z ogromną falą kontuzji w kluczowym momencie sezonu.",
-    "content": "<p>Do zdarzenia doszło na początku spotkania, gdy Vergara poczuł silny ból w tylnej części lewego uda podczas sprintu. Piłkarz w ogromnym cierpieniu musiał zostać zmieniony, a jego miejsce na murawie zajął Kevin De Bruyne, który pierwotnie miał odpoczywać przed nadchodzącym starciem w Lidze Mistrzów.</p><p>Trener Massimiliano Allegri przyznał, że sytuacja jest trudna, zwłaszcza że Belg musiał spędzić na boisku niemal cały mecz, mimo planów oszczędzania go na wyjazd do Manchesteru. Sztab medyczny Napoli czeka na szczegółowe badania, jednak występ Vergary w najbliższym spotkaniu z City stoi pod dużym znakiem zapytania.</p><p>Problemy kadrowe Napoli stają się coraz poważniejsze. Na liście kontuzjowanych znajdują się już m.in. Alex Meret, Benoit Badiashile, Alisson Santos, Stanislav Lobotka, Giovanni Di Lorenzo oraz Alessandro Buongiorno, co znacząco ogranicza pole manewru Allegriego w trakcie poszukiwań przełamania złej passy bez zwycięstwa.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/vergara-forced-off-in-tears-as-de-bruyne-on/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
     "category": "EKS",
@@ -456,18 +480,6 @@
     "content": "<p>Lothar Matthäus wyraził swoje zdziwienie i zaniepokojenie sposobem, w jaki działacze Bayernu Monachium – Uli Hoeneß, Jan-Christian Dreesen oraz Karl-Heinz Rummenigge – wypowiadają się publicznie na temat przyszłości Jamala Musiali. Legendarny zawodnik przyznał, że tak otwarta debata w mediach jest dla niego zaskoczeniem.</p><p>Zdaniem Matthäusa, dotychczasowa siła Bayernu opierała się na jedności i rodzinnej atmosferze, co teraz zostaje wystawione na próbę. Były kapitan reprezentacji Niemiec podkreślił, że zamiast przerzucać się komunikatami w prasie, obie strony powinny usiąść do prywatnych rozmów, które do tej pory nie zostały nawet zainicjowane.</p><p>Matthäus zwrócił uwagę, że największą ofiarą tego zamieszania jest sam 23-letni pomocnik. Piłkarz znajduje się pod niepotrzebną presją, co jest szczególnie niekorzystne w obliczu licznych kontuzji w zespole, które wymagają od Musiali pełnego skupienia na grze.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/been-shocked-matthaus-criticises-bayern-public-musiala-debate' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "21.11 • 19:09",
-    "source": "Na podstawie: Weszło",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Tomasz_Kafarski_2013.jpg/1280px-Tomasz_Kafarski_2013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Kryzys Pogoni Grodzisk Mazowiecki: Piąta porażka z rzędu lidera",
-    "summary": "Pogoń Grodzisk Mazowiecki, która jeszcze niedawno przewodziła tabeli, wpadła w głęboki kryzys i przegrała piąty mecz z rzędu, tym razem ulegając Arce Gdynia 2:3.",
-    "content": "<p>Zespół prowadzony przez Tomasza Kafarskiego przeżywa ogromny regres formy. Po imponującym początku sezonu i siedmiu meczach bez porażki, drużyna z Grodziska Mazowieckiego przegrała pięć kolejnych spotkań, ulegając kolejno Polonii Warszawa, Ruchowi Chorzów, Stali Mielec, Pogoni Siedlce oraz Arce Gdynia.</p><p>Mecz z Arką Gdynia zakończył się porażką 2:3, mimo że dla gospodarzy oba gole zdobył niemal 40-letni Radosław Majewski. Defensywa Pogoni, w tym wypożyczony z Legii Bartosz Dembek, nie ustrzegła się błędów, a bramki dla rywali zdobywali Kasjan Lipkowski oraz Dawid Kocyła.</p><p>Po tej serii niepowodzeń Pogoń Grodzisk Mazowiecki zrównała się punktami z Arką Gdynia (obie drużyny mają po 21 oczek). Obecnie oba kluby zajmują miejsca w środku tabeli, co stanowi drastyczny spadek dla ekipy, która jeszcze w połowie października była samodzielnym liderem rozgrywek.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/mieli-walczyc-o-ekstraklase-tymczasem-przegrywaja-mecz-za-meczem' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "EKS",
     "badge": "Ekstraklasa",
     "badgeColor": "bg-rose-600",
@@ -526,17 +538,5 @@
     "title": "Sunderland bezlitosny dla kibiców Jagiellonii. Zakaz wstępu na stadion pod lupą",
     "summary": "Sunderland AFC ostrzega fanów Jagiellonii Białystok przed próbami obejścia zakazu wyjazdowego. Klub anuluje bilety zakupione na sektory gospodarzy i zapowiada wyrzucanie intruzów.",
     "content": "<p>Jagiellonia Białystok została ukarana przez UEFA zakazem wyjazdowym po zamieszkach, do których doszło w Sofii podczas meczu Ligi Europy. Decyzja ta jest pokłosiem wcześniejszych problemów dyscyplinarnych klubu, w tym incydentów z meczu w Novym Pazarze, gdzie kibice manifestowali swoje poglądy polityczne dotyczące Kosowa.</p><p>Mimo oficjalnego zakazu, część fanów z Podlasia próbowała nabyć wejściówki na sektory przeznaczone dla kibiców Sunderlandu. Angielski klub zareagował stanowczo, ogłaszając, że aktywnie monitoruje sprzedaż biletów i anuluje każdą wejściówkę, która została kupiona przez fanów Jagiellonii lub w ich imieniu.</p><p>Władze Sunderlandu podkreśliły, że na Stadium of Light nie będzie żadnych wyjątków. Każdy kibic Jagiellonii zidentyfikowany na stadionie zostanie usunięty z obiektu, a jedynymi przedstawicielami polskiego klubu na trybunach będą członkowie oficjalnej delegacji oraz zaproszeni goście.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/zamieszanie-przed-meczem-jagiellonii-sunderland-nie-odpuszcza' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "LL",
-    "badge": "La Liga",
-    "badgeColor": "bg-red-600",
-    "time": "21.11 • 10:21",
-    "source": "Na podstawie: Weszło",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/1280px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Jude Bellingham przyszłym kapitanem Realu Madryt? Eksperci nie mają wątpliwości",
-    "summary": "Władze Realu Madryt oraz eksperci widzą w Jude Bellinghamie naturalnego kandydata na przyszłego kapitana drużyny, doceniając jego profesjonalizm i wpływ na zespół.",
-    "content": "<p>Rio Ferdinand w swoim podcaście jednoznacznie stwierdził, że jeśli Jude Bellingham zdecyduje się kontynuować karierę w Madrycie, w przyszłości z pewnością otrzyma opaskę kapitańską. Były obrońca Manchesteru United jest pod ogromnym wrażeniem wszechstronności Anglika, podkreślając jego unikalne umiejętności w defensywie i ofensywie.</p><p>Według doniesień dziennika „Marca”, Bellingham imponuje sztabowi szkoleniowemu w ośrodku treningowym Valdebebas. Piłkarz wyróżnia się ogromnym zaangażowaniem, wczesnym przychodzeniem na treningi oraz częstymi konsultacjami taktycznymi z trenerami, co buduje jego pozycję lidera w szatni.</p><p>Obecnie hierarchia kapitańska w zespole „Królewskich” jest już ustalona – funkcję tę pełni Federico Valverde, a jego zastępcami są Vinicius Jr oraz Thibaut Courtois. Mimo to, dziennikarze tacy jak Jorge C. Picón czy Tomás Roncero są przekonani, że osobowość i ambicja Bellinghama czynią go naturalnym następcą w tej roli.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/real-madryt-wie-kto-przejmie-opaske-kapitana-koledzy-sa-zachwyceni' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
