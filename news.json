@@ -1,5 +1,41 @@
 [
   {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "22.11 • 08:21",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Bruno_Fernandes_USMNT_v_Portugal_Mar_31_2026-27_%28cropped%29.jpg/1280px-Bruno_Fernandes_USMNT_v_Portugal_Mar_31_2026-27_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Bruno Fernandes o przyszłości w United: Odrzuciłem oferty, teraz liczy się tylko gra",
+    "summary": "Kapitan Manchesteru United potwierdził, że odrzucił propozycje nowego kontraktu, podkreślając, że jego priorytetem jest sukces drużyny, a nie negocjacje finansowe.",
+    "content": "<p>Bruno Fernandes przyznał w rozmowie ze Sky Sports, że władze Manchesteru United złożyły mu propozycję przedłużenia współpracy, jednak piłkarz zdecydował się wstrzymać rozmowy. Portugalczyk podkreślił, że w obecnej sytuacji najważniejszym celem klubu jest powrót na zwycięską ścieżkę, a nie kwestie kontraktowe.</p><p>Pomocnik stanowczo zdementował medialne plotki, jakoby domagał się wyższych zarobków czy dłuższego okresu obowiązywania umowy. Fernandes zaznaczył, że w przeszłości miał już okazje do odejścia do klubów oferujących znacznie lepsze warunki finansowe, jednak zawsze wybierał pozostanie na Old Trafford ze względu na przywiązanie do barw klubowych.</p><p>Kapitan Czerwonych Diabłów zadeklarował pełną lojalność wobec pracodawcy, zapewniając, że nie zamierza „przeczekiwać” kontraktu w klubie, jeśli ten nie będzie go potrzebował. Portugalczyk otwarcie przyznał, że jeśli tylko zarząd uzna, iż nadszedł czas na rozstanie, będzie pierwszym, który bez wahania opuści szeregi drużyny.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/11095/13614990/bruno-fernandes-man-utd-captain-confirms-contract-offer-but-says-negotiations-are-on-hold' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "22.11 • 08:21",
+    "source": "Na podstawie: Weszło",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/2017_RUS_v_BEL_exhibition_-_Szymon_Marciniak%2C_Pawe%C5%82_Sokolnicki_and_Tomasz_Listkiewicz.jpg/1280px-2017_RUS_v_BEL_exhibition_-_Szymon_Marciniak%2C_Pawe%C5%82_Sokolnicki_and_Tomasz_Listkiewicz.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Skandal w Radomiu: Sędzia Listkiewicz uderza w organy państwa po meczu Wisły",
+    "summary": "Mecz Radomiaka z Wisłą Kraków opóźnił się o pół godziny przez wandalizm na stadionie i kontrowersyjną decyzję wojewody o zamknięciu sektora gości, którą ostatecznie cofnięto.",
+    "content": "<p>Spotkanie pomiędzy Radomiakiem a Wisłą Kraków rozpoczęło się z trzydziestominutowym poślizgiem. Przyczyną zamieszania był akt wandalizmu, w wyniku którego zniszczono bramę w sektorze dla przyjezdnych. Początkowo wojewoda mazowiecki wydał decyzję o całkowitym zamknięciu sektora dla kibiców z Krakowa, co wywołało ogromne napięcie.</p><p>Dzięki intensywnej presji, w którą zaangażował się prezes Wisły Jarosław Królewski, decyzję wojewody zmieniono w ostatniej chwili. Pozwoliło to fanom „Białej Gwiazdy” wejść na stadion już w trakcie trwania pojedynku, który zakończył się bezbramkowym remisem, mimo przewagi krakowian i niewykorzystanych szans Jakuba Krzyżanowskiego oraz Angela Rodado.</p><p>Ostre słowa po meczu skierował asystent arbitra głównego Mateusza Piszczeloka, Tomasz Listkiewicz. Znany sędzia w mediach społecznościowych zarzucił organom państwowym wspieranie przestępców poprzez próbę zablokowania wejścia kibiców. Listkiewicz wyraził również uznanie dla postawy prezesa Królewskiego w walce z zaistniałym bezprawiem.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/sedzia-meczu-wisly-krakow-organy-panstwa-stanely-po-stronie-przestepcow' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "EKS",
+    "badge": "Ekstraklasa",
+    "badgeColor": "bg-rose-600",
+    "time": "22.11 • 08:21",
+    "source": "Na podstawie: Weszło",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Na_zdj%C4%99ciu_Michal_Ga%C5%A1par%C3%ADk_%28matiosporcie.pl%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Skandal w Górniku Zabrze: Trener Gasparik wściekły na samowolę Maksyma Chłania",
+    "summary": "Trener Górnika Zabrze, Michal Gasparik, ostro skrytykował Maksyma Chłania za samowolne wykonanie rzutu karnego w przegranym meczu z Zagłębiem Lubin.",
+    "content": "<p>Górnik Zabrze przegrał wyjazdowe starcie z Zagłębiem Lubin, a kluczowym momentem spotkania okazał się niewykorzystany rzut karny. Choć w drużynie ustalona jest ścisła hierarchia wykonawców jedenastek, do piłki podszedł Maksym Chłań, którego uderzenie obronił Zlatan Alomerović.</p><p>Szkoleniowiec wicemistrzów Polski, Michal Gasparik, nie krył frustracji po meczu. Trener podkreślił, że Chłań zlekceważył ustalenia taktyczne, w których wyznaczeni do strzału byli Rafał Janicki, Erik Prekop, Paulo Bernardo lub Paweł Bochniewicz. Gasparik otwarcie zarzucił zawodnikowi, że jego ego okazało się ważniejsze od dobra całego zespołu.</p><p>Sytuacja Ukraińca w klubie jest trudna, gdyż w obecnym sezonie notuje on słabe statystyki – zaledwie dwa gole i jedna asysta w 23 występach. Trener Gasparik wyraził również głębokie zaniepokojenie brakiem dyscypliny w drużynie, co w jego ocenie może negatywnie wpłynąć na dalszą część sezonu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/trener-gornika-nie-kryl-wscieklosci-dostalo-sie-jednemu-zawodnikowi' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "EKS",
     "badge": "Ekstraklasa",
     "badgeColor": "bg-rose-600",
@@ -360,18 +396,6 @@
     "content": "<p>Sytuacja kadrowa Napoli stała się dramatyczna po tym, jak do długiej listy kontuzjowanych dołączył bramkarz Alex Meret, który z powodu złamania kręgosłupa wypadł z gry na dwa miesiące. Wcześniej z urazami zmagali się już m.in. Stanislav Lobotka, Giovanni Di Lorenzo oraz Alessandro Buongiorno.</p><p>W obliczu słabych wyników i konieczności poprawy gry w obronie, Allegri zdecydował się na przejście na system 3-5-2. Trener otwarcie przyznał, że drużyna czuje się zbyt niepewnie w defensywie i traci zdecydowanie za dużo bramek, co wymusiło zmiany personalne i taktyczne.</p><p>W meczu z Torino na ławce rezerwowych usiadł Kevin De Bruyne, który otrzymał dodatkowy czas na regenerację po meczach reprezentacji Belgii. Jednocześnie klub wyraźnie wycofał zaufanie do Lorenzo Lucci i Noa Langa, których odejście w zimowym oknie transferowym wydaje się przesądzone.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/allegri-explains-napoli-changes-de-bruyne/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "21.11 • 19:58",
-    "source": "Na podstawie: Weszło",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/4/49/Arsenal_v_Everton_-_52223142689_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Arsenal traci punkty na St. James' Park. Remis z Newcastle po słabej drugiej połowie",
-    "summary": "Arsenal Londyn zremisował z Newcastle United, tracąc cenne punkty w wyścigu o mistrzostwo Anglii. Mimo prowadzenia, podopieczni Mikela Artety nie utrzymali przewagi po słabej drugiej połowie.",
-    "content": "<p>Spotkanie na St. James’ Park zakończyło się podziałem punktów, co jest dopiero drugą taką stratą Arsenalu w bieżącym sezonie Premier League. Choć goście kontrolowali przebieg pierwszej części gry, po przerwie zaprezentowali się znacznie słabiej, co pozwoliło gospodarzom na odrobienie strat.</p><p>Wynik otworzył Eberechi Eze, który wykorzystał precyzyjne podanie od Kaia Havertza, przełamując tym samym swoją strzelecką niemoc w lidze. Wcześniej dogodne okazje do zdobycia bramki marnowali Noni Madueke oraz Bruno Guimaraes, który po raz pierwszy od transferu do Londynu mierzył się ze swoim byłym klubem.</p><p>Mecz przebiegł w relatywnie spokojnej atmosferze, zwłaszcza w porównaniu do poprzednich, pełnych kontrowersji starć obu drużyn. Mimo kilku spornych sytuacji, w tym protestów Newcastle o rzut karny po zagraniu ręką Gabriela, sędziowie nie dopatrzyli się przewinień, a wynik pozostał nierozstrzygnięty.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/arsenal-mial-wszystko-pod-kontrola-nie-wrocil-jednak-na-boisko' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "OTHER",
     "badge": "Inne Ligi",
     "badgeColor": "bg-emerald-600",
@@ -456,18 +480,6 @@
     "content": "<p>Tuż przed spotkaniem Radomiaka Radom z Wisłą Kraków doszło do nocnego aktu wandalizmu na stadionie przy ulicy Struga. Nieznani sprawcy zniszczyli drzwi bezpieczeństwa oraz wycięli furtkę ewakuacyjną prowadzącą na płytę boiska, co bezpośrednio wpłynęło na bezpieczeństwo uczestników wydarzenia.</p><p>Rzecznik Radomiaka, Filip Świerczyński, informował o powołaniu sztabu kryzysowego z udziałem policji i MOSiR-u, który miał na celu szybką naprawę szkód. Mimo podjętych prób prowizorycznego zabezpieczenia sektora, stan techniczny obiektu nie pozwolił na wpuszczenie fanów Białej Gwiazdy.</p><p>Ostateczną decyzję o zamknięciu sektora wydał Wojewoda Mazowiecki Mariusz Frankowski na wniosek policji. W oficjalnym komunikacie podkreślono, że bezpieczeństwo jest priorytetem, a mecz rozpoczynający się o 20:15 odbędzie się wyłącznie z udziałem kibiców gospodarzy.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/jest-decyzja-w-sprawie-meczu-radomiaka-z-wisla-wszystko-juz-jasne' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "21.11 • 16:15",
-    "source": "Na podstawie: Weszło",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/3/38/SK_Slavia_Praha_20261019_%2813%29_%28Oskar_Kubiak%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Slavia Praga pewna swego w Ołomuńcu. Kubiak i Nowak z szansami od trenera",
-    "summary": "Slavia Praga bez problemów pokonała Sigmę Ołomuniec, utrzymując status niepokonanej drużyny w lidze. Polacy Oskar Kubiak i Wiktor Nowak zagrali po jednej połowie meczu.",
-    "content": "<p>Slavia Praga odniosła kolejne zwycięstwo w czeskiej lidze, pewnie pokonując Sigmę Ołomuniec. Wynik spotkania otworzył Mojmir Chytil, choć sytuacja wymagała analizy sędziowskiej pod kątem ewentualnego spalonego. Ostatecznie bramka została uznana, a goście kontrolowali przebieg zawodów przez większość czasu gry.</p><p>Trener Jindrich Tripsovsky zdecydował się na rotację wśród polskich zawodników, dając każdemu z nich po 45 minut na boisku. Oskar Kubiak rozpoczął mecz w wyjściowym składzie, występując na nietypowej dla siebie pozycji ofensywnego pomocnika, natomiast Wiktor Nowak pojawił się na murawie po przerwie, zastępując swojego rodaka.</p><p>Szkoleniowiec Slavii od dłuższego czasu testuje wszechstronność obu Polaków, wystawiając ich na różnych pozycjach, co budzi pytania o stabilizację ich formy. Mimo częstych zmian ról na boisku, drużyna z Pragi pozostaje w świetnej dyspozycji i wciąż nie zaznała smaku porażki w trwających rozgrywkach ligowych.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/oskar-kubiak-i-wiktor-nowak-rozdzieleni-slavia-wygrala-w-olomuncu' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "LL",
     "badge": "La Liga",
     "badgeColor": "bg-red-600",
@@ -514,18 +526,6 @@
     "title": "Jude Bellingham przyszłym kapitanem Realu Madryt? Eksperci nie mają wątpliwości",
     "summary": "Władze Realu Madryt oraz eksperci widzą w Jude Bellinghamie naturalnego kandydata na przyszłego kapitana drużyny, doceniając jego profesjonalizm i wpływ na zespół.",
     "content": "<p>Rio Ferdinand w swoim podcaście jednoznacznie stwierdził, że jeśli Jude Bellingham zdecyduje się kontynuować karierę w Madrycie, w przyszłości z pewnością otrzyma opaskę kapitańską. Były obrońca Manchesteru United jest pod ogromnym wrażeniem wszechstronności Anglika, podkreślając jego unikalne umiejętności w defensywie i ofensywie.</p><p>Według doniesień dziennika „Marca”, Bellingham imponuje sztabowi szkoleniowemu w ośrodku treningowym Valdebebas. Piłkarz wyróżnia się ogromnym zaangażowaniem, wczesnym przychodzeniem na treningi oraz częstymi konsultacjami taktycznymi z trenerami, co buduje jego pozycję lidera w szatni.</p><p>Obecnie hierarchia kapitańska w zespole „Królewskich” jest już ustalona – funkcję tę pełni Federico Valverde, a jego zastępcami są Vinicius Jr oraz Thibaut Courtois. Mimo to, dziennikarze tacy jak Jorge C. Picón czy Tomás Roncero są przekonani, że osobowość i ambicja Bellinghama czynią go naturalnym następcą w tej roli.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/real-madryt-wie-kto-przejmie-opaske-kapitana-koledzy-sa-zachwyceni' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "EKS",
-    "badge": "Ekstraklasa",
-    "badgeColor": "bg-rose-600",
-    "time": "21.11 • 09:17",
-    "source": "Na podstawie: Weszło",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/%C3%93scar_Garc%C3%ADa_als_trainer_van_Ajax_%282026%29.jpg/1280px-%C3%93scar_Garc%C3%ADa_als_trainer_van_Ajax_%282026%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Kryzys w Szczecinie: Pogoń przegrywa, a Oscar Garcia otwarcie mówi o problemach",
-    "summary": "Pogoń Szczecin przegrała trzeci mecz z rzędu, ulegając u siebie Śląskowi Wrocław 1:2. Trener Oscar Garcia wskazuje na problemy kadrowe i organizacyjne w klubie.",
-    "content": "<p>Pogoń Szczecin przeżywa wyraźny spadek formy, co potwierdziła piątkowa porażka 1:2 ze Śląskiem Wrocław. Po serii przegranych z Rakowem Częstochowa (1:3) oraz Widzewem Łódź (0:3), drużyna prowadzona przez Oscara Garcię straciła status rewelacji rozgrywek i obecnie zajmuje piąte miejsce w tabeli Ekstraklasy.</p><p>Szkoleniowiec Portowców nie ukrywa frustracji wynikającej z warunków pracy w klubie, o czym wspomniał w wywiadzie dla Kanału Sportowego. Garcia przyznał, że rzeczywistość w Szczecinie odbiega od jego początkowych oczekiwań, co zbiegło się w czasie z zainteresowaniem jego osobą ze strony innych klubów, w tym Dinama Zagrzeb.</p><p>Na konferencji prasowej po meczu ze Śląskiem, Garcia tłumaczył słabe wyniki plagą kontuzji oraz koniecznością wystawiania zawodników na nietypowych pozycjach. Trener podkreślił, że mimo prowadzenia 1:0, zespół nie potrafił utrzymać korzystnego rezultatu przez błędy w defensywie oraz brak skuteczności pod bramką rywala.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/nie-tylko-dinamo-zagrzeb-trener-pogoni-ujawnil-ze-telefonow-bylo-wiecej' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
     "category": "LL",
