@@ -1,5 +1,53 @@
 [
   {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "22.11 • 22:27",
+    "source": "Na podstawie: Football Italia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/6/64/Maurizio_Sarri_2019_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Sarri po szalonym remisie z Interem: Nie zmienię filozofii gry na krycie indywidualne",
+    "summary": "Atalanta zremisowała 4-4 z Interem Mediolan po emocjonującym pościgu. Maurizio Sarri chwali charakter zespołu, ale ucina spekulacje dotyczące zmiany taktyki na krycie indywidualne.",
+    "content": "<p>Atalanta zdołała odrobić dwubramkową stratę w starciu z Interem, doprowadzając do końcowego wyniku 4-4. Choć rywale prowadzili już 4-2 dzięki hat-trickowi Pio Esposito i trafieniu Petara Sucica, gospodarze odpowiedzieli bramkami Eljifa Elmasa, dubletem Charlesa De Ketelaere oraz rzutem karnym Francka Kessiego w doliczonym czasie gry.</p><p>Maurizio Sarri podkreślił, że mimo słabej defensywy, jego zespół wykazuje się ogromnym charakterem. Szkoleniowiec zaznaczył jednak stanowczo, że nie zamierza rezygnować ze swojej wizji gry opartej na kryciu strefowym na rzecz krycia indywidualnego, sugerując, że jeśli klub oczekuje zmiany stylu, powinien zatrudnić innego trenera.</p><p>Włoski szkoleniowiec wskazał, że problemy obronne wynikają z plagi kontuzji, która uniemożliwia stabilizację składu, oraz trudności w przestawieniu drużyny z systemu trójki obrońców, stosowanego przez lata przez Gian Piero Gasperiniego, na czwórkę preferowaną przez Sarriego. Atalanta zajmuje obecnie 12. miejsce w tabeli Serie A.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/sarri-atalanta-hire-someone-else-man-marking/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "22.11 • 22:27",
+    "source": "Na podstawie: Football Italia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/5/51/Francesco_Pio_Esposito_a_La_Spezia_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Szalone 4:4 w Bergamo! Hat-trick Pio Esposito nie dał Interowi zwycięstwa",
+    "summary": "Atalanta zdołała odrobić dwubramkową stratę i zremisować z Interem Mediolan 4:4 w emocjonującym starciu Serie A, mimo historycznego hat-tricka Francesco Pio Esposito.",
+    "content": "<p>Mecz w Bergamo dostarczył ogromnych emocji, a głównym aktorem widowiska był Francesco Pio Esposito. Młody napastnik Interu zdobył swojego pierwszego hat-tricka w Serie A, wykorzystując między innymi precyzyjne podanie Marcusa Thurama. Mimo prowadzenia gości 3:1, Atalanta nie odpuściła i zdołała wyrównać dzięki trafieniom Charlesa De Ketelaere oraz Francka Kessiego.</p><p>Spotkanie rozpoczęło się od problemów kadrowych po obu stronach. W drużynie gospodarzy tuż przed pierwszym gwizdkiem kontuzji kolana doznał bramkarz Marco Carnesecchi, którego zastąpił Marco Sportiello. Z kolei Inter musiał radzić sobie bez kontuzjowanych Ange-Yoana Bonny'ego i Aleksandara Stankovicia, a Hakan Calhanoglu musiał opuścić boisko w pierwszej połowie z powodu urazu mięśnia zginacza.</p><p>Dla Atalanty był to ważny mecz w kontekście przełamania słabej passy w starciach z Interem, z którym od 2018 roku nie potrafiła wygrać. Mimo że goście kontrolowali przebieg gry przez długie fragmenty, gospodarze wykazali się ogromną determinacją. Bramki dla zespołu z Bergamo zdobywali również Eljif Elmas oraz wspomniani De Ketelaere i Kessie, ustalając wynik na 4:4.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/serie-a-atalanta-4-4-inter-incredible-comeback/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "22.11 • 22:27",
+    "source": "Na podstawie: Weszło",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Julian_Alvarez_Argentina_v_Spain_19_July_2026-052_%28cropped%29.jpg/1280px-Julian_Alvarez_Argentina_v_Spain_19_July_2026-052_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Atletico Madryt wygrywa z Getafe. Julian Alvarez w roli głównego kreatora",
+    "summary": "Atletico Madryt pokonało Getafe, notując piąte wyjazdowe zwycięstwo z rzędu. Mimo braku gola, Julian Alvarez był kluczową postacią w ofensywie zespołu Diego Simeone.",
+    "content": "<p>Podopieczni Diego Simeone kontynuują świetną passę, wygrywając piąty mecz wyjazdowy z rzędu, co w historii pracy argentyńskiego szkoleniowca w klubie zdarzyło się dotychczas tylko dwukrotnie. Zwycięstwo nad Getafe pozwala Rojiblancos utrzymać kontakt z Realem Madryt i Barceloną w walce o mistrzostwo Hiszpanii.</p><p>Losy spotkania rozstrzygnęły się już w 10. minucie, gdy Alex Baena popisał się efektownym uderzeniem z dystansu po podaniu Juliana Alvareza. Mimo przewagi gości, bramkarz gospodarzy David Soria kilkukrotnie ratował swój zespół, choć w 30. minucie popełnił poważny błąd przy rzucie rożnym, który wykorzystał Johnny Cardoso.</p><p>Dla Getafe, prowadzonego przez Jose Bordalasa, porażka ta pogłębia kryzys wyjazdowy – drużyna wciąż nie zdobyła punktu na obcym stadionie w tym sezonie. Z kolei Julian Alvarez, choć nie wpisał się na listę strzelców, był najbardziej aktywnym zawodnikiem na boisku, kreując sytuacje kolegom i zmuszając bramkarza rywali do najwyższego wysiłku.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/atletico-madryt-nie-odpuszcza-barcelonie-i-realowi-swietny-mecz-juliana-alvareza' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "22.11 • 22:27",
+    "source": "Na podstawie: Weszło",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/b/b7/FC_Salzburg_gegen_AS_Roma_%28UEFA_Euroleague_play-off%2C_2023-02-16%29_14_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Zalewski błyszczy w szalonym meczu Serie A! Dwie asysty Polaka w barwach Atalanty",
+    "summary": "Nicola Zalewski zanotował dwie asysty w emocjonującym starciu Atalanty z Interem. Mimo hat-tricka Francesco Pio Esposito, spotkanie obfitowało w zwroty akcji i ofensywną grę.",
+    "content": "<p>Nicola Zalewski po raz kolejny wybiegł w wyjściowym składzie Atalanty, potwierdzając swoją wysoką formę. Polak był kluczową postacią ofensywy swojego zespołu, notując czwartą i piątą asystę w bieżącym sezonie Serie A, w tym jedną przy trafieniu Eljifa Elmasa.</p><p>Spotkanie rozpoczęło się pechowo dla gospodarzy z Bergamo, gdyż podczas rozgrzewki kontuzji kolana doznał podstawowy bramkarz Marco Carnesecchi. W jego miejsce między słupkami musiał pojawić się 34-letni Marco Sportiello, co było sporym osłabieniem dla defensywy Atalanty.</p><p>W barwach Interu zabrakło Piotra Zielińskiego, który całe spotkanie przesiedział na ławce rezerwowych. Trener Cristian Chivu zdecydował się oszczędzać pomocnika ze względu na niedawne problemy zdrowotne ze stopą, które wykluczyły go z części zgrupowania reprezentacji Polski.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/zalewski-blysnal-asystami-w-meczu-z-mistrzem-wloch-szalenstwo-i-mnostwo-goli' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "PL",
     "badge": "Premier League",
     "badgeColor": "bg-purple-600",
@@ -228,30 +276,6 @@
     "content": "<p>Początek spotkania należał do gości z Hamburga, którzy stworzyli zagrożenie pod bramką rywali za sprawą Patsona Daki oraz Miro Muheima. Mimo przewagi HSV w pierwszych minutach, żadna z drużyn nie zdołała otworzyć wyniku przed przerwą, choć gospodarze z Bremy coraz śmielej atakowali bramkę Daniela Heuera Fernandesa.</p><p>Przełamanie nastąpiło w 55. minucie, gdy kapitan Werderu, Marco Friedl, wykorzystał zamieszanie w polu karnym i skierował piłkę do siatki. Od tego momentu gospodarze przejęli pełną kontrolę nad przebiegiem gry, skutecznie wywierając presję na defensywę przyjezdnych.</p><p>Prawdziwy popis dał Justin Njinmah, który po powrocie do składu po urazie zdobył dwie bramki. Najpierw trafił do siatki po precyzyjnym podaniu Niclasa Füllkruga, a dziesięć minut później jego uderzenie, po rykoszecie od Kofiego Amoako, ustaliło wynik meczu na 3:0 dla Werderu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/dominant-second-half-propels-werder-derby-dismantling-hsv' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "22.11 • 19:10",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/3/37/RubenAmorim4.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Pokaz siły Milanu: Rossoneri rozbijają Frosinone 5:1 na San Siro",
-    "summary": "Podopieczni Rubena Amorima pewnie pokonali Frosinone 5:1. W meczu błyszczeli m.in. Goncalo Ramos oraz debiutujący w roli strzelca dla Milanu Ardon Jashari.",
-    "content": "<p>AC Milan pewnie zainkasował trzy punkty, dominując nad Frosinone w meczu zakończonym wynikiem 5:1. Wynik otworzył samobójczy gol Gabriele Calvaniego po akcji Adriena Rabiota i Luki Modricia, a kolejne trafienia dołożyli Goncalo Ramos, Christian Pulisic oraz Ardon Jashari, dla którego był to premierowy gol w barwach mediolańskiego klubu.</p><p>Trener Ruben Amorim musiał radzić sobie z licznymi problemami kadrowymi. Z powodu kontuzji w składzie zabrakło m.in. Matteo Gabbii, Fikayo Tomoriego, Rubena Loftusa-Cheeka oraz Samuela Chukwueze. Do bramki po urazie odniesionym podczas przerwy reprezentacyjnej wrócił natomiast Mike Maignan.</p><p>Frosinone, grające nietypowym ustawieniem 3-4-3, zdołało odpowiedzieć jedynie trafieniem Patrizio Masiniego. Mimo ambitnego początku gości, zespół z Mediolanu kontrolował przebieg spotkania, skutecznie wykorzystując kontrataki i potwierdzając swoją wysoką formę w bieżącym sezonie Serie A.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/serie-a-milan-5-1-frosinone-magic-manita/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "22.11 • 19:10",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/0/06/Chivu2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Serie A: Inter z nowymi siłami przeciwko Atalancie. Sprawdź składy",
-    "summary": "Inter Mediolan pod wodzą Cristiana Chivu mierzy się z Atalantą. W wyjściowym składzie gości znaleźli się m.in. Marcus Thuram oraz Pio Esposito.",
-    "content": "<p>Inter Mediolan przystępuje do wyjazdowego starcia z Atalantą pod dużą presją, wynikającą z ostatnich zwycięstw Romy oraz Lazio. Trener Cristian Chivu zdecydował się posadzić na ławce wracającego po kontuzji uda Lautaro Martineza, stawiając w ataku na duet Marcus Thuram i Pio Esposito.</p><p>W składzie Nerazzurrich zabrakło Piotra Zielińskiego, który nie jest w pełni sił po urazie stopy odniesionym w meczu reprezentacji Polski. W środku pola, wobec braku w pełni dyspozycyjnego Curtisa Jonesa, od pierwszej minuty wystąpi Henrikh Mkhitaryan, a na bokach obrony zobaczymy Djeda Spence'a.</p><p>Atalanta, która przełamała się ostatnim zwycięstwem nad Monzą, wciąż zmaga się z nieobecnościami Isaka Hiena i Odilona Kossounou. Trener gospodarzy postawił w wyjściowej jedenastce na Francka Kessiego, Eljifa Elmasa oraz Nicolę Zalewskiego, licząc na dobrą formę Charlesa De Ketelaere i Nikoli Krstovicia.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/serie-a-official-line-ups-atalanta-vs-inter-12/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "EKS",
     "badge": "Ekstraklasa",
     "badgeColor": "bg-rose-600",
@@ -322,18 +346,6 @@
     "title": "Rolfes broni Tillmana po konflikcie z kibicami Bayeru Leverkusen",
     "summary": "Dyrektor sportowy Bayeru Leverkusen, Simon Rolfes, wziął w obronę Malika Tillmana po tym, jak pomocnik został wygwizdany przez własnych kibiców podczas meczu ze Stuttgartem.",
     "content": "<p>Podczas spotkania ze Stuttgartem część fanów na BayArena negatywnie zareagowała na grę Malika Tillmana, co mocno dotknęło 24-letniego reprezentanta USA. Zawodnik przyznał po ostatnim meczu z Paderborn, że po tych przykrych doświadczeniach nie przywiązuje już większej wagi do reakcji trybun, stwierdzając wprost, że jest mu obojętne, czy kibice skandują jego nazwisko.</p><p>Simon Rolfes podkreślił, że Tillman w ostatnich meczach przeciwko FC Köln oraz Paderborn zaprezentował się z bardzo dobrej strony, na co fani odpowiedzieli zasłużonymi brawami. Dyrektor sportowy zauważył, że Malik jest osobą wrażliwą, dlatego krytyka ze strony trybun była dla niego bolesnym przeżyciem, które wymaga czasu, aby w pełni się zagoić.</p><p>Mimo chłodnej postawy piłkarza wobec fanów, władze klubu zapewniają go o pełnym wsparciu. Rolfes zaznaczył, że Tillman wkłada w grę dla Bayeru całe serce i jest w pełni zaangażowany w sukcesy zespołu, a on sam, bazując na własnej karierze zawodniczej, doskonale rozumie emocjonalny ciężar, jaki niosą ze sobą reakcje kibiców.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/rolfes-backs-tillman-after-leverkusen-midfielder-difficult-spell-fans' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "22.11 • 17:22",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/7/72/Benito_Stirpe_brescia_panoramica_ternana_sud_ospiti_main_notturna.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Rewolucja taktyczna Frosinone: Alvini zaskakuje ustawieniem na mecz z Milanem",
-    "summary": "Trener Massimiliano Alvini zmienia system Frosinone na 3-4-3 w starciu z Milanem, desygnując Romano Schmida do roli fałszywej dziewiątki.",
-    "content": "<p>Przed wyjazdowym spotkaniem z Milanem, prowadzonym przez Rubena Amorima, Massimiliano Alvini zdecydował się na odważną zmianę taktyczną. Frosinone, które dotychczas grało w ustawieniu 4-2-3-1, po raz pierwszy w tym sezonie wyjdzie na murawę w systemie 3-4-3, aby ograniczyć pole manewru rywalom.</p><p>Kluczową postacią w nowym planie trenera jest Romano Schmid, który został przesunięty do roli fałszywej dziewiątki. Alvini podkreślił, że celem tych roszad jest wywieranie wysokiego pressingu na obrońcach Milanu i unikanie cofania się pomocników, co ma pozwolić drużynie na realizację własnego stylu gry.</p><p>Sytuacja kadrowa Frosinone jest jednak utrudniona przez kontuzje i zawieszenia. Z powodu skręcenia kostki nie zagrają Antonio Raimondo oraz Florian Grillitsch, a za kartki pauzuje Gabriele Bracaglia. Mimo tych braków, zajmujący szóste miejsce w tabeli beniaminek zapowiada walkę o punkty, a nie tylko podziwianie atmosfery stadionu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/alvini-explains-frosinone-transformation-milan/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
     "category": "OTHER",
@@ -526,17 +538,5 @@
     "title": "Kałużny broni Probierza: Piłkarze zostawili go na lodzie w sprawie Lewandowskiego",
     "summary": "Radosław Kałużny w ostrych słowach ocenił sytuację w kadrze, stając w obronie Michała Probierza i krytykując obecną pracę Jana Urbana po nieudanej Lidze Narodów.",
     "content": "<p>Reprezentacja Polski pod wodzą Jana Urbana zakończyła zmagania w Lidze Narodów na trzecim miejscu w grupie Dywizji B, ustępując Szwecji oraz Bośni i Hercegowinie. Słabe wyniki sprawiły, że pozycja Urbana stała się niepewna, a Radosław Kałużny wprost zarzucił mu brak pomysłu na drużynę i wprowadzanie chaosu.</p><p>W swojej analizie Kałużny wrócił do czasów Michała Probierza, który w czerwcu 2025 roku zrezygnował z funkcji selekcjonera. Zdaniem byłego reprezentanta, Probierz miał rację, odbierając opaskę kapitańską Robertowi Lewandowskiemu, jednak został w tej kwestii osamotniony przez zawodników, którzy początkowo go wspierali, a później wycofali się z deklaracji.</p><p>Ekspert docenił również dorobek Czesława Michniewicza, przypominając o wygranych barażach ze Szwecją i awansie do fazy pucharowej Mistrzostw Świata w Katarze. Kałużny podkreślił, że obecna kadra pod wodzą Urbana straciła zbyt wiele czasu, co wymaga natychmiastowych zmian w sztabie szkoleniowym.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/ekspert-o-michale-probierzu-wojowal-slusznie-pilkarze-haniebnie-sie-wycofali' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "CL",
-    "badge": "Liga Mistrzów",
-    "badgeColor": "bg-indigo-600",
-    "time": "22.11 • 09:18",
-    "source": "Na podstawie: BBC Sport",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/5/55/20241116-Ren%C3%A9e_Slegers.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Kryzys Arsenalu w WSL: Dlaczego Kanonierki wypadają z wyścigu o Ligę Mistrzyń?",
-    "summary": "Arsenal przeżywa trudny sezon w Women's Super League, tracąc dystans do czołówki i notując serię rozczarowujących remisów na własnym stadionie.",
-    "content": "<p>Mimo ambitnych zapowiedzi dyrektor technicznej Jodie Taylor o walce o mistrzostwo kraju, Arsenal po dziesięciu kolejkach zajmuje dopiero szóste miejsce w tabeli. Drużyna traci już 13 punktów do liderującej Chelsea oraz 9 punktów do trzecich London City Lionesses, co stawia pod znakiem zapytania ich awans do przyszłej edycji Ligi Mistrzyń.</p><p>Kluczowym problemem zespołu prowadzonego przez Renee Slegers jest fatalna dyspozycja na Emirates Stadium. Kanonierki zremisowały wszystkie pięć dotychczasowych meczów domowych w tym sezonie, w tym starcia z beniaminkami – Crystal Palace oraz Birmingham City. W tych dwóch spotkaniach drużyna oddała łącznie 57 strzałów, zdobywając zaledwie jedną bramkę.</p><p>Słabe wyniki przekładają się na nastroje kibiców, co widać po spadku frekwencji na trybunach. Po udanej poprzedniej kampanii, w której Arsenal wygrał osiem z jedenastu meczów u siebie, obecna niemoc sprawia, że podopieczne Slegers desperacko szukają pierwszego zwycięstwa przed własną publicznością w nadchodzącym starciu z West Hamem.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/articles/c8752llr1ed1o?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
