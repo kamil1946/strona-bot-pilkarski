@@ -1,5 +1,77 @@
 [
   {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "23.11 • 10:39",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/7/70/Florian_Wirtz_Ecuador_v_Germany_25_June_2026-181_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Liverpool miażdży United: Florian Wirtz w końcu odpalił na Anfield",
+    "summary": "Liverpool rozbił Manchester United 4-0 w meczu, w którym kluczową rolę odegrał Florian Wirtz. Niemiec po słabym początku sezonu w końcu pokazał pełnię swojego potencjału.",
+    "content": "<p>Spotkanie na Anfield ułożyło się po myśli gospodarzy już w 8. minucie, kiedy to czerwoną kartkę obejrzał obrońca Manchesteru United, Leny Yoro. Osłabieni goście nie byli w stanie przeciwstawić się ofensywie Liverpoolu, co zaowocowało pewnym zwycięstwem 4-0 pod wodzą nowego menedżera, Andoniego Iraoli.</p><p>Bohaterem dnia został Florian Wirtz, który stworzył aż pięć wielkich szans bramkowych – to rekordowy wynik w Premier League od 2010 roku. Niemiec, krytykowany wcześniej za wysoką cenę transferową, zdobył bramkę po rzucie wolnym Dominika Szoboszlaia i był motorem napędowym ataków swojego zespołu.</p><p>Postawę Wirtza docenili eksperci, w tym Jamie Carragher, który wcześniej surowo oceniał letnie zakupy Liverpoolu. Sam zawodnik przyznał, że jego rosnąca forma jest efektem lepszej gry całego zespołu, który pod wodzą Iraoli zaczyna wreszcie funkcjonować zgodnie z oczekiwaniami.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/news/11095/13615535/liverpools-attack-shows-its-devastating-potential-as-florian-wirtz-steps-up-in-thumping-win-over-10-man-man-utd' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "23.11 • 10:39",
+    "source": "Na podstawie: Bulinews",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg/1280px-Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Kryzys w Bayernie: Harry Kane kontuzjowany. Czy monachijczycy ruszą na zakupy?",
+    "summary": "Harry Kane doznał kontuzji kostki w meczu z 1. FC Köln i może pauzować do marca. Bayern rozważa sprowadzenie zastępcy, choć zarząd zapowiada chłodne podejście do zimowego okna.",
+    "content": "<p>Problemy zdrowotne Harry'ego Kane'a, które pojawiły się po zremisowanym 1:1 spotkaniu z 1. FC Köln, postawiły Bayern Monachium w trudnej sytuacji. Anglik może wypaść z gry na kilka miesięcy, co wymusza na klubie rewizję strategii transferowej, gdyż w kadrze brakuje klasycznego środkowego napastnika.</p><p>Max Eberl, członek zarządu ds. sportowych, podkreślił w rozmowie ze Sky Germany, że klub nie zamierza działać w panice. Podkreślił, że zimowy rynek jest specyficzny i trudny, a ewentualny nowy zawodnik musi realnie podnieść jakość zespołu, a nie być tylko rozwiązaniem tymczasowym.</p><p>W mediach pojawiają się już pierwsze nazwiska potencjalnych następców. Wśród kandydatów wymienia się Younesa Ebnoutaliba z Eintrachtu Frankfurt, Nicolo Tresoldiego z Club Brugge, a także Ricardo Pepiego, Igora Thiago czy powrót Erica-Maxima Choupo-Motinga. Alternatywą pozostaje przesunięcie do ataku zawodników już obecnych w składzie, takich jak Jamal Musiala czy Michael Olise.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/bayern-sign-kane-replacement-january-following-injury-setback' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "23.11 • 10:39",
+    "source": "Na podstawie: Bulinews",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg/1280px-Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Poważna kontuzja Harry'ego Kane'a: Gwiazdor Bayernu wypada z gry na tygodnie",
+    "summary": "Harry Kane doznał zerwania więzozrostu skokowego w meczu z 1. FC Köln. Napastnik Bayernu Monachium przeszedł już operację i wróci na boisko najwcześniej pod koniec lutego.",
+    "content": "<p>Do feralnego zdarzenia doszło podczas piątkowego spotkania Bayernu Monachium z 1. FC Köln, które zakończyło się remisem 1:1. Angielski napastnik musiał opuścić murawę przedwcześnie z powodu urazu stawu skokowego.</p><p>Klub oficjalnie potwierdził, że diagnoza wykazała zerwanie więzozrostu. Harry Kane przeszedł już niezbędny zabieg chirurgiczny, który ma pomóc w naprawie uszkodzonych struktur w okolicach kostki.</p><p>Max Eberl, członek zarządu Bayernu ds. sportowych, przekazał podczas spotkania z kibicami prognozy dotyczące powrotu zawodnika. Według szacunków sztabu, lider ataku Bawarczyków będzie pauzował co najmniej do przełomu lutego i marca.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/bayern-boss-puts-timeframe-kane-injury-recovery' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "23.11 • 10:38",
+    "source": "Na podstawie: Bulinews",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Brajan_Gruda_signature.svg/1280px-Brajan_Gruda_signature.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imgCredit": "Fot. Haibanhjr1 (CC0)",
+    "title": "Jedenastka kolejki Bundesligi: Dominacja Lipska i pewne zwycięstwa faworytów",
+    "summary": "Redakcja Bulinews wybrała najlepszych zawodników 10. kolejki Bundesligi, wyróżniając graczy RB Lipsk, Werderu Brema oraz Borussii Dortmund po ich kluczowych zwycięstwach.",
+    "content": "<p>W minionej serii gier RB Lipsk rozbiło Union Berlin 5:1, a w drużynie kolejki znaleźli się Ridle Baku, Willi Orban oraz Brajan Gruda. Szczególnie imponował Orban, który wygrał aż 14 pojedynków, oraz Gruda, który do gola dołożył asystę i siedem udanych dryblingów.</p><p>Werder Brema w derbach północy (Nordderby) rozgromił HSV 4:0. Kapitan drużyny popisał się skutecznością i precyzją podań, a Justin Njinmah, który zastąpił kontuzjowanego Marco Grülla, wykorzystał szansę, zdobywając dwie bramki.</p><p>Borussia Dortmund po golu swojego lidera wygrała 1:0 z Borussią Mönchengladbach, co pozwoliło im objąć fotel lidera tabeli po wpadce Bayernu Monachium. Z kolei w Leverkusen błyszczał Moreira, który przy zwycięstwie 4:0 z Paderborn dwukrotnie wpisał się na listę strzelców.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/bundesliga-team-the-week-matchday-10-2' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "23.11 • 10:38",
+    "source": "Na podstawie: Football Italia",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Rafael_Leao_Croatia_v_Portugal_2_July_2026-187_%28cropped%29.jpg/1280px-Rafael_Leao_Croatia_v_Portugal_2_July_2026-187_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Di Canio bezlitosny dla Leao: Milan bez niego byłby średniakiem",
+    "summary": "Paolo Di Canio skrytykował postawę Rafaela Leao, twierdząc, że obecny Milan zawdzięcza sukcesy innym zawodnikom, przy których Portugalczyk wypada blado.",
+    "content": "<p>Były napastnik Paolo Di Canio w programie Sky Sport Italia ostro ocenił wpływ Rafaela Leao na grę Milanu. Jego zdaniem, gdyby zespół wciąż opierał się na Portugalczyku, drużyna zajmowałaby miejsce w środku tabeli, a nie walczyła o czołowe lokaty.</p><p>Ekspert wskazał na Alphadjo Cisse oraz Diego Moreirę jako piłkarzy o znacznie wyższej wartości rynkowej i sportowej. Di Canio podkreślił, że to właśnie ich profesjonalizm, skuteczność oraz umiejętność współpracy z resztą drużyny stanowią o sile obecnego Milanu.</p><p>Wypowiedź padła po wysokim zwycięstwie Milanu 5-1 nad Frosinone. Mimo dobrego wyniku, Di Canio zauważył, że defensywa rywali prezentowała się bardzo słabo, a w Serie A poziom gry obronnej w dolnych rejonach tabeli pozostawia wiele do życzenia.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/di-canio-milan-mid-table-leao-cisse-3-times/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "23.11 • 10:38",
+    "source": "Na podstawie: Weszło",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Robert_Lewandowski_NYCFC_v_Chicago_25_July_2026-383.jpg/1280px-Robert_Lewandowski_NYCFC_v_Chicago_25_July_2026-383.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Słodko-gorzki debiut Lewandowskiego w play-offach MLS: Gol to za mało",
+    "summary": "Robert Lewandowski strzelił gola w swoim pierwszym meczu fazy play-off MLS, jednak jego Chicago Fire przegrało z Charlotte FC 1:2 i znalazło się w trudnej sytuacji.",
+    "content": "<p>Robert Lewandowski ma za sobą debiut w fazie pucharowej MLS, który zakończył się porażką Chicago Fire z Charlotte FC 1:2. Mimo zdobycia bramki wyrównującej w 69. minucie spotkania, polski napastnik nie ustrzegł się błędów, w tym pomyłki przy kryciu rywala podczas stałego fragmentu gry, który otworzył wynik meczu.</p><p>Występ 38-letniego Polaka był mieszanką solidnej skuteczności i niewykorzystanych szans. Lewandowski oddał pięć strzałów – każdy z pola karnego – oraz wykreował dwie okazje kolegom. Miał jednak również momenty słabości, m.in. w 28. minucie, gdy zmarnował dogodną sytuację strzelecką.</p><p>Statystyki potwierdzają dużą aktywność kapitana reprezentacji Polski, który wygrał osiem z dwunastu pojedynków i odzyskał sześć piłek. Porażka stawia jednak Chicago Fire pod ścianą – aby pozostać w grze o mistrzostwo, zespół musi wygrać kolejne wyjazdowe starcie w najbliższą sobotę.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/robert-lewandowski-zadebiutowal-w-play-offach-oto-statystyki' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "LL",
     "badge": "La Liga",
     "badgeColor": "bg-red-600",
@@ -216,18 +288,6 @@
     "content": "<p>Podopieczni Diego Simeone kontynuują świetną passę, wygrywając piąty mecz wyjazdowy z rzędu, co w historii pracy argentyńskiego szkoleniowca w klubie zdarzyło się dotychczas tylko dwukrotnie. Zwycięstwo nad Getafe pozwala Rojiblancos utrzymać kontakt z Realem Madryt i Barceloną w walce o mistrzostwo Hiszpanii.</p><p>Losy spotkania rozstrzygnęły się już w 10. minucie, gdy Alex Baena popisał się efektownym uderzeniem z dystansu po podaniu Juliana Alvareza. Mimo przewagi gości, bramkarz gospodarzy David Soria kilkukrotnie ratował swój zespół, choć w 30. minucie popełnił poważny błąd przy rzucie rożnym, który wykorzystał Johnny Cardoso.</p><p>Dla Getafe, prowadzonego przez Jose Bordalasa, porażka ta pogłębia kryzys wyjazdowy – drużyna wciąż nie zdobyła punktu na obcym stadionie w tym sezonie. Z kolei Julian Alvarez, choć nie wpisał się na listę strzelców, był najbardziej aktywnym zawodnikiem na boisku, kreując sytuacje kolegom i zmuszając bramkarza rywali do najwyższego wysiłku.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/atletico-madryt-nie-odpuszcza-barcelonie-i-realowi-swietny-mecz-juliana-alvareza' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "22.11 • 22:27",
-    "source": "Na podstawie: Weszło",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/b/b7/FC_Salzburg_gegen_AS_Roma_%28UEFA_Euroleague_play-off%2C_2023-02-16%29_14_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Zalewski błyszczy w szalonym meczu Serie A! Dwie asysty Polaka w barwach Atalanty",
-    "summary": "Nicola Zalewski zanotował dwie asysty w emocjonującym starciu Atalanty z Interem. Mimo hat-tricka Francesco Pio Esposito, spotkanie obfitowało w zwroty akcji i ofensywną grę.",
-    "content": "<p>Nicola Zalewski po raz kolejny wybiegł w wyjściowym składzie Atalanty, potwierdzając swoją wysoką formę. Polak był kluczową postacią ofensywy swojego zespołu, notując czwartą i piątą asystę w bieżącym sezonie Serie A, w tym jedną przy trafieniu Eljifa Elmasa.</p><p>Spotkanie rozpoczęło się pechowo dla gospodarzy z Bergamo, gdyż podczas rozgrzewki kontuzji kolana doznał podstawowy bramkarz Marco Carnesecchi. W jego miejsce między słupkami musiał pojawić się 34-letni Marco Sportiello, co było sporym osłabieniem dla defensywy Atalanty.</p><p>W barwach Interu zabrakło Piotra Zielińskiego, który całe spotkanie przesiedział na ławce rezerwowych. Trener Cristian Chivu zdecydował się oszczędzać pomocnika ze względu na niedawne problemy zdrowotne ze stopą, które wykluczyły go z części zgrupowania reprezentacji Polski.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/zalewski-blysnal-asystami-w-meczu-z-mistrzem-wloch-szalenstwo-i-mnostwo-goli' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "PL",
     "badge": "Premier League",
     "badgeColor": "bg-purple-600",
@@ -360,18 +420,6 @@
     "content": "<p>Lech Poznań odniósł cenne wyjazdowe zwycięstwo nad GKS-em Katowice, przerywając dobrą passę gospodarzy na własnym obiekcie. Mimo że trener Niels Frederiksen nie mógł skorzystać z kluczowych ogniw ofensywy, takich jak Patrik Walemark (kontuzja mięśniowa ze zgrupowania kadry), Pablo Rodriguez (uraz kostki po meczu z Benficą) czy Mikael Ishak, zespół zdołał wywalczyć trzy punkty.</p><p>Szkoleniowiec Kolejorza po meczu stanowczo odrzucił tezy o uzależnieniu drużyny od indywidualności. Frederiksen zaznaczył, że brak wielu ofensywnych graczy obnażył głębię składu Lecha, a wygrana była efektem konsekwentnego realizowania stylu gry przez wszystkich zawodników, niezależnie od personalnych roszad w wyjściowej jedenastce.</p><p>O losach spotkania przesądził gol Yannicka Agnero, który wykorzystał błąd Lukasa Klemenza. Młody napastnik Lecha imponuje skutecznością, notując cztery trafienia w pięciu ostatnich meczach ligowych. Frederiksen chwali rozwój zawodnika, podkreślając, że proces adaptacji i wzrostu formy Iworyjczyka przebiega zgodnie z planem sztabu szkoleniowego.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/2026/11/22/lech-nie-jest-uzalezniony-od-indywidualnosci-frederiksen-po-gks-ie' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "22.11 • 19:10",
-    "source": "Na podstawie: Sky Sports",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg/1280px-Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Liverpool deklasuje Manchester United: Koszmarny start Pochettino na Old Trafford",
-    "summary": "Liverpool w imponującym stylu rozbił Manchester United, fundując Mauricio Pochettino fatalny początek pracy w klubie w meczu zakończonym czerwoną kartką dla gospodarzy.",
-    "content": "<p>Liverpool zaprezentował bezlitosną skuteczność, dominując na boisku i pewnie wygrywając z Manchesterem United. Spotkanie od samego początku układało się po myśli gości, którzy wykorzystali słabości defensywy rywali.</p><p>Sytuację Manchesteru United dodatkowo skomplikowała czerwona kartka, która zmusiła gospodarzy do gry w dziesiątkę przez znaczną część meczu. Osłabiony zespół nie był w stanie nawiązać wyrównanej walki z rozpędzonym Liverpoolem.</p><p>Po meczu w mediach zawrzało, a legendarny Roy Keane nie krył frustracji postawą zawodników United. Były kapitan „Czerwonych Diabłów” ostro skrytykował drużynę, zarzucając jej brak zaangażowania i akceptowanie słabej gry przez kibiców.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/watch/video/13615396/liverpool-4-0-manchester-united-premier-league-highlights' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "BL",
     "badge": "Bundesliga",
     "badgeColor": "bg-amber-600",
@@ -432,18 +480,6 @@
     "content": "<p>Prezes FC Barcelony w wywiadzie dla stacji TUDN otwarcie zadeklarował, że obecny sezon ma być kluczowy dla projektu Hansiego Flicka. Klub stawia na pełną dominację, celując w triumf w Champions League, obronę tytułu mistrza Hiszpanii oraz zdobycie Superpucharu i Pucharu Króla.</p><p>Laporta podkreślił, że kluczem do sukcesu jest kolektyw, zaznaczając, że w drużynie wszyscy – włącznie z zarządem – stanowią jedność. Prezes wyraził ogromne zadowolenie z obecnej kadry, chwaląc wszechstronność zawodników, którzy potrafią płynnie zmieniać pozycje na boisku.</p><p>Wypowiedź prezesa zawierała również liczne pochwały indywidualne. Laporta porównał Pedriego do legendarnych Xaviego i Iniesty, a także docenił wkład Rodriego w rozwój młodych talentów, takich jak Marc Bernal, wskazując na bardzo pozytywną atmosferę wewnątrz zespołu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/laporta-oglasza-wielki-rok-barcelony-wymienil-trzy-cele' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "22.11 • 17:22",
-    "source": "Na podstawie: Bulinews",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Malik_Tillman_Australia_v_USA_19_June_2026-143_%28cropped%29.jpg/1280px-Malik_Tillman_Australia_v_USA_19_June_2026-143_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Rolfes broni Tillmana po konflikcie z kibicami Bayeru Leverkusen",
-    "summary": "Dyrektor sportowy Bayeru Leverkusen, Simon Rolfes, wziął w obronę Malika Tillmana po tym, jak pomocnik został wygwizdany przez własnych kibiców podczas meczu ze Stuttgartem.",
-    "content": "<p>Podczas spotkania ze Stuttgartem część fanów na BayArena negatywnie zareagowała na grę Malika Tillmana, co mocno dotknęło 24-letniego reprezentanta USA. Zawodnik przyznał po ostatnim meczu z Paderborn, że po tych przykrych doświadczeniach nie przywiązuje już większej wagi do reakcji trybun, stwierdzając wprost, że jest mu obojętne, czy kibice skandują jego nazwisko.</p><p>Simon Rolfes podkreślił, że Tillman w ostatnich meczach przeciwko FC Köln oraz Paderborn zaprezentował się z bardzo dobrej strony, na co fani odpowiedzieli zasłużonymi brawami. Dyrektor sportowy zauważył, że Malik jest osobą wrażliwą, dlatego krytyka ze strony trybun była dla niego bolesnym przeżyciem, które wymaga czasu, aby w pełni się zagoić.</p><p>Mimo chłodnej postawy piłkarza wobec fanów, władze klubu zapewniają go o pełnym wsparciu. Rolfes zaznaczył, że Tillman wkłada w grę dla Bayeru całe serce i jest w pełni zaangażowany w sukcesy zespołu, a on sam, bazując na własnej karierze zawodniczej, doskonale rozumie emocjonalny ciężar, jaki niosą ze sobą reakcje kibiców.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/rolfes-backs-tillman-after-leverkusen-midfielder-difficult-spell-fans' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "OTHER",
     "badge": "Inne Ligi",
     "badgeColor": "bg-emerald-600",
@@ -466,30 +502,6 @@
     "title": "Adrian Benedyczak bohaterem Kasimpasy! Dublet Polaka w doliczonym czasie gry",
     "summary": "Adrian Benedyczak kontynuuje znakomitą passę po debiucie w kadrze, zdobywając dwa gole dla Kasimpasy w meczu z Alanyasporem i zapewniając swojemu zespołowi zwycięstwo.",
     "content": "<p>Adrian Benedyczak przeżywa najlepszy okres w karierze. Po niedawnym debiucie w reprezentacji Polski u trenera Jana Urbana oraz premierowym trafieniu w meczu ze Szwecją, napastnik wrócił do klubu w wyśmienitej dyspozycji, potwierdzając swoją wysoką formę w tureckiej Super Lig.</p><p>W starciu przeciwko Alanyasporowi Polak dwukrotnie wpisał się na listę strzelców. Najpierw pewnie wykorzystał rzut karny w pierwszej połowie, a w doliczonym czasie gry zapewnił swojej drużynie komplet punktów, skutecznie wykańczając głową dośrodkowanie z rzutu wolnego.</p><p>Dzięki tym trafieniom Benedyczak ma już na koncie 9 goli w bieżącym sezonie ligowym, co plasuje go w ścisłej czołówce strzelców obok takich gwiazd jak Victor Osimhen czy Mohamed Salah. Od momentu zimowego transferu do Kasimpasy, Polak zdobył dla tureckiego klubu łącznie 19 bramek w 26 spotkaniach.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/swiatowe-gwiazdy-i-reprezentant-polski-znalazl-sie-w-elitarnym-gronie' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "22.11 • 16:32",
-    "source": "Na podstawie: Bulinews",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Kahler_Baum_in_der_Senckenberganlage.jpg/1280px-Kahler_Baum_in_der_Senckenberganlage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "imgCredit": "Fot. ManuelB701 (CC0)",
-    "title": "Przełamanie Augsburga: Pewne zwycięstwo nad Mainz w cieniu czerwonej kartki",
-    "summary": "FC Augsburg przerwał serię siedmiu meczów bez wygranej, pokonując Mainz 3:1. Spotkanie obfitowało w emocje, w tym kontrowersyjną czerwoną kartkę dla trenera gospodarzy.",
-    "content": "<p>Podopieczni Manuela Bauma od początku narzucili własne warunki gry, co zaowocowało prowadzeniem w 19. minucie. Po rzucie rożnym wykonywanym przez Fabiana Riedera, zamieszanie w polu karnym wykorzystał Michael Gregoritsch, pakując piłkę do siatki.</p><p>Jeszcze przed przerwą gospodarze podwyższyli prowadzenie na 2:0 za sprawą Bah, który najlepiej odnalazł się w polu karnym po kolejnym stałym fragmencie gry. Mainz miało szansę na kontakt, jednak Phillip Tietz zmarnował sytuację sam na sam z Finnem Dahmenem.</p><p>Końcówka pierwszej połowy była niezwykle nerwowa. Trener Manuel Baum został wyrzucony z ławki za utrudnianie wznowienia gry, a arbiter Martin Petersen po analizie VAR musiał interweniować w kilku spornych sytuacjach, w tym przy anulowanym golu dla Augsburga.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/augsburg-end-seven-game-winless-run-3-1-victory-over-mainz' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "22.11 • 16:31",
-    "source": "Na podstawie: Bulinews",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/4/44/Jamal_Musiala_Ecuador_v_Germany_25_June_2026-174_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Jan-Christian Dreesen zabiera głos w sprawie Musiali: Musimy być cierpliwi",
-    "summary": "Prezes Bayernu Monachium odniósł się do krytyki kibiców dotyczącej powrotu Jamala Musiali do gry, podkreślając konieczność zachowania ostrożności w obliczu nietypowych problemów zdrowotnych.",
-    "content": "<p>Jan-Christian Dreesen musiał zmierzyć się z pytaniami fanów, którzy wyrażali zaniepokojenie sposobem prowadzenia rekonwalescencji Jamala Musiali. Prezes Bayernu zapewnił, że klub priorytetowo traktuje zdrowie zawodnika i nie zamierza wywierać na nim presji, dając mu tyle czasu, ile faktycznie potrzebuje na pełny powrót do formy.</p><p>Dreesen podkreślił, że sytuacja jest wyjątkowo skomplikowana i niespotykana w świecie futbolu. Porównał zarządzanie zdrowiem piłkarza do odpowiedzialności wewnątrz firmy, gdzie klub musi balansować między sportowymi ambicjami a troską o dobrostan pracownika, co stanowi dla Bayernu zupełnie nowe wyzwanie organizacyjne.</p><p>Kluczowym argumentem prezesa była natura dolegliwości Musiali, którą określił jako napady nieświadomości. Dreesen przyznał, że z takimi problemami medycznymi w sporcie wyczynowym nikt wcześniej się nie mierzył, dlatego zaapelował do kibiców o wyrozumiałość w procesie powrotu gwiazdy do pełnej dyspozycji.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/bayern-ceo-dreesen-responds-fan-criticism-over-musiala-situation' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
     "category": "EKS",
@@ -526,17 +538,5 @@
     "title": "Dawid Szwarga odmienił Raków. Czwarta wygrana z rzędu i ucieczka ze strefy spadkowej",
     "summary": "Raków Częstochowa pod wodzą Dawida Szwargi notuje świetną serię czterech zwycięstw z rzędu. Dzięki wygranej 3:1 z Widzewem Łódź, zespół opuścił strefę spadkową tabeli Ekstraklasy.",
     "content": "<p>Raków Częstochowa pokonał Widzew Łódź 3:1 po trafieniach Repki, Racovitana oraz Makucha. To czwarty triumf w pięciu spotkaniach pod wodzą Dawida Szwargi, co pozwoliło drużynie po raz pierwszy w sezonie wydostać się ze strefy spadkowej, do której po tej porażce trafił łódzki klub.</p><p>Trener Szwarga docenił postawę całego zespołu, ale indywidualnie wyróżnił Isaka Brusberga. Norweg, który wcześniej nie otrzymywał szans gry, został nagrodzony za swoją ciężką pracę na treningach w ostatnich dwóch tygodniach, co szkoleniowiec postawił za wzór dla reszty szatni.</p><p>Szkoleniowiec podkreślił, że sukces to efekt pracy całego sztabu, w tym asystenta Kacpra Jędrychowskiego oraz analityków. Mimo poprawy sytuacji w tabeli, Szwarga studzi nastroje, zaznaczając, że zespół musi skupiać się wyłącznie na codziennej pracy i najbliższym rywalu, którym będzie Piast Gliwice.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/szwarga-nie-ukrywa-pewnosci-siebie-moje-wejscie-do-klubu-jest-dobre' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "LL",
-    "badge": "La Liga",
-    "badgeColor": "bg-red-600",
-    "time": "22.11 • 15:41",
-    "source": "Na podstawie: Weszło",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Lamine_Yamal_France_v_Spain_7.24.26-142.jpg/1280px-Lamine_Yamal_France_v_Spain_7.24.26-142.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Szalony powrót Barcelony: Yamal i spółka odwracają losy meczu z Villarrealem",
-    "summary": "Barcelona po fatalnym początku i błędach w defensywie zdołała odwrócić losy spotkania z Villarrealem, mimo że Lamine Yamal zmarnował rzut karny.",
-    "content": "<p>Mecz na Camp Nou rozpoczął się dla Barcelony katastrofalnie. Podopieczni Hansiego Flicka, który z konieczności wystawił Frenkiego de Jonga na środku obrony, szybko stracili dwa gole. Najpierw błąd Fermina wykorzystał Buchanan, a chwilę później Oluwaseyi podwyższył prowadzenie po tym, jak wygrał pojedynek z defensywą gospodarzy.</p><p>Sytuacja Barcelony mogła poprawić się w 20. minucie, gdy sędzia po analizie VAR podyktował rzut karny za faul na Lamine Yamalu. Młody skrzydłowy, który przystąpił do meczu zmagając się z urazem stawu skokowego, uderzył jednak nieczysto, trafiając jedynie w słupek bramki gości.</p><p>Trener Villarrealu, Inigo Perez, przed meczem zapowiadał odważną grę wysokim pressingiem i realizował ten plan z powodzeniem w pierwszej fazie spotkania. Mimo problemów kadrowych i słabego początku, Barcelona zdołała jednak przejąć inicjatywę, pokazując charakter w starciu z wymagającym rywalem.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/co-ta-barcelona-zrobila-yamal-najpierw-zawiodl-a-potem-zachwycil' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
