@@ -1,5 +1,53 @@
 [
   {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "23.11 • 07:54",
+    "source": "Na podstawie: Bulinews",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Fabian_reese.jpg/1280px-Fabian_reese.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Hertha ucieka rywalom, Magdeburg na podium: Podsumowanie 12. kolejki 2. Bundesligi",
+    "summary": "Hertha BSC umacnia się na fotelu lidera 2. Bundesligi po efektownym zwycięstwie, podczas gdy Magdeburg awansował na trzecią lokatę w tabeli.",
+    "content": "<p>Hertha BSC potwierdziła swoją dominację w lidze, gromiąc Cottbus 4-0. Dzięki tej wygranej oraz potknięciu Norymbergi, podopieczni Stefana Leitla powiększyli przewagę nad wiceliderem do dziesięciu punktów. Kluczową postacią był Fabian Reese, który zanotował swój dwunasty punkt w klasyfikacji kanadyjskiej w tym sezonie.</p><p>Magdeburg po raz pierwszy w bieżącej kampanii wskoczył na trzecie miejsce w tabeli, wygrywając 2-1 z Arminią Bielefeld. Zwycięstwo zapewnili Felipe Chávez, zdobywca swojego pierwszego gola w karierze zawodowej, oraz Emmanuel Iyoha, który wyrównał swój dorobek bramkowy z pięciu lat gry w Fortunie Düsseldorf.</p><p>Hannover pod wodzą Sandro Wagnera odniósł drugie domowe zwycięstwo z rzędu, pokonując Greuther Fürth 2-1. Decydującą bramkę w doliczonym czasie gry zdobył Waniss Taïbi, wykorzystując nieobecność najlepszego strzelca rywali, Felixa Klausa, który pauzował po raz pierwszy w tym sezonie.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/hertha-extend-lead-magdeburg-move-third-heidenheim-crisis-5-things-learned-2-bundesliga-matchday-12' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "23.11 • 07:53",
+    "source": "Na podstawie: Football Italia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/5/5b/2023_-_Cesc_Fabregas_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Fenomen Como 1907: Od Serie D do europejskich salonów pod wodzą Fàbregasa",
+    "summary": "Como 1907 przeszło niesamowitą drogę od gry w Serie D do kwalifikacji do Ligi Mistrzów, stając się nową siłą włoskiego futbolu pod wodzą Cesca Fàbregasa.",
+    "content": "<p>Klub z Como, który jeszcze w 2019 roku zmagał się z problemami finansowymi i występował na poziomie Serie D, dokonał spektakularnego awansu. Dzięki stabilizacji organizacyjnej i wsparciu inwestorów, braci Roberta i Michaela Hartono, zespół zdołał w krótkim czasie odbudować swoją pozycję i wrócić do elity po 21 latach nieobecności.</p><p>Kluczową postacią w procesie transformacji okazał się Cesc Fàbregas. Hiszpański szkoleniowiec zaszczepił w drużynie ambitny styl gry, który przyniósł wymierne efekty w postaci czwartego miejsca w sezonie 2025/26 oraz historycznego awansu do Ligi Mistrzów, gdzie drużyna potrafi rywalizować z europejskimi potęgami.</p><p>Sukces Como opiera się na przemyślanej strategii właścicieli, którzy zamiast szukać doraźnych wyników, postawili na inwestycje w infrastrukturę, skauting oraz długofalowy rozwój. Obecnie klub stoi przed wyzwaniem utrzymania wysokiej formy i udowodnienia, że potrafi na stałe zadomowić się w czołówce Serie A.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/what-is-the-secret-behind-como-rise/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "23.11 • 07:53",
+    "source": "Na podstawie: Weszło",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Desire_Doue_France_v_Senegal_16_June_2026-264.jpg/1280px-Desire_Doue_France_v_Senegal_16_June_2026-264.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Dramatyczny wieczór Desire Doue: zerwane więzadła i próba włamania do domu",
+    "summary": "Piłkarz PSG Desire Doue zerwał więzadło krzyżowe w meczu z OGC Nice, a po powrocie do domu musiał mierzyć się z próbą włamania do swojej posiadłości.",
+    "content": "<p>Podczas wyjazdowego spotkania 11. kolejki Ligue 1 przeciwko OGC Nice, Desire Doue doznał poważnej kontuzji. W końcówce pierwszej połowy, po niefortunnym wygięciu kolana, 21-letni zawodnik musiał opuścić boisko. Badania potwierdziły najgorszy scenariusz – zerwanie więzadła krzyżowego, co wyklucza go z gry na wiele miesięcy, a prawdopodobnie do końca sezonu.</p><p>Mimo fatalnej diagnozy, koszmar piłkarza tego wieczoru się nie skończył. Po powrocie do swojego domu w Orgeval, Doue zastał na terenie posesji trzech mężczyzn, którzy próbowali wedrzeć się do środka. Według relacji świadków, napastnicy byli pod wpływem alkoholu i zostali przepędzeni z ogrodu jeszcze przed przyjazdem żandarmerii.</p><p>Na szczęście włamywacze nie zdołali dostać się do wnętrza budynku, więc w posiadłości nie odnotowano żadnych strat materialnych. Mimo braku szkód, służby objęły dom francuskiego zawodnika specjalnym nadzorem. Dla Doue to ogromny cios, gdyż po zdobyciu dwóch trofeów Ligi Mistrzów z rzędu, rozgrywał on bardzo udany sezon, notując 6 goli i 4 asysty w 15 występach.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/wielki-pech-desire-doue-zerwane-wiezadlo-i-napad-na-jego-dom' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "EKS",
+    "badge": "Ekstraklasa",
+    "badgeColor": "bg-rose-600",
+    "time": "23.11 • 07:53",
+    "source": "Na podstawie: Weszło",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Mena%2C_Miguel_D._-FILSA_20181104_fRF01.jpg/1280px-Mena%2C_Miguel_D._-FILSA_20181104_fRF01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imgCredit": "Fot. Rodrigo Fernández (CC BY-SA 4.0)",
+    "title": "Historyczny wyczyn Camilo Meny: Ekstraklasowicz w potężnej reprezentacji",
+    "summary": "Camilo Mena zapisał się w historii Ekstraklasy, otrzymując powołanie do silnej reprezentacji narodowej, co jest ewenementem na tle dotychczasowych występów ligowców w kadrach.",
+    "content": "<p>Camilo Mena dokonał wyczynu, który w historii polskiej ligi zdarza się niezwykle rzadko. Piłkarz grający na co dzień w Ekstraklasie przebił się do składu reprezentacji, która pod względem jakości i siły przewyższa wszystkie kadry, w jakich występowali dotychczasowi obcokrajowcy z polskiej ligi.</p><p>W przeszłości zawodnicy z Ekstraklasy występowali w drużynach narodowych, ale zazwyczaj były to zespoły z niższych półek, jak Zimbabwe, Mołdawia czy Litwa. Pionierami byli John Phiri i Norman Mapeza z Sokoła Pniewy, a w kolejnych latach trend ten dotyczył głównie graczy z krajów o mniejszym potencjale piłkarskim.</p><p>Choć przez polskie kluby przewijali się zawodnicy z przeszłością w potężnych kadrach, jak Amaral (Brazylia) czy Uli Borowka (Niemcy), to występy w silnych reprezentacjach w trakcie gry w Polsce pozostawały w sferze marzeń. Przypadek Meny jest porównywany do historycznych osiągnięć legend polskiej piłki, takich jak Kubicki czy Dziekanowski.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/czegos-takiego-nie-bylo-nigdy-camilo-mena-dokonal-historycznej-rzeczy-w-skali-ekstraklasy' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "EKS",
     "badge": "Ekstraklasa",
     "badgeColor": "bg-rose-600",
@@ -214,18 +262,6 @@
     "title": "Koszmar Pochettino w debiucie: Liverpool rozbija Manchester United",
     "summary": "Mauricio Pochettino fatalnie rozpoczął pracę w Manchesterze United. Jego drużyna przegrała z Liverpoolem, pogłębiając kryzys i pozostając w strefie spadkowej Premier League.",
     "content": "<p>Debiut Mauricio Pochettino na ławce trenerskiej Manchesteru United okazał się katastrofą. Drużyna z Old Trafford została całkowicie zdominowana przez Liverpool, co tylko pogorszyło ich i tak trudną sytuację w tabeli angielskiej ekstraklasy.</p><p>Spotkanie zakończyło się wysoką porażką gości, którzy musieli radzić sobie w osłabieniu po tym, jak jeden z zawodników otrzymał czerwoną kartkę. Osłabienie kadrowe dodatkowo utrudniło zadanie przyjezdnym, którzy nie byli w stanie przeciwstawić się rozpędzonemu rywalowi.</p><p>Bohaterem widowiska został młody talent Liverpoolu, Rio Ngumoha, którego świetna postawa na boisku walnie przyczyniła się do wysokiego zwycięstwa gospodarzy. Po tej kolejce Manchester United wciąż nie może opuścić strefy spadkowej Premier League.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/videos/c933g77knz00o?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "22.11 • 20:47",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/AUT_vs._TUR_2016-03-29_%28342%29.jpg/1280px-AUT_vs._TUR_2016-03-29_%28342%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Problemy kadrowe Interu: Hakan Calhanoglu z kontuzją w meczu z Atalantą",
-    "summary": "Inter Mediolan stracił Hakana Calhanoglu podczas wyjazdowego starcia z Atalantą. Turek opuścił boisko z powodu urazu mięśniowego, co komplikuje sytuację kadrową Cristiana Chivu.",
-    "content": "<p>Hakan Calhanoglu musiał opuścić murawę w 34. minucie niedzielnego spotkania w Bergamo. Pomocnik Interu odczuł ból w mięśniu zginaczu prawego uda i natychmiast zasygnalizował sztabowi szkoleniowemu konieczność zmiany. W jego miejsce na boisku pojawił się Petar Sučić.</p><p>Sytuacja kadrowa trenera Cristiana Chivu staje się trudna przed nadchodzącymi wyzwaniami. W środę Inter podejmie VfB Stuttgart w Lidze Mistrzów, a w sobotę zagra z Genoą. Niepewny jest również występ Piotra Zielińskiego, co ogranicza pole manewru w środku pola.</p><p>Problemy zdrowotne nie ominęły także gospodarzy. Bramkarz Atalanty, Marco Carnesecchi, doznał urazu kolana podczas rozgrzewki i został wycofany ze składu. Zastąpił go Marco Sportiello, a obaj kontuzjowani zawodnicy przejdą w najbliższym czasie szczegółowe badania medyczne.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/calhanoglu-injured-in-atalanta-inter/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
     "category": "LL",
@@ -456,18 +492,6 @@
     "content": "<p>Szkoleniowiec gospodarzy, Daniel Thioune, który niedawno przedłużył swój kontrakt z klubem, zdecydował się na korekty po ostatniej porażce ze Stuttgartem. Od pierwszej minuty na boisku pojawią się Chuki oraz Justin Njinmah, którzy zastąpili odpowiednio Senne Lynena i Marco Grülla.</p><p>Po stronie gości z Hamburga, trener Merlin Polzin również przeprowadził dwie roszady po zwycięstwie nad Gladbach. Do składu wraca kapitan Nicolas Capaldo, zajmując miejsce Shafiq Nandji, natomiast w ofensywie Alexander Røssing-Lelesiit zastąpił Alberta Sambi Lokongę.</p><p>Werder Brema przystępuje do meczu w ustawieniu 4-2-3-1 z Niclasem Füllkrugiem na szpicy, podczas gdy Hamburger SV postawił na formację 3-5-2, w której duet napastników tworzą Røssing-Lelesiit oraz Daka.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/confirmed-lineups-werder-bremen-hamburger-1' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "22.11 • 15:42",
-    "source": "Na podstawie: Bulinews",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/b/bd/FC_Liefering_gegen_SV_Ried_%282023-08-25%29_29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Bezbramkowy remis w 2. Bundeslidze: Karlsruher SC nie przełamało defensywy Osnabrück",
-    "summary": "Karlsruher SC zremisowało 0:0 z VfL Osnabrück w meczu 2. Bundesligi. Mimo przewagi gospodarzy i kilku uderzeń w obramowanie bramki, żadna ze stron nie zdołała zdobyć gola.",
-    "content": "<p>Podopieczni Maximiliana Senfta dominowali w większości faz spotkania, jednak nie potrafili pokonać bramkarza gości, Jonasa Krumreya. Najbliżej zdobycia bramki dla gospodarzy byli Marcel Franke oraz Marvin Wanitzek, których próby zatrzymywały się na słupkach lub poprzeczce bramki rywali.</p><p>Zespół VfL Osnabrück również miał swoje szanse, szczególnie po kontratakach. Adrian Beck oraz Daniel-Kofi Kyereh byli bliscy szczęścia, trafiając w poprzeczkę bramki strzeżonej przez Hansa-Christiana Bernata, który popisał się kilkoma kluczowymi interwencjami.</p><p>Mecz nie obył się bez problemów zdrowotnych – już w 24. minucie boisko musiał opuścić pomocnik gości, Fridolin Wagner. W jego miejsce na murawie zameldował się Leon Flach, jednak mimo korekt w składach, żadna z drużyn nie zdołała przechylić szali zwycięstwa na swoją korzyść.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/2-bundesliga-karlsruher-held-goalless-draw-osnabruck' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "EKS",
     "badge": "Ekstraklasa",
     "badgeColor": "bg-rose-600",
@@ -504,18 +528,6 @@
     "content": "<p>W 3. minucie meczu przeciwko Obołoniowi, Tomasz Kędziora popisał się niebywałą techniką. Po dośrodkowaniu z rzutu rożnego, wykonywanego przez Mykołę Szaparenkę, polski obrońca uderzył piłkę piętą w pełnym wyskoku, będąc ustawionym plecami do bramki rywali.</p><p>Dzięki tej wygranej 4:2, drużyna Dynama Kijów, prowadzona przez trenera Macieja Kędziorka, umocniła się na trzecim miejscu w tabeli ukraińskiej Premier Lihi. Do liderującego Szachtara Donieck zespół traci obecnie cztery punkty.</p><p>Redakcja PITCH ZONE apeluje do FIFA o nominację dla Kędziory do nagrody Puskasa. Autorzy podkreślają, że trafienie Polaka jest równie efektowne, co słynny gol Oliviera Girouda z 2017 roku, który został uhonorowany tym prestiżowym wyróżnieniem.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/kedziora-z-nagroda-puskasa-przepiekny-gol-polaka-wideo' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "22.11 • 13:55",
-    "source": "Na podstawie: Weszło",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Niels_Frederiksen_%282022%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Kryzys kadrowy Lecha Poznań: Kolejni kontuzjowani przed meczem z GKS-em Katowice",
-    "summary": "Lech Poznań zmaga się z falą kontuzji w ofensywie, ale mimo osłabień ma szansę powiększyć przewagę w tabeli Ekstraklasy po przegranej Górnika Zabrze.",
-    "content": "<p>Sytuacja kadrowa mistrza Polski staje się coraz trudniejsza. Do długiej listy nieobecnych, na której znajdują się m.in. Mikael Ishak, Ali Gholizadeh oraz Allahyar Sayyadmanesh, dołączyli ostatnio Pablo Rodriguez i Patrik Walemark.</p><p>Problemy trenera Nielsa Frederiksena pogłębiły się tuż przed pierwszym gwizdkiem w Katowicach. Podczas rozgrzewki urazu doznał Daniel Hakans, którego w wyjściowym składzie musiał zastąpić Filip Jagiełło. Ogranicza to znacząco pole manewru duńskiego szkoleniowca przy zmianach.</p><p>Mimo personalnych kłopotów, Lech stoi przed szansą na odskoczenie ligowym rywalom na cztery punkty, co jest możliwe dzięki wcześniejszej porażce Górnika Zabrze w Lubinie. Spotkanie z GKS-em Katowice, prowadzonym przez Rafała Góraka, jest kluczowe dla umocnienia pozycji lidera.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/ekstraklasa-gks-katowice-lech-poznan-wynik-meczu-i-relacja-na-zywo' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "CL",
     "badge": "Liga Mistrzów",
     "badgeColor": "bg-indigo-600",
@@ -526,17 +538,5 @@
     "title": "Problemy zdrowotne Michaela Olise. Gwiazdor Bayernu może opuścić mecz w Lidze Mistrzów",
     "summary": "Michael Olise zmaga się z urazem stopy po meczu z FC Köln. Występ francuskiego skrzydłowego w nadchodzącym spotkaniu Ligi Mistrzów przeciwko Lille stoi pod dużym znakiem zapytania.",
     "content": "<p>Po piątkowym starciu z FC Köln, Michael Olise nie uniknął problemów zdrowotnych. Choć uniknął poważniejszej kontuzji, zawodnik wciąż wymaga specjalistycznej opieki i porusza się przy pomocy kul, korzystając z ochronnego obuwia stabilizującego stopę.</p><p>Sztab medyczny Bayernu Monachium prowadzi codzienną rehabilitację piłkarza w ośrodku Säbener Straße. Specjalistyczny but ma za zadanie odciążyć kontuzjowane miejsce i zminimalizować ryzyko pogłębienia urazu podczas procesu leczenia.</p><p>W obliczu zbliżającego się wyjazdowego meczu Ligi Mistrzów z Lille, szanse na występ 23-latka są oceniane jako bardzo niskie. Ewentualna absencja Olise byłaby sporym osłabieniem ofensywy zespołu prowadzonego przez Vincenta Kompany'ego.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/michael-olise-major-doubt-for-bayern-champions-league-clash-lille' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "LL",
-    "badge": "La Liga",
-    "badgeColor": "bg-red-600",
-    "time": "22.11 • 11:16",
-    "source": "Na podstawie: Football España",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Estudios_filos%C3%B3ficos_%28Carlos_O._Bunge%29.djvu/page1-1280px-Estudios_filos%C3%B3ficos_%28Carlos_O._Bunge%29.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "imgCredit": "Fot. Carlos Octavio Bunge (Public domain)",
-    "title": "Real Madryt goni Barcelonę: Carlos Espí bohaterem w starciu z Celtą Vigo",
-    "summary": "Real Madryt pokonał Celtę Vigo 2:1 po późnym trafieniu Carlosa Espí. Dzięki dziewiątemu zwycięstwu z rzędu „Królewscy” zrównali się punktami z liderującą Barceloną.",
-    "content": "<p>Mecz na Santiago Bernabéu nie rozpoczął się po myśli gospodarzy, którzy po pierwszej połowie przegrywali 0:1 po golu zdobytym przez Williota Swedberga. Sytuację Realu dodatkowo skomplikował Kylian Mbappé, który w 39. minucie zmarnował rzut karny.</p><p>W drugiej połowie José Mourinho zdecydował się na zmiany, wprowadzając na boisko m.in. Viníciusa Júniora i Federico Valverde. To właśnie po dośrodkowaniu Brazylijczyka i zamieszaniu w polu karnym, rezerwowy Carlos Espí dobił strzał obroniony przez Ionuța Radu, zapewniając swojej drużynie komplet punktów.</p><p>Dla młodego napastnika był to czwarty gol w sezonie, a trener Mourinho podkreślił po meczu, że Espí to typowy „lis pola karnego”, który potrafi rozstrzygać losy spotkań nawet przy krótkim czasie gry. Real Madryt dominuje w statystykach, oddając 24 strzały przy zaledwie 8 próbach gości.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football España. <a href='https://www.football-espana.net/2026/11/22/carlos-espi-strikes-late-as-real-madrid-come-from-behind-to-beat-celta-vigo' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
