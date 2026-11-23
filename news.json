@@ -1,5 +1,77 @@
 [
   {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "23.11 • 09:21",
+    "source": "Na podstawie: Football España",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Julian_Alvarez_Argentina_v_Spain_19_July_2026-052_%28cropped%29.jpg/1280px-Julian_Alvarez_Argentina_v_Spain_19_July_2026-052_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Popis Juliana Álvareza: Atlético Madryt przełamuje twierdzę Getafe",
+    "summary": "Atlético Madryt wygrało na wyjeździe z Getafe 2:1, przerywając tym samym serię gospodarzy bez porażki na własnym stadionie w obecnym sezonie La Liga.",
+    "content": "<p>Kluczową postacią spotkania był Julián Álvarez, który asystował przy obu bramkach dla gości w pierwszej połowie. Wynik otworzył Álex Baena strzałem z dystansu w 10. minucie, a pół godziny później prowadzenie podwyższył Johnny Cardoso, wykorzystując błąd bramkarza Davida Sorii przy rzucie rożnym.</p><p>Końcówka meczu była niezwykle emocjonująca. W 89. minucie sędzia podyktował rzut karny po faulu na Alexandrze Sørlothcie, a chwilę później czerwoną kartkę obejrzał Djené Dakonam. Jedenastkę na gola dla Getafe zamienił w doliczonym czasie gry Álex Grimaldo.</p><p>Drużyna Diego Simeone dominowała w posiadaniu piłki i liczbie oddanych strzałów, pewnie kontrolując przebieg meczu mimo absencji Ademoli Lookmana, Marca Pubilla i Cristiana Romero. Dla Getafe to trzecia porażka z rzędu, która spycha ich niebezpiecznie blisko strefy spadkowej.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football España. <a href='https://www.football-espana.net/2026/11/23/julian-alvarez-sets-up-two-as-atletico-madrid-win-at-ten-man-getafe' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "23.11 • 09:21",
+    "source": "Na podstawie: Bulinews",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/b/b8/NiclasF%C3%BCllkrug_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Werder Brema w natarciu: Od walki o utrzymanie do marzeń o europejskich pucharach",
+    "summary": "Werder Brema przeżywa renesans formy, zajmując szóste miejsce w Bundeslidze dzięki znakomitej dyspozycji Niclasa Füllkruga i stabilnej pracy trenera Daniela Thioune'a.",
+    "content": "<p>Pod wodzą trenera Daniela Thioune'a, który niedawno przedłużył kontrakt, Werder Brema całkowicie odmienił swoje oblicze. Po ubiegłorocznych problemach z utrzymaniem, zespół awansował na szóste miejsce w tabeli, stając się jedną z największych rewelacji obecnego sezonu Bundesligi.</p><p>Kluczową postacią ofensywy jest Niclas Füllkrug, który zdobył 10 bramek w 10 meczach. Świetnie wspierają go Marco Grüll, autor dwóch goli i sześciu asyst, oraz szybki Justin Njinmah, który błysnął dubletem w wygranym 4:0 meczu derbowym przeciwko Hamburgerowi SV.</p><p>Mimo kontuzji ważnych graczy, takich jak Jens Stage (pauza do końca roku), Felix Agu (uraz łydki) czy Mitchell Weiser (problemy z udem), drużyna pozostaje niepokonana na własnym stadionie. Weserstadion stał się prawdziwą twierdzą, gdzie punkty straciły m.in. Hoffenheim i RB Lipsk.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/bremen-back-business-relegation-fears-european-dreams' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "23.11 • 09:21",
+    "source": "Na podstawie: Bulinews",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/7/70/Florian_Wirtz_Ecuador_v_Germany_25_June_2026-181_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Wirtz błyszczy w debiucie Pochettino, Flick odwraca losy meczu Barcelony",
+    "summary": "Florian Wirtz poprowadził Liverpool do pewnego zwycięstwa nad Manchesterem United w debiucie Mauricio Pochettino, a Barcelona Hansiego Flicka zanotowała spektakularny powrót z Villarrealem.",
+    "content": "<p>Florian Wirtz potwierdził swoją wybitną formę, zdobywając tytuł zawodnika meczu w starciu przeciwko Manchesterowi United. Niemiecki pomocnik Liverpoolu, który strzelał gole w czterech kolejnych spotkaniach, przyczynił się do zwycięstwa swojej drużyny w debiucie Mauricio Pochettino na ławce trenerskiej Czerwonych Diabłów.</p><p>W Anglii doszło do kilku istotnych rozstrzygnięć: Bournemouth Marco Rose'a kontynuuje historyczną serię dziewięciu zwycięstw z rzędu, natomiast Leeds United pod wodzą Daniela Farke'a rozbiło Chelsea 4-1. Z kolei w Serie A Nick Woltemade po raz kolejny wpisał się na listę strzelców, pomagając Juventusowi w wysokim zwycięstwie 4-0 nad Venezią.</p><p>Na hiszpańskich boiskach emocji nie brakowało w Barcelonie, gdzie podopieczni Hansiego Flicka odrobili dwubramkową stratę, ostatecznie pokonując Villarreal 3-2. Podobny scenariusz miał miejsce w Madrycie, gdzie Real po trudnym boju z Celtą Vigo zdołał przechylić szalę zwycięstwa na swoją korzyść w końcowej fazie meczu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/european-roundup-motm-wirtz-ruins-pochettino-man-utd-debut-woltemade-scores-again-flick-barca-dig-deep' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "23.11 • 09:20",
+    "source": "Na podstawie: Football Italia",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Christian_Pulisic_USMNT_v_Belgium_Mar_28_2026-73_%28cropped%29.jpg/1280px-Christian_Pulisic_USMNT_v_Belgium_Mar_28_2026-73_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Fenomenalna forma Christiana Pulisica: Amerykanin napędza ofensywę Milanu",
+    "summary": "Christian Pulisic notuje udział przy bramce średnio co 87 minut, będąc kluczowym elementem ofensywy Milanu, która wyrównuje historyczne rekordy strzeleckie klubu.",
+    "content": "<p>Christian Pulisic znajduje się w wybitnej dyspozycji, co potwierdził w niedzielnym meczu przeciwko Frosinone, wygranym przez AC Milan 5:1. Amerykanin wpisał się na listę strzelców w drugiej połowie, kontynuując swoją imponującą serię trzech kolejnych spotkań z trafieniem w Serie A.</p><p>Statystyki potwierdzają ogromny wpływ 26-latka na grę Rossonerich. W bieżącym sezonie ligowym Pulisic ma na koncie pięć goli, a biorąc pod uwagę także asysty, bierze udział w bramce dla swojego zespołu średnio co 87 minut.</p><p>Dzięki świetnej postawie Pulisica i aż ośmiu innym strzelcom, Milan zdobył już 28 bramek w 12 meczach ligowych. Jest to wynik zbliżony do historycznych osiągnięć klubu z lat 50., kiedy to drużynę prowadzili Nereo Rocco oraz Lajos Czeizler.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/numbers-behind-pulisic-influence-milan/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "23.11 • 09:20",
+    "source": "Na podstawie: Football Italia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Norway_Italy_-_June_2025_A_44_%28Luciano_Spalletti%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Przegląd włoskiej prasy: Szalony Inter, strzeleckie popisy Juventusu i Milanu",
+    "summary": "Włoskie media analizują ostatnią kolejkę Serie A, w której nie brakowało dramaturgii, goli oraz problemów kadrowych czołowych drużyn przed europejskimi pucharami.",
+    "content": "<p>Inter Mediolan zmaga się z poważnymi problemami w defensywie, tracąc aż 17 bramek w 12 spotkaniach. Ostatni mecz zakończył się koszmarną końcówką, w której po zagraniu ręką Bastoniego, Kessié wykorzystał rzut karny, a Atalanta zdołała doprowadzić do wyrównania w doliczonym czasie gry.</p><p>Juventus i Milan zanotowały imponujące występy ofensywne. Bianconeri wygrali 4:0, a w szeregach Rossonerich na listę strzelców wpisali się m.in. Pulisic oraz Jashari, co pozwoliło drużynie awansować na czwarte miejsce w tabeli ligowej.</p><p>Sytuacja kadrowa przed meczami w Europie jest napięta. Trener Spalletti narzeka na brak wysokiego napastnika i nadmiar skrzydłowych, natomiast w zespole Juventusu doszło do kontuzji Alajbegovicia, który z powodu urazu opuści nadchodzące starcie w Lidze Europy.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/todays-papers-extra-crazy-inter-juventus-milan/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "23.11 • 09:20",
+    "source": "Na podstawie: Weszło",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Robert_Lewandowski_NYCFC_v_Chicago_25_July_2026-383.jpg/1280px-Robert_Lewandowski_NYCFC_v_Chicago_25_July_2026-383.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Dramat Chicago Fire w play-offach. Gol Lewandowskiego nie uchronił drużyny przed porażką",
+    "summary": "Robert Lewandowski strzelił gola w końcówce meczu z Charlotte FC, ale Chicago Fire ostatecznie przegrało spotkanie po rzucie karnym w doliczonym czasie gry.",
+    "content": "<p>W 88. minucie spotkania Robert Lewandowski zdobył bramkę wyrównującą dla Chicago Fire w starciu z Charlotte FC. Wydawało się, że trafienie polskiego napastnika doprowadzi do serii rzutów karnych, jednak plany te pokrzyżowała decyzja sędziego o przyznaniu jedenastki dla rywali w ostatnich chwilach meczu.</p><p>Trener Gregg Berhalter przygotowywał się do konkursu rzutów karnych, dokonując zmiany bramkarza. Choć wpuszczony na boisko Cohen zdołał obronić strzał z jedenastu metrów, nie poradził sobie z dobitką, co przypieczętowało zwycięstwo Charlotte FC w pierwszym meczu serii play-off do dwóch wygranych.</p><p>Sytuacja Chicago Fire stała się niezwykle trudna, gdyż porażka na własnym stadionie stawia zespół pod ścianą. Aby pozostać w grze o awans, podopieczni Berhaltera muszą koniecznie wygrać najbliższe wyjazdowe spotkanie. Dla Lewandowskiego był to 11. gol w barwach nowego klubu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/wazny-gol-nic-nie-dal-lewandowski-i-koledzy-pod-sciana-wideo' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "BL",
     "badge": "Bundesliga",
     "badgeColor": "bg-amber-600",
@@ -192,30 +264,6 @@
     "content": "<p>Trener Manuel Baum wyraził ogromne zadowolenie z postawy swoich podopiecznych, którzy mimo eksperymentalnego ustawienia w formacji obronnej, zachowali spokój i dyscyplinę taktyczną. Szkoleniowiec podkreślił, że zespół nie tylko skutecznie się bronił, ale również prezentował wysoką jakość w operowaniu piłką.</p><p>Ważnym aspektem meczu było wprowadzenie młodych zawodników do pierwszego składu, co wpisuje się w długofalową strategię klubu. Szczególne powody do radości miał młody obrońca Juma Bah, który zdobył swoją pierwszą bramkę w Bundeslidze, co według niego znacząco wpłynie na pewność siebie całej drużyny.</p><p>Pomocnik Fabian Rieder zaznaczył, że wygrana jest efektem jedności zespołu w trudnym dla klubu okresie. Zawodnik przyznał, że mimo lepszej postawy Mainz w drugiej połowie, Augsburg w pełni zasłużył na trzy punkty i przy odrobinie większej skuteczności mógł podwyższyć końcowy wynik.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/manuel-baum-and-augsburg-players-react-important-victory-over-mainz' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "22.11 • 21:40",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Adrien_Rabiot_France_v_Senegal_16_June_2026-253.jpg/1280px-Adrien_Rabiot_France_v_Senegal_16_June_2026-253.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Amorim chce zatrzymać Rabiota na dłużej. Milan w natarciu po wygranej z Frosinone",
-    "summary": "Adrien Rabiot poprowadził AC Milan do wysokiego zwycięstwa 5:1 nad Frosinone, a trener Ruben Amorim naciska na szybkie przedłużenie kontraktu francuskiego pomocnika.",
-    "content": "<p>AC Milan pewnie pokonał Frosinone 5:1 na San Siro, a kluczową postacią spotkania był Adrien Rabiot. Francuz zanotował dwie asysty przy bramkach Gonçalo Ramosa oraz Ardona Jashariego, dominując w środku pola przez całe 90 minut.</p><p>Po meczu Rabiot podkreślił, że zespół robi wyraźne postępy w kwestii jakości gry i poświęcenia. Odniósł się również do sytuacji zdrowotnej Ramosa, który został zmieniony zapobiegawczo z powodu bólu uda, co było podyktowane napiętym terminarzem rozgrywek.</p><p>Przyszłość Rabiota stała się priorytetem dla zarządu Milanu. Podczas spotkania w siedzibie klubu Gerry Cardinale omawiał przedłużenie umowy zawodnika do 2031 roku, choć sam piłkarz według doniesień medialnych skłania się ku krótszemu kontraktowi, obowiązującemu do 2029 roku.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/amorims-rabiot-hope-as-frenchman-milan/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "22.11 • 21:39",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Lausanne_vs_Sion_27_february_2013_-_Gennaro_Gattuso.jpg/1280px-Lausanne_vs_Sion_27_february_2013_-_Gennaro_Gattuso.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Fenomen GTA VI w świecie Serie A: Od okładek gazet po reakcje trenerów",
-    "summary": "Premiera długo wyczekiwanej gry GTA VI wywołała poruszenie w świecie włoskiego futbolu. Kluby i media sportowe w kreatywny sposób nawiązały do debiutu popularnej produkcji.",
-    "content": "<p>Włoskie media oraz czołowe kluby, takie jak Milan, Inter, Juventus i Lazio, włączyły się w marketingowy szum wokół premiery GTA VI. Dziennik Corriere dello Sport poświęcił nawet swoją niedzielną okładkę grze, stylizując postacie Tijjaniego Noslina, Davide Frattesiego oraz trenera Gennaro Gattuso na bohaterów wirtualnego świata.</p><p>Kluby z Serie A wykorzystały premierę do kreatywnej komunikacji w mediach społecznościowych. Milan zaprezentował swoich piłkarzy, w tym Adriena Rabiota i Strahinję Pavlovicia, w estetyce Vice City, natomiast Juventus użył charakterystycznej grafiki gry do przedstawienia swoich zawodników, w tym Kenana Yildiza.</p><p>Zupełnie inne podejście zaprezentował Gennaro Gattuso. Trener Lazio przyznał na konferencji prasowej, że nie miał pojęcia o istnieniu gry, początkowo biorąc ją za nazwę samochodu. Szkoleniowiec podkreślił, że nie zamierza kontrolować nocnych aktywności swoich graczy, licząc na ich profesjonalizm i wzajemny szacunek w szatni.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/the-world-of-calcio-reacts-to-gta-vi-corriere/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "PL",
     "badge": "Premier League",
     "badgeColor": "bg-purple-600",
@@ -322,18 +370,6 @@
     "title": "Liverpool deklasuje Manchester United: Koszmarny start Pochettino na Old Trafford",
     "summary": "Liverpool w imponującym stylu rozbił Manchester United, fundując Mauricio Pochettino fatalny początek pracy w klubie w meczu zakończonym czerwoną kartką dla gospodarzy.",
     "content": "<p>Liverpool zaprezentował bezlitosną skuteczność, dominując na boisku i pewnie wygrywając z Manchesterem United. Spotkanie od samego początku układało się po myśli gości, którzy wykorzystali słabości defensywy rywali.</p><p>Sytuację Manchesteru United dodatkowo skomplikowała czerwona kartka, która zmusiła gospodarzy do gry w dziesiątkę przez znaczną część meczu. Osłabiony zespół nie był w stanie nawiązać wyrównanej walki z rozpędzonym Liverpoolem.</p><p>Po meczu w mediach zawrzało, a legendarny Roy Keane nie krył frustracji postawą zawodników United. Były kapitan „Czerwonych Diabłów” ostro skrytykował drużynę, zarzucając jej brak zaangażowania i akceptowanie słabej gry przez kibiców.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/watch/video/13615396/liverpool-4-0-manchester-united-premier-league-highlights' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "22.11 • 19:10",
-    "source": "Na podstawie: BBC Sport",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Sweden_-_Greece27_%28Konstantinos_Tzolakis%29_%28cropped%29.jpg/1280px-Sweden_-_Greece27_%28Konstantinos_Tzolakis%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Tzolakis bohaterem Hull: Od klęski 0:7 do zatrzymania Brighton",
-    "summary": "Konstantinos Tzolakis poprowadził Hull City do sensacyjnego zwycięstwa 2:0 nad Brighton, rehabilitując się za dotkliwą porażkę w kadrze narodowej.",
-    "content": "<p>Zaledwie dziewięć dni po bolesnej przegranej Grecji z Holandią 0:7 w Lidze Narodów, Konstantinos Tzolakis zaliczył fenomenalny występ w Premier League. Grecki bramkarz, sprowadzony latem z Olympiakosu za rekordowe 20 milionów funtów, zachował czyste konto w starciu z niezwykle ofensywnie usposobionym Brighton.</p><p>Kluczowe interwencje Tzolakisa, w tym obrona strzałów Diego Gomeza oraz Georginio Ruttera, pozwoliły Hull utrzymać remis do końcowych minut. Ekspert Clinton Morrison porównał jedną z parad 24-latka do stylu legendarnego Petera Schmeichela, podkreślając jego instynkt i refleks.</p><p>Dzięki postawie bramkarza, Hull zdołało wykorzystać osłabienie rywali po czerwonej kartce dla Costinhy w 89. minucie. Dwa gole Oliego McBurnie w doliczonym czasie gry zapewniły gospodarzom pierwsze ligowe zwycięstwo od końca sierpnia, a trener Sergej Jakirovic nie szczędził pochwał swojemu golkiperowi.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji BBC Sport. <a href='https://www.bbc.co.uk/sport/football/articles/cm4gn7npqe8yo?at_medium=RSS&at_campaign=rss' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
     "category": "BL",
@@ -480,18 +516,6 @@
     "content": "<p>Dimitrios Keramitsis pozostaje zawodnikiem Pogoni Szczecin, mimo konkretnego zainteresowania ze strony niemieckiego klubu. CEO szczecińskiego zespołu, Tan Kesler, przyznał w rozmowie z Ekstraklasa TV, że otrzymana oferta nie odzwierciedlała realnej wartości rynkowej 22-letniego defensora.</p><p>Władze Pogoni podkreślają, że rozwój Greka był długofalowym procesem, dlatego klub nie zamierza pozbywać się go za bezcen. Mimo że Szczecin jest otwarty na sprzedaż zawodników w ramach modelu biznesowego Ekstraklasy, każda transakcja musi być finansowo opłacalna dla klubu.</p><p>Keramitsis, który trafił do Polski z akademii Romy w 2024 roku, stał się kluczowym punktem defensywy Portowców. W bieżącym sezonie wystąpił w 15 spotkaniach, zdobywając gola w pamiętnym meczu z Radomiakiem. Jego obecna umowa z Pogonią obowiązuje do czerwca 2029 roku.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/oferta-z-bundesligi-za-stopera-pogoni-padla-odpowiedz' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "22.11 • 15:42",
-    "source": "Na podstawie: Bulinews",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Daniel_Thioune.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Nordderby w Bremie: Znamy składy na starcie Werderu z HSV",
-    "summary": "Trenerzy Werderu Brema oraz Hamburgera SV dokonali po dwie zmiany w wyjściowych jedenastkach na prestiżowe starcie w ramach Nordderby.",
-    "content": "<p>Szkoleniowiec gospodarzy, Daniel Thioune, który niedawno przedłużył swój kontrakt z klubem, zdecydował się na korekty po ostatniej porażce ze Stuttgartem. Od pierwszej minuty na boisku pojawią się Chuki oraz Justin Njinmah, którzy zastąpili odpowiednio Senne Lynena i Marco Grülla.</p><p>Po stronie gości z Hamburga, trener Merlin Polzin również przeprowadził dwie roszady po zwycięstwie nad Gladbach. Do składu wraca kapitan Nicolas Capaldo, zajmując miejsce Shafiq Nandji, natomiast w ofensywie Alexander Røssing-Lelesiit zastąpił Alberta Sambi Lokongę.</p><p>Werder Brema przystępuje do meczu w ustawieniu 4-2-3-1 z Niclasem Füllkrugiem na szpicy, podczas gdy Hamburger SV postawił na formację 3-5-2, w której duet napastników tworzą Røssing-Lelesiit oraz Daka.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/confirmed-lineups-werder-bremen-hamburger-1' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "EKS",
     "badge": "Ekstraklasa",
     "badgeColor": "bg-rose-600",
@@ -514,29 +538,5 @@
     "title": "Szalony powrót Barcelony: Yamal i spółka odwracają losy meczu z Villarrealem",
     "summary": "Barcelona po fatalnym początku i błędach w defensywie zdołała odwrócić losy spotkania z Villarrealem, mimo że Lamine Yamal zmarnował rzut karny.",
     "content": "<p>Mecz na Camp Nou rozpoczął się dla Barcelony katastrofalnie. Podopieczni Hansiego Flicka, który z konieczności wystawił Frenkiego de Jonga na środku obrony, szybko stracili dwa gole. Najpierw błąd Fermina wykorzystał Buchanan, a chwilę później Oluwaseyi podwyższył prowadzenie po tym, jak wygrał pojedynek z defensywą gospodarzy.</p><p>Sytuacja Barcelony mogła poprawić się w 20. minucie, gdy sędzia po analizie VAR podyktował rzut karny za faul na Lamine Yamalu. Młody skrzydłowy, który przystąpił do meczu zmagając się z urazem stawu skokowego, uderzył jednak nieczysto, trafiając jedynie w słupek bramki gości.</p><p>Trener Villarrealu, Inigo Perez, przed meczem zapowiadał odważną grę wysokim pressingiem i realizował ten plan z powodzeniem w pierwszej fazie spotkania. Mimo problemów kadrowych i słabego początku, Barcelona zdołała jednak przejąć inicjatywę, pokazując charakter w starciu z wymagającym rywalem.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/co-ta-barcelona-zrobila-yamal-najpierw-zawiodl-a-potem-zachwycil' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "22.11 • 14:46",
-    "source": "Na podstawie: Weszło",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/f/f5/%D0%9C%D0%B0%D1%82%D1%87_%C2%AB%D0%97%D0%BE%D1%80%D1%8F%C2%BB_-_%C2%AB%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE%C2%BB_3-2._3_%D0%B2%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8F_2022_%D1%80%D0%BE%D0%BA%D1%83_%E2%80%94_1372869_%28%D0%A2%D0%BE%D0%BC%D0%B0%D1%88_%D0%9A%D0%B5%D0%BD%D0%B4%D0%B7%D1%8C%D0%BE%D1%80%D0%B0%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Tomasz Kędziora z golem roku? Polak trafił skorpionem w derbach Kijowa",
-    "summary": "Tomasz Kędziora zdobył spektakularną bramkę w derbach Kijowa, popisując się uderzeniem typu skorpion. Dynamo Kijów pokonało Obołoń 4:2 w 13. kolejce ukraińskiej Premier Lihi.",
-    "content": "<p>W 3. minucie meczu przeciwko Obołoniowi, Tomasz Kędziora popisał się niebywałą techniką. Po dośrodkowaniu z rzutu rożnego, wykonywanego przez Mykołę Szaparenkę, polski obrońca uderzył piłkę piętą w pełnym wyskoku, będąc ustawionym plecami do bramki rywali.</p><p>Dzięki tej wygranej 4:2, drużyna Dynama Kijów, prowadzona przez trenera Macieja Kędziorka, umocniła się na trzecim miejscu w tabeli ukraińskiej Premier Lihi. Do liderującego Szachtara Donieck zespół traci obecnie cztery punkty.</p><p>Redakcja PITCH ZONE apeluje do FIFA o nominację dla Kędziory do nagrody Puskasa. Autorzy podkreślają, że trafienie Polaka jest równie efektowne, co słynny gol Oliviera Girouda z 2017 roku, który został uhonorowany tym prestiżowym wyróżnieniem.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/kedziora-z-nagroda-puskasa-przepiekny-gol-polaka-wideo' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "CL",
-    "badge": "Liga Mistrzów",
-    "badgeColor": "bg-indigo-600",
-    "time": "22.11 • 12:55",
-    "source": "Na podstawie: Bulinews",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Michael_Olise_France_v_Senegal_16_June_2026-307_%28cropped%29.jpg/1280px-Michael_Olise_France_v_Senegal_16_June_2026-307_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Problemy zdrowotne Michaela Olise. Gwiazdor Bayernu może opuścić mecz w Lidze Mistrzów",
-    "summary": "Michael Olise zmaga się z urazem stopy po meczu z FC Köln. Występ francuskiego skrzydłowego w nadchodzącym spotkaniu Ligi Mistrzów przeciwko Lille stoi pod dużym znakiem zapytania.",
-    "content": "<p>Po piątkowym starciu z FC Köln, Michael Olise nie uniknął problemów zdrowotnych. Choć uniknął poważniejszej kontuzji, zawodnik wciąż wymaga specjalistycznej opieki i porusza się przy pomocy kul, korzystając z ochronnego obuwia stabilizującego stopę.</p><p>Sztab medyczny Bayernu Monachium prowadzi codzienną rehabilitację piłkarza w ośrodku Säbener Straße. Specjalistyczny but ma za zadanie odciążyć kontuzjowane miejsce i zminimalizować ryzyko pogłębienia urazu podczas procesu leczenia.</p><p>W obliczu zbliżającego się wyjazdowego meczu Ligi Mistrzów z Lille, szanse na występ 23-latka są oceniane jako bardzo niskie. Ewentualna absencja Olise byłaby sporym osłabieniem ofensywy zespołu prowadzonego przez Vincenta Kompany'ego.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/michael-olise-major-doubt-for-bayern-champions-league-clash-lille' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
