@@ -1,5 +1,17 @@
 [
   {
+    "category": "EKS",
+    "badge": "Ekstraklasa",
+    "badgeColor": "bg-rose-600",
+    "time": "23.11 • 23:48",
+    "source": "Na podstawie: Weszło",
+    "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80",
+    "imgCredit": "Unsplash (CC0)",
+    "title": "Misiura docenił Wieczystą: Nie zasługuje na ostatnie miejsce",
+    "summary": "23 listopada 2026, 23:54 • 2 min czytania\n                                                                        \n                            \n                            0\nMotor przegrał 1:2 z Wieczystą Krakó",
+    "content": "<p>23 listopada 2026, 23:54 • 2 min czytania\n                                                                        \n                            \n                            0\nMotor przegrał 1:2 z Wieczystą Kraków na zakończenie 15.</p><p>kolejki Ekstraklasy.</p><p>Mariusz Misiura zabrał głos po spotkaniu na pomeczowej konferencji prasowej.</p><p>Trener Lublinian ma powody do obaw nie tylko z powodu nieskuteczności swoich podopiecznych, ale również na dodatek kontuzji Karola Czubaka.</p><p>Motor przegrał, choć przegrać nie musiał.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/misiura-docenil-wieczysta-nie-zasluguje-na-ostatnie-miejsce' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "PL",
     "badge": "Premier League",
     "badgeColor": "bg-purple-600",
@@ -526,17 +538,5 @@
     "title": "Stefan Majewski o kulisach kariery: od bramkarza w Bydgoszczy po operację kolana",
     "summary": "Były reprezentant Polski Stefan Majewski wspomina swoje początki w bydgoskich klubach oraz plany na przyszłość, w tym nadchodzącą operację kolana.",
     "content": "<p>Stefan Majewski, legenda polskiej piłki, znajduje się obecnie na sportowej emeryturze. Były trener przyznał, że choć czuje się dobrze, musi poddać się operacji kolana, która jest konieczna dla uniknięcia poważniejszych problemów zdrowotnych w przyszłości.</p><p>Wspominając początki kariery w Bydgoszczy, Majewski opowiedział o swoich pierwszych krokach w klubach Gwiazda i Chemik (wcześniej Zachem). Co ciekawe, jego pierwszym trenerem był ojciec Zbigniewa Bońka, a sam zawodnik zaczynał przygodę z futbolem jako bramkarz, zanim ostatecznie zmienił pozycję na boisku.</p><p>W 1977 roku piłkarz przeniósł się do Zawiszy Bydgoszcz, gdzie ściągnął go trener Wiesław Gałkowski. Majewski przyznał, że łączenie gry w II lidze z nauką w technikum kolejowym było niezwykle trudne, co ostatecznie doprowadziło do niepowodzenia na maturze z matematyki z powodu licznych nieobecności.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/wspomnienia-stefana-majewskiego-prowadzil-gwiazdy-w-niemczech-czuje-rozgoryczenie-praca-w-kadrze' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "EKS",
-    "badge": "Ekstraklasa",
-    "badgeColor": "bg-rose-600",
-    "time": "23.11 • 12:48",
-    "source": "Na podstawie: Weszło",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Krakow_-_Wawel_from_Vistula_-_4.jpg/1280px-Krakow_-_Wawel_from_Vistula_-_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "imgCredit": "Fot. Ingo Mehling (CC BY-SA 4.0)",
-    "title": "Wisła Kraków stawia na młodość: Oliwier Pławiński z nowym kontraktem",
-    "summary": "Wisła Kraków przedłużyła umowę z 17-letnim pomocnikiem Oliwierem Pławińskim. Nowy kontrakt utalentowanego zawodnika będzie obowiązywał do końca czerwca 2029 roku.",
-    "content": "<p>Oliwier Pławiński, który jest stopniowo wprowadzany do pierwszego zespołu przez trenera Mariusza Jopa, związał się z Wisłą Kraków długoterminową umową. Klub oficjalnie potwierdził, że nowy kontrakt 17-letniego pomocnika wygasa dopiero 30 czerwca 2029 roku.</p><p>Młody piłkarz miał już okazję zadebiutować w seniorskiej drużynie Białej Gwiazdy, notując krótkie występy przeciwko tak wymagającym rywalom jak Legia Warszawa oraz Lech Poznań. Sztab szkoleniowy wiąże z zawodnikiem spore nadzieje, traktując ten ruch jako kolejny krok w jego piłkarskim rozwoju.</p><p>Na co dzień Pławiński zbiera doświadczenie głównie w trzecioligowych rezerwach krakowskiego klubu. W bieżącym sezonie na czwartym poziomie rozgrywkowym wystąpił w 12 meczach, w których udało mu się zdobyć dwie bramki oraz zanotować trzy asysty.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/wisla-krakow-wierzy-w-nastolatka-kontrakt-przedluzony' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
