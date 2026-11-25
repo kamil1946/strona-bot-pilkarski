@@ -1,5 +1,41 @@
 [
   {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "25.11 • 11:14",
+    "source": "Na podstawie: Football Italia",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Johan_Cruijff_%281974%29.jpg/1280px-Johan_Cruijff_%281974%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Guardiola ‘honour’ at Italy national team talks: ‘I probably would have accepted’",
+    "summary": "MANCHESTER, ENGLAND - APRIL 19: Pep Guardiola, Manager of Manchester City, acknowledges the fans after the Premier League match between Manchester City and Arsenal at Etihad Stadium on April 19, 2026 in Manches",
+    "content": "<p>MANCHESTER, ENGLAND - APRIL 19: Pep Guardiola, Manager of Manchester City, acknowledges the fans after the Premier League match between Manchester City and Arsenal at Etihad Stadium on April 19, 2026 in Manchester, England.</p><p>(Photo by Michael Regan/Getty Images)              \r\n                Pep Guardiola says that it was ‘one of the greatest honours’ to be considered for the role of Italy national team head coach during Paolo Maldini’s brief reign as technical director of the FIGC and says that he ‘probably would have accepted’ had the offer come a year or two later down the line.</p><p>Guardiola, along with Carlo Ancelotti and then later Andrea Pirlo, were among the names that Maldini had sought to appoint as head coach of the Italy national team during his brief reign as technical director of the FIGC over the summer.</p><p>In the end, neither Guardiola nor Ancelotti were available, Pirlo’s appointment was blocked, and Maldini decided to step down from his position with the Italian FA after just 16 days at the helm.</p><p>Maldini was then replaced by Claudio Ranieri and Roberto Mancini has since returned as CT.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/guardiola-honour-at-italy-national-team-talks/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "LL",
+    "badge": "La Liga",
+    "badgeColor": "bg-red-600",
+    "time": "25.11 • 11:14",
+    "source": "Na podstawie: Weszło",
+    "img": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80",
+    "imgCredit": "Unsplash (CC0)",
+    "title": "Barcelona kontra Florentino Perez. Ugody nie ma!",
+    "summary": "25 listopada 2026, 12:02 • 2 min czytania\n                                                                        \n                            \n                            0\nBarcelona i Florentino Perez nie dos",
+    "content": "<p>25 listopada 2026, 12:02 • 2 min czytania\n                                                                        \n                            \n                            0\nBarcelona i Florentino Perez nie doszli do porozumienia podczas środowej próby ugodowej w madryckim sądzie.</p><p>Kataloński klub domagał się sprostowania i wycofania wypowiedzi prezesa Realu Madryt, w których ten oskarżał Blaugranę o korupcję.</p><p>Według hiszpańskich mediów Barça zamierza teraz skierować sprawę na drogę sądową.</p><p>Przypomnijmy, że konflikt wywołały publiczne wypowiedzi Pereza dotyczące Barcelony i sprawy Negreiry.</p><p>Prezes Realu sugerował między innymi, że kataloński klub korzystał z przychylności sędziów.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/barcelona-i-perez-spotkali-sie-w-sadzie-to-prawdopodobnie-dopiero-poczatek' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "25.11 • 11:14",
+    "source": "Na podstawie: Weszło",
+    "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80",
+    "imgCredit": "Unsplash (CC0)",
+    "title": "Bayern wydał komunikat w sprawie Musiali. Klub ucina spekulacje",
+    "summary": "25 listopada 2026, 11:55 • 3 min czytania\n                                                                        \n                            \n                            0\nGorąco zrobiło się ostatnio wokół Ja",
+    "content": "<p>25 listopada 2026, 11:55 • 3 min czytania\n                                                                        \n                            \n                            0\nGorąco zrobiło się ostatnio wokół Jamala Musiali.</p><p>Bayern Monachium i agencja 11WINS, reprezentująca samego zawodnika, wydały wspólne oświadczenie dotyczące jego stanu zdrowia.</p><p>Chodzi o rzekome zatajenie problemów neurologicznych podczas negocjacji kontraktowych.</p><p>W ostatnich dniach wokół sytuacji Musiali zrobiło się bardzo głośno.</p><p>Piłkarz niedawno wrócił do gry po dłuższej przerwie, występując przez około 20 minut w spotkaniu z 1.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/musiala-zatail-chorobe-bayern-monachium-wydal-specjalny-komunikat' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "CL",
     "badge": "Liga Mistrzów",
     "badgeColor": "bg-indigo-600",
@@ -312,18 +348,6 @@
     "content": "<p>24 listopada 2026, 23:44 • 3 min czytania\n                                                                        \n                            \n                            0\nOd kilku lat mamy do czynienia ze zorganizowaną akcją grup kibicowskich niektórych klubów wymierzoną w Wisłę Kraków.</p><p>Fanom ekipy spod Wawelu na wszelkie możliwe sposoby jest blokowane wejście na mecze wyjazdowe, a w drugą stronę sympatycy innych zespołów nie przyjeżdżają na mecze z Reymonta.</p><p>Tak będzie i tym razem, jednak dodatkowo klubowi zostanie zablokowana możliwość sprzedaży biletów na dwa tysiące miejsc.</p><p>Dobrym zwyczajem jest, że jeśli kibice gości nie mają zamiaru przyjechać na mecz swojego zespołu, to ich sektor jest zwalniany dla fanów gospodarzy, którzy nie zdążyli kupić biletów na inne trybuny.</p><p>Jak informuje Bartosz Karcz z Gazety Krakowskiej, inaczej postąpili fanatycy Motoru Lublin, którzy chcą pójść śladem Jagiellonii Białystok.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/robia-sobie-zarty-wisla-krakow-straci-tysiace-przez-kibicow-rywala' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "24.11 • 23:12",
-    "source": "Na podstawie: Weszło",
-    "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "I De Bruyne syty, i Manchester City. Nikt tutaj z kryzysu nie wyszedł",
-    "summary": "24 listopada 2026, 23:14 • 4 min czytania\n                                                                        \n                            \n                            0\nKevin De Bruyne w poprzednim sezonie",
-    "content": "<p>24 listopada 2026, 23:14 • 4 min czytania\n                                                                        \n                            \n                            0\nKevin De Bruyne w poprzednim sezonie wybrał się w sentymentalną podróż, a musiał zejść już po dwudziestu minutach, ponieważ Antonio Conte poświęcił właśnie jego po czerwonej kartce dla Di Lorenzo.</p><p>Tym razem Belg wyjedzie z ważnego dla siebie miasta w lepszym nastroju.</p><p>Napoli wyrwało punkcik, choć on sam się do tego bezpośrednio nie przyczynił.</p><p>Kevin De Bruyne ma szczęście w losowaniu.</p><p>Znowu wrócił na Etihad Stadium.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/de-bruyne-wraca-tym-razem-w-lepszym-humorze-niz-rok-temu-duzo-emocji-w-drugiej-polowie' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "BL",
     "badge": "Bundesliga",
     "badgeColor": "bg-amber-600",
@@ -456,18 +480,6 @@
     "content": "<p>24 listopada 2026, 18:42 • 2 min czytania\n                                                                        \n                            \n                            0\nNiespodziewany gość na Campeonato Brasileiro Série A.</p><p>Pep Guardiola zasiadł na trybunach ligowego meczu w 36.</p><p>kolejce brazylijskiej ekstraklasy.</p><p>Bahia przegrała z Coritibą 0:1.</p><p>Hiszpan poleciał do Brazylii jako globalny ambasador City Football Group.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/guardiola-polecial-do-brazylii-wcale-nie-na-wakacje' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "24.11 • 16:50",
-    "source": "Na podstawie: Bulinews",
-    "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Bundesliga planning new Saturday night kick-off time from 2029/30",
-    "summary": "The Bundesliga could introduce a new Saturday evening kick-off time from the 2029/30 season as part of the next domestic television rights cycle. According to Bild, plans are being drawn up to stage five marque",
-    "content": "<p>The Bundesliga could introduce a new Saturday evening kick-off time from the 2029/30 season as part of the next domestic television rights cycle.</p><p>According to Bild, plans are being drawn up to stage five marquee Bundesliga fixtures per season at 20:30 CET on Saturday evenings.</p><p>The proposal was reportedly well received at a meeting of the 36 Bundesliga and 2.</p><p>Bundesliga clubs in Frankfurt at the beginning of October, with the prospect of attracting larger television audiences in a prime-time slot appealing to potential broadcasters.</p><p>Crucially, the traditional Saturday 15:30 kick-off time would remain unaffected, as would the existing 18:30 slot.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/bundesliga-planning-new-saturday-night-kick-off-time-2029/30' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "SA",
     "badge": "Serie A",
     "badgeColor": "bg-sky-600",
@@ -526,17 +538,5 @@
     "title": "Czy Roma nastraszy PSG? Enrique docenił swoją byłą drużynę",
     "summary": "24 listopada 2026, 16:25 • 3 min czytania\n                                                                        \n                            \n                            0\nW jednym ze środowych spotkań piątej",
     "content": "<p>24 listopada 2026, 16:25 • 3 min czytania\n                                                                        \n                            \n                            0\nW jednym ze środowych spotkań piątej kolejki fazy ligowej Ligi Mistrzów Paris Saint-Germain podejmie Romę.</p><p>Biorąc pod uwagę dyspozycję, w jakiej znajduje się obecnie włoska drużyna, można nawet nazwać to spotkanie hitowym.</p><p>Forma Rzymian, a także problemy kadrowe, z którymi zmaga się z PSG, powoduje, że Luis Enrique spodziewa się trudnego wyzwania.</p><p>Choć Paryżanie wygrali 12 kolejnych meczów, to ten ostatni przysporzył im mnóstwo kłopotów.</p><p>Podopieczni Enrique pokonali na wyjeździe Niceę 3:2, a jedną z bramek zdobył Desire Doue.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/czy-roma-nastraszy-psg-enrique-docenil-swoja-byla-druzyne' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "24.11 • 14:21",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Lazio ultras temporarily lift Stadio Olimpico boycott but not everybody agrees",
-    "summary": "ROME, ITALY - AUGUST 16: SS Lazio and Mantova 1911 remembered Livio Berruti with a minute's silence prior the Coppa Italia match between SS Lazio and Mantova 1911 at Stadio Olimpico on August 16, 2026 in Rome, ",
-    "content": "<p>ROME, ITALY - AUGUST 16: SS Lazio and Mantova 1911 remembered Livio Berruti with a minute's silence prior the Coppa Italia match between SS Lazio and Mantova 1911 at Stadio Olimpico on August 16, 2026 in Rome, Italy.</p><p>(Photo by Marco Rosi - SS Lazio/Getty Images)              \r\n                Ultras of Lazio’s Curva Nord have announced that they will temporarily lift their Stadio Olimpico boycott for their Serie A clash at home against Atalanta on December 6, but not all supporters agree with the decision.</p><p>Lazio supporters have been boycotting their home matches since the beginning of the calendar year in protest of owner Claudio Lotito.</p><p>Fans are demanding that Lotito sell the club and had promised that they would not return to the stadium, aside from derby fixtures, until he had done so.</p><p>Despite home season tickets plummeting to around 3,000 season and away supporters regularly outnumbering home fans in the Stadio Olimpico in 2026-27, Lazio have surged to the top of the Serie A table and remain unbeaten after the first 12 league matches of the season.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/lazio-ultras-temporarily-lift-olimpico-boycott/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
