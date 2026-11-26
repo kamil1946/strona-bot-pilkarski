@@ -1,5 +1,17 @@
 [
   {
+    "category": "EKS",
+    "badge": "Ekstraklasa",
+    "badgeColor": "bg-rose-600",
+    "time": "26.11 • 07:45",
+    "source": "Na podstawie: Weszło",
+    "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80",
+    "imgCredit": "Unsplash (CC0)",
+    "title": "Konkretne słowa bramkarza Jagiellonii. „Tracimy za dużo bramek”",
+    "summary": "26 listopada 2026, 08:22 • 4 min czytania\n                                                                        \n                            \n                            0\nJuż w czwartkowy wieczór Jagiellonia",
+    "content": "<p>26 listopada 2026, 08:22 • 4 min czytania\n                                                                        \n                            \n                            0\nJuż w czwartkowy wieczór Jagiellonia Białystok powalczy o kolejne punkty w Lidze Europy.</p><p>Jej rywalem na Stadium of Light będzie Sunderland.</p><p>Anglicy zajmują miejsce w strefie spadkowej Premier League, ale na pewno będą faworytem spotkania.</p><p>O skali wyzwania, braku kibiców z Białegostoku czy kłopotach w defensywie na przedmeczowej konferencji prasowej opowiadał bramkarz Sławomir Abramowicz.</p><p>Przypomnijmy, że z powodu zamieszek w trakcie meczu z Lewskim Sofia UEFA odwiesiła karę nałożoną na fanów Jagiellonii Białystok za zajścia podczas spotkania z poprzedniego sezonu przeciwko Noviemu Pazarowi.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/tracimy-za-duzo-bramek-konkretne-slowa-bramkarza-jagiellonii' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "CL",
     "badge": "Liga Mistrzów",
     "badgeColor": "bg-indigo-600",
@@ -526,17 +538,5 @@
     "title": "Przewidywane składy Bundesligi: 11. kolejka rozpoczynająca się od XI",
     "summary": "11. kolejka sezonu 2026/27 Bundesligi tuż tuż, oto zestawienie wszystkich 18 drużyn w ten weekend:",
     "content": "<p>11.</p><p>kolejka sezonu 2026/27 Bundesligi tuż tuż, oto zestawienie wszystkich 18 drużyn w ten weekend:</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/predicted-bundesliga-lineups-matchday-11-starting-xis' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "EL",
-    "badge": "Liga Europy",
-    "badgeColor": "bg-blue-600",
-    "time": "25.11 • 12:24",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Camarda the latest on Milan’s list of eight absences for Olympiacos clash",
-    "summary": "PERTH, AUSTRALIA - AUGUST 05: Aleksandar Stankovic of FC Internazionale turns with the ball during the pre-season match between AC Milan and FC Internazionale at Optus Stadium on August 05, 2026 in Perth, Austr",
-    "content": "<p>PERTH, AUSTRALIA - AUGUST 05: Aleksandar Stankovic of FC Internazionale turns with the ball during the pre-season match between AC Milan and FC Internazionale at Optus Stadium on August 05, 2026 in Perth, Australia.</p><p>(Photo by James Worsfold/Getty Images)              \r\n                Francesco Camarda is the latest Milan player to be ruled out of Milan’s upcoming Europa League clash against Olympiacos after picking up an ankle problem in training according to Wednesday’s reports.</p><p>Milan are due to take on Olympiacos in Athens on Thursday evening and will have to do so without eight of their first-team players.</p><p>Luka Modric is expected to be unavailable with a muscular issue, as are Strahinja Pavlovic, Matteo Gabbia, Samuel Chukwueze, Alexis Saelemaekers and Ruben Loftus-Cheek.</p><p>Camarda is the latest player to be added to the Milan injury list after suffering an ankle issue and is unlikely to be called up for the Olympiacos clash as a result.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/camarda-the-latest-milan-absence-olympiacos/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
