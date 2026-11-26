@@ -1,5 +1,113 @@
 [
   {
+    "category": "PL",
+    "badge": "Premier League",
+    "badgeColor": "bg-purple-600",
+    "time": "26.11 • 20:39",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80",
+    "imgCredit": "Unsplash (CC0)",
+    "title": "EL i ECL NA ŻYWO! Sunderland, Pałac i poziom celtycki",
+    "summary": "Sunderland\n                          meczu z Jagiellonią Białystok. 1.",
+    "content": "<p>Sunderland\n                          meczu z Jagiellonią Białystok.</p><p>1.</p><p>runda Ligi Europejskiej UEFA.</p><p>Uaktualnij, aby uzyskać wszystkie Sky Sports, w tym 1500 meczów piłkarskich na żywo w tym sezonie\n                                    \n                            \n                        \n                    \n                \n                \n                    \n                            \n                                \n                                    \n        \n        \n                                    \n                                \n                            \n                    \n        \n                    \n                        \n                            \n        \n                            \n                                    \n                                Nie masz Sky?</p><p>Uzyskaj natychmiastowy dostęp do Sky Sports bez umowy</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/sunderland-vs-jagiellonia-bialystok/live/577827' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "ECL",
+    "badge": "Liga Konferencji",
+    "badgeColor": "bg-teal-600",
+    "time": "26.11 • 20:38",
+    "source": "Na podstawie: Sky Sports",
+    "img": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?auto=format&fit=crop&w=1200&q=80",
+    "imgCredit": "Unsplash (CC0)",
+    "title": "Osman występuje w roli Brighton, która odzyskuje siły po zwycięstwie w Conference League",
+    "summary": "Brighton i Hove Albion\n                          przeciwko CS Universitatea Craiova. Runda 1 Ligi Konferencyjnej UEFA.",
+    "content": "<p>Brighton i Hove Albion\n                          przeciwko CS Universitatea Craiova.</p><p>Runda 1 Ligi Konferencyjnej UEFA.</p><p>Raport z meczu, w którym Brighton pokonał 10-osobowy Universitatea Craiova 4:0 w Conference League; Ibrahim Osman strzelił w tym zwycięstwie swoje pierwsze gole w Brighton; Maxim De Cuyper znakomicie strzelił do siatki swojego piątego gola w sezonie; Osman wystawił także Charalamposa Kostoulasa na trzecie miejsce\nObraz:\n                                \n                                    Ibrahim Osman (po lewej) z Brighton świętuje, że wraz z kolegą z drużyny Pascalem Grossem zdobyli gola w meczu przeciwko Universitatea Craiova w Lidze Konferencyjnej UEFA</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/brighton-and-hove-albion-vs-cs-universitatea-craiova/report/577942' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "26.11 • 20:38",
+    "source": "Na podstawie: Bulinews",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/FC_Red_Bull_Salzburg_gegen_Bayern_M%C3%BCnchen_%282025-01-06_Testspiel%29_19.jpg/1280px-FC_Red_Bull_Salzburg_gegen_Bayern_M%C3%BCnchen_%282025-01-06_Testspiel%29_19.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Zapowiedź 2. Bundesligi: 1. FC Heidenheim kontra 1. FC Nürnberg",
+    "summary": "1. FC Heidenheim będzie zdesperowany, aby zakończyć serię siedmiu meczów bez zwycięstw, gdy w piątkowy wieczór powita na Voith-Arena kandydatów do awansu 1.",
+    "content": "<p>1.</p><p>FC Heidenheim będzie zdesperowany, aby zakończyć serię siedmiu meczów bez zwycięstw, gdy w piątkowy wieczór powita na Voith-Arena kandydatów do awansu 1.</p><p>FC Nürnberg.</p><p>Zespół Franka Schmidta miał za sobą nieregularny powrót do 2.</p><p>Bundesligi z niedociągnięciami w defensywie, które uniemożliwiały im budowanie prawdziwej spójności.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/2-bundesliga-preview-1-heidenheim-1-nurnberg' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "26.11 • 20:37",
+    "source": "Na podstawie: Bulinews",
+    "img": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80",
+    "imgCredit": "Unsplash (CC0)",
+    "title": "2. Zapowiedź Bundesligi: VfL Bochum vs. SV Darmstadt 98",
+    "summary": "VfL Bochum będzie chciało powrócić na zwycięską ścieżkę, gdy w piątkowy wieczór podejmie SV Darmstadt 98, a obie drużyny będą chciały zdobyć cenne punkty w walce o odsunięcie się od dolnej połowy tabeli 2. Bund",
+    "content": "<p>VfL Bochum będzie chciało powrócić na zwycięską ścieżkę, gdy w piątkowy wieczór podejmie SV Darmstadt 98, a obie drużyny będą chciały zdobyć cenne punkty w walce o odsunięcie się od dolnej połowy tabeli 2.</p><p>Bundesligi.</p><p>Gospodarze przystąpią do 13.</p><p>kolejki z 11.</p><p>miejscem na koncie z 14 punktami po 12 pierwszych meczach, natomiast Darmstadt zajmuje 16.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/2-bundesliga-preview-vfl-bochum-darmstadt-98' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "26.11 • 20:37",
+    "source": "Na podstawie: Bulinews",
+    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Thomas_Tuchel_England_v_Ghana_23_June_2026-081.jpg/1280px-Thomas_Tuchel_England_v_Ghana_23_June_2026-081.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Leverkusen powraca na zwycięską drogę w Europie dzięki wygodnemu zwycięstwu w Zagrzebiu",
+    "summary": "Bayer Leverkusen na chwilę wspiął się na drugie miejsce w tabeli Ligi Europy po komfortowym zwycięstwie nad GNK Dinamo Zagrzeb. Die Werkself wygrali cztery z pierwszych pięciu meczów w rozgrywkach, tracąc tylko",
+    "content": "<p>Bayer Leverkusen na chwilę wspiął się na drugie miejsce w tabeli Ligi Europy po komfortowym zwycięstwie nad GNK Dinamo Zagrzeb.</p><p>Die Werkself wygrali cztery z pierwszych pięciu meczów w rozgrywkach, tracąc tylko jednego gola w niewielkiej porażce z Lyonem.</p><p>Gospodarze przetestowali Marka Flekkena już w pierwszej minucie po strzale Lukasa Kačavendy.</p><p>Podopieczni Carlesa Martineza nie byli jednak zrażeni, ponieważ przez resztę połowy całkowicie dominowali.</p><p>Od tego czasu holenderski bramkarz nie był powołany do gry, a obrońcy Zagrzebia mieli trudności z rozprawieniem się z szalonymi skrzydłowymi Ibrahimem Mazą i Moussą Diaby.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/leverkusen-return-winning-ways-europe-comfortable-victory-zagreb' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "26.11 • 20:37",
+    "source": "Na podstawie: Football Italia",
+    "img": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?auto=format&fit=crop&w=1200&q=80",
+    "imgCredit": "Unsplash (CC0)",
+    "title": "Massara o styczniowych planach Juventusu: „Jeśli pojawią się możliwości poprawy, wykorzystamy je”",
+    "summary": "REGGIO NELL'EMILIA, WŁOCHY - 13 WRZEŚNIA: Frederic Massara z Juventusu patrzy przed meczem Serie A pomiędzy US Sassuolo i Juventusem na stadionie Mapei - Citta 'del Tricolore 13 września 2026 r. w Reggio nell'E",
+    "content": "<p>REGGIO NELL'EMILIA, WŁOCHY - 13 WRZEŚNIA: Frederic Massara z Juventusu patrzy przed meczem Serie A pomiędzy US Sassuolo i Juventusem na stadionie Mapei - Citta 'del Tricolore 13 września 2026 r.</p><p>w Reggio nell'Emilia we Włoszech.</p><p>(Zdjęcie: Emmanuele Ciancaglini/Getty Images)              \r\n                Frederic Massara wspierał Jeffa Ekhatora w jego występie w barwach Juventusu, podkreślając, że dzisiejszy występ młodego napastnika w meczu przeciwko Omonii Nikozja „nie jest eksperymentem”.</p><p>Cytując za pośrednictwem TuttoMercatoWeb, dyrektor piłkarski Bianconeri rozmawiał ze Sky Sport Italia przed dzisiejszym starciem Ligi Europy na stadionie Allianz.</p><p>Rozpoczęcie nastąpi o 21:00 CET [20:00 GMT], a całą akcję będziesz mógł na bieżąco śledzić na naszym blogu na żywo.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/massara-on-juventus-january-plans/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "EL",
+    "badge": "Liga Europy",
+    "badgeColor": "bg-blue-600",
+    "time": "26.11 • 20:36",
+    "source": "Na podstawie: Football Italia",
+    "img": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80",
+    "imgCredit": "Unsplash (CC0)",
+    "title": "UEL | Olympiakos 2-4 Mediolan: inspiracja Hutchinsona do epickiego powrotu",
+    "summary": "PIRAEUS, GRECJA – 26 LISTOPADA: Omari Hutchinson z AC Milan rzuca wyzwanie Zinedinowi Smajlovicowi z Olympiakosu podczas meczu fazy MD5 Ligi Europejskiej UEFA 2026/27 pomiędzy Olympiakosem FC a AC Milan na Stad",
+    "content": "<p>PIRAEUS, GRECJA – 26 LISTOPADA: Omari Hutchinson z AC Milan rzuca wyzwanie Zinedinowi Smajlovicowi z Olympiakosu podczas meczu fazy MD5 Ligi Europejskiej UEFA 2026/27 pomiędzy Olympiakosem FC a AC Milan na Stadio Georgios Karaiskakis 26 listopada 2026 r.</p><p>w Pireusie, Grecja.</p><p>(Zdjęcie: Milos Bicanski/Getty Images)              \r\n                Omari Hutchinson podtrzymał nadzieje Milanu na Ligę Europy, inspirując zwycięstwo 4:2 na wyjeździe z Olympiakosem dzięki bramce i dwóm asystom Alphadjo Cisse i Christiana Pulisica, a następnie Diego Moreirze w końcówce.</p><p>Rossoneri mieli fatalny bilans w Lidze Europy, przegrywając trzy z czterech meczów bez zdobycia bramki, a także wygrywając 4:0 na wyjeździe z RB Salzburg, który wyróżniał się spośród pozostałych.</p><p>Do Grecji udali się bez Luki Modricia, Francesco Camardy, Davide Bartesaghiego, Strahinji Pavlovicia, Samuela Chukwueze, Matteo Gabbii, Rubena Loftusa-Cheka, Alexisa Saelemaekersa i Pietro Terracciano, więc rotację w składzie ograniczono do minimum.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/uel-olympiacos-2-4-milan-hutchinson-inspired/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "26.11 • 20:36",
+    "source": "Na podstawie: Weszło",
+    "img": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80",
+    "imgCredit": "Unsplash (CC0)",
+    "title": "Premierowy gol Mazurka w Lidze Europy! Od razu poszedł za ciosem [WIDEO]",
+    "summary": "26 listopada 2026, 20:59 • 3 min czytania\n                                                                        \n                            \n                            0\nDoskonale pamiętamy wręcz magiczną n",
+    "content": "<p>26 listopada 2026, 20:59 • 3 min czytania\n                                                                        \n                            \n                            0\nDoskonale pamiętamy wręcz magiczną noc Bartosza Mazurka we Florencji.</p><p>Młody piłkarz Jagiellonii popisał się hat-trickiem i przez moment nawet wydawało się, że ekipa Adriana Siemieńca może sensacyjnie wyrzucić za burtę Fiorentinę.</p><p>Teraz młody reprezentant Polski popisał się debiutanckim golem na poziomie Ligi Europy.</p><p>A jak już trafił, to chwilę później podwoił swój dorobek.</p><p>Bartosz Mazurek od początku sezonu zachwyca w barwach RB Salzburg i nie może dziwić, że coraz więcej mówi się o zainteresowaniu ze strony mocniejszych klubów, w tym nawet przedstawicieli Premier League.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/piekny-wieczor-polaka-w-lidze-europy-wygral-mecz-w-pojedynke-wideo' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "EKS",
+    "badge": "Ekstraklasa",
+    "badgeColor": "bg-rose-600",
+    "time": "26.11 • 20:35",
+    "source": "Na podstawie: Weszło",
+    "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80",
+    "imgCredit": "Unsplash (CC0)",
+    "title": "Niespodziewany blamaż Benfiki. Kamiński i spółka rozbici w Czechach",
+    "summary": "26 listopada 2026, 20:51 • 2 min czytania\n                                                                        \n                            \n                            6\nJakub Kamiński rzadko pojawia się w ",
+    "content": "<p>26 listopada 2026, 20:51 • 2 min czytania\n                                                                        \n                            \n                            6\nJakub Kamiński rzadko pojawia się w wyjściowej jedenastce Benfiki.</p><p>W czwartek otrzymał wreszcie poważną szansę od trenera Orłów, no ale akurat ten mecz reprezentant Polski wolałby chyba obejrzeć w spokoju z perspektywy ławki rezerwowych.</p><p>Jego drużyna została bowiem zmasakrowana przez Viktorię Pilzno w starciu rozegranym w ramach piątej kolejki Ligi Europy.</p><p>Polski zawodnik w portugalskiej ekstraklasie nie gra praktycznie w ogóle – nie licząc jednego meczu z września, gdy awaryjnie pojawił się na murawie w miejsce kontuzjowanego kolegi, Kamiński zaliczył w lidze zaledwie jeden występ i to trwający tylko parę minut.</p><p>W rozgrywkach europejskich jest odrobinę lepiej – Polak powiódł Benficę do triumfu 2:0 nad Milanem na San Siro.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/reprezentant-polski-doczekal-sie-swojej-szansy-jego-druzyna-zostala-zmiazdzona' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "BL",
     "badge": "Bundesliga",
     "badgeColor": "bg-amber-600",
@@ -264,18 +372,6 @@
     "content": "<p>Według Sky Sports Brighton & Hove Albion i inne kluby Premier League monitorują Artema Stiepanowa.</p><p>Talent Bayeru Leverkusen jest już porównywany do supergwiazdy Erlinga Haalanda ze względu na jego wygląd fizyczny i styl gry.</p><p>Po zakończeniu wypożyczenia w 1.</p><p>FC Nürnberg w zeszłym sezonie, niezwykle utalentowany napastnik został w styczniu wypożyczony do FC Utrecht.</p><p>19-latkowi w Eredivisie wszystko układa się dobrze – płodny strzelec strzelał gole w każdym ze swoich pierwszych pięciu występów.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/loan-leverkusen-talent-stepanov-linked-brighton-switch' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "26.11 • 16:03",
-    "source": "Na podstawie: Bulinews",
-    "img": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Zapowiedź meczu Werder Brema vs Borussia Mönchengladbach: Trudny test na Weserstadion",
-    "summary": "Na własnym stadionie z zaciekłym rywalem, Hamburgiem, drużyna Brema wiedziała, że ​​zwycięstwo byłoby dużym wzmocnieniem ich wczesnej kampanii w Europie. Z oczywistych powodów byłby to również duży impuls dla i",
-    "content": "<p>Na własnym stadionie z zaciekłym rywalem, Hamburgiem, drużyna Brema wiedziała, że ​​zwycięstwo byłoby dużym wzmocnieniem ich wczesnej kampanii w Europie.</p><p>Z oczywistych powodów byłby to również duży impuls dla ich fanów.</p><p>Pierwsza połowa była zacięta i pełna napięcia, co miało sens, biorąc pod uwagę okazję.</p><p>W drugiej połowie sytuacja się rozwinęła.</p><p>Kapitan Marco Friedl trafił do domu z rzutu rożnego, został odrzucony po wspaniałej obronie, ale nie odmówiono mu go po raz drugi, gdy posłał woleja w siatkę.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/werder-bremen-borussia-monchengladbach-preview-tricky-test-the-weserstadion' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "SA",
     "badge": "Serie A",
     "badgeColor": "bg-sky-600",
@@ -312,18 +408,6 @@
     "content": "<p>Neapol, Włochy - 15 lutego: Robinio Vaz z AS Roma pokazuje swoje rozczarowanie podczas meczu Serie A pomiędzy SSC Napoli i AS Roma na Stadio Diego Armando Maradona 15 lutego 2026 roku w Neapolu we Włoszech.</p><p>(Zdjęcie: Francesco Pecoraro/Getty Images)              \r\n                Według doniesień Hull City jest gotowe wcześniej wycofać wypożyczenie Robinio Vaza, więc Roma musi znaleźć mu inny klub w styczniowym oknie transferowym.</p><p>Napastnik ma dopiero 19 lat, a jego transfer z Olympique Marsylia w styczniu 2026 roku był dużą inwestycją, gdy Giallorossi zapłacili 22 miliony euro za transfer do Olympique Marsylia.</p><p>Miał jednak problemy z występem na Stadio Olimpico i został wypożyczony do Hull City za 2 miliony euro z opcją przedłużenia umowy na koniec sezonu za kolejne 30 milionów euro.</p><p>Tam również sytuacja Brazylijczyka nie uległa poprawie, gdyż w barwach Tygrysów wystąpił zaledwie w siedmiu meczach i tylko w jednym starcie w seniorskiej drużynie.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/report-robinio-vaz-roma-6-months-hull-city/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "26.11 • 16:02",
-    "source": "Na podstawie: Weszło",
-    "img": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Porzucił żonę tuż po narodzinach syna. „Inny poziom zła”",
-    "summary": "26 listopada 2026, 16:52 • 3 min czytania\n                                                                        \n                            \n                            0\nBayern Monachium ponownie zmienił si",
-    "content": "<p>26 listopada 2026, 16:52 • 3 min czytania\n                                                                        \n                            \n                            0\nBayern Monachium ponownie zmienił się w FC Hollywood.</p><p>Klubem targają ostatnimi czasy rozmaite problemy i skandale, nie wyłączając tych natury obyczajowej.</p><p>Gorąco zrobiło się między innymi wokół Manuela Neuera, który porzucił żonę tuż po narodzinach drugiego dziecka.</p><p>40-letni bramkarz wdał się w romans ze znacznie młodszą kobietą, a relację zaczął najwyraźniej w okresie, gdy jego żona była w ciąży.</p><p>Teraz Anika Neuer (Bissel) skomentowała postępowanie męża wymownym wpisem w mediach społecznościowych.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/zona-w-pologu-a-on-w-brazylii-z-kochanka-wielki-skandal-w-bayernie-monachium' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "EKS",
     "badge": "Ekstraklasa",
     "badgeColor": "bg-rose-600",
@@ -334,18 +418,6 @@
     "title": "300 zł za gola polskiego klubu w Lidze Europy! (Stawka: 2 zł)",
     "summary": "Postaw min. 2 zł na dowolny zakład z oferty na przynajmniej jeden z meczów Union Saint-Gilloise – Lech Poznań lub Sunderland – Jagiellonia Białystok, wybierz promocję „ByczyBOOST” podczas wpłaty (min.",
     "content": "<p>Postaw min.</p><p>2 zł na dowolny zakład z oferty na przynajmniej jeden z meczów Union Saint-Gilloise – Lech Poznań lub Sunderland – Jagiellonia Białystok, wybierz promocję „ByczyBOOST” podczas wpłaty (min.</p><p>50 zł) i zgarnij dodatkowy bonus 300 zł za gola polskiego klubu w Lidze Europy.</p><p>Postaw dowolny zakład z oferty na przynajmniej jeden z meczów Union Saint-Gilloise – Lech Poznań lub Sunderland – Jagiellonia Białystok za minimum 2 PLN.</p><p>Po spełnieniu warunków i aktywowaniu kodu bonusowego środki pojawią się na Twoim koncie jako nagroda bonusowa.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/bukmacherzy/lebull-promocje-bukmacherskie' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "26.11 • 14:58",
-    "source": "Na podstawie: Bulinews",
-    "img": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Oficjalnie: dyrektor zarządzający Gladbach Stegemann został zwolniony ze swoich obowiązków",
-    "summary": "Jak oficjalnie ogłoszono dziś po południu, Borussia Mönchengladbach rozstała się z dr Stefanem Stegemannem. Klub znajdujący się najniżej w Bundeslidze potwierdził, że dyrektor zarządzający został zwolniony ze s",
-    "content": "<p>Jak oficjalnie ogłoszono dziś po południu, Borussia Mönchengladbach rozstała się z dr Stefanem Stegemannem.</p><p>Klub znajdujący się najniżej w Bundeslidze potwierdził, że dyrektor zarządzający został zwolniony ze swoich obowiązków ze skutkiem natychmiastowym.</p><p>„Różne opinie na temat współpracy i przyszłego kierunku naszego klubu doprowadziły do ​​tej decyzji” – wyjaśnił Prezes Rainer Bonhof.</p><p>„Dziękujemy doktorowi Stefanowi Stegemannowi za jego doskonałą pracę przez ostatnie pięć lat – najpierw jako wiceprezesa.</p><p>„Następnie w szczególnie trudnym okresie jako dyrektor generalny.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/official-gladbach-managing-director-stegemann-relieved-his-duties' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
     "category": "SA",
@@ -456,18 +528,6 @@
     "content": "<p>TURIN, WŁOCHY – 22 PAŹDZIERNIKA: Zeki Celik z Juventusu świętuje zdobycie pierwszego gola swojej drużyny z kolegami z drużyny podczas meczu fazy MD3 Ligi Europejskiej UEFA 2026/27 pomiędzy Juventusem a Stade Rennais FC na stadionie Juventusu 22 października 2026 r.</p><p>w Turynie we Włoszech.</p><p>(Zdjęcie: Valerio Pennicino/Getty Images)              \r\n                Luciano Spalletti powołał skład składający się z 23 zawodników Juventusu na czwartkowy wieczorny mecz Ligi Europy z Omonoią, w tym Stefano Turco, który niedawno został dodany do listy składu klubu UEFA i nigdy wcześniej nie był powołany do pierwszego składu.</p><p>Ich europejska kampania rozpoczęła się w sezonie 2026–2027 obiecująco, odnotowując trzy zwycięstwa i jeden remis po pierwszych czterech meczach sezonu.</p><p>Zmierzą się z cypryjską drużyną, która do tej pory wygrała dwa i przegrała dwa z czterech meczów w Lidze Europy.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/confirmed-juventus-23-man-squad-for-omonoia/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "PL",
-    "badge": "Premier League",
-    "badgeColor": "bg-purple-600",
-    "time": "26.11 • 13:52",
-    "source": "Na podstawie: Weszło",
-    "img": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Inter odrzucił ofertę za swojego napastnika. Kontrakt do 2032 roku",
-    "summary": "26 listopada 2026, 14:33 • 2 min czytania\n                                                                        \n                            \n                            0\nInter Mediolan odrzucił starania Ars",
-    "content": "<p>26 listopada 2026, 14:33 • 2 min czytania\n                                                                        \n                            \n                            0\nInter Mediolan odrzucił starania Arsenalu i konkretną ofertę Newcastle United za Francesco Pio Esposito, wartą 60 mln euro.</p><p>Włoski klub uznaje 21-latka za niesprzedawalnego i już we wrześniu przedłużył jego umowę do 30 czerwca 2032 roku.</p><p>Informacje te przekazał włoski dziennikarz transferowy Nicolo Schira.</p><p>„Kanonierzy” obserwowali napastnika, ale usłyszeli jasną odmowę.</p><p>Newcastle poszło krok dalej i położyło na stole konkretną propozycję.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/dwa-kluby-premier-league-chca-napastnika-interu-odpowiedz-padla-od-razu' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "OTHER",
     "badge": "Inne Ligi",
     "badgeColor": "bg-emerald-600",
@@ -478,65 +538,5 @@
     "title": "A jednak! Oświadczenie Pogoni w sprawie Garcii",
     "summary": "26 listopada 2026, 14:08 • 6 min czytania\n                                                                        \n                            \n                            7\nOscar García pozostanie trenerem Pog",
     "content": "<p>26 listopada 2026, 14:08 • 6 min czytania\n                                                                        \n                            \n                            7\nOscar García pozostanie trenerem Pogoni Szczecin.</p><p>Właściciel klubu Alex Haditaghi oficjalnie potwierdził, że nie zamierza rozstawać się z hiszpańskim szkoleniowcem, niezależnie od wyników czterech najbliższych spotkań.</p><p>Decyzja zapadła po rozmowach z trenerem, jego sztabem oraz piłkarzami.</p><p>Właściciel zapewnił, że cała drużyna stoi murem za swoim szkoleniowcem.</p><p>Wszystko ogłoszono za pośrednictwem klubowych kanałów Pogoni.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/2026/11/26/pogon-wydala-oswiadczenie-w-sprawie-trenera-podpisane-przez-haditaghiego' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "26.11 • 12:20",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Dua_Lipa-69798_%28cropped%29.jpg/1280px-Dua_Lipa-69798_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "High-scoring duo gives Italy reason for optimism",
-    "summary": "MILAN - NOVEMBER 12: Pio Esposito of Italy celebrates scoring his team’s third goal with teammates during the UEFA Nations League 2026/27 group phase match between Italy and France at San Siro Stadium on Novemb",
-    "content": "<p>MILAN - NOVEMBER 12: Pio Esposito of Italy celebrates scoring his team’s third goal with teammates during the UEFA Nations League 2026/27 group phase match between Italy and France at San Siro Stadium on November 12, 2026 in Milan.</p><p>(Photo by Mattia Ozbot/Getty Images)              \r\n                Francesco Pio Esposito and Alphadjo Cisse have already scored seven and nine goals, respectively, this season, giving the Azzurri reason for hope ahead of the 2028 Euros and the 2030 World Cup.</p><p>They are not just young; they are also incredibly prolific, and their current form gives the Azzurri reason to be optimistic in the coming years.</p><p>Inter’s Esposito and Milan’s Cisse have been in fantastic form this season, netting seven and nine goals across all competitions, attracting increasing attention from betting sites with welcome bonus.</p><p>Ironically, neither is a regular starter for their clubs, yet Pio and Alpha, as the fans call them, find the net almost every time they take to the pitch.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/high-scoring-duo-gives-italy-reason-optimism/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "CL",
-    "badge": "Liga Mistrzów",
-    "badgeColor": "bg-indigo-600",
-    "time": "26.11 • 12:20",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Norway_Italy_-_June_2025_A_44_%28Gianluigi_Buffon%29.jpg/1280px-Norway_Italy_-_June_2025_A_44_%28Gianluigi_Buffon%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "imgCredit": "Wikimedia Commons (CC)",
-    "title": "Luis Enrique: ‘Roma can win the Scudetto, I wouldn’t want to face them again’",
-    "summary": "BUDAPEST, HUNGARY - MAY 30: Luis Enrique, Head Coach of Paris Saint-Germain, celebrates with the UEFA Champions League trophy after his team's victory in the UEFA Champions League Final 2026 match between Paris",
-    "content": "<p>BUDAPEST, HUNGARY - MAY 30: Luis Enrique, Head Coach of Paris Saint-Germain, celebrates with the UEFA Champions League trophy after his team's victory in the UEFA Champions League Final 2026 match between Paris Saint-Germain and Arsenal FC at Puskas Arena on May 30, 2026 in Budapest, Hungary.</p><p>(Photo by Carl Recine/Getty Images)              \r\n                Luis Enrique was full of praise for his former club, Roma, after their 2-2 draw away against Paris Saint-Germain in the Champions League on Wednesday evening, claiming that the Giallorossi have what it takes to go on and win the Serie A title and to make a deep run in Europe this season.</p><p>Roma impressed as they held the back-to-back Champions League winners to a 2-2 draw at the Parc des Princes on Wednesday night thanks to goals from Mario Hermoso and Donyell Malen, becoming the first side to take any points off PSG in the Champions League this season.</p><p>Roma have also started their Serie A season in impressive fashion: They are one of two sides that remain unbeaten after the first 12 league games of the season and are currently in second place on 30 points, two shy of league leaders and city rivals Lazio.</p><p>Enrique, whose first job</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/luis-enrique-roma-can-win-the-scudetto/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "LL",
-    "badge": "La Liga",
-    "badgeColor": "bg-red-600",
-    "time": "26.11 • 11:13",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Wesley: ‘I told Endrick to come to Roma, the fans would love him’",
-    "summary": "NEWPORT, WALES - AUGUST 04: Wesley of AS Roma looks on during the pre-season friendly match between Newport County and AS Roma at Rodney Parade on August 04, 2026 in Newport, Wales. (Photo by Dan Istitene/Getty",
-    "content": "<p>NEWPORT, WALES - AUGUST 04: Wesley of AS Roma looks on during the pre-season friendly match between Newport County and AS Roma at Rodney Parade on August 04, 2026 in Newport, Wales.</p><p>(Photo by Dan Istitene/Getty Images)              \r\n                Roma wing-back Wesley Franca gave a post-match interview on Brazilian television on Wednesday night and revealed that he told compatriot Endrick to join the Giallorossi this winter: ‘The fans would love him’.</p><p>Endrick has been linked with a move away from Real Madrid in January and there has been plenty of interest in Serie A, particularly from Roma and Milan.</p><p>Recent reports claim that Roma are interested in signing Endrick on loan, whereas Milan could be willing to invest heavily in order to sign the Brazilian on a permanent basis: Recent reports have pointed to a price tag in the region of €60m-€70m.</p><p>“I told Endrick to come to Roma,” Wesley revealed on TNT Sport Brazil after Roma’s 2-2 draw against Paris Saint-Germain in the Champions League on Wednesday night.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/wesley-i-told-endrick-to-come-to-roma/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "CL",
-    "badge": "Liga Mistrzów",
-    "badgeColor": "bg-indigo-600",
-    "time": "26.11 • 11:13",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Inzaghi: ‘One of the greatest nights of my career in Athens, didn’t sleep for 10 days’",
-    "summary": "TURIN, ITALY - JANUARY 04: Filippo Inzaghi, Head Coach of US Salernitana, looks on prior to the Coppa Italia Round of 16 match between Juventus FC and US Salernitana at Allianz Stadium on January 04, 2024 in Tu",
-    "content": "<p>TURIN, ITALY - JANUARY 04: Filippo Inzaghi, Head Coach of US Salernitana, looks on prior to the Coppa Italia Round of 16 match between Juventus FC and US Salernitana at Allianz Stadium on January 04, 2024 in Turin, Italy.</p><p>(Photo by Valerio Pennicino/Getty Images)              \r\n                Milan are in Athens ahead of their crucial Europa League match against Olympiacos on Thursday evening, and Pippo Inzaghi has looked back on his special memories from Milan’s 2007 Champions League final victory in the Greek capital: ‘One of the greatest nights of my career’.</p><p>Milan have picked up just three points from their first four matches in the Europa League this season and are now in need of points heading into their match against Olympiacos, who are unbeaten on 10 points in the competition thus far.</p><p>Inzaghi, speaking in an interview with La Gazzetta dello Sport, has urged the Rossoneri players to go about their game with courage and personality, and also recalled some of his memories from Milan’s 2-1 victory over Liverpool in the Champions League final in Athens back in 2007, where he scored both of his side’s goals.</p><p>“I had one of the greatest nights of my career in Athens.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/inzaghi-greatest-nights-of-my-career-athens/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "26.11 • 11:12",
-    "source": "Na podstawie: Weszło",
-    "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Z kim zmierzą się młode Orły Brzęczka? Czas na losowanie EURO U-21",
-    "summary": "26 listopada 2026, 11:41 • 2 min czytania\n                                                                        \n                            \n                            0\nPo zakończeniu trwającego sezonu rep",
-    "content": "<p>26 listopada 2026, 11:41 • 2 min czytania\n                                                                        \n                            \n                            0\nPo zakończeniu trwającego sezonu reprezentacja Polski U-21 weźmie udział w młodzieżowym EURO rozgrywanym w Albanii i Serbii.</p><p>Młode Orły Jerzego Brzęczka wywalczyły bezpośredni awans po bardzo solidnych eliminacjach, a na samym końcu – nutce szczęścia.</p><p>Niebawem dowiemy się, z kim zagrają na turnieju finałowym.</p><p>Będzie to drugi europejski czempionat w tej kategorii wiekowej z rzędu, w którym Biało-Czerwoni wezmą udział.</p><p>Ten poprzedni rozgrywany na Słowacji zakończył się totalną klapą i trzema porażkami z Gruzją, Portugalią i Francją.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/z-kim-zagraja-mlode-orly-brzeczka-czas-na-losowanie-euro-u-21' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
