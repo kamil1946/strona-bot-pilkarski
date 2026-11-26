@@ -1,5 +1,53 @@
 [
   {
+    "category": "BL",
+    "badge": "Bundesliga",
+    "badgeColor": "bg-amber-600",
+    "time": "26.11 • 14:58",
+    "source": "Na podstawie: Bulinews",
+    "img": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?auto=format&fit=crop&w=1200&q=80",
+    "imgCredit": "Unsplash (CC0)",
+    "title": "Oficjalnie: dyrektor zarządzający Gladbach Stegemann został zwolniony ze swoich obowiązków",
+    "summary": "Jak oficjalnie ogłoszono dziś po południu, Borussia Mönchengladbach rozstała się z dr Stefanem Stegemannem. Klub znajdujący się najniżej w Bundeslidze potwierdził, że dyrektor zarządzający został zwolniony ze s",
+    "content": "<p>Jak oficjalnie ogłoszono dziś po południu, Borussia Mönchengladbach rozstała się z dr Stefanem Stegemannem.</p><p>Klub znajdujący się najniżej w Bundeslidze potwierdził, że dyrektor zarządzający został zwolniony ze swoich obowiązków ze skutkiem natychmiastowym.</p><p>„Różne opinie na temat współpracy i przyszłego kierunku naszego klubu doprowadziły do ​​tej decyzji” – wyjaśnił Prezes Rainer Bonhof.</p><p>„Dziękujemy doktorowi Stefanowi Stegemannowi za jego doskonałą pracę przez ostatnie pięć lat – najpierw jako wiceprezesa.</p><p>„Następnie w szczególnie trudnym okresie jako dyrektor generalny.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/official-gladbach-managing-director-stegemann-relieved-his-duties' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "26.11 • 14:58",
+    "source": "Na podstawie: Football Italia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/9/96/Giorgia_Meloni_Official_2024_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imgCredit": "Wikimedia Commons (CC)",
+    "title": "Taylor martwi się o Lazio przed meczem w Turynie",
+    "summary": "RZYM, WŁOCHY - 24 PAŹDZIERNIKA: Kenneth Taylor z SS Lazio świętuje pierwszego gola podczas meczu Serie A pomiędzy SS Lazio i Parma Calcio na Stadio Olimpico 24 października 2026 r. w Rzymie, Włochy.",
+    "content": "<p>RZYM, WŁOCHY - 24 PAŹDZIERNIKA: Kenneth Taylor z SS Lazio świętuje pierwszego gola podczas meczu Serie A pomiędzy SS Lazio i Parma Calcio na Stadio Olimpico 24 października 2026 r.</p><p>w Rzymie, Włochy.</p><p>(Zdjęcie: Marco Rosi – SS Lazio/Getty Images)              \r\n                Pomocnik Lazio Kenneth Taylor ma wątpliwości co do zbliżającego się starcia swojej drużyny z Turynem w Serie A, ponieważ według najnowszych informacji nie mógł wziąć udziału w czwartkowej sesji treningowej Gennaro Gattuso.</p><p>Reprezentant Holandii odegrał kluczową rolę w imponującym rozpoczęciu sezonu 2026–2027 przez Lazio, występując we wszystkich 12 meczach swojej drużyny bez porażki.</p><p>Biancocelesti to jedna z dwóch drużyn, obok miejskiej rywalki Romy, które pozostają niepokonane po 12 meczach ligowych i obecnie zajmują samotne miejsce na szczycie tabeli Serie A z 30 punktami po pierwszych 12 meczach w sezonie.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/taylor-concern-for-lazio-ahead-of-torino-clash/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "EKS",
+    "badge": "Ekstraklasa",
+    "badgeColor": "bg-rose-600",
+    "time": "26.11 • 14:57",
+    "source": "Na podstawie: Weszło",
+    "img": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80",
+    "imgCredit": "Unsplash (CC0)",
+    "title": "To będzie pierwszy zimowy transfer GieKSy? Klub rozpoczął rozmowy",
+    "summary": "26 listopada 2026, 15:34 • 3 min czytania\n                                                                        \n                            \n                            0\nChoć do zimowego okna transferowego ",
+    "content": "<p>26 listopada 2026, 15:34 • 3 min czytania\n                                                                        \n                            \n                            0\nChoć do zimowego okna transferowego pozostał jeszcze nieco ponad miesiąc, to już pojawiają się pierwsze doniesienia na temat potencjalnych ruchów zawodników.</p><p>Dotyczą one także klubów z Ekstraklasy.</p><p>Najnowsze wieści płyną z Azerbejdżanu – dziennikarz Fuad Alakbarov informuje, że pierwsze kroki w sprawie pozyskania jednego z reprezentantów kraju poczynił GKS Katowice.</p><p>Dotychczasowe poczynania GieKSy w rundzie jesiennej Ekstraklasy wiążą się dość mieszanymi uczuciami.</p><p>Drużyna prowadzona przez Rafała Góraka jest bezkompromisowa i jako jedna z trzech ekip w stawce nie zremisowała jeszcze żadnego meczu.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/gks-katowice-szuka-wzmocnien-trop-prowadzi-do-azerbejdzanu' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "EKS",
+    "badge": "Ekstraklasa",
+    "badgeColor": "bg-rose-600",
+    "time": "26.11 • 14:57",
+    "source": "Na podstawie: Weszło",
+    "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80",
+    "imgCredit": "Unsplash (CC0)",
+    "title": "Marciniak w Białymstoku i Wrocławiu. Znamy obsadę w Ekstraklasie",
+    "summary": "26 listopada 2026, 14:55 • 3 min czytania\n                                                                        \n                            \n                            3\nPoznaliśmy obsadę sędziowską na 16. ",
+    "content": "<p>26 listopada 2026, 14:55 • 3 min czytania\n                                                                        \n                            \n                            3\nPoznaliśmy obsadę sędziowską na 16.</p><p>kolejkę Ekstraklasy.</p><p>Po powrocie z Ligi Mistrzów Szymon Marciniak uda się do Białegostoku, a Piotr Lasyk posędziuje spotkanie mistrza Polski.</p><p>Przy Łazienkowskiej na meczu Legii z Wieczystą zobaczymy natomiast Bartosza Frankowskiego.</p><p>Poznaliśmy nazwiska arbitrów, którzy poprowadzą mecze w 16.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/obsada-sedziowska-16-kolejki-ekstraklasy-marciniak-lasyk-i-nie-tylko' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "PL",
     "badge": "Premier League",
     "badgeColor": "bg-purple-600",
@@ -444,18 +492,6 @@
     "content": "<p>Sebastian Hoeneß mógł tylko z frustracją patrzeć, jak Stuttgart przegrał 2:0 z Interem Mediolan.</p><p>VfB miało swoje szanse tego wieczoru, ale ostatecznie przegrały gole Petara Sucicia i Lautaro Martineza, przez co Hoeneß miał mieszane uczucia.</p><p>Wspominając wieczór, powiedział DAZN: „W końcu gramy z Interem Mediolan.</p><p>Myślę, że rozegraliśmy naprawdę dobry mecz.</p><p>Oczywiście chcemy coś osiągnąć, ale musimy przez to przejść teraz.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Bulinews. <a href='https://bulinews.com/hoeness-left-frustrated-piling-praise-crazy-inter-defence' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "25.11 • 23:27",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Gasperini: Roma wiedziała, że ​​druga połowa będzie decydująca w meczu z PSG",
-    "summary": "PARYŻ, FRANCJA – 25 LISTOPADA: Gian Piero Gasperini, menadżer AS Roma, patrzy przed meczem Ligi Mistrzów UEFA 2026/27 League Phase MD5 pomiędzy Paris Saint-Germain i AS Roma w Parc des Princes 25 listopada 2026",
-    "content": "<p>PARYŻ, FRANCJA – 25 LISTOPADA: Gian Piero Gasperini, menadżer AS Roma, patrzy przed meczem Ligi Mistrzów UEFA 2026/27 League Phase MD5 pomiędzy Paris Saint-Germain i AS Roma w Parc des Princes 25 listopada 2026 roku w Paryżu, Francja.</p><p>(Zdjęcie: Franco Arland/Getty Images)              \r\n                Gian Piero Gasperini jest „szczęśliwy i dumny”, że jego ryzyko z Romą opłaciło się remisem 2:2 w Lidze Mistrzów z PSG.</p><p>„Gdybyśmy pozostali w grze, druga połowa byłaby decydująca”.</p><p>Giallorossi okazali się słabszymi na boisku Parc des Princes, gdzie mierzyli się z drużyną, która przez ostatnie dwa lata dominowała w Lidze Mistrzów i wygrała w tym sezonie wszystkie cztery mecze.</p><p>W początkowej jedenastce doszło do wielu niespodzianek, gdyż Malen, Paulo Dybala i Bryan Cristante siedzieli na ławkach rezerwowych, a Niccolò Pisilli został wybrany za Santiago Castro, aby podążać za Vitinhą.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/gasperini-roma-2nd-half-would-be-decisive-psg/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "OTHER",
     "badge": "Inne Ligi",
     "badgeColor": "bg-emerald-600",
@@ -502,41 +538,5 @@
     "title": "Bayern w końcu pokonany! Kuriozalny samobój ustalił wynik",
     "summary": "25 listopada 2026, 23:05 • 5 min czytania\n                                                                        \n                            \n                            0\nMało kto spodziewał się takiego zwro",
     "content": "<p>25 listopada 2026, 23:05 • 5 min czytania\n                                                                        \n                            \n                            0\nMało kto spodziewał się takiego zwrotu akcji.</p><p>Niepokonany we wszystkich rozgrywkach w sezonie 2026/27 Bayern Monachium poległ w Lidze Mistrzów i to w starciu z jedną z najgorszych drużyn tej edycji!</p><p>Lille Davide Ancelottiego odrobiło straty i pokonało murowanego faworyta tego spotkania.</p><p>Do końca życia tego meczu nie zapomni Aleksandar Pavlović.</p><p>To właśnie jego gol samobójczy zdecydował o końcowym wyniku.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/bayern-stracil-miano-niepokonanego-ancelotti-junior-ogral-kompany-ego' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "BL",
-    "badge": "Bundesliga",
-    "badgeColor": "bg-amber-600",
-    "time": "25.11 • 21:30",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Inter ma nowe obawy związane z kontuzją Bastoniego",
-    "summary": "MEDIOLAN, WŁOCHY - 25 LISTOPADA: Alessandro Bastoni z FC Internazionale Milano rzuca wyzwanie Yanikowi Spaltowi z VfB Stuttgart podczas meczu fazy MD5 Ligi Mistrzów UEFA 2026/27 pomiędzy FC Internazionale Milan",
-    "content": "<p>MEDIOLAN, WŁOCHY - 25 LISTOPADA: Alessandro Bastoni z FC Internazionale Milano rzuca wyzwanie Yanikowi Spaltowi z VfB Stuttgart podczas meczu fazy MD5 Ligi Mistrzów UEFA 2026/27 pomiędzy FC Internazionale Milano i VfB Stuttgart na Stadio San Siro 25 listopada 2026 roku w Mediolanie, Włochy.</p><p>(Zdjęcie: Marco Luzzani/Getty Images)              \r\n                Inter ma nowy problem z kontuzją, ponieważ Alessandro Bastoni w pierwszej połowie wieczornego meczu Ligi Mistrzów z VfB Stuttgart musiał opuścić boisko z powodu problemów z mięśniami.</p><p>Możesz śledzić całą akcję podczas tego meczu oraz meczu Paris Saint-Germain vs.</p><p>Roma na blogu na żywo.</p><p>Nerazzurrim brakowało już Hakana Calhanoglu, Ange-Yoana Bonny'ego i Piotra Zielińskiego na to spotkanie w piątej kolejce europejskiego turnieju.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/inter-have-new-injury-worry-with-bastoni-off/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "25.11 • 21:29",
-    "source": "Na podstawie: Weszło",
-    "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Polski trener w Panathinaikosie! Prowadzi też… kadrę Polski",
-    "summary": "25 listopada 2026, 21:36 • 2 min czytania\n                                                                        \n                            \n                            0\nKarol Kowalewski, selekcjoner reprez",
-    "content": "<p>25 listopada 2026, 21:36 • 2 min czytania\n                                                                        \n                            \n                            0\nKarol Kowalewski, selekcjoner reprezentacji Polski, został nowym trenerem kobiecej drużyny Panathinaikosu w koszykówce.</p><p>Teraz Kowalewski będzie łączyć obie te funkcje, a z grecką ekipą postara się zdobyć mistrzostwo, którego Panathinaikos nie jest w stanie zgarnąć od kilku lat.</p><p>37-letni trener od 2022 roku prowadzi naszą reprezentację, która ostatnio rośnie w siłę.</p><p>W listopadzie Polki rozegrały trzy mecze pod jego wodzą w eliminacjach EuroBasketu – wygrały z Izraelem (75:64) oraz faworyzowaną Turcją (79:77), a przegrały z Czarnogórą (56:61).</p><p>W efekcie są na jednym z miejsc, które dają awans do turnieju głównego mistrzostw Europy – przed nimi jednak jeszcze trzy spotkania rewanżowe z tymi samymi zespołami.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/polski-trener-w-panathinaikosie-prowadzi-tez-kadre-polski' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "25.11 • 20:25",
-    "source": "Na podstawie: Weszło",
-    "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Puchacz bardziej pomógł Barcelonie niż Sabahowi. Mocna weryfikacja",
-    "summary": "25 listopada 2026, 20:38 • 5 min czytania\n                                                                        \n                            \n                            4\nTymoteusz Puchacz cieszył się na sta",
-    "content": "<p>25 listopada 2026, 20:38 • 5 min czytania\n                                                                        \n                            \n                            4\nTymoteusz Puchacz cieszył się na starcie z Barceloną.</p><p>Sprawdzić się na tle takiej drużyny to zawsze jest wydarzenie.</p><p>Nie ma się jednak co oszukiwać, reprezentant Polski został brutalnie zweryfikowany przez Dumę Katalonii.</p><p>Nasz rodak zawiódł przy kilku golach, a Karim Adeyemi udowodnił mu, ile dzieli go od międzynarodowego poziomu.</p><p>Szkoda, ale cóż poradzić.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/co-ten-puchacz-nie-moglo-byc-gorzej-w-meczu-sabah-barcelona' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   }
 ]
