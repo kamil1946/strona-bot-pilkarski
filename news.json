@@ -1,5 +1,41 @@
 [
   {
+    "category": "SA",
+    "badge": "Serie A",
+    "badgeColor": "bg-sky-600",
+    "time": "27.11 • 11:39",
+    "source": "Na podstawie: Football Italia",
+    "img": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80",
+    "imgCredit": "Unsplash (CC0)",
+    "title": "Ekskluzywny Marcandalli: rozwój Genui, wiara De Rossiego i potencjalne powołanie do Włoch",
+    "summary": "GENUA, WŁOCHY - 4 września: Alessandro Marcandalli z Genui reaguje podczas meczu Serie A pomiędzy Genoa CFC i Como 1907 na Stadio Luigi Ferraris 4 września 2026 r. w Genui we Włoszech.",
+    "content": "<p>GENUA, WŁOCHY - 4 września: Alessandro Marcandalli z Genui reaguje podczas meczu Serie A pomiędzy Genoa CFC i Como 1907 na Stadio Luigi Ferraris 4 września 2026 r.</p><p>w Genui we Włoszech.</p><p>(Zdjęcie: Simone Arveda/Getty Images)\n\n              \r\n                Football Italia spotyka się z obrońcą Genui Alessandro Marcandallim, aby udzielić ekskluzywnego wywiadu na temat cennych rad, jakie otrzymał od Daniele De Rossiego i Alessandro Nesty, a także jego międzynarodowej przyszłości jako zawodnika mogącego reprezentować zarówno Włochy, jak i Nigerię.</p><p>Mierzący 190 cm Marcandalli robi imponującą sylwetkę w sercu obrony Genui, ale jego cicha, niemal nieśmiała postawa szybko rozwiewa wszelkie obawy, gdy przybywa na wywiad dla Football Italia.</p><p>24-latek przebył długą drogę do Serie A, przebijając się przez profesjonalne ligi Włoch, zanim w październiku 2024 roku zadebiutował w najwyższej klasie rozgrywkowej.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/exclusive-marcandalli-genoa-de-rossi-italy/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "27.11 • 11:39",
+    "source": "Na podstawie: Weszło",
+    "img": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80",
+    "imgCredit": "Unsplash (CC0)",
+    "title": "Zmarł bramkarz, którego dobrze pamiętają kibice Lecha",
+    "summary": "27 listopada 2026, 12:05 • 2 min czytania\n                                                                        \n                            \n                            2\nW 2026 roku jeden z najlepszych isla",
+    "content": "<p>27 listopada 2026, 12:05 • 2 min czytania\n                                                                        \n                            \n                            2\nW 2026 roku jeden z najlepszych islandzkich bramkarzy w historii usłyszał bolesną diagnozę – nowotwór złośliwy.</p><p>Było to krótko po rozpoczęciu nowego sezonu na wyspie.</p><p>Miesiąc temu Ingvar Jonsson obchodził 37.</p><p>urodziny.</p><p>Niestety Vikingur Rejkjavik poinformował o jego przedwczesnej śmierci.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/zmarl-ingvar-jonsson-bramkarz-ktory-sensacyjnie-wyrzucil-lecha-z-pucharow' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
+    "category": "OTHER",
+    "badge": "Inne Ligi",
+    "badgeColor": "bg-emerald-600",
+    "time": "27.11 • 11:38",
+    "source": "Na podstawie: Weszło",
+    "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80",
+    "imgCredit": "Unsplash (CC0)",
+    "title": "Polska o krok od awansu na mistrzostwa świata. Pomóc mogą Niemcy",
+    "summary": "27 listopada 2026, 11:41 • 4 min czytania\n                                                                        \n                            \n                            4\nReprezentacja Polski koszykarzy już ",
+    "content": "<p>27 listopada 2026, 11:41 • 4 min czytania\n                                                                        \n                            \n                            4\nReprezentacja Polski koszykarzy już w piątek wieczorem może cieszyć się z historycznego awansu na mistrzostwa świata w 2027 roku.</p><p>Jest szansa, że już przed startem kwalifikacyjnego spotkania z Chorwacją w Gliwicach będzie pewna gry na koszykarskim mundialu w Katarze, choć do tego potrzebna jest jej… wygrana niemieckiej kadry w Rydze.</p><p>Było bardzo blisko, żeby polska reprezentacja awans na przyszłoroczne mistrzostwa świata świętowała już w sierpniu.</p><p>Wtedy jednak drużyna trenera Igora Milicicia po dogrywce przegrała 94:96 z Niemcami, czyli aktualnymi mistrzami świata i Europy.</p><p>Mimo porażki awans wciąż jest na wyciągnięcie ręki.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/polscy-koszykarze-o-krok-awans-mistrzostwa-swiata-katar' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
+  },
+  {
     "category": "PL",
     "badge": "Premier League",
     "badgeColor": "bg-purple-600",
@@ -468,30 +504,6 @@
     "content": "<p>WŁOCHY - 8 LISTOPADA: Ruben Amorim, główny trener Mediolanu, patrzy przed rozpoczęciem meczu Serie A pomiędzy Genoa CFC i AC Milan na Stadio Luigi Ferraris 8 listopada 2026 r.</p><p>w Genui we Włoszech.</p><p>(Zdjęcie: Simone Arveda/Getty Images)              \r\n                Ruben Amorim uważa, że zwycięstwo Milanu nad Olympiakosem może być „początkiem czegoś”, ale przestrzegł, że jego zespół ma jeszcze mnóstwo pracy do wykonania.</p><p>Cytując za pośrednictwem MilanNews.it, trener Milanu rozmawiał ze Sky Sport Italia oraz podczas konferencji prasowej po tym, jak Rossoneri przegrywali 2:0 i wygrali 4:2 w Pireusie.</p><p>Omari Hutchinson strzelił jednego gola i miał dwa kolejne.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/amorim-hutchinson-changed-the-game-ramos-milan/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "26.11 • 21:37",
-    "source": "Na podstawie: Weszło",
-    "img": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "LIVE po Lidze Europy. Analizujemy mecze Lecha i Jagiellonii!",
-    "summary": "26 listopada 2026, 22:23 • 1 min czytania\n                                                                        \n                            \n                            0\nPo meczach polskich klubów w Lidze E",
-    "content": "<p>26 listopada 2026, 22:23 • 1 min czytania\n                                                                        \n                            \n                            0\nPo meczach polskich klubów w Lidze Europy zapraszamy na Weszło TV!</p><p>Omówimy występy Lecha Poznań i Jagiellonii Białystok na europejskiej arenie.</p><p>Spotykamy się w składzie: Marcin Długosz, Piotr Domagała, Wojciech Kowalczyk, Wojciech Górski.</p><p>Loading...</p><p>0\n                                    komentarzy\n                                \n                                                                            Udostępnij\n                        \n                            Udostępnij\n                        \n                    \n                    \n                        \n                \n            \n        \n        \n        \n        \n                        \n                Michał Kołkowski\n                <!--                    -->\n<!--                        -->\n\n<!--                    --></p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/live-po-lidze-europy-analizujemy-mecze-lecha-i-jagiellonii' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "OTHER",
-    "badge": "Inne Ligi",
-    "badgeColor": "bg-emerald-600",
-    "time": "26.11 • 21:36",
-    "source": "Na podstawie: Weszło",
-    "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "„Mogło być lżej”. Brzęczek wprost po losowaniu grup EURO U-21",
-    "summary": "26 listopada 2026, 22:09 • 2 min czytania\n                                                                        \n                            \n                            1\nReprezentacja Polski U-21 poznała gr",
-    "content": "<p>26 listopada 2026, 22:09 • 2 min czytania\n                                                                        \n                            \n                            1\nReprezentacja Polski U-21 poznała grupowych rywali w nadchodzących mistrzostwach Europy.</p><p>Przed Biało-Czerwonymi trudna przeprawa, ale selekcjoner Jerzy Brzęczek nie pęka.</p><p>Choć wyznał w rozmowie z Łączy nas Piłka, że losowanie mogło być nieco korzystniejsze.</p><p>Podopieczni Brzęczka na EURO U-21 2027 zmierzą się w grupie z Anglią (obrońcami tytułu), Francją oraz Serbią (współgospodarzami imprezy).</p><p>– Teoretycznie, na papierze, mogło być trochę lżej, ale myślę, że kiedy trafiasz do mocnej grupy i nie jesteś faworytem, to może też podejście będzie nieco inne.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Weszło. <a href='https://weszlo.com/moglo-byc-lzej-brzeczek-bez-ogrodek-po-losowaniu-grup-euro-u-21' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
     "category": "PL",
     "badge": "Premier League",
     "badgeColor": "bg-purple-600",
@@ -514,18 +526,6 @@
     "title": "Osman występuje w roli Brighton, która odzyskuje siły po zwycięstwie w Conference League",
     "summary": "Brighton i Hove Albion\n                          przeciwko CS Universitatea Craiova. Runda 1 Ligi Konferencyjnej UEFA.",
     "content": "<p>Brighton i Hove Albion\n                          przeciwko CS Universitatea Craiova.</p><p>Runda 1 Ligi Konferencyjnej UEFA.</p><p>Raport z meczu, w którym Brighton pokonał 10-osobowy Universitatea Craiova 4:0 w Conference League; Ibrahim Osman strzelił w tym zwycięstwie swoje pierwsze gole w Brighton; Maxim De Cuyper znakomicie strzelił do siatki swojego piątego gola w sezonie; Osman wystawił także Charalamposa Kostoulasa na trzecie miejsce\nObraz:\n                                \n                                    Ibrahim Osman (po lewej) z Brighton świętuje, że wraz z kolegą z drużyny Pascalem Grossem zdobyli gola w meczu przeciwko Universitatea Craiova w Lidze Konferencyjnej UEFA</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Sky Sports. <a href='https://www.skysports.com/football/brighton-and-hove-albion-vs-cs-universitatea-craiova/report/577942' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
-  },
-  {
-    "category": "SA",
-    "badge": "Serie A",
-    "badgeColor": "bg-sky-600",
-    "time": "26.11 • 20:37",
-    "source": "Na podstawie: Football Italia",
-    "img": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?auto=format&fit=crop&w=1200&q=80",
-    "imgCredit": "Unsplash (CC0)",
-    "title": "Massara o styczniowych planach Juventusu: „Jeśli pojawią się możliwości poprawy, wykorzystamy je”",
-    "summary": "REGGIO NELL'EMILIA, WŁOCHY - 13 WRZEŚNIA: Frederic Massara z Juventusu patrzy przed meczem Serie A pomiędzy US Sassuolo i Juventusem na stadionie Mapei - Citta 'del Tricolore 13 września 2026 r. w Reggio nell'E",
-    "content": "<p>REGGIO NELL'EMILIA, WŁOCHY - 13 WRZEŚNIA: Frederic Massara z Juventusu patrzy przed meczem Serie A pomiędzy US Sassuolo i Juventusem na stadionie Mapei - Citta 'del Tricolore 13 września 2026 r.</p><p>w Reggio nell'Emilia we Włoszech.</p><p>(Zdjęcie: Emmanuele Ciancaglini/Getty Images)              \r\n                Frederic Massara wspierał Jeffa Ekhatora w jego występie w barwach Juventusu, podkreślając, że dzisiejszy występ młodego napastnika w meczu przeciwko Omonii Nikozja „nie jest eksperymentem”.</p><p>Cytując za pośrednictwem TuttoMercatoWeb, dyrektor piłkarski Bianconeri rozmawiał ze Sky Sport Italia przed dzisiejszym starciem Ligi Europy na stadionie Allianz.</p><p>Rozpoczęcie nastąpi o 21:00 CET [20:00 GMT], a całą akcję będziesz mógł na bieżąco śledzić na naszym blogu na żywo.</p><p class='pt-3 border-t border-gray-100 dark:border-border text-xs text-gray-400'>Podsumowanie faktów opracowane na podstawie publikacji Football Italia. <a href='https://football-italia.net/massara-on-juventus-january-plans/' target='_blank' rel='noopener' class='text-purple-500 font-bold underline ml-1'>Przeczytaj oryginalny artykuł →</a></p>"
   },
   {
     "category": "EL",
